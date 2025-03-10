@@ -1,3 +1,4 @@
 [submodule "ios-sdk"]
 	path = ios-sdk
-	url = https://github.com/owncloud/ios-sdk.git
+	#url = https://github.com/opencloud-eu/ios-sdk.git
+	url = ../ios-sdk.git
