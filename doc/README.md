@@ -10,5 +10,5 @@ This folder contains the following content:
 
 ## iOS-App User Documentation
 
-The general user documentation is available on [https://doc.owncloud.com/ios-app/latest/](https://doc.owncloud.com/ios-app/latest/).
+The general user documentation is available on [https://opencloud.eu/](https://opencloud.eu).
 

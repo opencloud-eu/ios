@@ -20,6 +20,11 @@
 	<string>$(APP_SHORT_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(APP_VERSION)</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -32,7 +37,7 @@
         $extensionItem.attachments,
         $attachment,
         (
-          ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO &quot;public.data&quot;
+          ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.data"
         )
     ).@count == $extensionItem.attachments.@count
 ).@count &gt; 0</string>
@@ -42,17 +47,12 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>ShareExtensionViewController</string>
 	</dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
+	<key>OCAppComponentIdentifier</key>
+	<string>shareExtension</string>
 	<key>OCAppGroupIdentifier</key>
 	<string>group.com.owncloud.ios-app</string>
 	<key>OCAppIdentifierPrefix</key>
 	<string>$(AppIdentifierPrefix)</string>
-	<key>OCAppComponentIdentifier</key>
-	<string>shareExtension</string>
 	<key>OCHasFileProvider</key>
 	<true/>
 	<key>OCKeychainAccessGroupIdentifier</key>

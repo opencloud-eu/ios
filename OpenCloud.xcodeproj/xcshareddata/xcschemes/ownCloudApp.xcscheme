@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DCC0855B2293F1FD008CC05C"
                BuildableName = "ownCloudApp.framework"
                BlueprintName = "ownCloudApp"
-               ReferencedContainer = "container:ownCloud.xcodeproj">
+               ReferencedContainer = "container:OpenCloud.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "DCC085632293F1FD008CC05C"
                BuildableName = "ownCloudAppTests.xctest"
                BlueprintName = "ownCloudAppTests"
-               ReferencedContainer = "container:ownCloud.xcodeproj">
+               ReferencedContainer = "container:OpenCloud.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -80,7 +80,7 @@
             BlueprintIdentifier = "DCC0855B2293F1FD008CC05C"
             BuildableName = "ownCloudApp.framework"
             BlueprintName = "ownCloudApp"
-            ReferencedContainer = "container:ownCloud.xcodeproj">
+            ReferencedContainer = "container:OpenCloud.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
