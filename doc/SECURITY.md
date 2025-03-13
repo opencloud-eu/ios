@@ -1,13 +1,13 @@
 # Security
 
 ## Introduction
-This document provides an overview over security considerations and features in the new [ownCloud iOS SDK](https://github.com/owncloud/ios-sdk) and new [ownCloud iOS App](https://github.com/owncloud/ios-app).
+This document provides an overview over security considerations and features in the new [OpenCloud iOS SDK](https://github.com/opencloud/ios-sdk) and new [OpenCloud iOS App](https://github.com/opencloud/ios-app).
 
 ## Authentication
 ### API
-A [general-purpose API](https://github.com/owncloud/ios-sdk/blob/master/ownCloudSDK/Authentication/OCAuthenticationMethod.h) for implementing passphrase- and token-based Authentication Methods:
+A [general-purpose API](https://github.com/opencloud/ios-sdk/blob/master/OpenCloudSDK/Authentication/OCAuthenticationMethod.h) for implementing passphrase- and token-based Authentication Methods:
 - structurally ensures separation of code between general connection-handling and authentication
-- simplifies code review by limiting each implementation to one class each (f.ex. [OAuth2](https://github.com/owncloud/ios-sdk/blob/master/ownCloudSDK/Authentication/OCAuthenticationMethodOAuth2.m), [BasicAuth](https://github.com/owncloud/ios-sdk/blob/master/ownCloudSDK/Authentication/OCAuthenticationMethodBasicAuth.m))
+- simplifies code review by limiting each implementation to one class each (f.ex. [OAuth2](https://github.com/opencloud/ios-sdk/blob/master/OpenCloudSDK/Authentication/OCAuthenticationMethodOAuth2.m), [BasicAuth](https://github.com/opencloud/ios-sdk/blob/master/OpenCloudSDK/Authentication/OCAuthenticationMethodBasicAuth.m))
 - ensures extensibility
 
 ### Secrets
@@ -60,7 +60,7 @@ Separate directories are used for the data of every server connection:
 The app uses the filesystem encryption built into iOS. Using the [`CompleteUntilFirstUserAuthentication`](https://developer.apple.com/documentation/foundation/nsfileprotectioncompleteuntilfirstuserauthentication) file protection, data can't be accessed after a restart until the device has been unlocked once by the user.
 
 ### Sync
-The [Sync Strategies](https://github.com/owncloud/ios-sdk/blob/master/doc/SYNC.md) planned to be used in the app focus on preventing data loss locally and remotely.
+The [Sync Strategies](https://github.com/opencloud/ios-sdk/blob/master/doc/SYNC.md) planned to be used in the app focus on preventing data loss locally and remotely.
 
 ### Secure Document View
 HTML and Office document content is viewed in a [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview), which renders the content in a separate process. Additional hardening is achieved by disabling Javascript and blocking all network requests, protecting even against lesser known, non-obvious attacks like [CSS Keylogging](https://github.com/maxchehab/CSS-Keylogging).
@@ -78,7 +78,7 @@ To protect against SQL injection attacks, parameters are never made part of the 
 So, for example, instead of `SELECT * FROM users WHERE name='John Doe'`, the query would read `SELECT * FROM users WHERE name=:nameToSearchFor`.
 
 ### Reproducibility
-The build script that created the [OpenSSL binaries](https://github.com/owncloud/ios-sdk/tree/master/ownCloudUI/openssl/lib) used in the app is available in the SDK's [GitHub repository](https://github.com/owncloud/ios-sdk/tree/master/ownCloudUI/openssl/build-script) and can be used to reproduce the build result.
+The build script that created the [OpenSSL binaries](https://github.com/opencloud/ios-sdk/tree/master/OpenCloudUI/openssl/lib) used in the app is available in the SDK's [GitHub repository](https://github.com/opencloud/ios-sdk/tree/master/OpenCloudUI/openssl/build-script) and can be used to reproduce the build result.
 
 (OpenSSL is used solely to provide detailed summaries of SSL/TLS certificates - functionality that iOS is currently missing.)
 

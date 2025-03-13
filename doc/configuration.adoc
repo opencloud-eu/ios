@@ -17,85 +17,85 @@ tag::actions[]
 !===
 ! Value
 ! Description
-! `com.owncloud.action.addToSidebar`
+! `com.opencloud.action.addToSidebar`
 ! Add to sidebar
 
-! `com.owncloud.action.availableOffline`
+! `com.opencloud.action.availableOffline`
 ! Make available offline
 
-! `com.owncloud.action.collaborate`
+! `com.opencloud.action.collaborate`
 ! Sharing
 
-! `com.owncloud.action.copy`
+! `com.opencloud.action.copy`
 ! Copy
 
-! `com.owncloud.action.createDocument`
+! `com.opencloud.action.createDocument`
 ! New document
 
-! `com.owncloud.action.createFolder`
+! `com.opencloud.action.createFolder`
 ! Create folder
 
-! `com.owncloud.action.createShortcutFile`
+! `com.opencloud.action.createShortcutFile`
 ! Create shortcut
 
-! `com.owncloud.action.cutpasteboard`
+! `com.opencloud.action.cutpasteboard`
 ! Cut
 
-! `com.owncloud.action.delete`
+! `com.opencloud.action.delete`
 ! Delete
 
-! `com.owncloud.action.duplicate`
+! `com.opencloud.action.duplicate`
 ! Duplicate
 
-! `com.owncloud.action.favorite`
+! `com.opencloud.action.favorite`
 ! Favorite item
 
-! `com.owncloud.action.importpasteboard`
+! `com.opencloud.action.importpasteboard`
 ! Paste
 
-! `com.owncloud.action.markup`
+! `com.opencloud.action.markup`
 ! Markup
 
-! `com.owncloud.action.move`
+! `com.opencloud.action.move`
 ! Move
 
-! `com.owncloud.action.openShortcutFile`
+! `com.opencloud.action.openShortcutFile`
 ! Open shortcut
 
-! `com.owncloud.action.openin`
+! `com.opencloud.action.openin`
 ! Open in
 
-! `com.owncloud.action.pdfpage`
+! `com.opencloud.action.pdfpage`
 ! Go to page
 
-! `com.owncloud.action.presentationmode`
+! `com.opencloud.action.presentationmode`
 ! Presentation Mode
 
-! `com.owncloud.action.removeFromSidebar`
+! `com.opencloud.action.removeFromSidebar`
 ! Remove from sidebar
 
-! `com.owncloud.action.rename`
+! `com.opencloud.action.rename`
 ! Rename
 
-! `com.owncloud.action.scan`
+! `com.opencloud.action.scan`
 ! Scan document
 
-! `com.owncloud.action.show-exif`
+! `com.opencloud.action.show-exif`
 ! Image metadata
 
-! `com.owncloud.action.unfavorite`
+! `com.opencloud.action.unfavorite`
 ! Unfavorite item
 
-! `com.owncloud.action.unshare`
+! `com.opencloud.action.unshare`
 ! Unshare
 
-! `com.owncloud.action.upload.camera_media`
+! `com.opencloud.action.upload.camera_media`
 ! Take photo or video
 
-! `com.owncloud.action.uploadfile`
+! `com.opencloud.action.uploadfile`
 ! Upload file
 
-! `com.owncloud.action.uploadphotos`
+! `com.opencloud.action.uploadphotos`
 ! Upload from your photo library
 
 !===
@@ -130,85 +130,85 @@ action.create-document-mode
 !===
 ! Value
 ! Description
-! `com.owncloud.action.addToSidebar`
+! `com.opencloud.action.addToSidebar`
 ! Add to sidebar
 
-! `com.owncloud.action.availableOffline`
+! `com.opencloud.action.availableOffline`
 ! Make available offline
 
-! `com.owncloud.action.collaborate`
+! `com.opencloud.action.collaborate`
 ! Sharing
 
-! `com.owncloud.action.copy`
+! `com.opencloud.action.copy`
 ! Copy
 
-! `com.owncloud.action.createDocument`
+! `com.opencloud.action.createDocument`
 ! New document
 
-! `com.owncloud.action.createFolder`
+! `com.opencloud.action.createFolder`
 ! Create folder
 
-! `com.owncloud.action.createShortcutFile`
+! `com.opencloud.action.createShortcutFile`
 ! Create shortcut
 
-! `com.owncloud.action.cutpasteboard`
+! `com.opencloud.action.cutpasteboard`
 ! Cut
 
-! `com.owncloud.action.delete`
+! `com.opencloud.action.delete`
 ! Delete
 
-! `com.owncloud.action.duplicate`
+! `com.opencloud.action.duplicate`
 ! Duplicate
 
-! `com.owncloud.action.favorite`
+! `com.opencloud.action.favorite`
 ! Favorite item
 
-! `com.owncloud.action.importpasteboard`
+! `com.opencloud.action.importpasteboard`
 ! Paste
 
-! `com.owncloud.action.markup`
+! `com.opencloud.action.markup`
 ! Markup
 
-! `com.owncloud.action.move`
+! `com.opencloud.action.move`
 ! Move
 
-! `com.owncloud.action.openShortcutFile`
+! `com.opencloud.action.openShortcutFile`
 ! Open shortcut
 
-! `com.owncloud.action.openin`
+! `com.opencloud.action.openin`
 ! Open in
 
-! `com.owncloud.action.pdfpage`
+! `com.opencloud.action.pdfpage`
 ! Go to page
 
-! `com.owncloud.action.presentationmode`
+! `com.opencloud.action.presentationmode`
 ! Presentation Mode
 
-! `com.owncloud.action.removeFromSidebar`
+! `com.opencloud.action.removeFromSidebar`
 ! Remove from sidebar
 
-! `com.owncloud.action.rename`
+! `com.opencloud.action.rename`
 ! Rename
 
-! `com.owncloud.action.scan`
+! `com.opencloud.action.scan`
 ! Scan document
 
-! `com.owncloud.action.show-exif`
+! `com.opencloud.action.show-exif`
 ! Image metadata
 
-! `com.owncloud.action.unfavorite`
+! `com.opencloud.action.unfavorite`
 ! Unfavorite item
 
-! `com.owncloud.action.unshare`
+! `com.opencloud.action.unshare`
 ! Unshare
 
-! `com.owncloud.action.upload.camera_media`
+! `com.opencloud.action.upload.camera_media`
 ! Take photo or video
 
-! `com.owncloud.action.uploadfile`
+! `com.opencloud.action.uploadfile`
 ! Upload file
 
-! `com.owncloud.action.uploadphotos`
+! `com.opencloud.action.uploadphotos`
 ! Upload from your photo library
 
 !===
@@ -681,7 +681,7 @@ branding.theme-css-records
  +
 branding.url-documentation
 |urlString
-|`https://doc.owncloud.com/ios-app/latest/`
+|`https://doc.opencloud.eu/ios-app/latest/`
 |URL to documentation for the app. Opened when selecting "Documentation" in the settings.
 |advanced `candidate`
 
@@ -689,7 +689,7 @@ branding.url-documentation
  +
 branding.url-help
 |urlString
-|`https://owncloud.com/docs-guides/`
+|`https://opencloud.eu/docs-guides/`
 |URL to get help for the app. Opened when selecting "Help" in the settings.
 |advanced `candidate`
 
@@ -697,7 +697,7 @@ branding.url-help
  +
 branding.url-privacy
 |urlString
-|`https://owncloud.org/privacy-policy/`
+|`https://opencloud.eu/privacy-policy/`
 |URL to get privacy information for the app. Opened when selecting "Privacy" in the settings.
 |advanced `candidate`
 
@@ -705,7 +705,7 @@ branding.url-privacy
  +
 branding.url-terms-of-use
 |urlString
-|`https://raw.githubusercontent.com/owncloud/ios-app/master/LICENSE`
+|`https://raw.githubusercontent.com/opencloud/ios-app/master/LICENSE`
 |URL to terms of use for the app. Opened when selecting "Terms Of Use" in the settings.
 |advanced `candidate`
 
@@ -714,7 +714,7 @@ branding.url-terms-of-use
 branding.url-theme-json
 |urlString
 |
-|URL of the instance theme.json file, which can contain instance or app specific branding parameter. Setting this to `auto` will construct the URL by adding `themes/owncloud/theme.json` to the respective server's base address.
+|URL of the instance theme.json file, which can contain instance or app specific branding parameter. Setting this to `auto` will construct the URL by adding `themes/opencloud/theme.json` to the respective server's base address.
 |advanced `candidate`
 
 |branding.user-defaults-default-values
@@ -771,20 +771,20 @@ tag::build[]
 
 |build.custom-app-scheme
 |string
-|`owncloud`
-|Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|`opencloud`
+|Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.custom-auth-scheme
 |string
 |`oc`
-|Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.flags
 |string
 |
-|A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.oc-app-group-identifier
@@ -877,13 +877,13 @@ tag::connection[]
 
 |http.user-agent
 |string
-|`ownCloudApp/{{app.version}} ({{app.part}}/{{app.build}}; {{os.name}}/{{os.version}}; {{device.model}})`
+|`OpenCloudApp/{{app.version}} ({{app.part}}/{{app.build}}; {{os.name}}/{{os.version}}; {{device.model}})`
 |A custom `User-Agent` to send with every HTTP request.
 
 The following placeholders can be used to make it dynamic:
 - `{{app.build}}`: the build number of the app (f.ex. `123`)
 - `{{app.version}}`: the version of the app (f.ex. `1.2`)
-- `{{app.part}}`: the part of the app (more exactly: the name of the main bundle) from which the request was sent (f.ex. `App`, `ownCloud File Provider`)
+- `{{app.part}}`: the part of the app (more exactly: the name of the main bundle) from which the request was sent (f.ex. `App`, `OpenCloud File Provider`)
 - `{{device.model}}`: the model of the device running the app (f.ex. `iPhone`, `iPad`)
 - `{{device.model-id}}`: the model identifier of the device running the app (f.ex. `iPhone8,1`)
 - `{{os.name}}` : the name of the operating system running on the device (f.ex. `iOS`, `iPadOS`)
@@ -954,10 +954,10 @@ The following placeholders can be used to make it dynamic:
 ! Value
 ! Description
 ! `lookup-table`
-! Locate server via lookup table. Keys can match against the beginning (f.ex. "begins:bob@"), end (f.ex. "ends:@owncloud.org") or regular expression (f.ex. "regexp:")
+! Locate server via lookup table. Keys can match against the beginning (f.ex. "begins:bob@"), end (f.ex. "ends:@opencloud.eu") or regular expression (f.ex. "regexp:")
 
 ! `web-finger`
-! Locate server via Webfinger service-instance relation (http://webfinger.owncloud/rel/server-instance) using the entered/provided server URL
+! Locate server via Webfinger service-instance relation (http://webfinger.opencloud/rel/server-instance) using the entered/provided server URL
 
 !===
 
@@ -1128,7 +1128,7 @@ tag::endpoints[]
 |connection.endpoint-status
 |string
 |`status.php`
-|Endpoint to retrieve basic status information and detect an ownCloud installation.
+|Endpoint to retrieve basic status information and detect an OpenCloud installation.
 |advanced `candidate`
 
 |connection.endpoint-user
@@ -1189,101 +1189,101 @@ tag::extensions[]
 ! `auth-race-condition`
 ! Extension with the identifier auth-race-condition.
 
-! `com.owncloud.action.addToSidebar`
-! Extension with the identifier com.owncloud.action.addToSidebar.
+! `com.opencloud.action.addToSidebar`
+! Extension with the identifier com.opencloud.action.addToSidebar.
 
-! `com.owncloud.action.availableOffline`
-! Extension with the identifier com.owncloud.action.availableOffline.
+! `com.opencloud.action.availableOffline`
+! Extension with the identifier com.opencloud.action.availableOffline.
 
-! `com.owncloud.action.background_update`
-! Extension with the identifier com.owncloud.action.background_update.
+! `com.opencloud.action.background_update`
+! Extension with the identifier com.opencloud.action.background_update.
 
-! `com.owncloud.action.collaborate`
-! Extension with the identifier com.owncloud.action.collaborate.
+! `com.opencloud.action.collaborate`
+! Extension with the identifier com.opencloud.action.collaborate.
 
-! `com.owncloud.action.copy`
-! Extension with the identifier com.owncloud.action.copy.
+! `com.opencloud.action.copy`
+! Extension with the identifier com.opencloud.action.copy.
 
-! `com.owncloud.action.createDocument`
-! Extension with the identifier com.owncloud.action.createDocument.
+! `com.opencloud.action.createDocument`
+! Extension with the identifier com.opencloud.action.createDocument.
 
-! `com.owncloud.action.createFolder`
-! Extension with the identifier com.owncloud.action.createFolder.
+! `com.opencloud.action.createFolder`
+! Extension with the identifier com.opencloud.action.createFolder.
 
-! `com.owncloud.action.createShortcutFile`
-! Extension with the identifier com.owncloud.action.createShortcutFile.
+! `com.opencloud.action.createShortcutFile`
+! Extension with the identifier com.opencloud.action.createShortcutFile.
 
-! `com.owncloud.action.cutpasteboard`
-! Extension with the identifier com.owncloud.action.cutpasteboard.
+! `com.opencloud.action.cutpasteboard`
+! Extension with the identifier com.opencloud.action.cutpasteboard.
 
-! `com.owncloud.action.delete`
-! Extension with the identifier com.owncloud.action.delete.
+! `com.opencloud.action.delete`
+! Extension with the identifier com.opencloud.action.delete.
 
-! `com.owncloud.action.duplicate`
-! Extension with the identifier com.owncloud.action.duplicate.
+! `com.opencloud.action.duplicate`
+! Extension with the identifier com.opencloud.action.duplicate.
 
-! `com.owncloud.action.favorite`
-! Extension with the identifier com.owncloud.action.favorite.
+! `com.opencloud.action.favorite`
+! Extension with the identifier com.opencloud.action.favorite.
 
-! `com.owncloud.action.importpasteboard`
-! Extension with the identifier com.owncloud.action.importpasteboard.
+! `com.opencloud.action.importpasteboard`
+! Extension with the identifier com.opencloud.action.importpasteboard.
 
-! `com.owncloud.action.instant_media_upload`
-! Extension with the identifier com.owncloud.action.instant_media_upload.
+! `com.opencloud.action.instant_media_upload`
+! Extension with the identifier com.opencloud.action.instant_media_upload.
 
-! `com.owncloud.action.markup`
-! Extension with the identifier com.owncloud.action.markup.
+! `com.opencloud.action.markup`
+! Extension with the identifier com.opencloud.action.markup.
 
-! `com.owncloud.action.move`
-! Extension with the identifier com.owncloud.action.move.
+! `com.opencloud.action.move`
+! Extension with the identifier com.opencloud.action.move.
 
-! `com.owncloud.action.openShortcutFile`
-! Extension with the identifier com.owncloud.action.openShortcutFile.
+! `com.opencloud.action.openShortcutFile`
+! Extension with the identifier com.opencloud.action.openShortcutFile.
 
-! `com.owncloud.action.openin`
-! Extension with the identifier com.owncloud.action.openin.
+! `com.opencloud.action.openin`
+! Extension with the identifier com.opencloud.action.openin.
 
-! `com.owncloud.action.pdfpage`
-! Extension with the identifier com.owncloud.action.pdfpage.
+! `com.opencloud.action.pdfpage`
+! Extension with the identifier com.opencloud.action.pdfpage.
 
-! `com.owncloud.action.pending_media_upload`
-! Extension with the identifier com.owncloud.action.pending_media_upload.
+! `com.opencloud.action.pending_media_upload`
+! Extension with the identifier com.opencloud.action.pending_media_upload.
 
-! `com.owncloud.action.presentationmode`
-! Extension with the identifier com.owncloud.action.presentationmode.
+! `com.opencloud.action.presentationmode`
+! Extension with the identifier com.opencloud.action.presentationmode.
 
-! `com.owncloud.action.removeFromSidebar`
-! Extension with the identifier com.owncloud.action.removeFromSidebar.
+! `com.opencloud.action.removeFromSidebar`
+! Extension with the identifier com.opencloud.action.removeFromSidebar.
 
-! `com.owncloud.action.rename`
-! Extension with the identifier com.owncloud.action.rename.
+! `com.opencloud.action.rename`
+! Extension with the identifier com.opencloud.action.rename.
 
-! `com.owncloud.action.scan`
-! Extension with the identifier com.owncloud.action.scan.
+! `com.opencloud.action.scan`
+! Extension with the identifier com.opencloud.action.scan.
 
-! `com.owncloud.action.show-exif`
-! Extension with the identifier com.owncloud.action.show-exif.
+! `com.opencloud.action.show-exif`
+! Extension with the identifier com.opencloud.action.show-exif.
 
-! `com.owncloud.action.unfavorite`
-! Extension with the identifier com.owncloud.action.unfavorite.
+! `com.opencloud.action.unfavorite`
+! Extension with the identifier com.opencloud.action.unfavorite.
 
-! `com.owncloud.action.unshare`
-! Extension with the identifier com.owncloud.action.unshare.
+! `com.opencloud.action.unshare`
+! Extension with the identifier com.opencloud.action.unshare.
 
-! `com.owncloud.action.upload.camera_media`
-! Extension with the identifier com.owncloud.action.upload.camera_media.
+! `com.opencloud.action.upload.camera_media`
+! Extension with the identifier com.opencloud.action.upload.camera_media.
 
-! `com.owncloud.action.uploadfile`
-! Extension with the identifier com.owncloud.action.uploadfile.
+! `com.opencloud.action.uploadfile`
+! Extension with the identifier com.opencloud.action.uploadfile.
 
-! `com.owncloud.action.uploadphotos`
-! Extension with the identifier com.owncloud.action.uploadphotos.
+! `com.opencloud.action.uploadphotos`
+! Extension with the identifier com.opencloud.action.uploadphotos.
 
-! `com.owncloud.dark`
-! Extension with the identifier com.owncloud.dark.
+! `com.opencloud.dark`
+! Extension with the identifier com.opencloud.dark.
 
-! `com.owncloud.light`
-! Extension with the identifier com.owncloud.light.
+! `com.opencloud.light`
+! Extension with the identifier com.opencloud.light.
 
 ! `five-seconds-of-404`
 ! Extension with the identifier five-seconds-of-404.
@@ -1309,23 +1309,23 @@ tag::extensions[]
 ! `only-404`
 ! Extension with the identifier only-404.
 
-! `org.owncloud.image`
-! Extension with the identifier org.owncloud.image.
+! `org.opencloud.image`
+! Extension with the identifier org.opencloud.image.
 
-! `org.owncloud.media`
-! Extension with the identifier org.owncloud.media.
+! `org.opencloud.media`
+! Extension with the identifier org.opencloud.media.
 
-! `org.owncloud.pdfViewer.default`
-! Extension with the identifier org.owncloud.pdfViewer.default.
+! `org.opencloud.pdfViewer.default`
+! Extension with the identifier org.opencloud.pdfViewer.default.
 
-! `org.owncloud.ql_preview`
-! Extension with the identifier org.owncloud.ql_preview.
+! `org.opencloud.ql_preview`
+! Extension with the identifier org.opencloud.ql_preview.
 
-! `org.owncloud.url-shortcut`
-! Extension with the identifier org.owncloud.url-shortcut.
+! `org.opencloud.url-shortcut`
+! Extension with the identifier org.opencloud.url-shortcut.
 
-! `org.owncloud.webview`
-! Extension with the identifier org.owncloud.webview.
+! `org.opencloud.webview`
+! Extension with the identifier org.opencloud.webview.
 
 ! `recovering-apm`
 ! Extension with the identifier recovering-apm.
@@ -1606,7 +1606,7 @@ tag::oauth2[]
 
 |authentication-oauth2.oa2-redirect-uri
 |string
-|`oc://ios.owncloud.com`
+|`oc://ios.opencloud.eu`
 |OAuth2 Redirect URI.
 |advanced `candidate`
 
@@ -1662,7 +1662,7 @@ tag::oidc[]
 
 |authentication-oauth2.oidc-redirect-uri
 |string
-|`oc://ios.owncloud.com`
+|`oc://ios.opencloud.eu`
 |OpenID Connect Redirect URI
 |supported `candidate`
 
@@ -1674,7 +1674,7 @@ tag::oidc[]
 
 |authentication-oauth2.oidc-register-client-name-template
 |string
-|`ownCloud/{{os.name}} {{app.version}}`
+|`OpenCloud/{{os.name}} {{app.version}}`
 |Client Name Template to use during OpenID Connect Dynamic Client Registration. In addition to the placeholders available for `http.user-agent`, `{{url.hostname}}` can also be used.
 |supported `candidate`
 
@@ -1820,13 +1820,13 @@ tag::security[]
 !===
 ! Value
 ! Description
-! `com.owncloud.basicauth`
+! `com.opencloud.basicauth`
 ! Basic Auth
 
-! `com.owncloud.oauth2`
+! `com.opencloud.oauth2`
 ! OAuth2
 
-! `com.owncloud.openid-connect`
+! `com.opencloud.openid-connect`
 ! OpenID Connect
 
 !===
@@ -1835,19 +1835,19 @@ tag::security[]
 
 |connection.preferred-authentication-methods
 |stringArray
-|`[com.owncloud.openid-connect com.owncloud.oauth2 com.owncloud.basicauth]`
+|`[com.opencloud.openid-connect com.opencloud.oauth2 com.opencloud.basicauth]`
 |Array of authentication methods in order of preference (most preferred first).
 [cols="1,1"]
 !===
 ! Value
 ! Description
-! `com.owncloud.basicauth`
+! `com.opencloud.basicauth`
 ! Basic Auth
 
-! `com.owncloud.oauth2`
+! `com.opencloud.oauth2`
 ! OAuth2
 
-! `com.owncloud.openid-connect`
+! `com.opencloud.openid-connect`
 ! OpenID Connect
 
 !===
@@ -1875,7 +1875,7 @@ Examples of expressions:
 - `bookmarkCertificate == serverCertificate`: the whole certificate needs to be identical to the one stored in the bookmark during setup.
 - `bookmarkCertificate.publicKeyData == serverCertificate.publicKeyData`:  the public key of the received certificate needs to be identical to the public key stored in the bookmark during setup.
 - `serverCertificate.passedValidationOrIsUserAccepted == true`: any certificate is accepted as long as it has passed validation by the OS or was accepted by the user.
-- `serverCertificate.commonName == "demo.owncloud.org"`: the common name of the certificate must be "demo.owncloud.org".
+- `serverCertificate.commonName == "demo.opencloud.eu"`: the common name of the certificate must be "demo.opencloud.eu".
 - `serverCertificate.rootCertificate.commonName == "DST Root CA X3"`: the common name of the root certificate must be "DST Root CA X3".
 - `serverCertificate.parentCertificate.commonName == "Let's Encrypt Authority X3"`: the common name of the parent certificate must be "Let's Encrypt Authority X3".
 - `serverCertificate.publicKeyData.sha256Hash.asFingerPrintString == "2A 00 98 90 BD … F7"`: the SHA-256 fingerprint of the public key of the server certificate needs to match the provided value.

@@ -1,0 +1,1028 @@
+/*
+  Localizable.strings
+  OpenCloud
+
+  Created by Pablo Carrascal on 13/03/2018.
+  Copyright © 2018 ownCloud GmbH. All rights reserved.
+*/
+
+/*
+ * Copyright (C) 2018, ownCloud GmbH.
+ *
+ * This code is covered by the GNU Public License Version 3.
+ *
+ * For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
+ * You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
+ *
+ */
+
+/* Add / Edit Bookmark */
+"Edit account" = "Hesabı düzenle";
+"Add account" = "Hesap ekle";
+"Server URL" = "Sunucu Adresi";
+"https://example.com" = "https://ornek.com";
+"Continue" = "Devam et";
+"Name" = "Ad";
+"Example Server" = "Örnek Sunucu";
+"Show Certificate Details" = "Sertifika Detaylarını Görüntüle";
+"Connect" = "Bağlan";
+"Delete Authentication Data" = "Kimlik Doğrulama Verilerini Sil";
+"Authentication" = "Kimlik Doğrulama";
+"Username" = "Kullanıcı adı";
+"Password" = "Parola";
+"Certificate Details" = "Sertifika Detayları";
+"Cancel" = "İptal";
+"Approve" = "Onayla";
+"Error" = "Hata";
+"Issues" = "Sorunlar";
+"Review Connection" = "Bağlantıyı Gözden Geçir";
+"Authenticated via" = "ile doğrulandı";
+"Authenticated as %@ via %@" = "%@, %@ile doğrulandı";
+"Edit" = "Düzenle";
+"Credentials" = "Kimlik Bilgileri";
+"Rejected" = "Reddedildi";
+"Passed" = "Geçti";
+"Accepted" = "Kabul edildi";
+"Validation Error" = "Doğrulama Hatası";
+"Certificate was rejected by user." = "Sertifika kullanıcı tarafından reddedildi.";
+"Certificate has issues.\nOpen 'Certificate Details' for more informations." = "Sertifikada sorunlar var.\nDaha fazla bilgi için \"Sertifika Detayları\" seçeneğini seçin.";
+"No issues found. Certificate passed validation." = "Sorun bulunamadı. Sertifika doğrulama işlemi başarılı.";
+"Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." = "Sertifikada sorunlar bulundu, fakat kullanıcı kabul etti.\nDaha fazla bilgi için \"Sertifika Detayları\" seçeneğini seçin.";
+"If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." = "'Devam' ederseniz, '{{app.name}}' uygulamasının kimlik bilgilerinizi girebileceğiniz {{authmethodName}} giriş sayfasını açmasına izin vermeniz istenecektir.";
+
+"Error opening %@" = "%@ açılırken hata oluştu";
+
+"Contacting server…" = "Sunucuya bağlanılıyor...";
+"Authenticating…" = "Kimlik doğrulanıyor...";
+
+"Fetching user information…" = "Kullanıcı bilgisi alınıyor...";
+"Updating connection…" = "Bağlantı durumu güncelleniyor...";
+
+"Preparing account" = "Hesap hazırlama";
+"Please wait…" = "Lütfen bekleyin...";
+"Skip" = "Atla";
+
+"Missing hostname" = "Makine adı eksik";
+"The entered URL does not include a hostname." = "Girilen bağlantı bir makine adı içermiyor.";
+"Add account" = "Hesap ekle";
+"Server name" = "Sunucu adı";
+"Server Password" = "Sunucu Parolası";
+"Server Username" = "Sunucu Kullanıcı Adı";
+"Show accounts" = "Hesapları göster";
+"Setup complete" = "Kurulum tamamlandı";
+"Edit Login" = "Girişi Düzenle";
+"Manage Storage" = "Depolamayı Yönet";
+"Access Files" = "Dosyalara Eriş";
+"Log out" = "Çıkış yap";
+"Retry" = "Yeniden Dene";
+
+/* Bookmark Info */
+"Bookmark Metadata" = "Yer İşareti Meta Verileri";
+
+/* Client */
+"Browse" = "Gözat";
+"Files" = "Dosyalar";
+"Disconnect" = "Bağlantıyı kes";
+"Connecting…" = "Bağlanılıyor...";
+"Connected." = "Bağlandı.";
+"Select" = "Seç";
+"Done" = "Bitti";
+
+"Folder" = "Klasör";
+
+"Stopped" = "Durduruldu.";
+"Started…" = "Başlatıldı...";
+"Contents from cache." = "Önbellek içeriği.";
+"Waiting for server response…" = "Sunucu cevabı bekleniyor...";
+"This folder no longer exists." = "Bu klasör artık mevcut değil.";
+"Everything up-to-date." = "Her şey güncel.";
+"Please wait…" = "Lütfen bekleyin...";
+"Sort by %@" = "%@ göre sırala ";
+"Sort by" = "Şuna göre sırala";
+
+"name" = "isim";
+"kind" = "çeşit";
+"size" = "boyut";
+"date" = "tarih";
+"last used" = "last used";
+
+"Tree" = "Ağaç";
+"Search folder" = "Klasör ara";
+"Search tree" = "Arama ağacı";
+"Search from {{folder.name}}" = "{{folder.name}}'da ara";
+"Search space" = "Arama alanı";
+"Search {{space.name}}" = "Ara: {{space.name}}";
+"Search account" = "Hesap ara";
+"Enter a search term" = "Bir arama terimi girin";
+"Search for users or groups" = "Kullanıcılarda veya gruplarda ara";
+"Enter the user or group you want to invite." = "Davet etmek istediğiniz kullanıcı veya grubu girin.";
+
+"Pending" = "Bekliyor";
+"Show parent paths" = "Üst yolları göster";
+"Reveal in folder" = "Klasörde göster";
+
+"%@ of %@ used" = "%@/%@ kullanımda";
+"Total: %@" = "Toplam: %@";
+"%@ item | " = "%@ öge | ";
+"%@ items | " = "%@ öge | ";
+
+"{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)" = "Toplam {{totalSize}} olan {{itemCount}} öge ({{fileCount}} dosya, {{folderCount}} klasör)";
+"{{remaining}} available" = "{{remaining}} kullanılabilir";
+
+"Loading…" = "Yükleniyor...";
+
+"Show more results" = "Daha fazla sonuç göster";
+
+"An error occurred" = "Bir hata oluştu";
+
+/* Item Layouts */
+"List" = "Liste";
+"Grid" = "Izgara";
+"Item grid" = "Öge ızgarası";
+"Image grid" = "Resim ızgarası";
+
+/* Saved searches */
+"Saved searches" = "Kayıtlı aramalar";
+"Saved search templates" = "Kayıtlı arama şablonları";
+"Save search" = "Aramayı kaydet";
+"Save as search template" = "Bir arama şablonu olarak kaydet";
+
+"Name of saved search" = "Kayıtlı aramanın adı";
+"Saved search" = "Kayıtlı arama";
+"Saved searches" = "Kayıtlı aramalar";
+"Name of template" = "Şablonun adı";
+"Search template" = "Arama şablonu";
+"Search templates" = "Arama şablonları";
+
+/* Search scope */
+"Search scope" = "Kapsam ara";
+"Toggle Search Scope" = "Arama Kapsamını Aç/Kapat";
+
+/* Static Login Setup */
+"Server error" = "Sunucu hatası";
+"The server doesn't support any allowed authentication method." = "Sunucu, izin verilen herhangi bir kimlik doğrulama yöntemini desteklemiyor.";
+"The server doesn't support any known and allowed authentication method found." = "Sunucu, herhangi bir bilinen ve izin verilen kimlik doğrulama yöntemini desteklemiyor.";
+"Retry detection" = "Algılamayı yeniden dene";
+"Enter your username and password" = "Kullanıcı adınızı ve parolanızı girin";
+"Please log in to authorize the app." = "Uygulamayı yetkilendirmek için lütfen giriş yapın.";
+"Welcome to %@" = "%@'ye Hoş Geldiniz";
+"Please enter a server URL" = "Lütfen bir sunucu URL girin";
+"Please pick a profile to begin setup" = "Kuruluma başlamak için lütfen bir profil seçin";
+"The following steps will guide you through the setup process." = "The following steps will guide you through the setup process.";
+"Start setup" = "Start setup";
+"Open login page" = "Open login page";
+"If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." = "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials.";
+"Account setup complete" = "Account setup complete";
+"If you'd like to give the account a custom name, please enter it below:" = "If you'd like to give the account a custom name, please enter it below:";
+
+/* Single Account */
+"You are connected as\n%@" = "Bağlantı kurdunuz\n%@";
+"Login" = "Oturum Aç";
+"Wrong URL" = "Yanlış URL";
+"Please enter a valid URL" = "Lütfen geçerli bir URL girin";
+"Missing Profile URL" = "Eksik Profil URL'i";
+"The Profile '%@' does not have a URL configured.\nPlease provide a URL via configuration or MDM." = "'%@' profili yapılandırılmış bir URL'ye sahip değil.\nLütfen yapılandırma veya MDM yoluyla bir URL sağlayın.";
+
+/* Client Messages */
+"No contents" = "İçerik yok";
+"This folder contains no files or folders." = "Bu klasör hiçbir dosya veya klasör içermiyor.";
+"This folder is empty." = "Bu klasör boş.";
+"This folder is empty. Fill it with content:" = "Bu klasör boş. İçerikle doldurun:";
+
+"Folder removed" = "Klasör silindi";
+"This folder no longer exists on the server." = "Bu klasör artık sunucuda mevcut değil.";
+"Are you sure you want to delete this item from the server?" = "Bu öğeyi sunucudan silmek istediğinizden emin misiniz?";
+"Are you sure you want to delete these items from the server?" = "Bu öğeleri sunucudan silmek istediğinizden emin misiniz?";
+"Multiple items" = "Çoklu öğeler";
+"Deleting '%@'" = "'%@' siliniyor";
+"Renaming to %@" = "%@ olarak yeniden isimlendiriliyor";
+"Upload from your photo library" = "Fotoğraf kitaplığınızdan yükleyin";
+"Missing permissions" = "İzinlerde eksiklik";
+"This permission is needed to upload photos and videos from your photo library." = "Bu izin, fotoğraf kitaplığınızdan fotoğraf ve video yüklemek için gereklidir.";
+"Not now" = "Şimdi değil";
+"Upload file" = "Dosya yükle";
+"Upload files" = "Dosyaları yükle";
+
+"No matches" = "Eşleşme yok";
+"The search term you entered did not match any item in the selected scope." = "Girdiğiniz arama terimi, seçilen kapsamdaki hiçbir ögeyle eşleşmedi.";
+"There are no results for this search term" = "Aradığınız ifade için sonuç bulunamadı";
+"No items found matching the search criteria." = "Arama kriterlerine uygun öge bulunamadı.";
+
+"Status" = "Durum";
+
+"Authorization failed" = "Yetkilendirme hatası";
+"The account has been disabled." = "Hesap devre dışı bırakıldı.";
+"The server declined access with the credentials stored for this connection." = "Sunucu, bu bağlantı için saklanan kimlik bilgileriyle erişimi reddetti.";
+"Access denied" = "Erişim reddedildi";
+"The connection's access token has expired or become invalid. Sign in again to re-gain access." = "Bağlantının erişim belirtecinin süresi doldu veya geçersiz hale geldi. Yeniden erişim sağlamak için tekrar oturum açın.";
+"No authentication data has been found for this connection." = "Bu bağlantı için hiçbir kimlik doğrulama verisi bulunamadı.";
+"Authentication with %@ is no longer allowed. Re-authentication needed." = "%@ ile kimlik doğrulamaya artık izin verilmiyor. Yeniden kimlik doğrulama gerekli.";
+"Sign in" = "Oturum aç";
+"Continue offline" = "Çevrimdışı devam et";
+"Media upload in the previous session was incomplete since the application was terminated" = "Uygulama sonlandırıldığından önceki oturumdaki medya yüklemesi tamamlanmadı";
+
+"Waiting for response from login session in external browser…" = "Harici tarayıcıda giriş oturumundan yanıt bekleniyor…";
+
+"All done" = "Hepsi tamam";
+"No pending messages or ongoing actions." = "Bekleyen mesaj veya devam eden işlem yok.";
+
+"Show all" = "Hepsini göster";
+"+ %ld more" = "+ %ld daha fazla";
+"Apply choice to all similar issues" = "Seçimi tüm benzer sorunlara uygula";
+"Apply to all" = "Tümüne uygula";
+
+/* Server List*/
+"Cancel" = "İptal";
+"OK" = "Tamam";
+
+"'%@' is currently locked" = "\"%@\" kilitli durumda";
+"An operation is currently performed that prevents connecting to '%@'. Please try again later." = "Şu anda %@ bağlantısını önleyen bir işlem gerçekleştiriliyor. Lütfen daha sonra tekrar deneyiniz.";
+"Do you really want to disconnect from your '%@' account?" = "'%@' hesabınızın bağlantısını gerçekten kaldırmak istiyor musunuz?";
+"This will remove all locally stored file copies from your device." = "Bu, yerel olarak depolanan tüm dosya kopyalarını cihazınızdan kaldıracaktır.";
+"Really delete '%@'?" = "%@silmekten emin misiniz?";
+"Do you want to log out from '%@'?" = "'%@' oturumunu kapatmak istiyor musunuz?";
+"This will also delete all locally stored file copies." = "Bu aynı zamanda yerel olarak depolanan tüm dosya kopyalarını da silecektir.";
+"Delete" = "Sil";
+"Remove" = "Kaldır";
+"Removing of '%@' failed" = "'%@' kaldırılamadı";
+"Accounts" = "Hesaplar";
+
+"Help" = "Yardım";
+"Feedback" = "Geribildirim";
+"Welcome" = "Hoş Geldiniz";
+"Thanks for choosing %@! \n Start by adding your account." = "%@seçtiğiniz için teşekkürler!\nHesabınızı ekleyerek başlayabilirsiniz.";
+
+/* Settings Messages */
+
+"Security" = "Güvenlik";
+"Passcode Lock" = "Parola Kodu Kilidi";
+"Face ID" = "Yüz Tanıma";
+"Touch ID" = "Dokunma Kimliği";
+"Unlock using %@?" = "%@ kullanarak kilit açılsın mı?";
+"Videos" = "Videolar";
+"Photos" = "Fotoğraflar";
+"Wifi only" = "Sadece kablosuz bağlantı";
+"Settings" = "Ayarlar";
+"Lock application" = "Uygulamayı kitle";
+"Upload videos via WiFi only" = "Videoları sadece kablosuzda (WiFi) yükle";
+"Upload pictures via WiFi only" = "Fotoğrafları sadece kablosuzda (WiFi) yükle";
+"More" = "Daha fazla";
+"Documentation" = "Belgelendirme";
+"Send feedback" = "Geribildirim yolla";
+"Recommend to a friend" = "Bir arkadaşa öner";
+"Privacy Policy" = "Mahremiyet Politikası ";
+"Terms Of Use" = "Kullanım Şartları";
+"Acknowledgements" = "Alındı bildirimleri";
+"license" = "lisans";
+"Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged." = "Bu uygulamanın bölümleri, kullanımı burada kabul edilen aşağıdaki telif hakkıyla korunan materyali kullanabilir.";
+"Video upload path" = "Video yükleme yolu";
+"Photo upload path" = "Fotoğraf yükleme yolu";
+"Immediately" = "Hemen";
+"After 1 minute" = "1 dakika sonra";
+"After 5 minutes" = "5 dakika sonra";
+"After 30 minutes" = "30 dakika sonra";
+"After %ld seconds" = "%ld saniye sonra";
+"If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." = "\"Hemen\" seçeneğini seçerseniz, artık ön planda olmadığında Uygulama kilitlenir.";
+"Please configure an email account" = "Lütfen bir e-posta hesabı yapılandırın";
+"You need to configure an email account first to be able to send emails." = "E-posta gönderebilmek için önce bir e-posta hesabı yapılandırmanız gerekir.";
+"Do you want to open the following URL?" = "Aşağıdaki bağlantıyı açmak istiyor musunuz?";
+"Passcode option" = "Geçiş kodu seçeneği";
+"Please choose how many digits you want to use for the passcode lock?" = "Lütfen geçiş kodu kilidi için kaç basamak kullanmak istediğinizi seçin?";
+"%ld digit code" = "%ld basamak kodu";
+"Enter a new code with %ld digits" = "%ld basamaklı yeni bir kod girin";
+"To use the app, you need to create a passcode." = "Uygulamayı kullanmak için, bir geçiş kodu oluşturmalısınız.";
+"Passcode setup" = "Geçiş kodu ayarı";
+
+"%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)" = "%@%@ %@ versiyon %@ derleme %@\n(uygulama: %@, sdk: %@)";
+"beta" = "beta";
+"release" = "yayınlanma";
+"App Version" = "Uygulama Sürümü";
+"Version information were copied to the clipboard" = "Versiyon bilgileri panoya kopyalandı";
+
+
+/* User Interface Settings */
+"Theme" = "Tema";
+"User Interface" = "Kullanıcı Arayüzü";
+"Dark" = "Karanlık";
+"Dark Blue" = "Koyu Mavi";
+"Dark Web" = "Karanlık Web";
+"Light" = "Aydınlık";
+"Classic" = "Klasik";
+"System" = "Sistem";
+"System Appeareance" = "Sistem Görünümü";
+
+/* Log settings */
+"Log Files" = "Günlük Dosyaları";
+"Browse log files" = "Günlük dosyalarına göz at";
+"Share" = "Paylaş";
+"Delete all log files?" = "Tüm günlük dosyaları silinsin mi?";
+"Delete all" = "Hepsini sil";
+
+"Log Level" = "Günlük Seviyesi";
+"Log Destinations" = "Günlük Hedefleri";
+"Privacy" = "Mahremiyet";
+
+"Logging" = "Günlükleme";
+"Enable logging" = "Günlüğü etkinleştir";
+"Options" = "Seçenekler";
+
+"Off" = "Kapalı";
+"Info" = "Bilgi";
+"Default" = "Öntanımlı";
+"Warning" = "Uyarı";
+"Error" = "Hata";
+
+"Share log file" = "Günlük dosyasını paylaş";
+"Reset log file" = "Günlük dosyasını sıfırla";
+
+"When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility." = "Etkinleştirildiğinde, günlükler performansı etkileyebilir ve hassas bilgiler içerebilir. Ancak, günlükler %@ sunucularına otomatik olarak gönderilmez. Günlükleri başkalarıyla paylaşmak kullanıcının sorumluluğundadır.";
+
+"The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." = "Arşivlenen son 10 günlük, her aygıta 24 saate kadar kullanım sağlayacak şekilde saklanır. Paylaşırken günlüklerin sunucu bağlantıları ve kullanıcıya özgü bilgiler gibi hassas bilgiler içerebileceğini lütfen unutmayın.";
+
+"Mask private data" = "Mahrem verileri gizle";
+"Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." = "Bu seçeneğin etkinleştirilmesi mahrem verileri gizlemeye çalışır, böylece herhangi bir günlüğün parçası olmaz. Günlüğe kaydetmek bir geliştirme ve hata ayıklama özelliği olduğundan, bu seçenek etkin olsa bile günlük dosyasının mahrem verilerden arınmış olacağını garanti edemeyiz. Bu nedenle, lütfen herhangi bir günlük dosyasına bakın ve kimseyle paylaşmadan önce paylaşmak istemediğiniz verileri içermediğini doğrulayın.";
+
+"No log file found" = "Hiç günlük dosyası bulunamadı";
+"The log file can't be shared because no log file could be found or the log file is empty." = "Günlük dosyası bulunamadığı yada boş olduğu için günlük dosyası paylaşılamıyor.";
+"Enable log file" = "Günlüklemeyi etkinleştir";
+
+"Really reset log file?" = "Gerçekten günlük dosyasını sıfırlamak istiyor musunuz?";
+"This action can't be undone." = "Bu işlem geri alınamaz.";
+
+/* Data usage settings */
+"Data usage" = "Veri kullanımı";
+"Delete unused local copies" = "Kullanılmayan yerel kopyaları silin";
+"Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app." = "İlgili dosyayı bu cihaz üzerinden yüklerken, düzenlerken, indirirken veya görüntülediğinden beri ölçülen süre budur. Çevrimdışı Kullanılabilir özelliği aracılığıyla indirilen dosyalar için geçerli değildir. Çünkü yerel kopyalar, belirli bir süre geçmeden silinebilir; örn. sunucuda bir dosyanın daha yeni bir sürümü var olması veya çevrimdışı kopyaların elle silinmesi gibi. Ancak, belirli bir süre geçtikten sonra yerel kopyalar silinemez; örn. üzerinde bir işlem yapılmışsa, dosya hala kullanımdaysa veya dosyayı tutan hesap uygulamada kullanılmamışsa gibi.";
+"never" = "hiçbir zaman";
+"after %@" = "%@ sonra";
+"Decrease Slider Value" = "Sürükleme Değerini Azalt";
+"Increase Slider Value" = "Sürükleme Değerini Arttır";
+
+"Cellular Data Usage" = "Hücresel Veri Kullanımı";
+"Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." = "Bazı hücresel veriler kullanılmaya devam edebilir. Hücresel veri kullanımını tamamen önlemek için lütfen Ayarlar uygulamasında tüm uygulama için hücresel erişimi kapatın.";
+"Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." = "Hücresel Veri Kullanımı, MDM yapılandırması aracılığıyla devre dışı bırakıldı. Daha fazla bilgi için lütfen yöneticinizle iletişime geçin.";
+"General" = "Genel";
+"By feature" = "Özelliğe göre";
+
+"off" = "kapalı";
+"enabled" = "etkin";
+
+/* Display settings */
+"Advanced settings" = "Gelişmiş ayarlar";
+"Show hidden files and folders" = "Gizli dosya ve klasörleri göster";
+"Show folders on top" = "Klasörleri üstte göster";
+"Disable gestures" = "Hareketleri devre dışı bırak";
+"Prevent dragging of files and folders and multiselection using system defined gestures" = "Sistem tanımlı hareketleri kullanarak dosya ve klasörlerin sürüklenmesini ve çoklu seçimi önleyin";
+
+/* Advanced settings */
+"Enable diagnostics" = "Tanılamayı etkinleştir";
+
+/* Passcode Messages */
+
+"Enter code" = "Kodu gir";
+"Repeat code" = "Kodu tekrarla";
+"Delete code" = "Kodu sil";
+"The entered codes are different" = "Girilen kodlar farklı";
+"Incorrect code" = "Hatalı kod";
+"Please try again in %@" = "Lütfen %@ içinde tekrar deneyin";
+"Unlock %@" = "%@ kilidini aç";
+"Biometric authentication failed" = "Biyometrik doğrulama başarısız";
+"You are required to set the passcode" = "Geçiş kodu ayarlamanız gerekiyor";
+
+/* Certificate management */
+
+"Certificates" = "Sertifikalar";
+"User-approved certificates" = "Kullanıcı onaylı sertifikalar";
+
+"Approved" = "Onaylanmış";
+"Auto-approved" = "Otomatik onaylanmış";
+"Revoke approval" =  "Onayı geri çek";
+
+/* Actions */
+
+"Forbidden Characters" = "Yasaklı Karakterler";
+"File name cannot contain / or \\" = "Dosya adı / yada \\ karakterlerini içeremez";
+"Item with same name already exists" = "Aynı ada sahip öge zaten var";
+"An item with the same name already exists in this location." = "Bu konumda aynı ada sahip bir öge zaten var.";
+"New Folder" = "Yeni Klasör";
+"Folder name" = "Klasör adı";
+"Rename" ="Yeniden adlandır";
+"Create folder" ="Klasör oluştur";
+"Duplicate" = "Kopyasını üret";
+"Move" = "Taşı";
+"Move {{itemCount}} items" = "{{itemCount}} ögeyi taşı";
+"Move \"{{itemName}}\"" = "\"{{itemName}}\"'i taşı";
+"Move here" = "Buraya taşı";
+"Select target." = "Hedefi seçin.";
+"Open in" = "Birlikte aç";
+"Copy" = "Kopyala";
+"Copy {{itemCount}} items" = "{{itemCount}} ögeyi kopyala";
+"Copy \"{{itemName}}\"" = "\"{{itemName}}\"'i kopyala";
+"Copy here" = "Buraya kopyala";
+
+"Cannot connect to " = "Bağlanılamadı";
+" couldn't download file(s)" = "dosyalar indirilemedi";
+"Actions" = "Eylemler";
+"copy" = "kopyala";
+"Close Window" = "Pencereyi Kapat";
+"Open in a new Window" = "Yeni Pencerede Aç";
+"Open in Window" = "Pencerede Aç";
+"Take photo or video" = "Fotoğraf veya video çekin";
+"%ld Item was copied to the clipboard" = "%ld Öge panoya kopyalandı";
+"%ld Items were copied to the clipboard" = "%ld Öge panoya kopyalandı";
+"Please note: Folders can only be pasted into the %@ app and the same account." = "Lütfen dikkat: Klasörler yalnızca %@ uygulamasına ve aynı hesaba yapıştırılabilir.";
+
+"Processing on server" = "Sunucuda işleniyor";
+
+"Preparing…" = "Hazırlanıyor...";
+
+"No actions available" = "Uygulanabilir aksiyon yok";
+"No actions are available for this folder, possibly because of missing permissions." = "Muhtemelen eksik izinler nedeniyle bu klasör için uygulanabilir aksiyon yok.";
+
+"Close actions menu" = "Eylemler menüsünü kapat";
+"Favorited" = "Sık kullanılanlara eklendi";
+"Favorite item" = "Ögeyi favorilere ekle";
+"Unfavorite item" = "Ögeyi favorilerden kaldır";
+"Presentation Mode" = "Sunum Modu";
+"Enabling presentation mode will prevent the display from sleep mode until the view is closed." = "Sunum modunu etkinleştirmek, görünüm kapanana kadar ekranın uyku modundan çıkmasını engeller.";
+"Enable" = "Etkinleştir";
+"Exit Full Screen" = "Tam Ekrandan Çık";
+
+"Select one or more items." = "Bir veya daha fazla öge seçin.";
+
+"Add item" = "Öge ekle";
+
+/* App Provider */
+"New document" = "Yeni belge";
+"Pick a name" = "Bir ad seçin";
+"Pick a document type to create:" = "Oluşturmak için bir doküman türü seçin:";
+"Error creating {{itemName}}" = "{{itemName}} oluşturulurken hata";
+
+"Opening…" = "Açılıyor...";
+
+"Open in {{appName}} (web)" = "{{appName}}'de (web) aç";
+"Error opening {{itemName}} in {{appName}}" = "{{itemName}}, {{appName}} uygulamasında açılırken hata oluştu";
+"Opening documents is not supported by the app provider on this instance." = "Belgelerin açılması, bu durumda uygulama sağlayıcı tarafından desteklenmiyor.";
+
+/* Preview */
+"Open file" = "Açık Dosya.";
+"Network unavailable" = "Ağ kullanılamıyor";
+"Error" = "Hata";
+"Could not get the picture" = "Resim alınamadı";
+"Downloading" = "İndiriliyor";
+"File couldn't be opened" = "Dosya açılamadı";
+"Connecting..." = "Bağlanıyor...";
+
+"File" = "Dosya";
+"%@ was updated" = "%@ güncellendi";
+"Would you like to view the updated version?" = "Güncellenmiş sürümü görmek ister misiniz?";
+"Show new version" = "Yeni versiyonu göster";
+"Refresh without asking" = "Sormadan yenile";
+"Ignore updates" = "Güncellemeleri yoksay";
+
+/* PDF Viewer */
+"Resume" = "Devam et";
+"Go to page" = "Sayfaya git";
+"Page" = "Sayfa";
+"This document has %@ pages" = "Bu doküman %@ sayfalı";
+"%@ of %@" = "%@/%@";
+"Invalid Page" = "Geçersiz Sayfa";
+"The entered page number doesn't exist" = "Girilen sayfa numarası mevcut değil";
+"Search PDF" = "PDF ara";
+"Outline" = "Anahat";
+"Find Next" = "Sonrakini Bul";
+"Find Previous" = "Öncekini Bul";
+"Close Search" = "Aramayı Kapat";
+
+/* Photo Upload */
+"Upload" = "Yükle";
+"Select All" = "Tümünü Seç";
+"Deselect All" = "Tümünü Seçmeyi Bırak";
+"All Photos" = "Tüm Fotoğraflar";
+"Albums" = "Albümler";
+"Importing from photo library" = "Fotoğraflardan içe aktar";
+"Media import" = "Ortam dosyası içeri aktar";
+"%@ of %@" = "%@/%@";
+"Selected folder lacks file creation permission" = "Seçili klasörde dosya oluşturma izni yok";
+"%d Item" = "%d Öge";
+"%d Items" = "%d Öge";
+"Select Items" = "Ögeleri Seç";
+
+/* Scan */
+"Scan" = "Tarama";
+"Scans" = "Taramalar";
+"Scan document" = "Doküman tara";
+"Saving" = "Kaydediliyor";
+"File format" = "Dosya biçimi";
+"Name" = "Ad";
+"Save as" = "Şöyle kaydet";
+"Options" = "Seçenekler";
+"Scan additional" = "Ek tarama";
+"Create one file per page" = "Her sayfada bir dosya oluştur";
+
+/* Sharing */
+"Sharing requires an active connection." = "Paylaşım etkin bir bağlantı gerektirir.";
+"No items shared with you" = "Sizinle paylaşılmış öge yok";
+"No items shared by you" = "Paylaştığınız öge yok";
+"No items shared by link" = "Bağlantıyla paylaşılan öge yok";
+
+"Searching Shares…" = "Paylaşımlar Aranıyor...";
+"Recipient" = "Alıcı";
+"Recipients" = "Alıcılar";
+"Public Link" = "Herkese Açık Bağlantı";
+"Public Links" = "Herkese açık bağlantılar";
+"Shared by {{owner}}" = "{{owner}} tarafından paylaşılmış";
+"Shared with {{recipient}}" = "{{recipient}} ile paylaşılmış";
+"Shared with {{recipients}}" = "{{recipients}} ile paylaşılmış";
+"Expires {{expirationDate}}" = "{{expirationDate}} tarihinde sonra erer";
+"Share {{itemName}}" = "Paylaş: {{itemName}}";
+"Create link" = "Bağlantı oluştur";
+"Invite" = "Davet";
+"Invite Recipient" = "Alıcıyı Davet Et";
+"Recipients" = "Alıcılar";
+"Add email or name" = "İsim yada e-posta ekleyin";
+"Users" = "Kullanıcılar";
+"Groups" = "Gruplar";
+"Start typing to search users, groups and remote users." = "Kullanıcıları, grupları ve uzak kullanıcıları aramak için yazmaya başlayın.";
+"(Group)" = "(Grup)";
+"Adding User to Share failed" = "Paylaşıma kullanıcı ekleme başarısız";
+"Permissions" = "İzinler";
+"Invited: %@" = "Davetli: %@";
+"Created: %@" = "Oluşturulma: %@";
+"Allows the users you share with to re-share" = "Paylaştığınız kullanıcıların paylaşılan dosyalarınızı yeniden paylaşımına izin verir";
+"Allows the users you share with to edit your shared files, and to collaborate" = "Paylaştığınız kullanıcıların paylaşılan dosyalarınızı düzenlemelerine ve ortak çalışma yapmalarına izin verir";
+"Allows the users you share with to create new files and add them to the share" = "Paylaştığınız kullanıcıların paylaştığınız klasörlere yeni dosyalar oluşturmasına ve bu paylaşıma dosya eklemesine izin verir";
+"Allows uploading a new version of a shared file and replacing it" = "Paylaşılan bir dosyanın yeni bir sürümünü yüklemeye ve değiştirmeye izin verir";
+"Allows the users you share with to delete shared files" = "Paylaştığınız kullanıcıların paylaşılan dosyaları silmesine izin verir";
+"Setting permission failed" = "İzin ayarlanamadı";
+"Shared with" = "Paylaş";
+"Remove Recipient failed" = "Alıcı kaldırılamadı";
+"Remove Recipient" = "Alıcıyı Kaldır";
+"Create" = "Oluştur";
+"Change" = "Değiştir";
+"Recipients can view or download contents." = "Alıcılar içeriği görüntüleyebilir ve indirebilir";
+"Recipients can view, download, edit, delete and upload contents." = "Alıcılar içerik görüntüleyebilir, düzenleyebilir, silebilir ve karşı tarafa yükleyebilir.";
+"Receive files from multiple recipients without revealing the contents of the folder." = "Klasörün içeriğini göstermeden birden çok alıcıdan dosya alın.";
+"Download / View" = "İndir / Görüntüle";
+"Download / View / Upload" = "İndir / Görüntüle / Karşı tarafa yükle";
+"Upload only (File Drop)" = "Sadece karşı tarafa yükle (Dosya bırak)";
+"Creating public link failed" = "Herkese açık bağlantı oluşturulamadı";
+"Create Public Link" = "Herkese Açık Bağlantı Oluştur";
+"Links" = "Bağlantılar";
+"Link" = "Bağlantı";
+"Setting expiration date failed" = "Geçerlilik tarihi belirlenemedi";
+"Expiration date" = "Son kullanım tarihi";
+"Copy Public Link" = "Herkese açık bağlantıyı kopyala";
+"Delete Public Link" = "Herkese açık bağlantıyı sil";
+"Deleting Public Link failed" = "Herkese açık bağlantı silinemedi";
+"Deleting password failed" = "Parola silinemedi";
+"Setting password failed" = "Parola belirleme başarısız";
+"Type to update password" = "Parolayı güncellemek için yazın";
+"Cannot change permission" = "İzin değiştirilemedi";
+"Before you can set the permission\n%@,\n you must enter a password." = "İzin belirlemek için\n%@,\nParola girmelisiniz.";
+"Password Protected" = "Parola Korumalı";
+"Pending Federated Invites" = "Bekleyen Birleşik Davetler";
+"Pending Invites" = "Bekleyen Davetler";
+"Shared with you" = "Sizinle paylaşılmış";
+"Shared with others" = "Diğerleri ile paylaşılmış";
+"Shares" = "Paylaşımlar";
+"Copy Private Link" = "Özel bağlantıyı kopyala";
+"Only people who have access to the file/folder can use it. Use it as a permanent link for yourself or to point others to files within shares." = "Yalnızca dosyaya/klasöre erişimi olan kişiler kullanabilir. Kendiniz için kalıcı bir bağlantı olarak veya başkalarını paylaşımlardaki dosyalara yönlendirmek için kullanın.";
+"Accept Share failed" = "Paylaşım kabul edilemedi";
+"Decline Share failed" = "Paylaşım reddedilemedi";
+"Accept" = "Kabul et";
+"Decline" = "Reddet";
+"Declined" = "Reddedildi";
+"Decline Share" = "Paylaşımı Reddet";
+"Unshare" = "Paylaşmayı Kaldır";
+"Unshare failed" = "Paylaşım kaldırılamadı";
+"Are you sure you want to unshare these items?" = "Bu ögeleri paylaşımdan kaldırmaktan emin misiniz?";
+"Are you sure you want to unshare this item?" = "Bu ögeyi paylaşımdan kaldırmaktan emin misiniz?";
+"Share" = "Paylaş";
+"Read" = "Oku";
+"Can Share" = "Paylaşabilir";
+"Can Edit" = "Düzenleyebilir";
+"Can Edit and Change" = "Düzenleyebilir ve Değiştirebilir";
+"Can Create" = "Oluşturabilir";
+"Can Change" = "Değiştirebilir";
+"Can Delete" = "Silebilir";
+"Accept Invite %@" = "%@ Davetini Kabul Et";
+"Decline Invite %@" = "%@ Davetini Reddet";
+"Decline cannot be undone." = "Reddetme geri alınamaz.";
+"Sharing" = "Paylaşım";
+"You" = "Sen";
+"Share this file" = "Bu dosyayı paylaş";
+"Share this folder" = "Bu klasörü paylaş";
+"shared" = "sizinle";
+"Owner" = "Sahip";
+"Private Link" = "Özel Bağlantı";
+"Created Public Link" = "Herkese Açık Bağlantı Oluşturuldu";
+"URL was copied to the clipboard" = "URL panoya kopyalandı";
+"%@ is not available, when this account is offline. Please open the app and log into your account before you can do this action." = "%@, bu hesap çevrimdışıyken kullanılamaz. Bu işlemi yapmadan önce lütfen uygulamayı açın ve hesabınıza giriş yapın.";
+"%@ is not available for this item." = "%@ bu öge için mevcut değil.";
+"Share with user/group" = "Kullanıcı/grup ile paylaş";
+"Share link" = "Paylaşma bağlantısı";
+
+"Shared with me" = "Benimle paylaşılmış";
+"Shared by me" = "Paylaştıklarım";
+"Shared by link" = "Bağlantı ile paylaşılmış";
+
+"Share with" = "Şununla paylaş";
+"Add" = "Ekle";
+"Save changes" = "Değişiklikleri Kaydet";
+
+"Enter password" = "Enter password";
+
+/* Quick Access view */
+"Quick Access" = "Hızlı Erişim";
+"Collection" = "Koleksiyon";
+"Recents" = "Son değişenler";
+"Favorites"= "Sık kullanılanlar";
+"Images" = "Resimler";
+"PDF Documents" = "PDF Belgeleri";
+"Text" = "Metin";
+"Documents" = "Belgeler";
+"Audio" = "Ses";
+
+/* Favorites view */
+"No favorites found" = "Favoriler bulunamadı";
+"If you make an item a favorite, it will turn up here." = "Bir ögeyi favori yaparsanız, burada görünecektir.";
+
+/* Media files settings */
+"Media Files" = "Ortam Dosyaları";
+"Download instead of streaming" = "Akış yerine indir";
+
+/* Photo upload settings */
+"Media Upload" = "Ortam Yükleme";
+"Media Export" = "Medya İçe Aktarma";
+"Auto Upload" = "Otomatik Yükleme";
+"Convert HEIC to JPEG" = "HEIC'den JPEG Çevrimi";
+"Convert videos to MP4" = "Video'dan MP4 Çevirimi";
+"Preserve original media file names" = "Orijinal medya dosyası adlarını koru";
+"Auto Upload Photos" = "Fotoğrafları Otomatik Yükle";
+"Auto Upload Videos" = "Videoları Otomatik Yükle";
+"Account" = "Hesap";
+"Accounts" = "Hesaplar";
+"Select account" = "Hesap seç";
+"Photo upload path" = "Fotoğraf yükleme yolu";
+"Video upload path" = "Video yükleme yolu";
+"Select Upload Path" = "Yükleme Yolu Seç";
+"Auto upload of media was disabled since configured account / folder was not found" = "Yapılandırılmış hesap / klasör bulunamadığı için medyanın otomatik yüklenmesi devre dışı bırakıldı";
+"Importing %@ media files for upload" = "Yükleme için %@ medya dosyaları içe aktarılıyor";
+"Photo upload" = "Fotoğraf yükleme";
+"Video upload" = "Video yükleme";
+
+/* Background media uploads */
+"Background uploads (Lab Version)" = "Arkaplan yüklemeleri (Lab Versiyonu)";
+"Background uploads" = "Arkaplan yüklemeleri";
+"Use background refresh" = "Arkaplan yenilemeyi kullan";
+"Allow this app to refresh the content when on Wi-Fi or mobile network in background." = "Arkaplanda Wi-Fi veya mobil ağdayken bu uygulamanın içeriği yenilemesine izin verin.";
+"Enable background uploads" = "Arkaplan yüklemelerini etkinleştir";
+"Use background location updates" = "Arkaplan konum güncellemelerini kullan";
+"Background upload notifications" = "Arkaplan yükleme bildirimleri";
+"If you would like background media uploads to be more reliable, you should enable background location updates." = "Arka plan medya yüklemelerinin daha güvenilir olmasını istiyorsanız arka planda konum güncellemelerini etkinleştirmelisiniz.";
+"Background media uploads rely on location updates and will stop working if location acquisition permissions are revoked." = "Arka plan medya yüklemeleri, konum güncellemelerine dayanır ve konum edinme izinleri iptal edilirse çalışmayı durdurur.";
+"Otherwise background media uploads using background refresh technology would depend on how frequently you use the app." = "Aksi takdirde, arka plan yenileme teknolojisini kullanan arka plan medya yüklemeleri, uygulamayı ne sıklıkta kullandığınıza bağlı olacaktır.";
+"Location permission denied" = "Konum izni reddedildi";
+"Please re-enable location acquisition in system settings" = "Lütfen sistem ayarlarında konum edinmeyi yeniden etkinleştirin";
+"Scheduled upload of %ld media assets" = "%ld medya varlıklarının programlanmış yüklemesi";
+
+/* Progress summarizer */
+"Creating %ld folders…" = "%ld klasörleri oluşturuluyor...";
+"Moving %ld items…" = "%ld ögeleri taşınıyor...";
+"Copying %ld items…" = "%ld ögeleri kopyalanıyor...";
+"Deleting %ld items…" = "%ld ögeleri siliniyor...";
+"Uploading %ld files…" = "%ld dosyaları yükleniyor...";
+"Downloading %ld files…" = "%ld dosyaları indiriliyor...";
+"Updating %ld items…" = "%ld ögeleri güncelleniyor...";
+
+/* Offline storage management */
+"Free on %@" = "%@üzerindeki boş alan";
+"unknown" = "bilinmiyor";
+"Offline files use" = "Çevrimdışı dosya kullanımı";
+"Compacting of '%@' failed" = "%@dosyası sıkıştırılmasında hata oluştu";
+"Include available offline files" = "Uygun çevrimdışı dosyaları dahil et";
+"Delete all Offline Files" = "Tüm Çevrimdışı Dosyaları Sil";
+"Manage" = "Yönetim";
+"Storage" = "Depolama";
+"Compacting" = "Sıkıştırılıyor";
+
+"Really include available offline files?" = "Gerçekten kullanılabilir çevrimdışı dosyalar eklensin mi?";
+"Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." = "Çevrimdışı Kullanılabilir olarak işaretlenen dosya ve klasörler kullanılamaz hale gelecek. Hesabınıza bir sonraki girişinizde yeniden indirilecektir (bağlantı gerekir).";
+"Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." = "İndirilen dosyaları ve Çevrimdışı Kullanılabilir olarak işaretlenen ögelerin yerel kopyalarını kaldırır. İkincisi, hesabınıza bir sonraki girişinizde yeniden indirilecektir (bağlantı gereklidir).";
+
+/* Diagnostic */
+"Diagnostic Overview" = "Tanıya Genel Bakış";
+"Diagnostics" = "Tanılar";
+"Share Diagnostics" = "Tanıları Paylaş";
+"Action executed" = "Eylem yürütüldü";
+
+"Update Status" = "Durumu Güncelle";
+"Completed update scans" = "Tamamlanan güncelleme taramaları";
+"Total update scans" = "Toplam güncelleme taramaları";
+
+/* Available offline */
+"Root folder" = "Kök dizin";
+"at" = "saat";
+"(no match)" = "(eşleşme yok)";
+
+"Make available offline" = "Çevrimdışı kullanılabilir yap";
+"Make unavailable offline" = "Çevrimdışı kullanılamaz yap";
+
+"Available Offline" = "Çevrimdışı hali mevcut";
+
+"No files available offline" = "Çevrimdışı kullanılabilir dosya yok";
+"Files selected and downloaded for offline availability will show up here." = "Çevrimdışı kullanılabilirlik için seçilen ve indirilen dosyalar burada gösterilir.";
+
+"Locations" = "Konumlar";
+"Downloaded Files" = "İndirilen Dosyalar";
+
+/* Single Account */
+"You are connected as\n%@" = "Bağlantı kurdunuz\n%@";
+
+/* Release Notes */
+"Proceed" = "Devam et";
+"New in %@" = "%@'da Yeni";
+"Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" = "%@ kullandığınız için teşekkürler.\nUygulamamızı sevdiyseniz lütfen AppStore üzerinde güzel incelemeler yazın.\n❤️";
+"Thank you for using %@.\n" = "%@ kullandığınız için teşekkürler.\n";
+
+/* Key Commands */
+"Select Next" = "Sonrakini Seç";
+"Select Previous" = "Öncekini Seç";
+"Open Selected" = "Seçiliyi Aç";
+"Change Sort Order" = "Sıralama Düzenini Değiştir";
+"Search" = "Ara";
+"Back" = "Geri";
+"Save" = "Kaydet";
+"Sort by %@" = "%@ göre sırala ";
+"Tab %@" = "Sekme %@";
+"Select Last Item on Page" = "Sayfadaki Son Öğeyi Seç";
+"Scroll to Top" = "En Üste Kaydır";
+"Scroll to Bottom" = "En Dibe Kaydır";
+"Copy to Clipboard" = "Panoya Kopyala";
+"Import from Clipboard" = "Panodan İçe Aktar";
+"Choose destination directory…" = "Hedef dizini seç...";
+"Next" = "Sonraki";
+"Previous" = "Önceki";
+"Favorite" = "Favorilere ekle";
+"Cut" = "Kes";
+"Paste" = "Yapıştır";
+"Play/Pause" = "Oynat/Duraklat";
+"Skip Back" = "Geriye Atla";
+"Skip Ahead" = "İleri Atla";
+"Go to Beginning" = "Başlangıca Git";
+"Mute/Unmute" = "Sesi Aç/Kapa";
+"Full Screen" = "Tam Ekran";
+"Switch Theme Style" = "Tema Stilini Değiştir";
+
+/* Markup */
+"How should this file be saved?" = "Bu dosya nasıl kaydedilmeli?";
+"Overwrite original" = "Asıl dosyanın üzerine yaz";
+"Save as copy" = "Kopya olarak sakla";
+"Discard changes" = "Değişiklikleri yoksay";
+"Markup" = "İşaretleme";
+"Crop or Rotate" = "Kırp yada Döndür";
+"Saving edited file failed" = "Düzenlenen dosyayı kaydedilemedi";
+"File no longer exists" = "Dosya artık bulunmuyor";
+
+/* Licensing */
+"Unlocked" = "Kilit açıldı";
+"Unlock" = "Kilidi aç";
+
+"Subscribe Now" = "Hemen Abone Ol";
+"Free" = "Ücretsiz";
+
+"%@ / %@" = "%@ / %@";
+"after free %@ trial" = "ücretsiz %@ deneme sürümünden sonra";
+
+/* Example usage: "Try [14 days] for free." */
+"Try %@ for free." = "%@ gün ücretsiz kullan.";
+
+/* Example usage: "Then [1,99 €] / [year]." */
+"Then %@ / %@." = "Sonra %@ / %@ olacak.";
+
+/* Example usage: "[1,99 €] / [year] - starting immediately." */
+"%@ / %@ – starting immediately" = "Şimdi başlamak üzere %@ / %@";
+
+/* Licensing: Pro Features */
+"Pro Features" = "Profesyonel Özellikler";
+
+/* Licensing: App Store */
+"Restore purchases" = "Satın alma işlemlerini geri yükle";
+"Restoring purchases…" = "Satın alma işlemleri geri yükleniyor...";
+"Error restoring purchases" = "Satın alma işlemleri geri yüklenirken hata oluştu";
+"Error loading product info from App Store"= "Uygulama Mağazasından ürün bilgisi yüklenirken hata oluştu";
+"Purchase failed" = "Satın alma başarısız";
+"More information" = "Daha fazla bilgi";
+
+/* Licensing: Enterprise */
+"Enterprise" = "Kurumsal";
+
+/* Licensing: Settings */
+"In-App Purchases" = "Uygulama içi satın alma işlemleri";
+"Purchases & Subscriptions" = "Satın Almalar ve Abonelikler";
+"Error fetching transactions" = "İşlemler getirilirken hata oluştu";
+"Document Scanner" = "Belge Tarayıcı";
+"Scan documents and photos with your camera." = "Belgeleri ve fotoğrafları kameranızla tarayın.";
+"Shortcuts Actions" = "Kısayol Eylemleri";
+"Use OpenCloud actions in Shortcuts." = "OpenCloud aksiyonlarını ve kısayollarını kullan";
+"Markup Documents" = "Markup Belgeleri";
+"Markup photos and PDF files." = "PDF dosyalarına ve fotoğraflara işaretleme yap";
+"Unlock all Pro Features." = "Tüm profesyonel özelliklerin kilidini aç";
+
+"Purchased App Version" = "Satın alınan uygulama versiyonu";
+"Receipt Date" = "Satın Alma Tarihi";
+"Manage subscription" = "Aboneliği yönet";
+"Purchases are not allowed on this device." = "Bu cihazda satın alma işlemine izin verilmiyor.";
+"Type" = "Tür";
+"Quantity" = "Miktar";
+"Product" = "Ürün";
+"Date" = "Tarih";
+"Cancelled" = "İptal edildi";
+"Ends" = "Biter";
+"none" = "hiçbiri";
+"trial" = "deneme";
+"purchase" = "satın al";
+"subscription" = "abonelik";
+"Photo Pro Features" = "Fotoğraf Profesyonel Özellikleri";
+"Image metadata, extended upload options" = "Resim meta verileri, genişletilmiş yükleme seçenekleri";
+"Purchase" = "Satın al";
+"Subscribe" = "Abone ol";
+
+"No accounts found" = "Hesaplar bulunamadı";
+"In order to accurately determine your current licensing status, please add one or more accounts first." = "Mevcut lisans durumunuzu doğru bir şekilde belirlemek için lütfen önce bir veya daha fazla hesap ekleyin.";
+
+/* Share Sheet */
+"Save File" = "Dosyayı Kaydet";
+"Choose an account and folder to import into." = "İçeri aktarmak için bir hesap ve klasör seçin.";
+"No account configured.\nSetup an new account in the app to save to." = "Yapılandırılan hesap yok.\nKaydetmek için uygulamada yeni bir hesap oluşturun.";
+"Importing item %ld of %ld" = "%ld / %ld öge içe aktarılıyor";
+"Error importing %@" = "%@ içe aktarılırken hata oluştu";
+"Error loading item" = "Öge yüklenirken hata";
+"Preparing…" = "Hazırlanıyor...";
+"Import \"{{itemName}}\"" = "\"{{itemName}}\" ögesini içe aktar";
+"Import {{itemCount}} files" = "\"{{itemName}}\" dosyayı içe aktar";
+"Save here" = "Buraya kaydet";
+
+/* FileProvider */
+/* - Disabled */
+"File Provider access has been disabled by the administrator.\n\nPlease use the app to access your files." = "Dosya Sağlayıcı erişimi yönetici tarafından devre dışı bırakıldı.\n\nLütfen dosyalarınıza erişmek için uygulamayı kullanın.";
+"File Provider access has been disabled by the administrator. Please use the app to create new folders." = "Dosya Sağlayıcı erişimi yönetici tarafından devre dışı bırakıldı. Lütfen yeni klasörler oluşturmak için uygulamayı kullanın.";
+"File Provider access has been disabled by the administrator. Please use the share extension to import files." = "Dosya Sağlayıcı erişimi yönetici tarafından devre dışı bırakıldı. Dosyaları içe aktarmak için lütfen paylaşım uzantısını kullanın.";
+
+/* - No account */
+"No account has been set up in the {{app.name}} app yet." = "No account has been set up in the {{app.name}} app yet.";
+"Open app" = "Open app";
+
+/* Disallowed Import Methods */
+/* - Share Extension */
+"Share Extension disabled" = "Paylaşım Uzantısı devre dışı";
+"Importing files through the Share Extension is not allowed on this device." = "Bu cihazda, Paylaşım Uzantısı aracılığıyla dosyaların içe aktarılmasına izin verilmiyor.";
+
+/* - Open with */
+"Opening not allowed" = "Açmaya izin verilmez";
+"Importing files through opening is not allowed on this device." = "Bu cihazda dosyaları açma yoluyla içe aktarmaya izin verilmiyor.";
+
+/* - Files.app */
+"Import not allowed" = "İçe aktarmaya izin verilmez";
+"Importing files through the File Provider is not allowed on this device." = "Bu cihazda Dosya Sağlayıcı aracılığıyla dosyaların içe aktarılmasına izin verilmiyor.";
+
+/* Misc. accessibility */
+"Enter multiple selection" = "Çoklu seçim girin";
+
+/* Universal Links */
+"Resolving link…" = "Bağlantı çözülüyor...";
+"Link resolution failed" = "Bağlantı çözümleme başarısız";
+"Couldn't resolve a private link since you are offline and corresponding item is not cached locally." = "Çevrimdışı olduğunuz ve ilgili öge yerel olarak önbelleğe alınmadığı için özel bir bağlantı çözülemedi.";
+"Couldn't resolve a private link since the item is not known to the server." = "Öge sunucu tarafından bilinmediğinden özel bir bağlantı çözülemedi.";
+"Link points to an account bookmark which is not configured in the app." = "Bağlantı, uygulamada yapılandırılmamış bir hesap yer imine işaret eder.";
+
+/* Photo meta-data */
+"Image metadata" = "Resim meta verileri";
+"Image details" = "Resim detayları";
+"Profile" = "Profil";
+"Size" = "Boyut";
+"Density" = "Yoğunluk";
+"Color model" = "Renk modeli";
+"%@ (%d bits/channel)" = "%@ (%d bit/kanal)";
+"Histogram" = "Histogram";
+
+"Camera details" = "Kamera detayları";
+"Capture settings" = "Yakalama ayarları";
+"Time" = "Zaman";
+"EXIF aux info" = "EXIF yardımcı bilgisi";
+"Authoring" =  "Yetkilendiriliyor";
+"TIFF" = "TIFF";
+
+"Lens make" = "Lens yap";
+"Lens model" = "Lens modeli";
+"Lens info" = "Lens bilgisi";
+"Focal length" = "Odak uzaklığı";
+"Focal length @ 35 mm" = "Odak uzaklığı @ 35 mm";
+
+"Shutter speed" = "Deklanşör hızı";
+"Aperture" = "Diyafram";
+"ISO" = "ISO";
+
+/* EXIF: exposure program */
+"Program" = "Program";
+"Not defined" = "Tanımlanmadı";
+"Manual" = "Elle";
+"Normal" = "Normal";
+"Aperture priority" = "Diyafram önceliği";
+"Shutter priority" = "Deklanşör önceliği";
+"Creative" = "Yaratıcı";
+"Action" = "Eylem";
+"Portrait" = "Portre";
+"Landscape" = "Manzara";
+
+/* EXIF: exposure metering mode */
+"Metering" = "Ölçüm";
+"unknown" = "bilinmiyor";
+"Average" = "Ortalama";
+"CenterWeightedAverage" = "CenterWeightedAverage";
+"Spot" = "Leke";
+"MultiSpot" = "MultiSpot";
+"Pattern" = "Desen";
+"Partial" = "Kısmi";
+
+/* EXIF: flash mode */
+"Flash" = "Flaş";
+"Fired" = "Yanık";
+"Didn't fire" = "Yanmamış";
+"No strobe return detection" = "Flaş dönüş algılaması yok";
+"Strobe return light not detected" = "Flaş dönüş ışığı algılanmadı";
+"Strobe return light detected" = "Flaş dönüş ışığı algılandı";
+"Compulsory flash firing" = "Zorunlu flaş ateşleme";
+"Compulsory flash supression" = "Zorunlu flaş bastırma";
+"Auto mode" = "Otomatik mod";
+"Red eye detection supported" = "Kırmızı göz tespiti desteklendi";
+"not present" = "şimdi değil";
+
+/* EXIF: white balance */
+"White balance" = "Beyaz dengesi";
+"Auto" = "Otomatik";
+"Manual" = "Elle";
+
+"Exposure bias" = "Pozlama yanlılığı";
+"Uncalibrated" = "Kalibre edilmemiş";
+"Original date" = "Orijinal tarih";
+"Digitized date" = "Sayısallaştırılmış tarih";
+
+"Color space" = "Renk uzayı";
+
+/* EXIF: aux info */
+"Lens ID" = "Lens ID";
+"Lens serial" = "Lens serisi";
+"Serial number" = "Seri numarası";
+"Flash compensation" = "Flaş telafisi";
+"Owner" = "Sahip";
+"Firmware" = "Aygıt yazılımı";
+"Keywords" = "Anahtar kelimeler";
+"Copyright" = "Telif hakkı";
+
+/* IPTC meta data */
+"Contact info" = "İletişim Bilgisi";
+"Usage terms" = "Kullanım şartları";
+"Scene" = "Ekran";
+"Description" = "Açıklama";
+
+/* IPTC photometric interpretation */
+"Photometric interpretation" = "Fotometrik yorumlama";
+"none" = "hiçbiri";
+"RGB" = "RGB";
+"YCbCr" = "YCbCr";
+
+/* EXIF: gps position data */
+"GPS Location" = "GPS Konumu";
+"Coordinates" = "Koordinatlar";
+"Altitude" = "Rakım";
+"Place" = "Yer";
+"E" = "D";
+"W" = "B";
+"N" = "K";
+"S" = "G";
+
+/* Pro photo upload settings */
+"Extended upload settings" = "Genişletilmiş yükleme ayarları";
+"Prefer unedited photos" = "Düzenlenmemiş fotoğrafları tercih edin";
+"Prefer RAW photos" = "RAW fotoğrafları tercih edin";
+"Prefer original videos" = "Orijinal videoları tercih edin";
+
+/* Limited photo library access */
+"Limited Photo Access" = "Sınırlı Fotoğraf Erişimi";
+"Access for the media selected for upload is limited" = "Yükleme için seçilen medyaya erişim sınırlıdır";
+"No Access to the media selected for upload" = "Yükleme için seçilen medyaya erişim yok";
+
+/* macOS support */
+"Passcode protection is not supported on this device.\nPlease disable passcode lock in the app settings." = "Geçiş kodu koruması bu cihazda desteklenmiyor.\nLütfen uygulama ayarlarında geçiş kodu kilidini devre dışı bırakın.";
+
+/* MDM settings push */
+"New settings received from MDM" = "MDM'den alınan yeni ayarlar";
+"Tap to quit the app." = "Uygulamadan çıkmak için dokunun.";
+"Tap to launch the app." = "Uygulamayı başlatmak için dokunun.";
+
+/* Beta warning */
+"Beta Warning" = "Beta Uyarısı";
+"\nThis is a BETA release that may - and likely will - still contain bugs.\n\nYOU SHOULD NOT USE THIS BETA VERSION WITH PRODUCTION SYSTEMS, PRODUCTION DATA OR DATA OF VALUE. YOU'RE USING THIS BETA AT YOUR OWN RISK.\n\nPlease let us know about any issues that come up via the \"Send Feedback\" option in the settings." = "\nBu, hala hatalar içerebilecek - ve muhtemelen içerecek - bir BETA sürümüdür.\n\nBU BETA VERSİYONU ÜRETİM SİSTEMLERİ, ÜRETİM VERİLERİ VEYA DEĞERLİ VERİLERLE KULLANMAMALISINIZ. BU BETA'YI RİSKİ KENDİNİZE AİT OLARAK KULLANIYORSUNUZ.\n\nLütfen ayarlardaki \"Geri Bildirim Gönder\" seçeneği aracılığıyla ortaya çıkan sorunları bize bildirin.";
+"Agree" = "Kabul Et";

@@ -52,35 +52,35 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloud/Resources/en.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloud/Resources/en.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloud/Resources/de.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloud/Resources/de.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloudAppFramework/Resources/en.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloudAppFramework/Resources/en.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloudAppFramework/Resources/de.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloudAppFramework/Resources/de.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloud File Provider/en.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloud File Provider/en.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ownCloud File Provider/de.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../OpenCloud File Provider/de.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ios-sdk/ownCloudSDK/Resources/en.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../ios-sdk/OpenCloudSDK/Resources/en.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "${PROJECT_DIR}/../../ios-sdk/ownCloudSDK/Resources/de.lproj/Localizable.strings"
+            argument = "${PROJECT_DIR}/../../ios-sdk/OpenCloudSDK/Resources/de.lproj/Localizable.strings"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

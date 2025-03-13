@@ -4,7 +4,7 @@
  #
  # This code is covered by the GNU Public License Version 3.
  #
- # For distribution utilizing Apple mechanisms please see https://owncloud.org/contribute/iOS-license-exception/
+ # For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
  # You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
  
  VERSION="1.1.0"
@@ -37,7 +37,7 @@
  fi
  
  echo
- echo "${BOLD}${SUCCESS}ownCloud iOS-App Resigning Inspector${NC}"
+ echo "${BOLD}${SUCCESS}OpenCloud iOS-App Resigning Inspector${NC}"
  echo "Version ${VERSION}"
  echo
  echo "${SUCCESS}Starting IPA inspection…${NC}"
@@ -45,7 +45,7 @@
  
  UNSIGNED_IPA=$1
  APPTEMP="apptemp"
- APPPATH="$APPTEMP/ownCloud.app"
+ APPPATH="$APPTEMP/OpenCloud.app"
  
  if [ ! -f "$UNSIGNED_IPA" ]; then
  echo "${WARN}Error: can't find $UNSIGNED_IPA on the given path${NC}"
@@ -69,10 +69,10 @@ fi
  unzip -q "$UNSIGNED_IPA" -d "$APPTEMP" || { echo "${WARN}Failed to unzip ipa file${NC}"; exit 1; }
  
  if [ ! -d "$APPPATH" ]; then
-	APPPATH="$APPTEMP/Payload/ownCloud.app"
+	APPPATH="$APPTEMP/Payload/OpenCloud.app"
  fi
  
-  declare -a LOCATIONS=(      "$APPPATH/"   "$APPPATH/PlugIns/ownCloud File Provider.appex"  "$APPPATH/PlugIns/ownCloud File Provider UI.appex"  "$APPPATH/PlugIns/ownCloud Intents.appex"  "$APPPATH/PlugIns/ownCloud Share Extension.appex"  "$APPPATH/PlugIns/ownCloud Action Extension.appex" );
+  declare -a LOCATIONS=(      "$APPPATH/"   "$APPPATH/PlugIns/OpenCloud File Provider.appex"  "$APPPATH/PlugIns/OpenCloud File Provider UI.appex"  "$APPPATH/PlugIns/OpenCloud Intents.appex"  "$APPPATH/PlugIns/OpenCloud Share Extension.appex"  "$APPPATH/PlugIns/OpenCloud Action Extension.appex" );
  
   echo "${SUCCESS}Checking entitlements…${NC}"
   echo ""
@@ -112,7 +112,7 @@ fi
 	else 
 		echo "OCAppIdentifierPrefix: ${SUCCESS}$PLISTVALUE${NC}"
 	fi
-	if [[ "$a" =~ ^(ownCloud File Provider.appex)$ ]]; then
+	if [[ "$a" =~ ^(OpenCloud File Provider.appex)$ ]]; then
 		PLISTVALUE=`PlistBuddy -c "print NSExtension:NSExtensionFileProviderDocumentGroup " "$a/Info.plist"`
 		if [[ `countDots "$PLISTVALUE"` -le "2" ]]; then
 			echo "${WARN}Value may be wrong for NSExtensionFileProviderDocumentGroup: $PLISTVALUE${NC}"

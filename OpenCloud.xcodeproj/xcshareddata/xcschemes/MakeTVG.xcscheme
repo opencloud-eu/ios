@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DC7DBA33207F84BF00E7337D"
                BuildableName = "MakeTVG"
                BlueprintName = "MakeTVG"
-               ReferencedContainer = "container:ownCloud.xcodeproj">
+               ReferencedContainer = "container:OpenCloud.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,7 +33,7 @@
             BlueprintIdentifier = "DC7DBA33207F84BF00E7337D"
             BuildableName = "MakeTVG"
             BlueprintName = "MakeTVG"
-            ReferencedContainer = "container:ownCloud.xcodeproj">
+            ReferencedContainer = "container:OpenCloud.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -56,7 +56,7 @@
             BlueprintIdentifier = "DC7DBA33207F84BF00E7337D"
             BuildableName = "MakeTVG"
             BlueprintName = "MakeTVG"
-            ReferencedContainer = "container:ownCloud.xcodeproj">
+            ReferencedContainer = "container:OpenCloud.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,7 +73,7 @@
             BlueprintIdentifier = "DC7DBA33207F84BF00E7337D"
             BuildableName = "MakeTVG"
             BlueprintName = "MakeTVG"
-            ReferencedContainer = "container:ownCloud.xcodeproj">
+            ReferencedContainer = "container:OpenCloud.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

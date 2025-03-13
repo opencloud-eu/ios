@@ -4,7 +4,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "defaultValue" : [
 
     ],
@@ -15,111 +15,111 @@
     "possibleValues" : [
       {
         "description" : "Add to sidebar",
-        "value" : "com.owncloud.action.addToSidebar"
+        "value" : "com.opencloud.action.addToSidebar"
       },
       {
         "description" : "Make available offline",
-        "value" : "com.owncloud.action.availableOffline"
+        "value" : "com.opencloud.action.availableOffline"
       },
       {
         "description" : "Sharing",
-        "value" : "com.owncloud.action.collaborate"
+        "value" : "com.opencloud.action.collaborate"
       },
       {
         "description" : "Copy",
-        "value" : "com.owncloud.action.copy"
+        "value" : "com.opencloud.action.copy"
       },
       {
         "description" : "New document",
-        "value" : "com.owncloud.action.createDocument"
+        "value" : "com.opencloud.action.createDocument"
       },
       {
         "description" : "Create folder",
-        "value" : "com.owncloud.action.createFolder"
+        "value" : "com.opencloud.action.createFolder"
       },
       {
         "description" : "Create shortcut",
-        "value" : "com.owncloud.action.createShortcutFile"
+        "value" : "com.opencloud.action.createShortcutFile"
       },
       {
         "description" : "Cut",
-        "value" : "com.owncloud.action.cutpasteboard"
+        "value" : "com.opencloud.action.cutpasteboard"
       },
       {
         "description" : "Delete",
-        "value" : "com.owncloud.action.delete"
+        "value" : "com.opencloud.action.delete"
       },
       {
         "description" : "Duplicate",
-        "value" : "com.owncloud.action.duplicate"
+        "value" : "com.opencloud.action.duplicate"
       },
       {
         "description" : "Favorite item",
-        "value" : "com.owncloud.action.favorite"
+        "value" : "com.opencloud.action.favorite"
       },
       {
         "description" : "Paste",
-        "value" : "com.owncloud.action.importpasteboard"
+        "value" : "com.opencloud.action.importpasteboard"
       },
       {
         "description" : "Markup",
-        "value" : "com.owncloud.action.markup"
+        "value" : "com.opencloud.action.markup"
       },
       {
         "description" : "Move",
-        "value" : "com.owncloud.action.move"
+        "value" : "com.opencloud.action.move"
       },
       {
         "description" : "Open shortcut",
-        "value" : "com.owncloud.action.openShortcutFile"
+        "value" : "com.opencloud.action.openShortcutFile"
       },
       {
         "description" : "Open in",
-        "value" : "com.owncloud.action.openin"
+        "value" : "com.opencloud.action.openin"
       },
       {
         "description" : "Go to page",
-        "value" : "com.owncloud.action.pdfpage"
+        "value" : "com.opencloud.action.pdfpage"
       },
       {
         "description" : "Presentation Mode",
-        "value" : "com.owncloud.action.presentationmode"
+        "value" : "com.opencloud.action.presentationmode"
       },
       {
         "description" : "Remove from sidebar",
-        "value" : "com.owncloud.action.removeFromSidebar"
+        "value" : "com.opencloud.action.removeFromSidebar"
       },
       {
         "description" : "Rename",
-        "value" : "com.owncloud.action.rename"
+        "value" : "com.opencloud.action.rename"
       },
       {
         "description" : "Scan document",
-        "value" : "com.owncloud.action.scan"
+        "value" : "com.opencloud.action.scan"
       },
       {
         "description" : "Image metadata",
-        "value" : "com.owncloud.action.show-exif"
+        "value" : "com.opencloud.action.show-exif"
       },
       {
         "description" : "Unfavorite item",
-        "value" : "com.owncloud.action.unfavorite"
+        "value" : "com.opencloud.action.unfavorite"
       },
       {
         "description" : "Unshare",
-        "value" : "com.owncloud.action.unshare"
+        "value" : "com.opencloud.action.unshare"
       },
       {
         "description" : "Take photo or video",
-        "value" : "com.owncloud.action.upload.camera_media"
+        "value" : "com.opencloud.action.upload.camera_media"
       },
       {
         "description" : "Upload file",
-        "value" : "com.owncloud.action.uploadfile"
+        "value" : "com.opencloud.action.uploadfile"
       },
       {
         "description" : "Upload from your photo library",
-        "value" : "com.owncloud.action.uploadphotos"
+        "value" : "com.opencloud.action.uploadphotos"
       }
     ],
     "status" : "advanced",
@@ -130,7 +130,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "defaultValue" : "create-and-open",
     "description" : "Determines behaviour when creating a document.",
     "flatIdentifier" : "action.create-document-mode",
@@ -154,7 +154,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "defaultValue" : [
 
     ],
@@ -165,111 +165,111 @@
     "possibleValues" : [
       {
         "description" : "Add to sidebar",
-        "value" : "com.owncloud.action.addToSidebar"
+        "value" : "com.opencloud.action.addToSidebar"
       },
       {
         "description" : "Make available offline",
-        "value" : "com.owncloud.action.availableOffline"
+        "value" : "com.opencloud.action.availableOffline"
       },
       {
         "description" : "Sharing",
-        "value" : "com.owncloud.action.collaborate"
+        "value" : "com.opencloud.action.collaborate"
       },
       {
         "description" : "Copy",
-        "value" : "com.owncloud.action.copy"
+        "value" : "com.opencloud.action.copy"
       },
       {
         "description" : "New document",
-        "value" : "com.owncloud.action.createDocument"
+        "value" : "com.opencloud.action.createDocument"
       },
       {
         "description" : "Create folder",
-        "value" : "com.owncloud.action.createFolder"
+        "value" : "com.opencloud.action.createFolder"
       },
       {
         "description" : "Create shortcut",
-        "value" : "com.owncloud.action.createShortcutFile"
+        "value" : "com.opencloud.action.createShortcutFile"
       },
       {
         "description" : "Cut",
-        "value" : "com.owncloud.action.cutpasteboard"
+        "value" : "com.opencloud.action.cutpasteboard"
       },
       {
         "description" : "Delete",
-        "value" : "com.owncloud.action.delete"
+        "value" : "com.opencloud.action.delete"
       },
       {
         "description" : "Duplicate",
-        "value" : "com.owncloud.action.duplicate"
+        "value" : "com.opencloud.action.duplicate"
       },
       {
         "description" : "Favorite item",
-        "value" : "com.owncloud.action.favorite"
+        "value" : "com.opencloud.action.favorite"
       },
       {
         "description" : "Paste",
-        "value" : "com.owncloud.action.importpasteboard"
+        "value" : "com.opencloud.action.importpasteboard"
       },
       {
         "description" : "Markup",
-        "value" : "com.owncloud.action.markup"
+        "value" : "com.opencloud.action.markup"
       },
       {
         "description" : "Move",
-        "value" : "com.owncloud.action.move"
+        "value" : "com.opencloud.action.move"
       },
       {
         "description" : "Open shortcut",
-        "value" : "com.owncloud.action.openShortcutFile"
+        "value" : "com.opencloud.action.openShortcutFile"
       },
       {
         "description" : "Open in",
-        "value" : "com.owncloud.action.openin"
+        "value" : "com.opencloud.action.openin"
       },
       {
         "description" : "Go to page",
-        "value" : "com.owncloud.action.pdfpage"
+        "value" : "com.opencloud.action.pdfpage"
       },
       {
         "description" : "Presentation Mode",
-        "value" : "com.owncloud.action.presentationmode"
+        "value" : "com.opencloud.action.presentationmode"
       },
       {
         "description" : "Remove from sidebar",
-        "value" : "com.owncloud.action.removeFromSidebar"
+        "value" : "com.opencloud.action.removeFromSidebar"
       },
       {
         "description" : "Rename",
-        "value" : "com.owncloud.action.rename"
+        "value" : "com.opencloud.action.rename"
       },
       {
         "description" : "Scan document",
-        "value" : "com.owncloud.action.scan"
+        "value" : "com.opencloud.action.scan"
       },
       {
         "description" : "Image metadata",
-        "value" : "com.owncloud.action.show-exif"
+        "value" : "com.opencloud.action.show-exif"
       },
       {
         "description" : "Unfavorite item",
-        "value" : "com.owncloud.action.unfavorite"
+        "value" : "com.opencloud.action.unfavorite"
       },
       {
         "description" : "Unshare",
-        "value" : "com.owncloud.action.unshare"
+        "value" : "com.opencloud.action.unshare"
       },
       {
         "description" : "Take photo or video",
-        "value" : "com.owncloud.action.upload.camera_media"
+        "value" : "com.opencloud.action.upload.camera_media"
       },
       {
         "description" : "Upload file",
-        "value" : "com.owncloud.action.uploadfile"
+        "value" : "com.opencloud.action.uploadfile"
       },
       {
         "description" : "Upload from your photo library",
-        "value" : "com.owncloud.action.uploadphotos"
+        "value" : "com.opencloud.action.uploadphotos"
       }
     ],
     "status" : "advanced",
@@ -280,7 +280,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "description" : "List of all operating system activities that should be excluded from OS share sheets in actions such as Open In.",
     "flatIdentifier" : "action.excludedSystemActivities",
     "key" : "excludedSystemActivities",
@@ -339,7 +339,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "defaultValue" : "auto",
     "description" : "Determines how to open a document in a web app.",
     "flatIdentifier" : "action.open-in-web-app-mode",
@@ -371,7 +371,7 @@
     "category" : "Actions",
     "categoryTag" : "actions",
     "classIdentifier" : "action",
-    "className" : "ownCloudAppShared.Action",
+    "className" : "OpenCloudAppShared.Action",
     "defaultValue" : "all",
     "description" : "Determines how the app opens shortcut files (ending in `.url`) app.",
     "flatIdentifier" : "action.open-shortcut-mode",
@@ -403,7 +403,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : "https://itunes.apple.com/app/id1359583808?mt=8",
     "description" : "URL for the app in the App Store.",
     "flatIdentifier" : "app.app-store-link",
@@ -417,7 +417,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : true,
     "description" : "Enable/disable review prompt.",
     "flatIdentifier" : "app.enable-review-prompt",
@@ -431,7 +431,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : true,
     "description" : "Enable/disable UI animations.",
     "flatIdentifier" : "app.enable-ui-animations",
@@ -445,7 +445,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : false,
     "description" : "Controls if the app is built for beta or release purposes.",
     "flatIdentifier" : "app.is-beta-build",
@@ -459,7 +459,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : true,
     "description" : "Enables/disables the recommend to a friend entry in the settings.",
     "flatIdentifier" : "app.recommend-to-friend-enabled",
@@ -473,7 +473,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "app",
-    "className" : "ownCloudAppShared.VendorServices",
+    "className" : "OpenCloudAppShared.VendorServices",
     "defaultValue" : false,
     "description" : "Controls whether a warning should be shown on the first run of a beta version.",
     "flatIdentifier" : "app.show-beta-warning",
@@ -543,7 +543,7 @@
     "categoryTag" : "oauth2",
     "classIdentifier" : "authentication-oauth2",
     "className" : "OCAuthenticationMethodOAuth2",
-    "defaultValue" : "oc://ios.owncloud.com",
+    "defaultValue" : "oc://ios.opencloud.eu",
     "description" : "OAuth2 Redirect URI.",
     "flatIdentifier" : "authentication-oauth2.oa2-redirect-uri",
     "key" : "oa2-redirect-uri",
@@ -599,7 +599,7 @@
     "categoryTag" : "oidc",
     "classIdentifier" : "authentication-oauth2",
     "className" : "OCAuthenticationMethodOAuth2",
-    "defaultValue" : "oc://ios.owncloud.com",
+    "defaultValue" : "oc://ios.opencloud.eu",
     "description" : "OpenID Connect Redirect URI",
     "flatIdentifier" : "authentication-oauth2.oidc-redirect-uri",
     "key" : "oidc-redirect-uri",
@@ -627,7 +627,7 @@
     "categoryTag" : "oidc",
     "classIdentifier" : "authentication-oauth2",
     "className" : "OCAuthenticationMethodOAuth2",
-    "defaultValue" : "ownCloud/{{os.name}} {{app.version}}",
+    "defaultValue" : "OpenCloud/{{os.name}} {{app.version}}",
     "description" : "Client Name Template to use during OpenID Connect Dynamic Client Registration. In addition to the placeholders available for `http.user-agent`, `{{url.hostname}}` can also be used.",
     "flatIdentifier" : "authentication-oauth2.oidc-register-client-name-template",
     "key" : "oidc-register-client-name-template",
@@ -744,7 +744,7 @@
     "category" : "Bookmarks",
     "categoryTag" : "bookmarks",
     "classIdentifier" : "bookmark",
-    "className" : "ownCloud.BookmarkViewController",
+    "className" : "OpenCloud.BookmarkViewController",
     "description" : "Controls prepopulation of the local database with the full item set during account setup.",
     "flatIdentifier" : "bookmark.prepopulation",
     "key" : "prepopulation",
@@ -1072,7 +1072,7 @@
     "categoryTag" : "branding",
     "classIdentifier" : "branding",
     "className" : "Branding",
-    "defaultValue" : "https://doc.owncloud.com/ios-app/latest/",
+    "defaultValue" : "https://doc.opencloud.eu/ios-app/latest/",
     "description" : "URL to documentation for the app. Opened when selecting \"Documentation\" in the settings.",
     "flatIdentifier" : "branding.url-documentation",
     "key" : "url-documentation",
@@ -1086,7 +1086,7 @@
     "categoryTag" : "branding",
     "classIdentifier" : "branding",
     "className" : "Branding",
-    "defaultValue" : "https://owncloud.com/docs-guides/",
+    "defaultValue" : "https://opencloud.eu/docs-guides/",
     "description" : "URL to get help for the app. Opened when selecting \"Help\" in the settings.",
     "flatIdentifier" : "branding.url-help",
     "key" : "url-help",
@@ -1100,7 +1100,7 @@
     "categoryTag" : "branding",
     "classIdentifier" : "branding",
     "className" : "Branding",
-    "defaultValue" : "https://owncloud.org/privacy-policy/",
+    "defaultValue" : "https://opencloud.eu/privacy-policy/",
     "description" : "URL to get privacy information for the app. Opened when selecting \"Privacy\" in the settings.",
     "flatIdentifier" : "branding.url-privacy",
     "key" : "url-privacy",
@@ -1114,7 +1114,7 @@
     "categoryTag" : "branding",
     "classIdentifier" : "branding",
     "className" : "Branding",
-    "defaultValue" : "https://raw.githubusercontent.com/owncloud/ios-app/master/LICENSE",
+    "defaultValue" : "https://raw.githubusercontent.com/opencloud/ios-app/master/LICENSE",
     "description" : "URL to terms of use for the app. Opened when selecting \"Terms Of Use\" in the settings.",
     "flatIdentifier" : "branding.url-terms-of-use",
     "key" : "url-terms-of-use",
@@ -1128,7 +1128,7 @@
     "categoryTag" : "branding",
     "classIdentifier" : "branding",
     "className" : "Branding",
-    "description" : "URL of the instance theme.json file, which can contain instance or app specific branding parameter. Setting this to `auto` will construct the URL by adding `themes/owncloud/theme.json` to the respective server's base address.",
+    "description" : "URL of the instance theme.json file, which can contain instance or app specific branding parameter. Setting this to `auto` will construct the URL by adding `themes/opencloud/theme.json` to the respective server's base address.",
     "flatIdentifier" : "branding.url-theme-json",
     "key" : "url-theme-json",
     "label" : "URL of the theme.json",
@@ -1193,8 +1193,8 @@
     "categoryTag" : "build",
     "classIdentifier" : "build",
     "className" : "BuildOptions",
-    "defaultValue" : "owncloud",
-    "description" : "Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
+    "defaultValue" : "opencloud",
+    "description" : "Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
     "flatIdentifier" : "build.custom-app-scheme",
     "key" : "custom-app-scheme",
     "label" : "build.custom-app-scheme",
@@ -1208,7 +1208,7 @@
     "classIdentifier" : "build",
     "className" : "BuildOptions",
     "defaultValue" : "oc",
-    "description" : "Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
+    "description" : "Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
     "flatIdentifier" : "build.custom-auth-scheme",
     "key" : "custom-auth-scheme",
     "label" : "build.custom-auth-scheme",
@@ -1221,7 +1221,7 @@
     "categoryTag" : "build",
     "classIdentifier" : "build",
     "className" : "BuildOptions",
-    "description" : "A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/owncloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
+    "description" : "A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.",
     "flatIdentifier" : "build.flags",
     "key" : "flags",
     "label" : "build.flags",
@@ -1340,15 +1340,15 @@
     "possibleValues" : [
       {
         "description" : "Basic Auth",
-        "value" : "com.owncloud.basicauth"
+        "value" : "com.opencloud.basicauth"
       },
       {
         "description" : "OAuth2",
-        "value" : "com.owncloud.oauth2"
+        "value" : "com.opencloud.oauth2"
       },
       {
         "description" : "OpenID Connect",
-        "value" : "com.owncloud.openid-connect"
+        "value" : "com.opencloud.openid-connect"
       }
     ],
     "status" : "recommended",
@@ -1405,7 +1405,7 @@
     "classIdentifier" : "connection",
     "className" : "OCConnection",
     "defaultValue" : "bookmarkCertificate == serverCertificate",
-    "description" : "Rule that defines the criteria a certificate needs to meet for OCConnection to recognize it as valid for a bookmark.\n\nExamples of expressions:\n- `bookmarkCertificate == serverCertificate`: the whole certificate needs to be identical to the one stored in the bookmark during setup.\n- `bookmarkCertificate.publicKeyData == serverCertificate.publicKeyData`:  the public key of the received certificate needs to be identical to the public key stored in the bookmark during setup.\n- `serverCertificate.passedValidationOrIsUserAccepted == true`: any certificate is accepted as long as it has passed validation by the OS or was accepted by the user.\n- `serverCertificate.commonName == \"demo.owncloud.org\"`: the common name of the certificate must be \"demo.owncloud.org\".\n- `serverCertificate.rootCertificate.commonName == \"DST Root CA X3\"`: the common name of the root certificate must be \"DST Root CA X3\".\n- `serverCertificate.parentCertificate.commonName == \"Let's Encrypt Authority X3\"`: the common name of the parent certificate must be \"Let's Encrypt Authority X3\".\n- `serverCertificate.publicKeyData.sha256Hash.asFingerPrintString == \"2A 00 98 90 BD … F7\"`: the SHA-256 fingerprint of the public key of the server certificate needs to match the provided value.\n",
+    "description" : "Rule that defines the criteria a certificate needs to meet for OCConnection to recognize it as valid for a bookmark.\n\nExamples of expressions:\n- `bookmarkCertificate == serverCertificate`: the whole certificate needs to be identical to the one stored in the bookmark during setup.\n- `bookmarkCertificate.publicKeyData == serverCertificate.publicKeyData`:  the public key of the received certificate needs to be identical to the public key stored in the bookmark during setup.\n- `serverCertificate.passedValidationOrIsUserAccepted == true`: any certificate is accepted as long as it has passed validation by the OS or was accepted by the user.\n- `serverCertificate.commonName == \"demo.opencloud.eu\"`: the common name of the certificate must be \"demo.opencloud.eu\".\n- `serverCertificate.rootCertificate.commonName == \"DST Root CA X3\"`: the common name of the root certificate must be \"DST Root CA X3\".\n- `serverCertificate.parentCertificate.commonName == \"Let's Encrypt Authority X3\"`: the common name of the parent certificate must be \"Let's Encrypt Authority X3\".\n- `serverCertificate.publicKeyData.sha256Hash.asFingerPrintString == \"2A 00 98 90 BD … F7\"`: the SHA-256 fingerprint of the public key of the server certificate needs to match the provided value.\n",
     "flags" : 4,
     "flatIdentifier" : "connection.certificate-extended-validation-rule",
     "key" : "certificate-extended-validation-rule",
@@ -1480,7 +1480,7 @@
     "classIdentifier" : "connection",
     "className" : "OCConnection",
     "defaultValue" : "status.php",
-    "description" : "Endpoint to retrieve basic status information and detect an ownCloud installation.",
+    "description" : "Endpoint to retrieve basic status information and detect an OpenCloud installation.",
     "flags" : 4,
     "flatIdentifier" : "connection.endpoint-status",
     "key" : "endpoint-status",
@@ -1600,9 +1600,9 @@
     "classIdentifier" : "connection",
     "className" : "OCConnection",
     "defaultValue" : [
-      "com.owncloud.openid-connect",
-      "com.owncloud.oauth2",
-      "com.owncloud.basicauth"
+      "com.opencloud.openid-connect",
+      "com.opencloud.oauth2",
+      "com.opencloud.basicauth"
     ],
     "description" : "Array of authentication methods in order of preference (most preferred first).",
     "flags" : 4,
@@ -1612,15 +1612,15 @@
     "possibleValues" : [
       {
         "description" : "Basic Auth",
-        "value" : "com.owncloud.basicauth"
+        "value" : "com.opencloud.basicauth"
       },
       {
         "description" : "OAuth2",
-        "value" : "com.owncloud.oauth2"
+        "value" : "com.opencloud.oauth2"
       },
       {
         "description" : "OpenID Connect",
-        "value" : "com.owncloud.openid-connect"
+        "value" : "com.opencloud.openid-connect"
       }
     ],
     "status" : "recommended",
@@ -1807,7 +1807,7 @@
     "category" : "Diagnostics",
     "categoryTag" : "diagnostics",
     "classIdentifier" : "diagnostics",
-    "className" : "ownCloud.DiagnosticManager",
+    "className" : "OpenCloud.DiagnosticManager",
     "defaultValue" : false,
     "description" : "Controls whether additional diagnostic options and information is available throughout the user interface.",
     "flatIdentifier" : "diagnostics.enabled",
@@ -1881,132 +1881,132 @@
         "value" : "auth-race-condition"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.addToSidebar.",
-        "value" : "com.owncloud.action.addToSidebar"
+        "description" : "Extension with the identifier com.opencloud.action.addToSidebar.",
+        "value" : "com.opencloud.action.addToSidebar"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.availableOffline.",
-        "value" : "com.owncloud.action.availableOffline"
+        "description" : "Extension with the identifier com.opencloud.action.availableOffline.",
+        "value" : "com.opencloud.action.availableOffline"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.background_update.",
-        "value" : "com.owncloud.action.background_update"
+        "description" : "Extension with the identifier com.opencloud.action.background_update.",
+        "value" : "com.opencloud.action.background_update"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.collaborate.",
-        "value" : "com.owncloud.action.collaborate"
+        "description" : "Extension with the identifier com.opencloud.action.collaborate.",
+        "value" : "com.opencloud.action.collaborate"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.copy.",
-        "value" : "com.owncloud.action.copy"
+        "description" : "Extension with the identifier com.opencloud.action.copy.",
+        "value" : "com.opencloud.action.copy"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.createDocument.",
-        "value" : "com.owncloud.action.createDocument"
+        "description" : "Extension with the identifier com.opencloud.action.createDocument.",
+        "value" : "com.opencloud.action.createDocument"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.createFolder.",
-        "value" : "com.owncloud.action.createFolder"
+        "description" : "Extension with the identifier com.opencloud.action.createFolder.",
+        "value" : "com.opencloud.action.createFolder"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.createShortcutFile.",
-        "value" : "com.owncloud.action.createShortcutFile"
+        "description" : "Extension with the identifier com.opencloud.action.createShortcutFile.",
+        "value" : "com.opencloud.action.createShortcutFile"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.cutpasteboard.",
-        "value" : "com.owncloud.action.cutpasteboard"
+        "description" : "Extension with the identifier com.opencloud.action.cutpasteboard.",
+        "value" : "com.opencloud.action.cutpasteboard"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.delete.",
-        "value" : "com.owncloud.action.delete"
+        "description" : "Extension with the identifier com.opencloud.action.delete.",
+        "value" : "com.opencloud.action.delete"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.duplicate.",
-        "value" : "com.owncloud.action.duplicate"
+        "description" : "Extension with the identifier com.opencloud.action.duplicate.",
+        "value" : "com.opencloud.action.duplicate"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.favorite.",
-        "value" : "com.owncloud.action.favorite"
+        "description" : "Extension with the identifier com.opencloud.action.favorite.",
+        "value" : "com.opencloud.action.favorite"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.importpasteboard.",
-        "value" : "com.owncloud.action.importpasteboard"
+        "description" : "Extension with the identifier com.opencloud.action.importpasteboard.",
+        "value" : "com.opencloud.action.importpasteboard"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.instant_media_upload.",
-        "value" : "com.owncloud.action.instant_media_upload"
+        "description" : "Extension with the identifier com.opencloud.action.instant_media_upload.",
+        "value" : "com.opencloud.action.instant_media_upload"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.markup.",
-        "value" : "com.owncloud.action.markup"
+        "description" : "Extension with the identifier com.opencloud.action.markup.",
+        "value" : "com.opencloud.action.markup"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.move.",
-        "value" : "com.owncloud.action.move"
+        "description" : "Extension with the identifier com.opencloud.action.move.",
+        "value" : "com.opencloud.action.move"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.openShortcutFile.",
-        "value" : "com.owncloud.action.openShortcutFile"
+        "description" : "Extension with the identifier com.opencloud.action.openShortcutFile.",
+        "value" : "com.opencloud.action.openShortcutFile"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.openin.",
-        "value" : "com.owncloud.action.openin"
+        "description" : "Extension with the identifier com.opencloud.action.openin.",
+        "value" : "com.opencloud.action.openin"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.pdfpage.",
-        "value" : "com.owncloud.action.pdfpage"
+        "description" : "Extension with the identifier com.opencloud.action.pdfpage.",
+        "value" : "com.opencloud.action.pdfpage"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.pending_media_upload.",
-        "value" : "com.owncloud.action.pending_media_upload"
+        "description" : "Extension with the identifier com.opencloud.action.pending_media_upload.",
+        "value" : "com.opencloud.action.pending_media_upload"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.presentationmode.",
-        "value" : "com.owncloud.action.presentationmode"
+        "description" : "Extension with the identifier com.opencloud.action.presentationmode.",
+        "value" : "com.opencloud.action.presentationmode"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.removeFromSidebar.",
-        "value" : "com.owncloud.action.removeFromSidebar"
+        "description" : "Extension with the identifier com.opencloud.action.removeFromSidebar.",
+        "value" : "com.opencloud.action.removeFromSidebar"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.rename.",
-        "value" : "com.owncloud.action.rename"
+        "description" : "Extension with the identifier com.opencloud.action.rename.",
+        "value" : "com.opencloud.action.rename"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.scan.",
-        "value" : "com.owncloud.action.scan"
+        "description" : "Extension with the identifier com.opencloud.action.scan.",
+        "value" : "com.opencloud.action.scan"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.show-exif.",
-        "value" : "com.owncloud.action.show-exif"
+        "description" : "Extension with the identifier com.opencloud.action.show-exif.",
+        "value" : "com.opencloud.action.show-exif"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.unfavorite.",
-        "value" : "com.owncloud.action.unfavorite"
+        "description" : "Extension with the identifier com.opencloud.action.unfavorite.",
+        "value" : "com.opencloud.action.unfavorite"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.unshare.",
-        "value" : "com.owncloud.action.unshare"
+        "description" : "Extension with the identifier com.opencloud.action.unshare.",
+        "value" : "com.opencloud.action.unshare"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.upload.camera_media.",
-        "value" : "com.owncloud.action.upload.camera_media"
+        "description" : "Extension with the identifier com.opencloud.action.upload.camera_media.",
+        "value" : "com.opencloud.action.upload.camera_media"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.uploadfile.",
-        "value" : "com.owncloud.action.uploadfile"
+        "description" : "Extension with the identifier com.opencloud.action.uploadfile.",
+        "value" : "com.opencloud.action.uploadfile"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.action.uploadphotos.",
-        "value" : "com.owncloud.action.uploadphotos"
+        "description" : "Extension with the identifier com.opencloud.action.uploadphotos.",
+        "value" : "com.opencloud.action.uploadphotos"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.dark.",
-        "value" : "com.owncloud.dark"
+        "description" : "Extension with the identifier com.opencloud.dark.",
+        "value" : "com.opencloud.dark"
       },
       {
-        "description" : "Extension with the identifier com.owncloud.light.",
-        "value" : "com.owncloud.light"
+        "description" : "Extension with the identifier com.opencloud.light.",
+        "value" : "com.opencloud.light"
       },
       {
         "description" : "Extension with the identifier five-seconds-of-404.",
@@ -2041,28 +2041,28 @@
         "value" : "only-404"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.image.",
-        "value" : "org.owncloud.image"
+        "description" : "Extension with the identifier org.opencloud.image.",
+        "value" : "org.opencloud.image"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.media.",
-        "value" : "org.owncloud.media"
+        "description" : "Extension with the identifier org.opencloud.media.",
+        "value" : "org.opencloud.media"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.pdfViewer.default.",
-        "value" : "org.owncloud.pdfViewer.default"
+        "description" : "Extension with the identifier org.opencloud.pdfViewer.default.",
+        "value" : "org.opencloud.pdfViewer.default"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.ql_preview.",
-        "value" : "org.owncloud.ql_preview"
+        "description" : "Extension with the identifier org.opencloud.ql_preview.",
+        "value" : "org.opencloud.ql_preview"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.url-shortcut.",
-        "value" : "org.owncloud.url-shortcut"
+        "description" : "Extension with the identifier org.opencloud.url-shortcut.",
+        "value" : "org.opencloud.url-shortcut"
       },
       {
-        "description" : "Extension with the identifier org.owncloud.webview.",
-        "value" : "org.owncloud.webview"
+        "description" : "Extension with the identifier org.opencloud.webview.",
+        "value" : "org.opencloud.webview"
       },
       {
         "description" : "Extension with the identifier recovering-apm.",
@@ -2178,8 +2178,8 @@
     "categoryTag" : "connection",
     "classIdentifier" : "http",
     "className" : "OCHTTPPipeline",
-    "defaultValue" : "ownCloudApp/{{app.version}} ({{app.part}}/{{app.build}}; {{os.name}}/{{os.version}}; {{device.model}})",
-    "description" : "A custom `User-Agent` to send with every HTTP request.\n\nThe following placeholders can be used to make it dynamic:\n- `{{app.build}}`: the build number of the app (f.ex. `123`)\n- `{{app.version}}`: the version of the app (f.ex. `1.2`)\n- `{{app.part}}`: the part of the app (more exactly: the name of the main bundle) from which the request was sent (f.ex. `App`, `ownCloud File Provider`)\n- `{{device.model}}`: the model of the device running the app (f.ex. `iPhone`, `iPad`)\n- `{{device.model-id}}`: the model identifier of the device running the app (f.ex. `iPhone8,1`)\n- `{{os.name}}` : the name of the operating system running on the device (f.ex. `iOS`, `iPadOS`)\n- `{{os.version}}`: the version of operating system running on the device (f.ex. `13.2.2`)\n",
+    "defaultValue" : "OpenCloudApp/{{app.version}} ({{app.part}}/{{app.build}}; {{os.name}}/{{os.version}}; {{device.model}})",
+    "description" : "A custom `User-Agent` to send with every HTTP request.\n\nThe following placeholders can be used to make it dynamic:\n- `{{app.build}}`: the build number of the app (f.ex. `123`)\n- `{{app.version}}`: the version of the app (f.ex. `1.2`)\n- `{{app.part}}`: the part of the app (more exactly: the name of the main bundle) from which the request was sent (f.ex. `App`, `OpenCloud File Provider`)\n- `{{device.model}}`: the model of the device running the app (f.ex. `iPhone`, `iPad`)\n- `{{device.model-id}}`: the model identifier of the device running the app (f.ex. `iPhone8,1`)\n- `{{os.name}}` : the name of the operating system running on the device (f.ex. `iOS`, `iPadOS`)\n- `{{os.version}}`: the version of operating system running on the device (f.ex. `13.2.2`)\n",
     "flatIdentifier" : "http.user-agent",
     "key" : "user-agent",
     "label" : "http.user-agent",
@@ -2679,7 +2679,7 @@
     "category" : "Release Notes",
     "categoryTag" : "releasenotes",
     "classIdentifier" : "releasenotes",
-    "className" : "ownCloud.ReleaseNotesDatasource",
+    "className" : "OpenCloud.ReleaseNotesDatasource",
     "description" : "The last-seen app version.",
     "flatIdentifier" : "releasenotes.lastSeenAppVersion",
     "key" : "lastSeenAppVersion",
@@ -2692,7 +2692,7 @@
     "category" : "Release Notes",
     "categoryTag" : "releasenotes",
     "classIdentifier" : "releasenotes",
-    "className" : "ownCloud.ReleaseNotesDatasource",
+    "className" : "OpenCloud.ReleaseNotesDatasource",
     "description" : "The app version for which the release notes were last shown.",
     "flatIdentifier" : "releasenotes.lastSeenReleaseNotesVersion",
     "key" : "lastSeenReleaseNotesVersion",
@@ -2705,7 +2705,7 @@
     "category" : "App",
     "categoryTag" : "app",
     "classIdentifier" : "search",
-    "className" : "ownCloudAppShared.SearchScope",
+    "className" : "OpenCloudAppShared.SearchScope",
     "defaultValue" : "folder",
     "description" : "The search scope to pre-select when search is invoked inside a folder.",
     "flatIdentifier" : "search.defaultScope",
@@ -2761,11 +2761,11 @@
     "label" : "server-locator.use",
     "possibleValues" : [
       {
-        "description" : "Locate server via lookup table. Keys can match against the beginning (f.ex. \"begins:bob@\"), end (f.ex. \"ends:@owncloud.org\") or regular expression (f.ex. \"regexp:\")",
+        "description" : "Locate server via lookup table. Keys can match against the beginning (f.ex. \"begins:bob@\"), end (f.ex. \"ends:@opencloud.eu\") or regular expression (f.ex. \"regexp:\")",
         "value" : "lookup-table"
       },
       {
-        "description" : "Locate server via Webfinger service-instance relation (http://webfinger.owncloud/rel/server-instance) using the entered/provided server URL",
+        "description" : "Locate server via Webfinger service-instance relation (http://webfinger.opencloud/rel/server-instance) using the entered/provided server URL",
         "value" : "web-finger"
       }
     ],

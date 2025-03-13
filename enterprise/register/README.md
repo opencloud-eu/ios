@@ -30,7 +30,7 @@ After preparing the environement you can run the script:
 sudo bundle exec registerOwncloudApp.rb
 ```
 
-The script will guide you to enter all needed values to setup all informations to register all targets for the ownCloud app to your Apple Developer account.
+The script will guide you to enter all needed values to setup all informations to register all targets for the OpenCloud app to your Apple Developer account.
 
 
 
@@ -40,5 +40,5 @@ After the registration is done, the created folder `Asssets` and `vendor` can be
 
 Please note, that the folder `Assets` could contain the private key for a newly created signing certificate. Please store this file into a secure folder or delete the file.
 
-Provisioning Profiles will be stored in the folder `../resign/Provisioning Files` and should be kept for resigning the ownCloud binary file (`IPA`).
+Provisioning Profiles will be stored in the folder `../resign/Provisioning Files` and should be kept for resigning the OpenCloud binary file (`IPA`).
 

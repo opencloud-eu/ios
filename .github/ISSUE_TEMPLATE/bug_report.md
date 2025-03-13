@@ -9,7 +9,7 @@ assignees: ''
 
 
 <!--
-Thanks for reporting issues back to this repository, your contributions are much appreciated! This is the issue tracker of the ownCloud iOS app.
+Thanks for reporting issues back to this repository, your contributions are much appreciated! This is the issue tracker of the OpenCloud iOS app.
 
 To make it possible for us to help you please fill out the below information carefully.
 --> 
@@ -30,7 +30,7 @@ Tell us what happens instead
 ### Client
 **iOS version:**
 
-**ownCloud app version:**
+**OpenCloud app version:**
 
 **Device model:**
 
@@ -41,7 +41,7 @@ Tell us what happens instead
 
 **PHP version:**
 
-**ownCloud version:**
+**OpenCloud version:**
 
 **Storage backend (external storage):**
 
@@ -51,9 +51,9 @@ Tell us what happens instead
 Insert your webserver log here
 ```
 
-#### ownCloud log (data/owncloud.log)
+#### OpenCloud log (data/opencloud.log)
 ```
-Insert your ownCloud log here
+Insert your OpenCloud log here
 ```
 <!--
 ## If you have suggestions of enhancements

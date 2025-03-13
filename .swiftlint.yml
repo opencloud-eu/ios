@@ -1,6 +1,6 @@
 excluded:
-    - ownCloudTests
-    - ownCloudScreenshotsTests
+    - OpenCloudTests
+    - OpenCloudScreenshotsTests
     - external
 
 #function_body_length: 100

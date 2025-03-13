@@ -9,10 +9,10 @@ platform :ios do
   desc "Push a new beta build to TestFlight"
    lane :beta do
      ensure_git_status_clean # Ensure that your git status is not dirty
-     increment_build_number xcodeproj: "ownCloud.xcodeproj" # Automatically increase the build number
-     commit_version_bump(xcodeproj: "ownCloud.xcodeproj") # Commit the version bump
+     increment_build_number xcodeproj: "OpenCloud.xcodeproj" # Automatically increase the build number
+     commit_version_bump(xcodeproj: "OpenCloud.xcodeproj") # Commit the version bump
      push_to_git_remote # Push the new commit and tag back to git remote
-     build_app(scheme: "ownCloud") # Build scheme
+     build_app(scheme: "OpenCloud") # Build scheme
      changelog_from_git_commits # Generate the changelog based on last commits
      upload_to_testflight(skip_waiting_for_build_processing: true) # Upload build to itunesconnnect
 
@@ -28,19 +28,19 @@ platform :ios do
    lane :build_ipa_ad_hoc do
     #Create the build
     gym(
-      project: "ownCloud.xcodeproj",
-      scheme: "ownCloud",
-      codesigning_identity: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
+      project: "OpenCloud.xcodeproj",
+      scheme: "OpenCloud",
+      codesigning_identity: "Apple Distribution: OpenCloud GmbH (4AP2STM4H5)",
       export_method: "ad-hoc",
       export_options: {
         method: "ad-hoc",
         provisioningProfiles: {
-          "com.owncloud.ios-app" => "match AdHoc com.owncloud.ios-app",
-	        "com.owncloud.ios-app.ownCloud-File-Provider" => "match AdHoc com.owncloud.ios-app.ownCloud-File-Provider",
-	        "com.owncloud.ios-app.ownCloud-File-ProviderUI" => "match AdHoc com.owncloud.ios-app.ownCloud-File-ProviderUI",
-	        "com.owncloud.ios-app.ownCloud-Intents" => "match AdHoc com.owncloud.ios-app.ownCloud-Intents",
-          "com.owncloud.ios-app.ownCloud-Share-Extension" => "match AdHoc com.owncloud.ios-app.ownCloud-Share-Extension",
-          "com.owncloud.ios-app.ownCloud-Action-Extension" => "match AdHoc com.owncloud.ios-app.ownCloud-Action-Extension"
+          "eu.opencloud.ios" => "match AdHoc eu.opencloud.ios",
+	        "eu.opencloud.ios.OpenCloud-File-Provider" => "match AdHoc eu.opencloud.ios.OpenCloud-File-Provider",
+	        "eu.opencloud.ios.OpenCloud-File-ProviderUI" => "match AdHoc eu.opencloud.ios.OpenCloud-File-ProviderUI",
+	        "eu.opencloud.ios.OpenCloud-Intents" => "match AdHoc eu.opencloud.ios.OpenCloud-Intents",
+          "eu.opencloud.ios.OpenCloud-Share-Extension" => "match AdHoc eu.opencloud.ios.OpenCloud-Share-Extension",
+          "eu.opencloud.ios.OpenCloud-Action-Extension" => "match AdHoc eu.opencloud.ios.OpenCloud-Action-Extension"
           #Add more Provisioning Profiles when extensions are added
         }
       }
@@ -60,7 +60,7 @@ platform :ios do
         skip_binary_upload: true,
         force: true,
         overwrite_screenshots: true,
-        app_identifier: "com.owncloud.ios-app",
+        app_identifier: "eu.opencloud.ios",
         skip_app_version_update: true
       )
     end
@@ -86,9 +86,9 @@ platform :ios do
         if create_release_notes
           puts("Creating Release Notes…")
           release_notes(
-            xcodeproj: "ownCloud.xcodeproj",
+            xcodeproj: "OpenCloud.xcodeproj",
             version_key: "APP_SHORT_VERSION",
-            path: "ownCloud/Release Notes/ReleaseNotes.plist",
+            path: "OpenCloud/Release Notes/ReleaseNotes.plist",
             app_name: options[:app_name],
             output_path: output_path
           )
@@ -137,9 +137,9 @@ platform :ios do
           build_emm_app = options[:build_emm_app]
         end
 
-        build_owncloud_online_app = true
-        if options[:build_owncloud_online_app] == false
-          build_owncloud_online_app = options[:build_owncloud_online_app]
+        build_opencloud_online_app = true
+        if options[:build_opencloud_online_app] == false
+          build_opencloud_online_app = options[:build_opencloud_online_app]
         end
 
         # Update Bundle IDs and Build App
@@ -149,13 +149,13 @@ platform :ios do
           prepare_metadata(
           	create_release_notes: options[:create_release_notes],
           	create_screenshots: options[:create_screenshots],
-          	app_name: "ownCloud",
+          	app_name: "OpenCloud",
           	metadata_path: 'fastlane/metadata/en-US/release_notes.txt'
           )
 
           puts("Build regular iOS App…")
           # Build App
-          owncloud_regular_build()
+          opencloud_regular_build()
 
           # Deliver
           if deliver
@@ -168,9 +168,9 @@ platform :ios do
               skip_binary_upload: false,
               force: true,
               overwrite_screenshots: create_screenshots,
-              app_identifier: "com.owncloud.ios-app",
+              app_identifier: "eu.opencloud.ios",
               skip_app_version_update: true,
-              ipa: "ownCloud-regular.ipa"
+              ipa: "OpenCloud-regular.ipa"
             )
           end
         end
@@ -181,16 +181,16 @@ platform :ios do
           prepare_metadata(
           	create_release_notes: options[:create_release_notes],
           	create_screenshots: options[:create_screenshots],
-          	app_name: "ownCloud EMM",
+          	app_name: "OpenCloud EMM",
           	metadata_path: 'fastlane/metadata-emm/en-US/release_notes.txt'
           )
 
           puts("Build EMM iOS App…")
           # Moving all EMM resources to the correct place
-          sh "cp -R ../ownCloud/Resources/Theming/com.owncloud.ios-app.emm/*.png ../ownCloud/Resources/Theming/branding-assets/"
+          sh "cp -R ../OpenCloud/Resources/Theming/eu.opencloud.ios.emm/*.png ../OpenCloud/Resources/Theming/branding-assets/"
 
           # Build App
-          owncloud_emm_build()
+          opencloud_emm_build()
 
           # Deliver
           if deliver
@@ -203,150 +203,150 @@ platform :ios do
               skip_binary_upload: false,
               force: true,
               overwrite_screenshots: create_screenshots,
-              app_identifier: "com.owncloud.ios-app.emm",
+              app_identifier: "eu.opencloud.ios.emm",
               skip_app_version_update: true,
-              ipa: "ownCloud-emm.ipa"
+              ipa: "OpenCloud-emm.ipa"
             )
           end
       end
 
-      if build_owncloud_online_app
+      if build_opencloud_online_app
           puts("Prepare Metadata…")
           # Prepare Metadata
           prepare_metadata(
           	create_release_notes: options[:create_release_notes],
           	create_screenshots: options[:create_screenshots],
-          	app_name: "ownCloud Online",
-          	metadata_path: 'fastlane/metadata-owncloud-online/en-US/release_notes.txt'
+          	app_name: "OpenCloud Online",
+          	metadata_path: 'fastlane/metadata-opencloud-online/en-US/release_notes.txt'
           )
 
-        puts("Build ownCloud Online iOS App…")
+        puts("Build OpenCloud Online iOS App…")
 
-        # Moving all ownCloud.online resources to the correct place
-        sh "cp -R  ../ownCloud/Resources/Theming/online.owncloud.ios-app/*.png ../ownCloud/Resources/Theming/branding-assets/"
-        sh "cp ../ownCloud/Resources/Theming/online.owncloud.ios-app/Branding.plist ../ownCloud/Resources/Theming/"
+        # Moving all OpenCloud.online resources to the correct place
+        sh "cp -R  ../OpenCloud/Resources/Theming/online.opencloud.ios-app/*.png ../OpenCloud/Resources/Theming/branding-assets/"
+        sh "cp ../OpenCloud/Resources/Theming/online.opencloud.ios-app/Branding.plist ../OpenCloud/Resources/Theming/"
         
         # Build App
-        owncloud_online_build()
+        opencloud_online_build()
 
         # Deliver
         if deliver
           deliver(
             skip_screenshots: skip_screenshots,
             skip_metadata: false,
-            metadata_path: "./metadata-owncloud-online",
+            metadata_path: "./metadata-opencloud-online",
             submit_for_review: false,
             ignore_language_directory_validation: true,
             skip_binary_upload: false,
             force: true,
             overwrite_screenshots: create_screenshots,
-            app_identifier: "online.owncloud.ios-app",
+            app_identifier: "online.opencloud.ios-app",
             skip_app_version_update: true,
-            ipa: "ownCloud-online.ipa"
+            ipa: "OpenCloud-online.ipa"
           )
         end
     end
   end
 
-  lane :owncloud_regular_build do
+  lane :opencloud_regular_build do
     build_ipa_in_house(
-      ENTERPRISE_APP_ID: "com.owncloud.ios-app",
-      ENTERPRISE_APP_PROFILE: "match AppStore com.owncloud.ios-app",
-      ENTERPRISE_FP_ID: "com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_FP_UI_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_INTENT_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
+      ENTERPRISE_APP_ID: "eu.opencloud.ios",
+      ENTERPRISE_APP_PROFILE: "match AppStore eu.opencloud.ios",
+      ENTERPRISE_FP_ID: "eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_UI_ID: "eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_FP_UI_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_INTENT_ID: "eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_INTENT_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_SHARE_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_ACTION_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_APP_FW_ID: "com.opencloud.OpenCloudApp",
       ENTERPRISE_TEAM: "4AP2STM4H5",
-      ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
-      APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app",
+      ENTERPRISE_IDENTITY: "Apple Distribution: OpenCloud GmbH (4AP2STM4H5)",
+      APP_GROUP_IDENTIFIERS: "group.eu.opencloud.ios",
       EXPORT_METHOD: "app-store",
       CONFIGURATION: "Release",
       BETA_APP_ICON: false,
-      APP_NAME: "ownCloud",
-      URL_SCHEME: "owncloud-app",
-      IPA_NAME: "ownCloud-regular"
+      APP_NAME: "OpenCloud",
+      URL_SCHEME: "opencloud-app",
+      IPA_NAME: "OpenCloud-regular"
     )
   end
 
-  lane :owncloud_emm_build do
+  lane :opencloud_emm_build do
     build_ipa_in_house(
-      ENTERPRISE_APP_ID: "com.owncloud.ios-app.emm",
-      ENTERPRISE_APP_PROFILE: "match AppStore com.owncloud.ios-app.emm",
-      ENTERPRISE_FP_ID: "com.owncloud.ios-app.emm.ownCloud-File-Provider",
-      ENTERPRISE_FP_PROFILE: "match AppStore com.owncloud.ios-app.emm.ownCloud-File-Provider",
-      ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.emm.ownCloud-File-ProviderUI",
-      ENTERPRISE_FP_UI_PROFILE: "match AppStore com.owncloud.ios-app.emm.ownCloud-File-ProviderUI",
-      ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.emm.ownCloud-Intents",
-      ENTERPRISE_INTENT_PROFILE: "match AppStore com.owncloud.ios-app.emm.ownCloud-Intents",
-      ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.emm.ownCloud-Share-Extension",
-      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.emm.ownCloud-Share-Extension",
-      ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.emm.ownCloud-Action-Extension",
-      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.emm.ownCloud-Action-Extension",
-      ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp.emm",
+      ENTERPRISE_APP_ID: "eu.opencloud.ios.emm",
+      ENTERPRISE_APP_PROFILE: "match AppStore eu.opencloud.ios.emm",
+      ENTERPRISE_FP_ID: "eu.opencloud.ios.emm.OpenCloud-File-Provider",
+      ENTERPRISE_FP_PROFILE: "match AppStore eu.opencloud.ios.emm.OpenCloud-File-Provider",
+      ENTERPRISE_FP_UI_ID: "eu.opencloud.ios.emm.OpenCloud-File-ProviderUI",
+      ENTERPRISE_FP_UI_PROFILE: "match AppStore eu.opencloud.ios.emm.OpenCloud-File-ProviderUI",
+      ENTERPRISE_INTENT_ID: "eu.opencloud.ios.emm.OpenCloud-Intents",
+      ENTERPRISE_INTENT_PROFILE: "match AppStore eu.opencloud.ios.emm.OpenCloud-Intents",
+      ENTERPRISE_SHARE_EXTENSION_ID: "eu.opencloud.ios.emm.OpenCloud-Share-Extension",
+      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.emm.OpenCloud-Share-Extension",
+      ENTERPRISE_ACTION_EXTENSION_ID: "eu.opencloud.ios.emm.OpenCloud-Action-Extension",
+      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.emm.OpenCloud-Action-Extension",
+      ENTERPRISE_APP_FW_ID: "com.opencloud.OpenCloudApp.emm",
       ENTERPRISE_TEAM: "4AP2STM4H5",
-      ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
-      APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app.emm",
+      ENTERPRISE_IDENTITY: "Apple Distribution: OpenCloud GmbH (4AP2STM4H5)",
+      APP_GROUP_IDENTIFIERS: "group.eu.opencloud.ios.emm",
       EXPORT_METHOD: "app-store",
       CONFIGURATION: "Release",
       BETA_APP_ICON: false,
-      APP_NAME: "ownCloud EMM",
-      URL_SCHEME: "owncloud-emm",
-      IPA_NAME: "ownCloud-emm"
+      APP_NAME: "OpenCloud EMM",
+      URL_SCHEME: "opencloud-emm",
+      IPA_NAME: "OpenCloud-emm"
     )
   end
 
-lane :owncloud_online_build do
+lane :opencloud_online_build do
   build_ipa_in_house(
-    ENTERPRISE_APP_ID: "online.owncloud.ios-app",
-    ENTERPRISE_APP_PROFILE: "ownCloud online AppStore",
-    ENTERPRISE_FP_ID: "online.owncloud.ios-app.DocumentProvider",
-    ENTERPRISE_FP_PROFILE: "ownCloud online AppStore DocumentProvider",
-    ENTERPRISE_FP_UI_ID: "online.owncloud.ios-app.DocumentProviderUI",
-    ENTERPRISE_FP_UI_PROFILE: "ownCloud online AppStore DocumentProviderUI",
-    ENTERPRISE_INTENT_ID: "online.owncloud.ios-app.Intents",
-    ENTERPRISE_INTENT_PROFILE: "ownCloud online AppStore Intents",
-    ENTERPRISE_SHARE_EXTENSION_ID: "online.owncloud.ios-app.ShareExtApp",
-    ENTERPRISE_SHARE_EXTENSION_PROFILE: "ownCloud online AppStore Share Ext",
-    ENTERPRISE_ACTION_EXTENSION_ID: "online.owncloud.ios-app.Action-Extension",
-    ENTERPRISE_ACTION_EXTENSION_PROFILE: "ownCloud online AppStore Action Extension",
-    ENTERPRISE_APP_FW_ID: "online.owncloud.ios-app.ownCloudApp",
+    ENTERPRISE_APP_ID: "online.opencloud.ios-app",
+    ENTERPRISE_APP_PROFILE: "OpenCloud online AppStore",
+    ENTERPRISE_FP_ID: "online.opencloud.ios-app.DocumentProvider",
+    ENTERPRISE_FP_PROFILE: "OpenCloud online AppStore DocumentProvider",
+    ENTERPRISE_FP_UI_ID: "online.opencloud.ios-app.DocumentProviderUI",
+    ENTERPRISE_FP_UI_PROFILE: "OpenCloud online AppStore DocumentProviderUI",
+    ENTERPRISE_INTENT_ID: "online.opencloud.ios-app.Intents",
+    ENTERPRISE_INTENT_PROFILE: "OpenCloud online AppStore Intents",
+    ENTERPRISE_SHARE_EXTENSION_ID: "online.opencloud.ios-app.ShareExtApp",
+    ENTERPRISE_SHARE_EXTENSION_PROFILE: "OpenCloud online AppStore Share Ext",
+    ENTERPRISE_ACTION_EXTENSION_ID: "online.opencloud.ios-app.Action-Extension",
+    ENTERPRISE_ACTION_EXTENSION_PROFILE: "OpenCloud online AppStore Action Extension",
+    ENTERPRISE_APP_FW_ID: "online.opencloud.ios-app.OpenCloudApp",
     ENTERPRISE_TEAM: "4AP2STM4H5",
-    ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH",
-    APP_GROUP_IDENTIFIERS: "group.online.owncloud.ios-app",
+    ENTERPRISE_IDENTITY: "Apple Distribution: OpenCloud GmbH",
+    APP_GROUP_IDENTIFIERS: "group.online.opencloud.ios-app",
     EXPORT_METHOD: "app-store",
     CONFIGURATION: "Release",
     BETA_APP_ICON: false,
-    APP_NAME: "ownCloud Online",
-    URL_SCHEME: "owncloud-online",
-    IPA_NAME: "ownCloud-online"
+    APP_NAME: "OpenCloud Online",
+    URL_SCHEME: "opencloud-online",
+    IPA_NAME: "OpenCloud-online"
   )
 end
 
-  lane :owncloud_branding_adhoc_build do |values|
+  lane :opencloud_branding_adhoc_build do |values|
     build_ipa_in_house(
-      ENTERPRISE_APP_ID: "com.owncloud.ios-app",
-      ENTERPRISE_APP_PROFILE: "Adhoc ownCloud iOS App",
-      ENTERPRISE_FP_ID: "com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_PROFILE: "Adhoc ownCloud iOS App File Provider",
-      ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_FP_UI_PROFILE: "Adhoc ownCloud iOS App File Provider UI",
-      ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_INTENT_PROFILE: "Adhoc ownCloud iOS App Intents",
-      ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_SHARE_EXTENSION_PROFILE: "Adhoc ownCloud iOS App Share Extension",
-      ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_ACTION_EXTENSION_PROFILE: "Adhoc ownCloud iOS App Action Extension",
-      ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
+      ENTERPRISE_APP_ID: "eu.opencloud.ios",
+      ENTERPRISE_APP_PROFILE: "Adhoc OpenCloud iOS App",
+      ENTERPRISE_FP_ID: "eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_PROFILE: "Adhoc OpenCloud iOS App File Provider",
+      ENTERPRISE_FP_UI_ID: "eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_FP_UI_PROFILE: "Adhoc OpenCloud iOS App File Provider UI",
+      ENTERPRISE_INTENT_ID: "eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_INTENT_PROFILE: "Adhoc OpenCloud iOS App Intents",
+      ENTERPRISE_SHARE_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_SHARE_EXTENSION_PROFILE: "Adhoc OpenCloud iOS App Share Extension",
+      ENTERPRISE_ACTION_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_ACTION_EXTENSION_PROFILE: "Adhoc OpenCloud iOS App Action Extension",
+      ENTERPRISE_APP_FW_ID: "com.opencloud.OpenCloudApp",
       ENTERPRISE_TEAM: "4AP2STM4H5",
-      ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH",
-      APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app",
+      ENTERPRISE_IDENTITY: "Apple Distribution: OpenCloud GmbH",
+      APP_GROUP_IDENTIFIERS: "group.eu.opencloud.ios",
       EXPORT_METHOD: "ad-hoc",
       CONFIGURATION: "Release",
       BETA_APP_ICON: false,
@@ -354,24 +354,24 @@ end
     )
   end
 
-  lane :owncloud_branding_appstore_build do |values|
+  lane :opencloud_branding_appstore_build do |values|
     build_ipa_in_house(
-      ENTERPRISE_APP_ID: "com.owncloud.ios-app",
-      ENTERPRISE_APP_PROFILE: "match AppStore com.owncloud.ios-app",
-      ENTERPRISE_FP_ID: "com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_FP_UI_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_INTENT_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
+      ENTERPRISE_APP_ID: "eu.opencloud.ios",
+      ENTERPRISE_APP_PROFILE: "match AppStore eu.opencloud.ios",
+      ENTERPRISE_FP_ID: "eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_UI_ID: "eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_FP_UI_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_INTENT_ID: "eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_INTENT_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_SHARE_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_SHARE_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_ACTION_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_ACTION_EXTENSION_PROFILE: "match AppStore eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_APP_FW_ID: "com.opencloud.OpenCloudApp",
       ENTERPRISE_TEAM: "4AP2STM4H5",
-      ENTERPRISE_IDENTITY: "Apple Distribution: ownCloud GmbH (4AP2STM4H5)",
-      APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app",
+      ENTERPRISE_IDENTITY: "Apple Distribution: OpenCloud GmbH (4AP2STM4H5)",
+      APP_GROUP_IDENTIFIERS: "group.eu.opencloud.ios",
       EXPORT_METHOD: "app-store",
       CONFIGURATION: "Release",
       BETA_APP_ICON: false,
@@ -379,54 +379,54 @@ end
     )
   end
 
-  lane :owncloud_ownbrander_build do
+  lane :opencloud_ownbrander_build do
     puts "ownBrander Build with Drone Build Number: " + ENV["DRONE_BUILD_NUMBER"]
-    owncloud_branding_adhoc_build(
+    opencloud_branding_adhoc_build(
       BUILD_NUMBER: ENV["DRONE_BUILD_NUMBER"]
     )
-    owncloud_branding_appstore_build(
+    opencloud_branding_appstore_build(
       BUILD_NUMBER: ENV["DRONE_BUILD_NUMBER"]
     )
   end
 
-  lane :owncloud_enterprise_build do
+  lane :opencloud_enterprise_build do
     build_ipa_in_house(
-      ENTERPRISE_APP_ID: "com.owncloud.ios-app",
-      ENTERPRISE_APP_PROFILE: "Adhoc ownCloud iOS App",
-      ENTERPRISE_FP_ID: "com.owncloud.ios-app.ownCloud-File-Provider",
-      ENTERPRISE_FP_PROFILE: "Adhoc ownCloud iOS App File Provider",
-      ENTERPRISE_FP_UI_ID: "com.owncloud.ios-app.ownCloud-File-ProviderUI",
-      ENTERPRISE_FP_UI_PROFILE: "Adhoc ownCloud iOS App File Provider UI",
-      ENTERPRISE_INTENT_ID: "com.owncloud.ios-app.ownCloud-Intents",
-      ENTERPRISE_INTENT_PROFILE: "Adhoc ownCloud iOS App Intents",
-      ENTERPRISE_SHARE_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Share-Extension",
-      ENTERPRISE_SHARE_EXTENSION_PROFILE: "Adhoc ownCloud iOS App Share Extension",
-      ENTERPRISE_ACTION_EXTENSION_ID: "com.owncloud.ios-app.ownCloud-Action-Extension",
-      ENTERPRISE_ACTION_EXTENSION_PROFILE: "Adhoc ownCloud iOS App Action Extension",
-      ENTERPRISE_APP_FW_ID: "com.owncloud.ownCloudApp",
+      ENTERPRISE_APP_ID: "eu.opencloud.ios",
+      ENTERPRISE_APP_PROFILE: "Adhoc OpenCloud iOS App",
+      ENTERPRISE_FP_ID: "eu.opencloud.ios.OpenCloud-File-Provider",
+      ENTERPRISE_FP_PROFILE: "Adhoc OpenCloud iOS App File Provider",
+      ENTERPRISE_FP_UI_ID: "eu.opencloud.ios.OpenCloud-File-ProviderUI",
+      ENTERPRISE_FP_UI_PROFILE: "Adhoc OpenCloud iOS App File Provider UI",
+      ENTERPRISE_INTENT_ID: "eu.opencloud.ios.OpenCloud-Intents",
+      ENTERPRISE_INTENT_PROFILE: "Adhoc OpenCloud iOS App Intents",
+      ENTERPRISE_SHARE_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Share-Extension",
+      ENTERPRISE_SHARE_EXTENSION_PROFILE: "Adhoc OpenCloud iOS App Share Extension",
+      ENTERPRISE_ACTION_EXTENSION_ID: "eu.opencloud.ios.OpenCloud-Action-Extension",
+      ENTERPRISE_ACTION_EXTENSION_PROFILE: "Adhoc OpenCloud iOS App Action Extension",
+      ENTERPRISE_APP_FW_ID: "com.opencloud.OpenCloudApp",
       ENTERPRISE_TEAM: "4AP2STM4H5",
-      ENTERPRISE_IDENTITY: "iPhone Distribution: ownCloud GmbH",
-      APP_GROUP_IDENTIFIERS: "group.com.owncloud.ios-app",
+      ENTERPRISE_IDENTITY: "iPhone Distribution: OpenCloud GmbH",
+      APP_GROUP_IDENTIFIERS: "group.eu.opencloud.ios",
       EXPORT_METHOD: "ad-hoc",
       CONFIGURATION: "Debug",
       BETA_APP_ICON: true,
-      APP_NAME: "ownCloud",
-      IPA_NAME: "ownCloud"
+      APP_NAME: "OpenCloud",
+      IPA_NAME: "OpenCloud"
     )
   end
 
   lane :generate_appicon do
   
-    iconPath = "ownCloud/Resources/Theming/branding-assets/"
+    iconPath = "OpenCloud/Resources/Theming/branding-assets/"
     iconName = "branding-icon.png"  
-    outputIconPath = "../ownCloud/Resources/Assets.xcassets/"
+    outputIconPath = "../OpenCloud/Resources/Assets.xcassets/"
     outputIconName = "AppIcon.appiconset"
     if File.exist?("../" + iconPath + iconName)
       sh("rm -rf " + outputIconPath + outputIconName + "/*")
       appicon(
         appicon_image_file: iconPath + iconName,
         appicon_devices: [:ipad, :iphone, :ios_marketing],
-        appicon_path: "ownCloud/Resources/Assets.xcassets/",
+        appicon_path: "OpenCloud/Resources/Assets.xcassets/",
         appicon_name: outputIconName
       )
     end
@@ -448,7 +448,7 @@ end
     ENTERPRISE_ACTION_EXTENSION_ID = values[:ENTERPRISE_ACTION_EXTENSION_ID]
     ENTERPRISE_ACTION_EXTENSION_PROFILE = values[:ENTERPRISE_ACTION_EXTENSION_PROFILE]
     ENTERPRISE_APP_FW_ID = values[:ENTERPRISE_APP_FW_ID]
-    ENTERPRISE_APP_SHARED_ID = "com.owncloud.ownCloudAppShared"
+    ENTERPRISE_APP_SHARED_ID = "com.opencloud.OpenCloudAppShared"
     ENTERPRISE_TEAM = values[:ENTERPRISE_TEAM]
     ENTERPRISE_IDENTITY = values[:ENTERPRISE_IDENTITY]
     APP_GROUP_IDENTIFIERS = values[:APP_GROUP_IDENTIFIERS]
@@ -465,11 +465,11 @@ end
       ensure_xcode_version(version: required_version)
     end
 
-    appName = "ownCloud"
+    appName = "OpenCloud"
     appBuildFlags = ""
     appCustomAppScheme = ""
     appCustomAuthScheme = ""
-    themeFolder = "ownCloud/Resources/Theming/"
+    themeFolder = "OpenCloud/Resources/Theming/"
     themePath = themeFolder + "Branding.plist"
     if !values[:APP_NAME].nil?
       appName = values[:APP_NAME]
@@ -541,30 +541,30 @@ end
     # by removing anything between "#ifndef DISABLE_BACKGROUND_LOCATION"
     # and "#endif" via sed
     if appBuildFlags.include? "DISABLE_BACKGROUND_LOCATION"
-        sh "sed '/#ifndef DISABLE_BACKGROUND_LOCATION/,/#endif/d' ../ownCloud/Resources/Info.plist >../ownCloud/Resources/Info.plist.mod"
-        sh "mv ../ownCloud/Resources/Info.plist.mod ../ownCloud/Resources/Info.plist"
+        sh "sed '/#ifndef DISABLE_BACKGROUND_LOCATION/,/#endif/d' ../OpenCloud/Resources/Info.plist >../OpenCloud/Resources/Info.plist.mod"
+        sh "mv ../OpenCloud/Resources/Info.plist.mod ../OpenCloud/Resources/Info.plist"
     end
 
     # Special handling for app build flag DISABLE_PLAIN_HTTP (see above why this is needed)
     if appBuildFlags.include? "DISABLE_PLAIN_HTTP"
-        sh "sed '/#ifndef DISABLE_PLAIN_HTTP/,/#endif/d' ../ownCloud/Resources/Info.plist >../ownCloud/Resources/Info.plist.mod"
-        sh "mv ../ownCloud/Resources/Info.plist.mod ../ownCloud/Resources/Info.plist"
+        sh "sed '/#ifndef DISABLE_PLAIN_HTTP/,/#endif/d' ../OpenCloud/Resources/Info.plist >../OpenCloud/Resources/Info.plist.mod"
+        sh "mv ../OpenCloud/Resources/Info.plist.mod ../OpenCloud/Resources/Info.plist"
     end
 
 	# update_url_schemes can't seem to reach the second URL scheme ("oc") for authentication
 	# so using sed and a XML property instead
     if !appCustomAppScheme.empty?
-        sh 'sed "s#<string octype=\"app\">owncloud</string>#<string>' + appCustomAppScheme + '</string>#" ../ownCloud/Resources/Info.plist >../ownCloud/Resources/Info.plist.mod'
-        sh "mv ../ownCloud/Resources/Info.plist.mod ../ownCloud/Resources/Info.plist"
+        sh 'sed "s#<string octype=\"app\">opencloud</string>#<string>' + appCustomAppScheme + '</string>#" ../OpenCloud/Resources/Info.plist >../OpenCloud/Resources/Info.plist.mod'
+        sh "mv ../OpenCloud/Resources/Info.plist.mod ../OpenCloud/Resources/Info.plist"
     end
 
     if !appCustomAuthScheme.empty?
-        sh 'sed "s#<string octype=\"auth\">oc</string>#<string>' + appCustomAuthScheme + '</string>#" ../ownCloud/Resources/Info.plist >../ownCloud/Resources/Info.plist.mod'
-        sh "mv ../ownCloud/Resources/Info.plist.mod ../ownCloud/Resources/Info.plist"
+        sh 'sed "s#<string octype=\"auth\">oc</string>#<string>' + appCustomAuthScheme + '</string>#" ../OpenCloud/Resources/Info.plist >../OpenCloud/Resources/Info.plist.mod'
+        sh "mv ../OpenCloud/Resources/Info.plist.mod ../OpenCloud/Resources/Info.plist"
     end
 
-    set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "CFBundleDisplayName", value: appName)
-    set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "CFBundleName", value: appName)
+    set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "CFBundleDisplayName", value: appName)
+    set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "CFBundleName", value: appName)
 
     # Check, if Branding.plist file exists and handle custom set values
     if File.exist?("../" + themePath)
@@ -574,12 +574,12 @@ end
           customAppVersionNumber = tmpCustomAppVersionNumber
 
           puts "Set Version Number from Branding.plist: " + customAppVersionNumber
-          set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
-          set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
-          set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
-          set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
-          set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
-          set_info_plist_value(path: "ownCloud Intents/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
+          set_info_plist_value(path: "OpenCloud Intents/Info.plist", key: "CFBundleShortVersionString", value: customAppVersionNumber)
         end
 
         # Check for custom app group identifier
@@ -598,37 +598,37 @@ end
 
     if !values[:BUILD_NUMBER].nil?
       puts "Set Drone Build Number: " + BUILD_NUMBER
-      set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
-      set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
-      set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
-      set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
-      set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
-      set_info_plist_value(path: "ownCloud Intents/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
+      set_info_plist_value(path: "OpenCloud Intents/Info.plist", key: "CFBundleVersion", value: BUILD_NUMBER)
     end
 
     if !values[:URL_SCHEME].nil?
       update_url_schemes(
-        path: "ownCloud/Resources/Info.plist",
+        path: "OpenCloud/Resources/Info.plist",
         update_url_schemes: proc do |schemes|
           schemes + [values[:URL_SCHEME]]
         end
       )
     end
 
-    set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "CFBundleDisplayName", value: appName)
-    set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "CFBundleName", value: appName)
+    set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "CFBundleDisplayName", value: appName)
+    set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "CFBundleName", value: appName)
 
-    set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "CFBundleDisplayName", value: appName)
-    set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "CFBundleName", value: appName)
+    set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "CFBundleDisplayName", value: appName)
+    set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "CFBundleName", value: appName)
 
-    set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "CFBundleDisplayName", value: "Share to " + appName)
-    set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "CFBundleName", value: appName)
+    set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "CFBundleDisplayName", value: "Share to " + appName)
+    set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "CFBundleName", value: appName)
 
-    set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "CFBundleDisplayName", value: "Save to " + appName)
-    set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "CFBundleName", value: appName)
+    set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "CFBundleDisplayName", value: "Save to " + appName)
+    set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "CFBundleName", value: appName)
     
     # Read InfoPlist.xcstrings JSON content from the file
-    json_file_path = "../ownCloud Action Extension/InfoPlist.xcstrings"
+    json_file_path = "../OpenCloud Action Extension/InfoPlist.xcstrings"
     json_content = File.read(json_file_path)
     json_data = JSON.parse(json_content)
     
@@ -639,8 +639,8 @@ end
         json_data["strings"]["CFBundleDisplayName"]["localizations"].each do |locale, localization_data|
           old_value = localization_data["stringUnit"]["value"]
           
-          # Replace "ownCloud" with appName
-          new_value = old_value.gsub("ownCloud", appName)
+          # Replace "OpenCloud" with appName
+          new_value = old_value.gsub("OpenCloud", appName)
           localization_data["stringUnit"]["value"] = new_value
         end
       else
@@ -653,201 +653,201 @@ end
     end
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud/Resources/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud/Resources/Info.plist",
       app_identifier: ENTERPRISE_APP_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud File Provider/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud File Provider/Info.plist",
       app_identifier: ENTERPRISE_FP_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud File Provider UI/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud File Provider UI/Info.plist",
       app_identifier: ENTERPRISE_FP_UI_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloudAppFramework/Resources/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloudAppFramework/Resources/Info.plist",
       app_identifier: ENTERPRISE_APP_FW_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud Intents/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud Intents/Info.plist",
       app_identifier: ENTERPRISE_INTENT_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud Share Extension/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud Share Extension/Info.plist",
       app_identifier: ENTERPRISE_SHARE_EXTENSION_ID
     )
 
     update_app_identifier(
-      xcodeproj: "ownCloud.xcodeproj",
-      plist_path: "ownCloud Action Extension/Info.plist",
+      xcodeproj: "OpenCloud.xcodeproj",
+      plist_path: "OpenCloud Action Extension/Info.plist",
       app_identifier: ENTERPRISE_ACTION_EXTENSION_ID
     )
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud/ownCloud.entitlements",
+      entitlements_file: "OpenCloud/OpenCloud.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud/ownCloud.entitlements",
+      entitlements_file: "OpenCloud/OpenCloud.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud File Provider/ownCloud_File_Provider.entitlements",
+      entitlements_file: "OpenCloud File Provider/OpenCloud_File_Provider.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud File Provider/ownCloud_File_Provider.entitlements",
+      entitlements_file: "OpenCloud File Provider/OpenCloud_File_Provider.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud File Provider UI/ownCloud_File_Provider_UI.entitlements",
+      entitlements_file: "OpenCloud File Provider UI/OpenCloud_File_Provider_UI.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud File Provider UI/ownCloud_File_Provider_UI.entitlements",
+      entitlements_file: "OpenCloud File Provider UI/OpenCloud_File_Provider_UI.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud Intents/ownCloud Intents.entitlements",
+      entitlements_file: "OpenCloud Intents/OpenCloud Intents.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud Intents/ownCloud Intents.entitlements",
+      entitlements_file: "OpenCloud Intents/OpenCloud Intents.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud Share Extension/ownCloud Share Extension.entitlements",
+      entitlements_file: "OpenCloud Share Extension/OpenCloud Share Extension.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud Share Extension/ownCloud Share Extension.entitlements",
+      entitlements_file: "OpenCloud Share Extension/OpenCloud Share Extension.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
     update_app_group_identifiers(
-      entitlements_file: "ownCloud Action Extension/ownCloud Action Extension.entitlements",
+      entitlements_file: "OpenCloud Action Extension/OpenCloud Action Extension.entitlements",
       app_group_identifiers: [APP_GROUP_IDENTIFIERS]
     )
     update_keychain_access_groups(
-      entitlements_file: "ownCloud Action Extension/ownCloud Action Extension.entitlements",
+      entitlements_file: "OpenCloud Action Extension/OpenCloud Action Extension.entitlements",
       identifiers: [ENTERPRISE_TEAM + "." + APP_GROUP_IDENTIFIERS]
 	)
 
-    set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud File Provider/Info.plist", key: "NSExtension", subkey: "NSExtensionFileProviderDocumentGroup", value: APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud File Provider UI/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Intents/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Intents/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Share Extension/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud Action Extension/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
-    set_info_plist_value(path: "ownCloud/Resources/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud File Provider/Info.plist", key: "NSExtension", subkey: "NSExtensionFileProviderDocumentGroup", value: APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud File Provider UI/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Intents/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Intents/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Share Extension/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud Action Extension/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "OCAppGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
+    set_info_plist_value(path: "OpenCloud/Resources/Info.plist", key: "OCKeychainAccessGroupIdentifier", value: OC_APP_GROUP_IDENTIFIERS)
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_APP_PROFILE,
       bundle_identifier: ENTERPRISE_APP_ID,
-      targets: ["ownCloud"]
+      targets: ["OpenCloud"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_FP_PROFILE,
       bundle_identifier: ENTERPRISE_FP_ID,
-      targets: ["ownCloud File Provider"]
+      targets: ["OpenCloud File Provider"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_FP_UI_PROFILE,
       bundle_identifier: ENTERPRISE_FP_UI_ID,
-      targets: ["ownCloud File Provider UI"]
+      targets: ["OpenCloud File Provider UI"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_INTENT_PROFILE,
       bundle_identifier: ENTERPRISE_INTENT_ID,
-      targets: ["ownCloud Intents"]
+      targets: ["OpenCloud Intents"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       bundle_identifier: ENTERPRISE_APP_FW_ID,
-      targets: ["ownCloudApp"]
+      targets: ["OpenCloudApp"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_SHARE_EXTENSION_PROFILE,
       bundle_identifier: ENTERPRISE_SHARE_EXTENSION_ID,
-      targets: ["ownCloud Share Extension"]
+      targets: ["OpenCloud Share Extension"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       profile_name: ENTERPRISE_ACTION_EXTENSION_PROFILE,
       bundle_identifier: ENTERPRISE_ACTION_EXTENSION_ID,
-      targets: ["ownCloud Action Extension"]
+      targets: ["OpenCloud Action Extension"]
     )
 
     automatic_code_signing(
-      path: "ownCloud.xcodeproj",
+      path: "OpenCloud.xcodeproj",
       use_automatic_signing: false,
       team_id: ENTERPRISE_TEAM,
       code_sign_identity: ENTERPRISE_IDENTITY,
       bundle_identifier: ENTERPRISE_APP_SHARED_ID,
-      targets: ["ownCloudAppShared"]
+      targets: ["OpenCloudAppShared"]
     )
 
     # Add a badge with the latest short commit hash to the app icon
     build_number = app_version(
-      xcodeproj: "ownCloud.xcodeproj",
+      xcodeproj: "OpenCloud.xcodeproj",
       version_key: "APP_VERSION"
     )
 
     version = app_version(
-      xcodeproj: "ownCloud.xcodeproj",
+      xcodeproj: "OpenCloud.xcodeproj",
       version_key: "APP_SHORT_VERSION"
     )
 
@@ -885,8 +885,8 @@ end
 
     #Create the build
     build_app(
-      project: "ownCloud.xcodeproj",
-      scheme: "ownCloud",
+      project: "OpenCloud.xcodeproj",
+      scheme: "OpenCloud",
       configuration: CONFIGURATION,
       codesigning_identity: ENTERPRISE_IDENTITY,
       output_name: ipaName,
@@ -907,7 +907,7 @@ end
     
     
     if appBuildFlags.include? "REMOVE_EXTENSION_INTENTS"
-        sh "../removeExtension.sh \"../" + ipaName.gsub("/", "_") + "\" \"ownCloud Intents\""
+        sh "../removeExtension.sh \"../" + ipaName.gsub("/", "_") + "\" \"OpenCloud Intents\""
     end
 
   end

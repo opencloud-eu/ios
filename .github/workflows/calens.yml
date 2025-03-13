@@ -19,7 +19,7 @@ jobs:
           target: CHANGELOG.md
       - uses: GuillaumeFalourd/git-commit-push@v1.3
         with:
-          email: devops@owncloud.com
-          name: ownClouders
+          email: devops@opencloud.eu
+          name: OpenClouders
           commit_message: "Calens changelog updated"
           files: CHANGELOG.md

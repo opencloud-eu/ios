@@ -4,7 +4,7 @@
  #
  # This code is covered by the GNU Public License Version 3.
  #
- # For distribution utilizing Apple mechanisms please see https://owncloud.org/contribute/iOS-license-exception/
+ # For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
  # You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
 
 VERSION="1.3.1"
@@ -45,7 +45,7 @@ if [ $# -lt 1 ]; then
 fi
 
 echo
-echo "${BOLD}${SUCCESS}ownCloud iOS-App Resigning${NC}"
+echo "${BOLD}${SUCCESS}OpenCloud iOS-App Resigning${NC}"
 echo "Version ${VERSION}"
 echo
 echo "${SUCCESS}Starting resign process…${NC}"
@@ -61,7 +61,7 @@ ERROR_SHA=0
 FINAL_IPA="$BUILD_DIR/$NAME_FINAL_IPA"
 APPTEMP="$BUILD_DIR/apptemp"
 APPPAYLOAD="$APPTEMP/Payload"
-APPDIR="$APPPAYLOAD/ownCloud.app"
+APPDIR="$APPPAYLOAD/OpenCloud.app"
 PROVISIONING_DIR="Provisioning Files"
 CURRENT_PATH=$(pwd)
 
@@ -74,8 +74,8 @@ ACTIONEXTENSION_MOBILEPROVISION="$PROVISIONING_DIR/ActionExtension.mobileprovisi
 ASSOCIATED_DOMAINS="domains.txt"
 
 declare -a MOBILEPROVISIONS=(       "$DISTRIBUTION_MOBILEPROVISION"    "$FILEPROVIDER_MOBILEPROVISION"  "$FILEPROVIDERUI_MOBILEPROVISION"  "$INTENT_MOBILEPROVISION"  "$SHAREEXTENSION_MOBILEPROVISION"  "$ACTIONEXTENSION_MOBILEPROVISION"  );
-declare -a ENTITLEMENTS=(   "ownCloud.entitlements"  "ownCloud_File_Provider.entitlements" "ownCloud_File_Provider_UI.entitlements" "ownCloud_Intents.entitlements" "ownCloud_Share_Extension.entitlements" "ownCloud_Action_Extension.entitlements" );
-declare -a LOCATIONS=(      "$APPDIR"   "$APPDIR/PlugIns/ownCloud File Provider.appex"  "$APPDIR/PlugIns/ownCloud File Provider UI.appex"  "$APPDIR/PlugIns/ownCloud Intents.appex"  "$APPDIR/PlugIns/ownCloud Share Extension.appex"  "$APPDIR/PlugIns/ownCloud Action Extension.appex" );
+declare -a ENTITLEMENTS=(   "OpenCloud.entitlements"  "OpenCloud_File_Provider.entitlements" "OpenCloud_File_Provider_UI.entitlements" "OpenCloud_Intents.entitlements" "OpenCloud_Share_Extension.entitlements" "OpenCloud_Action_Extension.entitlements" );
+declare -a LOCATIONS=(      "$APPDIR"   "$APPDIR/PlugIns/OpenCloud File Provider.appex"  "$APPDIR/PlugIns/OpenCloud File Provider UI.appex"  "$APPDIR/PlugIns/OpenCloud Intents.appex"  "$APPDIR/PlugIns/OpenCloud Share Extension.appex"  "$APPDIR/PlugIns/OpenCloud Action Extension.appex" );
 declare -a BUNDLEIDS=();
 
 # Abort script if script is running in a path which contains "Library", because this could cause resource fork problems
@@ -199,7 +199,7 @@ do
     PlistBuddy -c "Set CFBundleIdentifier ${BUNDLEID}" "${LOCATIONS[$i]}/Info.plist"
     PlistBuddy -c "Set application-identifier ${TEAMID}.${BUNDLEID}" "${ENTITLEMENTS[$i]}"
 
-    # Modify Info.plists with ownCloud custom variables
+    # Modify Info.plists with OpenCloud custom variables
     PlistBuddy -c "Set OCAppGroupIdentifier $APPGROUP" "${LOCATIONS[$i]}/Info.plist"
     PlistBuddy -c "Set com.apple.security.application-groups:0 ${APPGROUP}" "${ENTITLEMENTS[$i]}"
     PlistBuddy -c "Set OCKeychainAccessGroupIdentifier $APPGROUP" "${LOCATIONS[$i]}/Info.plist"
@@ -207,11 +207,11 @@ do
     PlistBuddy -c "Set OCAppIdentifierPrefix $APP_ID_PREFIX." "${LOCATIONS[$i]}/Info.plist"
     PlistBuddy -c "Set com.apple.developer.team-identifier ${TEAMID}" "${ENTITLEMENTS[$i]}"
 
-    if [[ "${ENTITLEMENTS[$i]}" =~ ^(ownCloud_File_Provider.entitlements)$ ]]; then
+    if [[ "${ENTITLEMENTS[$i]}" =~ ^(OpenCloud_File_Provider.entitlements)$ ]]; then
 	    PlistBuddy -c "Set NSExtension:NSExtensionFileProviderDocumentGroup $APPGROUP" "${LOCATIONS[$i]}/Info.plist"
 	  fi
 
-    if [[ "${ENTITLEMENTS[$i]}" =~ ^(ownCloud.entitlements)$ ]]; then
+    if [[ "${ENTITLEMENTS[$i]}" =~ ^(OpenCloud.entitlements)$ ]]; then
         ## Add associated domains
         if [ ! -z "$ASSOCIATED_DOMAINS" ]; then
             PlistBuddy -c "Delete com.apple.developer.associated-domains array" "${ENTITLEMENTS[$i]}"

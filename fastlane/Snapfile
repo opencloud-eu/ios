@@ -21,7 +21,7 @@ languages([
 ])
 
 # The name of the scheme which contains the UI Tests
-scheme("ownCloudScreenshotsTests")
+scheme("OpenCloudScreenshotsTests")
 
 localize_simulator(true)
 concurrent_simulators(false)

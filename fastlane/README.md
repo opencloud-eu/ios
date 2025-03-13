@@ -63,58 +63,58 @@ Create Metadata Release Notes, Screenshots and push to git
 
 Create Release Notes, Screenshots, Build, Upload of regular iOS App and EMM App
 
-### ios owncloud_regular_build
+### ios opencloud_regular_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_regular_build
+[bundle exec] fastlane ios opencloud_regular_build
 ```
 
 
 
-### ios owncloud_emm_build
+### ios opencloud_emm_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_emm_build
+[bundle exec] fastlane ios opencloud_emm_build
 ```
 
 
 
-### ios owncloud_online_build
+### ios opencloud_online_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_online_build
+[bundle exec] fastlane ios opencloud_online_build
 ```
 
 
 
-### ios owncloud_branding_adhoc_build
+### ios opencloud_branding_adhoc_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_branding_adhoc_build
+[bundle exec] fastlane ios opencloud_branding_adhoc_build
 ```
 
 
 
-### ios owncloud_branding_appstore_build
+### ios opencloud_branding_appstore_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_branding_appstore_build
+[bundle exec] fastlane ios opencloud_branding_appstore_build
 ```
 
 
 
-### ios owncloud_ownbrander_build
+### ios opencloud_ownbrander_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_ownbrander_build
+[bundle exec] fastlane ios opencloud_ownbrander_build
 ```
 
 
 
-### ios owncloud_enterprise_build
+### ios opencloud_enterprise_build
 
 ```sh
-[bundle exec] fastlane ios owncloud_enterprise_build
+[bundle exec] fastlane ios opencloud_enterprise_build
 ```
 
 

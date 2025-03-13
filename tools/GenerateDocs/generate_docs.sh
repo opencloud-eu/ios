@@ -2,10 +2,10 @@
 
 # Run test to update CONFIGURATION.json
 xcodebuild test \
--project ../../ownCloud.xcodeproj \
--scheme ownCloud \
+-project ../../OpenCloud.xcodeproj \
+-scheme OpenCloud \
 -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
--only-testing ownCloudTests/MetadataDocumentationTests/testUpdateConfigurationJSONFromMetadata
+-only-testing OpenCloudTests/MetadataDocumentationTests/testUpdateConfigurationJSONFromMetadata
 
 # Make temporary copy
 cp ../../doc/CONFIGURATION.json .

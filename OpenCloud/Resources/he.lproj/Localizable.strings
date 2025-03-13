@@ -1,0 +1,934 @@
+/*
+  Localizable.strings
+  OpenCloud
+
+  Created by Pablo Carrascal on 13/03/2018.
+  Copyright © 2018 ownCloud GmbH. All rights reserved.
+*/
+
+/*
+ * Copyright (C) 2018, ownCloud GmbH.
+ *
+ * This code is covered by the GNU Public License Version 3.
+ *
+ * For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
+ * You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
+ *
+ */
+
+/* Add / Edit Bookmark */
+"Edit account" = "עריכת חשבון";
+"Add account" = "הוספת חשבון";
+"Server URL" = "נתיב השרת";
+"https://example.com" = "https://example.com";
+"Continue" = "המשך";
+"Name" = "שם";
+"Example Server" = "שרת דוגמא";
+"Show Certificate Details" = "הצגת פרטי תעודת אימות";
+"Connect" = "התחברות";
+"Delete Authentication Data" = "מחיקת פרטי אימות";
+"Authentication" = "אימות";
+"Username" = "שם משתמש";
+"Password" = "סיסמא";
+"Certificate Details" = "פרטי תעודת אימות";
+"Cancel" = "ביטול";
+"Approve" = "אישור";
+"Error" = "שגיאה";
+"Issues" = "Issues";
+"Review Connection" = "סקירת חיבור";
+"Authenticated via" = "אומת על בסיס";
+"Authenticated as %@ via %@" = "אומת כ- %@ על בסיס %@";
+"Edit" = "עריכה";
+"Credentials" = "פרטי גישה";
+"Rejected" = "נדחה";
+"Passed" = "עבר";
+"Accepted" = "אושר";
+"Validation Error" = "שגיאת אימות";
+"Certificate was rejected by user." = "תעודת האימות נדחתה על ידי משתמש.";
+"Certificate has issues.\nOpen 'Certificate Details' for more informations." = "לתעודת האימות יש בעיות.\nיש לפתוח 'פרטי תעודת אימות' למידע נוסף.";
+"No issues found. Certificate passed validation." = "לא נמצאו בעיות. התעודה עברה אימות.";
+"Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." = "יתכן וקיימות בעיות בתעודת האימות, אבל התעודה התקבלה על ידי משתמש.\nיש לפתוח 'פרטי תעודת אימות' למידע נוסף.";
+"If you 'Continue', you will be prompted to allow the '%@' App to open OAuth2 login where you can enter your credentials." = "אם נבחר  'המשך', תועבר בקשה לאפשר לאפליקציה '%@' לפתוח את ממשק ההתחברות OAuth2 בו ניתן יהיה להכניס את פרטי ההתחברות.";
+
+"Error opening %@" = "Error opening %@";
+
+"Contacting server…" = "יצירת קשר עם השרת...";
+"Authenticating…" = "מאמת...";
+
+"Fetching user information…" = "מאחזר פרטי משתמש...";
+"Updating connection…" = "מעדכן חיבור...";
+
+"Preparing account" = "Preparing account";
+"Please wait…" = "יש להמתין...";
+"Skip" = "דלוג";
+
+"Missing hostname" = "שם שרת מארח חסר";
+"The entered URL does not include a hostname." = "כתובת האתר שהוזנה אינה מכילה שם שרת מארח.";
+"Add account" = "הוספת חשבון";
+"Server name" = "שם שרת";
+"Server Password" = "סיסמת שרת";
+"Server Username" = "שם משתמש לשרת";
+"Show accounts" = "הצגת חשבונות";
+"Setup complete" = "התקנה הושלמה";
+"Edit Login" = "Edit Login";
+"Manage Storage" = "Manage Storage";
+"Access Files" = "Access Files";
+"Log out" = "התנתקות";
+"Retry" = "ניסיון חדש";
+
+/* Bookmark Info */
+"Bookmark Metadata" = "Bookmark Metadata";
+
+/* Client */
+"Browse" = "עיון";
+"Files" = "קבצים";
+"Disconnect" = "ניתוק";
+"Connecting…" = "מתחבר...";
+"Connected." = "מחובר.";
+"Select" = "בחר";
+"Done" = "הסתיים";
+
+"Folder" = "תיקייה";
+
+"Stopped" = "נעצר";
+"Started…" = "התחיל...";
+"Contents from cache." = "תוכן מזכרון המטמון.";
+"Waiting for server response…" = "ממתין לתגובת השרת...";
+"This folder no longer exists." = "התיקייה אינה קיימת עוד.";
+"Everything up-to-date." = "הכל מעודכן.";
+"Please wait…" = "יש להמתין...";
+"Sort by %@" = "מיון על פי %@";
+"Sort by" = "מיון על בסיס";
+
+"name" = "שם";
+"kind" = "סוג";
+"size" = "גודל";
+"date" = "תאריך";
+"Search folder" = "Search folder";
+"Search account" = "Search account";
+"Pending" = "ממתין";
+"Show parent paths" = "הצגת נתיבי בסיס";
+"Reveal in folder" = "Reveal in folder";
+
+"%@ of %@ used" = "%@ מתוך %@ בשימוש";
+"Total: %@" = "סך הכל: %@";
+"%@ item | " = "%@ פריט | ";
+"%@ items | " = "%@ פריטים | ";
+
+"Show more results" = "Show more results";
+
+/* Search scope */
+"Search scope" = "Search scope";
+"Toggle Search Scope" = "Toggle Search Scope";
+
+/* Static Login Setup */
+"Server error" = "שגיאת שרת";
+"The server doesn't support any allowed authentication method." = "השרת אינו תומך באף שיטת אימות מותרת.";
+"The server doesn't support any known and allowed authentication method found." = "השרת אינו תומך באף שיטת אימות מותרת ומוכרת.";
+"Retry detection" = "חידוש גילוי";
+"Enter your username and password" = "Enter your username and password";
+"Please log in to authorize the app." = "Please log in to authorize the app.";
+"Welcome to %@" = "Welcome to %@";
+"Please enter a server URL" = "Please enter a server URL";
+"Please pick a profile to begin setup" = "Please pick a profile to begin setup";
+
+/* Single Account */
+"You are connected as\n%@" = "You are connected as\n%@";
+"Login" = "התחברות";
+"Wrong URL" = "Wrong URL";
+"Please enter a valid URL" = "Please enter a valid URL";
+"Missing Profile URL" = "Missing Profile URL";
+"The Profile '%@' does not have a URL configured.\nPlease provide a URL via configuration or MDM." = "The Profile '%@' does not have a URL configured.\nPlease provide a URL via configuration or MDM.";
+
+/* Client Messages */
+"Empty folder" = "תיקייה ריקה";
+"This folder contains no files or folders." = "תיקייה זו אינה כוללת קבצים או תיקיות משנה.";
+
+"Folder removed" = "התיקייה הוסרה";
+"This folder no longer exists on the server." = "תיקייה זו אינה קיימת עוד על השרת.";
+"Are you sure you want to delete this item from the server?" = "האם באמת למחוק קובץ זה מהשרת?";
+"Are you sure you want to delete these items from the server?" = "האם באמת למחוק פריט זה מהשרת?";
+"Multiple items" = "פריטים כפולים";
+"Deleting '%@'" = "מוחק '%@'";
+"Renaming to %@" = "משנה שם ל- %@";
+"Upload from your photo library" = "מעלה מתיקיית התמונות שלך";
+"Missing permissions" = "חסרות הרשאות";
+"This permission is needed to upload photos and videos from your photo library." = "הרשאות אלו נדרשות לצורך העלאת תמונות וקבצי וידאו מתיקיית התמונות שלך.";
+"Not now" = "לא כרגע";
+"Upload file" = "העלאת קובץ";
+"Upload files" = "העלאת קבצים";
+
+"No matches" = "לא נמצאו התאמות";
+"There are no results for this search term" = "לא נמצאו תוצאות למונח החיפוש";
+"Status" = "מצב";
+
+"Authorization failed" = "אישור נכשל";
+"The account has been disabled." = "החשבון הושבת.";
+"The server declined access with the credentials stored for this connection." = "השרת מנע גישה לנתוני ההתחברות שנשמרו לחיבור זה.";
+"Access denied" = "גישה נדחתה";
+"The connection's access token has expired or become invalid. Sign in again to re-gain access." = "פג תוקף חתימת הייצוג של חיבור הגישה. יש להתחבר שנית לקבלת גישה חוזרת.";
+"No authentication data has been found for this connection." = "לא נמצא מידע אימות לחיבור זה.";
+"Authentication with %@ is no longer allowed. Re-authentication needed." = "Authentication with %@ is no longer allowed. Re-authentication needed.";
+"Sign in" = "התחברות";
+"Continue offline" = "המשך באופן לא מקוון";
+"Media upload in the previous session was incomplete since the application was terminated" = "העלאת המדיה בשיחת המחשב הקודמת לא הושלמה כיוון שהיישום הופסק";
+
+"Waiting for response from login session in external browser…" = "Waiting for response from login session in external browser…";
+
+"All done" = "הכל הסתיים";
+"No pending messages or ongoing actions." = "אין הודעות ממתינות או פעולות מתמשכות.";
+
+"Show all" = "הצגה של הכול";
+"+ %ld more" = "+ %ld נוספים";
+"Apply choice to all similar issues" = "החלת הבחירה על כל הבעיות הדומות";
+"Apply to all" = "החלה על הכל";
+
+/* Server List*/
+"Cancel" = "ביטול";
+"OK" = "אישור";
+
+"'%@' is currently locked" = "'%@' כרגע נעול";
+"An operation is currently performed that prevents connecting to '%@'. Please try again later." = "מתנהל כרגע תהליך שמונע חיבור ל- '%@'. יש לנסות שוב מאוחר יותר.";
+"Do you really want to disconnect from your '%@' account?" = "האם באמת ברצונך להתנתק מחשבון ה- '%@' שלך?";
+"This will remove all locally stored file copies from your device." = "זה ימחוק מההתקן שלך את כל ההעתקים המקומיים של קובץ זה.";
+"Really delete '%@'?" = "באמת למחוק '%@'?";
+"Do you want to log out from '%@'?" = "Do you want to log out from '%@'?";
+"This will also delete all locally stored file copies." = "זה ימחוק גם את כל ההעתקים המקומיים של קובץ זה.";
+"Delete" = "מחיקה";
+"Remove" = "הסרה";
+"Removing of '%@' failed" = "הסרת '%@' נכשלה";
+"Accounts" = "חשבונות";
+
+"Help" = "עזרה";
+"Feedback" = "משוב";
+"Welcome" = "ברוכים הבאים";
+"Thanks for choosing %@! \n Start by adding your account." = "תודה על הבחירה ב- %@! \n יש להתחיל בהוספת חשבון.";
+
+/* Settings Messages */
+
+"Security" = "אבטחה";
+"Passcode Lock" = "נעילת סיסמא";
+"Face ID" = "זיהוי פנים";
+"Touch ID" = "זיהוי נגיעה";
+"Unlock using %@?" = "Unlock using %@?";
+"Videos" = "קובצי וידאו";
+"Photos" = "תמונות";
+"Wifi only" = "חיבור WiFi בלבד";
+"Settings" = "הגדרות";
+"Lock application" = "נעילת יישום";
+"Upload videos via WiFi only" = "העלאות קבצי וידאו על בסיס WiFi בלבד";
+"Upload pictures via WiFi only" = "העלאת תמונות דרך WiFi בלבד";
+"More" = "יותר";
+"Documentation" = "תיעוד";
+"Send feedback" = "שליחת משוב";
+"Recommend to a friend" = "המלצה לחבר";
+"Privacy Policy" = "מדיניות הפרטיות";
+"Terms Of Use" = "תנאי השימוש";
+"Acknowledgements" = "תודות";
+"license" = "license";
+"Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged." = "Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged.";
+"Video upload path" = "נתיב להעלאת סרטונים";
+"Photo upload path" = "נתיב העלאת תמונות";
+"Immediately" = "מיידי";
+"After 1 minute" = "אחרי דקה אחת";
+"After 5 minutes" = "אחרי 5 דקות";
+"After 30 minutes" = "אחרי 30 דקות";
+"After %ld seconds" = "After %ld seconds";
+"If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." = "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground.";
+"Please configure an email account" = "יש להגדיר בבקשה חשבון דואר אלקטרוני";
+"You need to configure an email account first to be able to send emails." = "יש להגדיר כתובת דואר אלקטרוני לפני שניתן יהיה לשלוח דברי דואר.";
+"Do you want to open the following URL?" = "האם ברצונך לגשת לנתיב האינטרנט הבא?";
+"Passcode option" = "Passcode option";
+"Please choose how many digits you want to use for the passcode lock?" = "Please choose how many digits you want to use for the passcode lock?";
+"%ld digit code" = "%ld digit code";
+"Enter a new code with %ld digits" = "Enter a new code with %ld digits";
+
+"%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)" = "%@%@ %@ גרסה %@ בנייה %@\n(יישום: %@, sdk: %@)";
+"beta" = "בטא";
+"release" = "שחרור";
+"App Version" = "גרסת יישום";
+"Version information were copied to the clipboard" = "פרטי גרסה הועתקו ללוח הגזירים";
+
+
+/* User Interface Settings */
+"Theme" = "מוטיב עיצוב";
+"User Interface" = "ממשק משתמש";
+"Dark" = "כהה";
+"Dark Blue" = "Dark Blue";
+"Dark Web" = "Dark Web";
+"Light" = "בהיר";
+"Classic" = "קלסי";
+"System" = "מערכת";
+"System Appeareance" = "מראה המערכת";
+
+/* Log settings */
+"Log Files" = "קובצי תיעוד";
+"Browse log files" = "עיון בקובצי התיעוד";
+"Share" = "שיתוף";
+"Delete all log files?" = "האם למחוק את כל קובצי התיעוד?";
+"Delete all" = "מחיקת הכול";
+
+"Log Level" = "רמת לוג";
+"Log Destinations" = "יעד לוג";
+"Privacy" = "פרטיות";
+
+"Logging" = "התחברות";
+"Enable logging" = "מאפשר התחברות";
+"Options" = "אפשרויות";
+
+"Off" = "כיבוי";
+"Info" = "מידע";
+"Default" = "ברירת מחדל";
+"Warning" = "אזהרה";
+"Error" = "שגיאה";
+
+"Share log file" = "שיתוף קובץ לוג";
+"Reset log file" = "איפוס קובץ לוג";
+
+"When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility." = "  כאשר מופעל, יומני תיעוד עלולים להשפיע על הביצועים ולכלול מידע רגיש. עם זאת, היומנים אינם כפופים להגשה אוטומטית לשרתי%@. שיתוף יומנים עם אחרים הנו באחריות הבלעדית של המשתמש.";
+
+"The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." = "10 יומני הארכיון האחרונים נשמרים במכשיר - כשכל יומן מכסה עד 24 שעות של שימוש. בעת שיתוף, יש לזכור שיומנים עשויים להכיל מידע רגיש כגון כתובות שרתים ומידע יחודי למשתמש.";
+
+"Mask private data" = "מיסוך מידע פרטי";
+"Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." = "הפעלת אפשרות זו תנסה למסך מידע פרטי, כך שמידע זה לא יהיה כלול בלוג. כיוון שהלוג הנו תכונת פיתוח וניפוי שגיאות, לא ניתן להבטיח שקובץ הלוג לא יכיל כל מידע פרטי גם שהאפשרות מופעלת. לפיכך מומלץ, לפני שאתם שולחים אותו למישהו, לעבור על תוכן קובץ הלוג ולוודא שהוא אינו מכיל מידע שלא יהיה לכם נוח לשתף.";
+
+"No log file found" = "לא נמצא קובץ לוג";
+"The log file can't be shared because no log file could be found or the log file is empty." = "לא ניתן לשתף את קובץ הלוג כיוון שהקובץ לא אותר או שהקובץ ריק";
+"Enable log file" = "הפעלת קובץ לוג";
+
+"Really reset log file?" = "האם באמת לאפס קובץ לוג?";
+"This action can't be undone." = "לא ניתן לבטל פעולה זו.";
+
+/* Data usage settings */
+"Data usage" = "שימוש בנתונים";
+"Delete unused local copies" = "מחיקת עותקים מקומיים ללא שימוש";
+"Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app." = "זמן שנמדד מאז העלאה, עריכה, הורדה או צפייה בקובץ המתאים באמצעות מכשיר זה. אינו חל על קבצים שהורדו באמצעות התכונה 'זמין במצב לא מקוון'. ניתן למחוק עותקים מקומיים לפני שחלף פרק הזמן הנתון, למשל מכיוון שיש גרסה חדשה יותר של הקובץ בשרת - או באמצעות מחיקה ידנית של עותקים לא מקוונים. כמו כן, יתכן ולא ניתן יהיה למחוק עותקים מקומיים לאחר חלוף פרק הזמן הנתון, למשל אם מתבצעת פעולה עליו, הקובץ עדיין בשימוש - או שלא נעשה שימוש באפליקציה בחשבון המחזיק בקובץ.";
+"never" = "לעולם לא";
+"after %@" = "אחרי %@";
+"Decrease Slider Value" = "הקטנת ערך מחוון";
+"Increase Slider Value" = "הגדלת ערך מחוון";
+
+"Cellular Data Usage" = "Cellular Data Usage";
+"Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." = "ייתכן שעדיין יעשה שימוש בנתונים סלולריים. כדי להימנע לחלוטין משימוש בנתונים סלולריים, יש לכבות את הגישה לנתונים סלולריים עבור היישום כולו ביישום ההגדרות.";
+"Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." = "Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information.";
+"General" = "כללי";
+"By feature" = "על פי תכונה";
+
+"off" = "כבוי";
+"enabled" = "מופעל";
+
+/* Display settings */
+"Advanced settings" = "הגדרות מתקדמות";
+"Show hidden files and folders" = "הצגת קבצים ותיקיות מוסתרים";
+"Show folders on top" = "Show folders on top";
+"Disable gestures" = "Disable gestures";
+"Prevent dragging of files and folders and multiselection using system defined gestures" = "מניעה של גרירת קבצים, תיקיות או בחירות תוך שימוש במחוות מוגדרות מערכת";
+
+/* Advanced settings */
+"Enable diagnostics" = "מאפשר אבחון";
+
+/* Passcode Messages */
+
+"Enter code" = "הכנסת קוד";
+"Repeat code" = "חזרה על הקוד";
+"Delete code" = "מחיקת קוד";
+"The entered codes are different" = "הקודים שהוכנסו שונים";
+"Incorrect code" = "קוד שגוי";
+"Please try again in %@" = "ניתן לנסות שוב בעוד %@";
+"Unlock %@" = "ביטול נעילת %@";
+"Biometric authentication failed" = "אימות ביומטרי נכשל";
+"You are required to set the passcode" = "You are required to set the passcode";
+
+/* Certificate management */
+
+"Certificates" = "תעודות אימות";
+"User-approved certificates" = "תעודות אימות שאושרו על ידי משתמש";
+
+"Approved" = "מאושר";
+"Auto-approved" = "אישור אוטומטי";
+"Revoke approval" =  "ביטול אישור";
+
+/* Actions */
+
+"Forbidden Characters" = "תווים אסורים";
+"File name cannot contain / or \\" = "שם קובץ לא יכול להכיל / או \\";
+"Item with same name already exists" = "כבר קיים פריט עם אותו שם";
+"An item with the same name already exists in this location." = "פריט עם אותו שם כבר קיים במיקום זה.";
+"New Folder" = "תיקייה חדשה";
+"Folder name" = "שם התיקייה";
+"Rename" ="שינוי שם";
+"Create folder" ="יצירת תיקייה";
+"Duplicate" = "כפול";
+"Move" = "העברה";
+"Open in" = "פתיחה באמצעות";
+"Copy" = "העתקה";
+"Copy here" = "העתקה לכאן";
+"Cannot connect to " = "לא ניתן להתחבר ל-";
+" couldn't download file(s)" = "לא ניתן היה להוריד את הקבצים";
+"Actions" = "פעולות";
+"copy" = "העתקה";
+"Close Window" = "סגירת חלון";
+"Open in a new Window" = "פתיחה בחלון חדש";
+"Open in Window" = "פתיחה בחלון";
+"Take photo or video" = "צילום תמונה או וידאו";
+"%ld Item was copied to the clipboard" = "%ld Item was copied to the clipboard";
+"%ld Items were copied to the clipboard" = "%ld Items were copied to the clipboard";
+"Please note: Folders can only be pasted into the %@ app and the same account." = "Please note: Folders can only be pasted into the %@ app and the same account.";
+
+"Preparing…" = "מכין...";
+
+"No actions available" = "אין פעולות זמינות";
+"No actions are available for this folder, possibly because of missing permissions." = "אין פעולות אפשריות לתיקייה זו, ככל הנראה בשל העדר הרשאות.";
+
+"Close actions menu" = "סגירת תפריט פעולות";
+"Favorited" = "מועדף";
+"Favorite item" = "פריט מועדף";
+"Unfavorite item" = "פריט שאינו מועדף";
+"Presentation Mode" = "Presentation Mode";
+"Enabling presentation mode will prevent the display from sleep mode until the view is closed." = "Enabling presentation mode will prevent the display from sleep mode until the view is closed.";
+"Enable" = "הפעלה";
+"Exit Full Screen" = "Exit Full Screen";
+
+/* Directory Picker Messages */
+"Move here" = "העברה לכאן";
+
+/* Preview */
+"Open file" = "פתיחת קובץ";
+"Network unavailable" = "רשת לא זמינה";
+"Error" = "שגיאה";
+"Could not get the picture" = "לא ניתן היה לקבל את התמונה";
+"Downloading" = "מוריד";
+"File couldn't be opened" = "לא ניתן לפתוח את הקובץ";
+"Connecting..." = "מתחבר...";
+
+"File" = "קובץ";
+"%@ was updated" = "%@ was updated";
+"Would you like to view the updated version?" = "Would you like to view the updated version?";
+"Show new version" = "Show new version";
+"Refresh without asking" = "Refresh without asking";
+"Ignore updates" = "Ignore updates";
+
+/* PDF Viewer */
+"Resume" = "חידוש";
+"Go to page" = "מעבר לעמוד";
+"Page" = "עמוד";
+"This document has %@ pages" = "למסמך יש %@ עמודים";
+"%@ of %@" = "%@ מתוך %@";
+"Invalid Page" = "עמוד שגוי";
+"The entered page number doesn't exist" = "מספר העמוד שהוכנס אינו קיים";
+"Search PDF" = "חיפוש ב- PDF";
+"Outline" = "מתווה";
+"Find Next" = "Find Next";
+"Find Previous" = "Find Previous";
+"Close Search" = "Close Search";
+
+/* Photo Upload */
+"Upload" = "העלאה";
+"Select All" = "לבחור הכול";
+"Deselect All" = "לבטל בחירה מהכל";
+"All Photos" = "כל התמונות";
+"Albums" = "אלבומים";
+"Importing from photo library" = "יבוא מספריית תמונות";
+"Media import" = "יבוא מדיה";
+"%@ of %@" = "%@ מתוך %@";
+"Selected folder lacks file creation permission" = "התיקייה הנבחרת חסרה הרשאות ליצירת קובץ";
+"%d Item" = "%d פריט";
+"%d Items" = "%d פריטים";
+"Select Items" = "Select Items";
+
+/* Scan */
+"Scan" = "סריקה";
+"Scans" = "סריקות";
+"Scan document" = "סריקת מסמך";
+"Saving" = "שמירה";
+"File format" = "פורמט קובץ";
+"Name" = "שם";
+"Save as" = "שמירה בשם";
+"Options" = "אפשרויות";
+"Scan additional" = "סריקת נוסף";
+"Create one file per page" = "יצירת קובץ לעמוד";
+
+/* Scan */
+"Scan" = "סריקה";
+"Scans" = "סריקות";
+"Scan document" = "סריקת מסמך";
+"Saving" = "שמירה";
+"File format" = "פורמט קובץ";
+"Name" = "שם";
+"Save as" = "שמירה בשם";
+"Options" = "אפשרויות";
+"Scan additional" = "סריקת נוסף";
+"Create one file per page" = "יצירת קובץ לעמוד";
+
+/* Sharing */
+"Searching Shares…" = "מחפש שיתופים...";
+"Recipient" = "נמען";
+"Recipients" = "נמענים";
+"Public Link" = "קישור ציבורי";
+"Public Links" = "קישורים ציבוריים";
+"Shared by %@" = "משותף על ידי %@";
+"Invite Recipient" = "נמען לא חוקי";
+"Recipients" = "נמענים";
+"Add email or name" = "יש להוסיף דואר אלקטרוני או שם";
+"Users" = "משתמשים";
+"Groups" = "קבוצות";
+"Start typing to search users, groups and remote users." = "יש להתחיל להקליד על מנת לחפש משתמשים, קבוצות ומשתמשים מרוחקים.";
+"(Group)" = "(קבוצה)";
+"Adding User to Share failed" = "הוספת משתמש לשיתוף נכשלה";
+"Permissions" = "הרשאות";
+"Invited: %@" = "מזומנים: %@";
+"Created: %@" = "נוצר: %@";
+"Allows the users you share with to re-share" = "מאפשר למשתמשים ששתפת לשתף מחדש";
+"Allows the users you share with to edit your shared files, and to collaborate" = "מאפשר למשתמשים ששתפת לערוך את הקבצים שלך, ולשתף";
+"Allows the users you share with to create new files and add them to the share" = "מאפשר למשתמשים ששתפת איתם ליצור קבצים ולהוסיף אותם לשיתוף";
+"Allows uploading a new version of a shared file and replacing it" = "מאפשר להעלות גרסה חדשה של הקובץ המשותף ולהחליף את הישן";
+"Allows the users you share with to delete shared files" = "מאפשר למשתמשים ששתפת איתם למחוק את הקבצים המשותפים";
+"Setting permission failed" = "הגדרת הרשאות נכשלה";
+"Shared with" = "משותף עם:";
+"Remove Recipient failed" = "הסרת נמענים נכשלה";
+"Remove Recipient" = "הסרת נמען";
+"Create" = "יצירה";
+"Change" = "שינוי";
+"Recipients can view or download contents." = "נמענים יכולים לצפות התוכן או להורידו.";
+"Recipients can view, download, edit, delete and upload contents." = "נמענים יכולים לצפות, להוריד, לערוך ולהעלות תכנים.";
+"Receive files from multiple recipients without revealing the contents of the folder." = "קבלת קבצים ממספר נמענים מבלי לחשוף את תוכן התיקיה.";
+"Download / View" = "הורדה / הצגה";
+"Download / View / Upload" = "הורדה / הצגה / העלאה";
+"Upload only (File Drop)" = "העלאה בלבד (גרירת קובץ)";
+"Creating public link failed" = "יצירת קישור שיתופי נכשלה";
+"Create Public Link" = "יצירת קישור שיתופי";
+"Links" = "קישורים";
+"Link" = "קישור";
+"Setting expiration date failed" = "הגדרת תאריך תפוגה נכשל";
+"Expiration date" = "תאריך התפוגה";
+"Copy Public Link" = "העתקת קישור ציבורי";
+"Delete Public Link" = "מחיקת קישור שיתופי";
+"Deleting Public Link failed" = "מחיקת קישור שיתופי נכשלה";
+"Deleting password failed" = "מחיקת סיסמא נכשלה";
+"Setting password failed" = "הגדרת סיסמא נכשלה";
+"Type to update password" = "יש להקליד לעדכון סיסמא";
+"Cannot change permission" = "לא ניתן לשנות הרשאות";
+"Before you can set the permission\n%@,\n you must enter a password." = "לפני הגדרת הרשאות\n%@,\n יש להכניס סיסמא.";
+"Password Protected" = "מוגן סיסמא";
+"Pending Federated Invites" = "הזמנות מאוחדות ממתינות";
+"Pending Invites" = "הזמנות ממתינות";
+"Shared with you" = "שיתף/שיתפה אתך";
+"Shared with others" = "משותף עם אחרים";
+"Shares" = "שיתופים";
+"Copy Private Link" = "העתקת קישור פרטי";
+"Only people who have access to the file/folder can use it. Use it as a permanent link for yourself or to point others to files within shares." = "Only people who have access to the file/folder can use it. Use it as a permanent link for yourself or to point others to files within shares.";
+"Accept Share failed" = "אישור שיתוף נכשל";
+"Decline Share failed" = "דחיית שיתוף נכשלה";
+"Accept" = "אישור";
+"Decline" = "סירוב";
+"Declined" = "נדחה";
+"Decline Share" = "דחיית שיתוף";
+"Unshare" = "הסר שיתוף";
+"Unshare failed" = "ביטול שיתוף נכשל";
+"Are you sure you want to unshare these items?" = "האם באמת לבטל שיתוף של הפריטים הבאים?";
+"Are you sure you want to unshare this item?" = "האם באמת לבטל שיתוף של פריט זה?";
+"Share" = "שיתוף";
+"Read" = "נקרא";
+"Can Share" = "ניתן לשתף";
+"Can Edit" = "ניתן לערוך";
+"Can Edit and Change" = "ניתן לערוך ולשנות";
+"Can Create" = "ניתן ליצור";
+"Can Change" = "ניתן לשנות";
+"Can Delete" = "ניתן למחוק";
+"Accept Invite %@" = "מאשר הזמנה %@";
+"Decline Invite %@" = "דחיית הזמנה %@";
+"Decline cannot be undone." = "לא ניתן לבטל דחייה.";
+"Sharing" = "שיתוף";
+"You" = "אתה";
+"Share this file" = "משתף קובץ זה";
+"Share this folder" = "משתף תיקייה זו";
+"shared" = "משותף";
+"Owner" = "בעלים";
+"Private Link" = "קישור פרטי";
+"Created Public Link" = "יצירת קישור שיתופי";
+"URL was copied to the clipboard" = "הנתיב הועתק ללוח הגזירים";
+"%@ is not available, when this account is offline. Please open the app and log into your account before you can do this action." = "%@ is not available, when this account is offline. Please open the app and log into your account before you can do this action.";
+"%@ is not available for this item." = "%@ is not available for this item.";
+"Share with user/group" = "Share with user/group";
+"Share link" = "קישור לשיתוף";
+
+/* Quick Access view */
+"Quick Access" = "גישה מהירה";
+"Collection" = "אוסף";
+"Recents" = "אחרונים";
+"Favorites"= "מועדפים";
+"Images" = "תמונות";
+"PDF Documents" = "מסמכי PDF";
+"Text" = "טקסט";
+"Documents" = "מסמכים";
+"Audio" = "קובץ שמע";
+
+/* Media files settings */
+"Media Files" = "קובצי מדיה";
+"Download instead of streaming" = "הורדה במקום הזרמת מידע";
+
+/* Photo upload settings */
+"Media Upload" = "העלאת מדיה";
+"Media Export" = "יצוא מדיה";
+"Auto Upload" = "העלאה אוטומטית";
+"Convert HEIC to JPEG" = "המרת HEIC ל- JPEG";
+"Convert videos to MP4" = "המרת וידאו ל- MP4";
+"Preserve original media file names" = "שומר שמות קובצי מדיה מקוריים";
+"Auto Upload Photos" = "העלאת תמונות אוטומטית";
+"Auto Upload Videos" = "העלאת סרטונים אוטומטית";
+"Account" = "חשבון";
+"Accounts" = "חשבונות";
+"Select account" = "בחירת חשבון";
+"Photo upload path" = "נתיב העלאת תמונות";
+"Video upload path" = "נתיב להעלאת סרטונים";
+"Select Upload Path" = "בחירת נתיב העלאה";
+"Auto upload of media was disabled since configured account / folder was not found" = "העלאה אוטומטית של מדיה מנוטרל כיוון שחשבון / ספרית הגדרות לא נמצאו";
+"Importing %@ media files for upload" = "מיבא %@ קובצי מדיה להעלאה";
+"Photo upload" = "העלאת תמונה";
+"Video upload" = "העלאת סרטון";
+
+/* Background media uploads */
+"Background uploads (Lab Version)" = "Background uploads (Lab Version)";
+"Background uploads" = "העלאה ברקע";
+"Use background refresh" = "שימוש ברענון ברקע";
+"Allow this app to refresh the content when on Wi-Fi or mobile network in background." = "Allow this app to refresh the content when on Wi-Fi or mobile network in background.";
+"Enable background uploads" = "מאפשר העלאות ברקע";
+"Use background location updates" = "שימוש בעדכוני מיקום ברקע";
+"Background upload notifications" = "התראות על העלאות ברקע";
+"If you would like background media uploads to be more reliable, you should enable background location updates." = "If you would like background media uploads to be more reliable, you should enable background location updates.";
+"Background media uploads rely on location updates and will stop working if location acquisition permissions are revoked." = "העלאות מדיה ברקע מסתמכות על עדכוני מיקום ויפסיקו לעבוד אם יבוטלו הרשאות להשגת מיקום.";
+"Otherwise background media uploads using background refresh technology would depend on how frequently you use the app." = "אחרת העלאות מדיה ברקע בטכנולוגיית רענון רקע יהיו תלויות בתדירות שבה משתמשים ביישום.";
+"Location permission denied" = "הרשאת מיקום נכשלה.";
+"Please re-enable location acquisition in system settings" = "יש לאפשר מחדש השגת מיקום בהגדרות המערכת.";
+"Scheduled upload of %ld media assets" = "העלאה מתוכננת של %ld נכסי מדיה";
+
+/* Progress summarizer */
+"Creating %ld folders…" = "יוצר %ld תיקיות…";
+"Moving %ld items…" = "מעביר %ld פריטים…";
+"Copying %ld items…" = "מעתיק %ld פריטים…";
+"Deleting %ld items…" = "מוחק %ld פריטים…";
+"Uploading %ld files…" = "מעלה %ld קבצים…";
+"Downloading %ld files…" = "מוריד %ld קבצים…";
+"Updating %ld items…" = "מעדכן %ld פריטים…";
+
+/* Offline storage management */
+"Free on %@" = "חינם ב- %@";
+"unknown" = "לא ידוע";
+"Offline files use" = "שימוש בקבצים לא מקוונים";
+"Compacting of '%@' failed" = "קיווץ של '%@' נכשל";
+"Include available offline files" = "כולל קבצים לא מקוונים זמינים";
+"Delete all Offline Files" = "Delete all Offline Files";
+"Manage" = "ניהול";
+"Storage" = "אחסון";
+"Compacting" = "דחיסה";
+
+"Really include available offline files?" = "באמת לכלול קבצים לא מקוונים זמינים?";
+"Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." = "קבצים ותיקיות שמסומנות כזמינות במצב לא מקוון יהפכו ללא זמינות. הם יורדו מחדש בפעם הבאה שיעשה חיבור לחשבון שלך (החיבור נדרש).";
+"Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." = "Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required).";
+
+/* Diagnostic */
+"Diagnostic Overview" = "סקירה אבחנתית";
+"Diagnostics" = "אבחון";
+"Share Diagnostics" = "שיתוף הבחנות";
+"Action executed" = "הפעולה יצאה לפועל";
+
+"Update Status" = "סטטוס עדכון";
+"Completed update scans" = "סריקות עדכונים שהושלמו";
+"Total update scans" = "סך עדכוני סריקות";
+
+/* Available offline */
+"Root folder" = "תיקיית יסוד";
+"at" = "בשנה";
+"(no match)" = "(אין התאמה)";
+
+"Make available offline" = "הופך לזמין באופן לא מקוון";
+"Make unavailable offline" = "הופך ללא זמין באופן מקוון";
+
+"Available Offline" = "זמין באופן לא מקוון";
+"No items have been selected for offline availability." = "לא נבחרו פריטים לזמינות במצב לא מקוון.";
+
+"Overview" = "סקירה כללית";
+"All Files" = "כל הקבצים";
+
+/* Single Account */
+"You are connected as\n%@" = "You are connected as\n%@";
+
+/* Release Notes */
+"Proceed" = "להמשך";
+"New in %@" = "New in %@";
+"Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" = "תודה על השימוש ב- %@.\nאם ההתרשמות מהיישום שלנו חיובית, נשמח אם תשאירו ביקורת בחנות היישומים.\n❤️";
+"Thank you for using %@.\n" = "Thank you for using %@.\n";
+
+/* Key Commands */
+"Select Next" = "בחירת הבא";
+"Select Previous" = "בחירת הקודם";
+"Open Selected" = "פתיחת נבחר";
+"Change Sort Order" = "שינוי סדר מיון";
+"Search" = "חיפוש";
+"Back" = "אחורה";
+"Save" = "שמירה";
+"Sort by %@" = "מיון על פי %@";
+"Tab %@" = "טאב %@";
+"Select Last Item on Page" = "בחירת פריט אחרון בעמוד";
+"Scroll to Top" = "גלילה מעלה";
+"Scroll to Bottom" = "גלילה מטה";
+"Copy to Clipboard" = "Copy to Clipboard";
+"Import from Clipboard" = "Import from Clipboard";
+"Choose destination directory…" = "Choose destination directory…";
+"Next" = "הבא";
+"Previous" = "קודם";
+"Favorite" = "מועדף";
+"Cut" = "גזירה";
+"Paste" = "Paste";
+"Play/Pause" = "Play/Pause";
+"Skip Back" = "Skip Back";
+"Skip Ahead" = "Skip Ahead";
+"Go to Beginning" = "Go to Beginning";
+"Mute/Unmute" = "Mute/Unmute";
+"Full Screen" = "Full Screen";
+"Switch Theme Style" = "Switch Theme Style";
+
+/* Markup */
+"How should this file be saved?" = "איך קובץ זה צריך להישמר?";
+"Overwrite original" = "החלפת מקור";
+"Save as copy" = "שמירה כהעתק";
+"Discard changes" = "ביטול שינויים";
+"Markup" = "סימונים";
+"Crop or Rotate" = "חיתוך או סיבוב";
+"Saving edited file failed" = "שמירת קובץ ערוך נכשלה";
+"File no longer exists" = "הקובץ כבר לא קיים";
+
+/* Licensing */
+"Unlocked" = "לא נעול";
+"Unlock" = "פתיחת נעילה";
+
+"Subscribe Now" = "רישום עכשיו";
+"Free" = "חינם";
+
+"%@ / %@" = "%@ / %@";
+"after free %@ trial" = "לאחר ניסיון %@ חינם";
+
+/* Example usage: "Try [14 days] for free." */
+"Try %@ for free." = "ניסיון של %@ בחינם.";
+
+/* Example usage: "Then [1,99 €] / [year]." */
+"Then %@ / %@." = "לאחר מכן %@ / %@.";
+
+/* Example usage: "[1,99 €] / [year] - starting immediately." */
+"%@ / %@ – starting immediately" = "%@ / %@ – מתחיל מיידית";
+
+/* Licensing: Pro Features */
+"Pro Features" = "מאפייני גרסה מקצועית";
+
+/* Licensing: App Store */
+"Restore purchases" = "שחזור רכישות";
+"Restoring purchases…" = "משחזר רכישות...";
+"Error restoring purchases" = "שגיאה בשחזור רכישות";
+"Error loading product info from App Store"= "שגיאה בטעינת מידע מוצר מחנות היישומים";
+"Purchase failed" = "רכישה נכשלה";
+"More information" = "More information";
+
+/* Licensing: Enterprise */
+"Enterprise" = "ארגוני";
+
+/* Licensing: Settings */
+"In-App Purchases" = "רכישות בתוך היישום";
+"Purchases" = "רכישות";
+"Error fetching transactions" = "שגיאה במשיכת עסקאות";
+"Document Scanner" = "סורק מסמכים";
+"Scan documents and photos with your camera." = "סריקת מסמכים ותמונות באמצעות המצלמה שלך.";
+"Shortcuts Actions" = "פעולות קיצורי דרך";
+"Use OpenCloud actions in Shortcuts." = "השתמש בפעולות OpenCloud באמצעות קיצורי דרך.";
+"Markup Documents" = "מסמכים עם הערות";
+"Markup photos and PDF files." = "תמונות וקובצי PDF עם הערות ";
+"Unlock all Pro Features." = "פתיחת כל אפשרויות הגרסה המקצועית.";
+
+"Purchased App Version" = "גרסה מקצועית שנרכשה";
+"Receipt Date" = "תאריך קבלה";
+"Manage subscription" = "ניהול מנויים";
+"Purchases are not allowed on this device." = "רכישות אינן מורשות בהתקן זה.";
+"Type" = "סוג";
+"Quantity" = "כמות";
+"Product" = "מוצר";
+"Date" = "תאריך";
+"Cancelled" = "בוטל";
+"Ends" = "סיום";
+"none" = "כלום";
+"trial" = "ניסיון";
+"purchase" = "רכישה";
+"subscription" = "מנוי";
+"Photo Pro Features" = "Photo Pro Features";
+"Image metadata, extended upload options" = "Image metadata, extended upload options";
+"Purchase" = "Purchase";
+"Subscribe" = "רישום";
+
+"No accounts found" = "No accounts found";
+"In order to accurately determine your current licensing status, please add one or more accounts first." = "In order to accurately determine your current licensing status, please add one or more accounts first.";
+
+/* Share Sheet */
+"Save File" = "שמירת קובץ";
+"Choose an account and folder to import into." = "יש לבחור חשבון ותיקייה ליבוא.";
+"No account configured.\nSetup an new account in the app to save to." = "לא הוגדר חשבון.\nהגדרת חשבון חדש ביישום שניתן יהיה לשמור אליו.";
+"Importing item %ld of %ld" = "יבוא פריט %ld מתוך %ld";
+"Error importing %@" = "שגיאה ביבוא %@";
+"Error loading item" = "שגיאה בטעינת פריט";
+"Preparing…" = "מכין...";
+"Save here" = "שמירה כאן";
+
+/* Disallowed Import Methods */
+/* - Share Extension */
+"Share Extension disabled" = "Share Extension disabled";
+"Importing files through the Share Extension is not allowed on this device." = "Importing files through the Share Extension is not allowed on this device.";
+
+/* - Open with */
+"Opening not allowed" = "Opening not allowed";
+"Importing files through opening is not allowed on this device." = "Importing files through opening is not allowed on this device.";
+
+/* - Files.app */
+"Import not allowed" = "Import not allowed";
+"Importing files through the File Provider is not allowed on this device." = "Importing files through the File Provider is not allowed on this device.";
+
+/* Data migration from legacy app */
+"Account Migration" = "נדידת חשבון";
+"App Passcode" = "קוד יישום";
+"Instant Upload Settings" = "הגדרות העלאה מיידית";
+"Migrating" = "בנדידה";
+"Migrated" = "סיים נדידה";
+"Failed to migrate" = "נדידה נכשלה";
+"Failed to access legacy user data" = "הגישה לנתוני משתמש מדור קודם נכשלה";
+"The app was upgraded to a new version. Below there is an overview of all migrated accounts." = "The app was upgraded to a new version. Below there is an overview of all migrated accounts.";
+
+/* Misc. accessibility */
+"Enter multiple selection" = "הזנת בחירה מרובה";
+
+/* Universal Links */
+"Resolving link…" = "פותר קישור...";
+"Link resolution failed" = "רזולוציית קישור נכשלה";
+"Couldn't resolve a private link since you are offline and corresponding item is not cached locally." = "לא ניתן היה לפתור קישור פרטי מכיוון שהנך במצב לא מקוון והפריט התואם לא נשמר במטמון באופן מקומי.";
+"Couldn't resolve a private link since the item is not known to the server." = "לא ניתן היה לפתור קישור פרטי מכיוון שהפריט אינו מוכר לשרת.";
+"Link points to an account bookmark which is not configured in the app." = "הקישור מצביע על סימניה לחשבון שאינו מוגדר ביישום.";
+
+/* Photo meta-data */
+"Image metadata" = "Image metadata";
+"Image details" = "Image details";
+"Profile" = "Profile";
+"Size" = "גודל";
+"Density" = "Density";
+"Color model" = "Color model";
+"%@ (%d bits/channel)" = "%@ (%d bits/channel)";
+"Histogram" = "Histogram";
+
+"Camera details" = "Camera details";
+"Capture settings" = "Capture settings";
+"Time" = "זמן";
+"EXIF aux info" = "EXIF aux info";
+"Authoring" =  "Authoring";
+"TIFF" = "TIFF";
+
+"Lens make" = "Lens make";
+"Lens model" = "Lens model";
+"Lens info" = "Lens info";
+"Focal length" = "Focal length";
+"Focal length @ 35 mm" = "Focal length @ 35 mm";
+
+"Shutter speed" = "Shutter speed";
+"Aperture" = "Aperture";
+"ISO" = "ISO";
+
+/* EXIF: exposure program */
+"Program" = "Program";
+"Not defined" = "Not defined";
+"Manual" = "Manual";
+"Normal" = "רגיל";
+"Aperture priority" = "Aperture priority";
+"Shutter priority" = "Shutter priority";
+"Creative" = "Creative";
+"Action" = "פעולה";
+"Portrait" = "Portrait";
+"Landscape" = "Landscape";
+
+/* EXIF: exposure metering mode */
+"Metering" = "Metering";
+"unknown" = "לא ידוע";
+"Average" = "Average";
+"CenterWeightedAverage" = "CenterWeightedAverage";
+"Spot" = "Spot";
+"MultiSpot" = "MultiSpot";
+"Pattern" = "מערך";
+"Partial" = "Partial";
+
+/* EXIF: flash mode */
+"Flash" = "Flash";
+"Fired" = "Fired";
+"Didn't fire" = "Didn't fire";
+"No strobe return detection" = "No strobe return detection";
+"Strobe return light not detected" = "Strobe return light not detected";
+"Strobe return light detected" = "Strobe return light detected";
+"Compulsory flash firing" = "Compulsory flash firing";
+"Compulsory flash supression" = "Compulsory flash supression";
+"Auto mode" = "Auto mode";
+"Red eye detection supported" = "Red eye detection supported";
+"not present" = "not present";
+
+/* EXIF: white balance */
+"White balance" = "White balance";
+"Auto" = "Auto";
+"Manual" = "Manual";
+
+"Exposure bias" = "Exposure bias";
+"Uncalibrated" = "Uncalibrated";
+"Original date" = "Original date";
+"Digitized date" = "Digitized date";
+
+"Color space" = "Color space";
+
+/* EXIF: aux info */
+"Lens ID" = "Lens ID";
+"Lens serial" = "Lens serial";
+"Serial number" = "Serial number";
+"Flash compensation" = "Flash compensation";
+"Owner" = "בעלים";
+"Firmware" = "Firmware";
+"Keywords" = "Keywords";
+"Copyright" = "זכויות יוצרים";
+
+/* IPTC meta data */
+"Contact info" = "Contact info";
+"Usage terms" = "Usage terms";
+"Scene" = "Scene";
+"Description" = "תיאור";
+
+/* IPTC photometric interpretation */
+"Photometric interpretation" = "Photometric interpretation";
+"none" = "כלום";
+"RGB" = "RGB";
+"YCbCr" = "YCbCr";
+
+/* EXIF: gps position data */
+"GPS Location" = "GPS Location";
+"Coordinates" = "Coordinates";
+"Altitude" = "Altitude";
+"Place" = "Place";
+"E" = "E";
+"W" = "W";
+"N" = "N";
+"S" = "S";
+
+/* Pro photo upload settings */
+"Extended upload settings" = "Extended upload settings";
+"Prefer unedited photos" = "Prefer unedited photos";
+"Prefer RAW photos" = "Prefer RAW photos";
+"Prefer original videos" = "Prefer original videos";
+
+/* Limited photo library access */
+"Limited Photo Access" = "Limited Photo Access";
+"Access for the media selected for upload is limited" = "Access for the media selected for upload is limited";
+"No Access to the media selected for upload" = "No Access to the media selected for upload";
+
+/* macOS support */
+"Passcode protection is not supported on this device.\nPlease disable passcode lock in the app settings." = "Passcode protection is not supported on this device.\nPlease disable passcode lock in the app settings.";
+
+/* MDM settings push */
+"New settings received from MDM" = "New settings received from MDM";
+"Tap to quit the app." = "Tap to quit the app.";
+"Tap to launch the app." = "Tap to launch the app.";

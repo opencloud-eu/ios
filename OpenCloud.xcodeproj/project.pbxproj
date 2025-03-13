@@ -38,23 +38,23 @@
 		3912208223436EB80026C290 /* SortMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3912208123436EB80026C290 /* SortMethod.swift */; };
 		3912D8AD29958BF400EDCB9A /* OCThemeValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 3912D8AB29958BF400EDCB9A /* OCThemeValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3912D8AE29958BF400EDCB9A /* OCThemeValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 3912D8AC29958BF400EDCB9A /* OCThemeValues.m */; };
-		391933C22B0B81DB007DF90B /* ownCloud Action Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 391933B42B0B81DB007DF90B /* ownCloud Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		391933C22B0B81DB007DF90B /* OpenCloud Action Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 391933B42B0B81DB007DF90B /* OpenCloud Action Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		391933C62B0B8E5A007DF90B /* ShareExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B4FC42940F8D60037F8F8 /* ShareExtensionViewController.swift */; };
-		391933CD2B0B8EBD007DF90B /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		391933CE2B0B8EC0007DF90B /* ownCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; };
-		391933CF2B0B8EC3007DF90B /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
-		391933D02B0B8EC7007DF90B /* ownCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; };
+		391933CD2B0B8EBD007DF90B /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		391933CE2B0B8EC0007DF90B /* OpenCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; };
+		391933CF2B0B8EC3007DF90B /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
+		391933D02B0B8EC7007DF90B /* OpenCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; };
 		391C79A824E186DC00CB6333 /* OCBookmark+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC136581208223F000FC0F60 /* OCBookmark+Extension.swift */; };
 		392CFEB72705831700631D2B /* LAContext+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CFEB62705831700631D2B /* LAContext+Extension.swift */; };
 		392DDAE624C8923B009E5406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233BDEA6204FEFE500C06732 /* Assets.xcassets */; };
 		392DDB1424CF024D009E5406 /* ImportFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392DDB1324CF024C009E5406 /* ImportFilesController.swift */; };
 		393D2B3F23FEB6DC00ED4F8C /* DispatchQueueTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4FEAE9209E48E800D4476B /* DispatchQueueTools.swift */; };
 		394A0AED22EEE32C00603813 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A7138222E79C6700089423 /* IntentHandler.swift */; };
-		394A0AFD22EEFC2C00603813 /* ownCloudAppShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 394A0AFB22EEFC2C00603813 /* ownCloudAppShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		394A0B0022EEFC2C00603813 /* ownCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; };
-		394A0B0122EEFC2C00603813 /* ownCloudAppShared.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		394A0B0922EEFCE400603813 /* ownCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; };
-		394A0B0A22EEFCF500603813 /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		394A0AFD22EEFC2C00603813 /* OpenCloudAppShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 394A0AFB22EEFC2C00603813 /* OpenCloudAppShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394A0B0022EEFC2C00603813 /* OpenCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; };
+		394A0B0122EEFC2C00603813 /* OpenCloudAppShared.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		394A0B0922EEFCE400603813 /* OpenCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; };
+		394A0B0A22EEFCF500603813 /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		394E1FDA233E2D64009D2897 /* FavoriteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E1FD9233E2D64009D2897 /* FavoriteAction.swift */; };
 		394E1FDC233E3750009D2897 /* UnfavoriteAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E1FDB233E3750009D2897 /* UnfavoriteAction.swift */; };
 		395E3B152C8B0E83007979C9 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 395E3B142C8B0E83007979C9 /* InfoPlist.xcstrings */; };
@@ -84,12 +84,12 @@
 		399EA73A25E656A900B6FF11 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EA73925E656A900B6FF11 /* UITableView+Extension.swift */; };
 		399EA74625E6575B00B6FF11 /* NotificationHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EA74525E6575A00B6FF11 /* NotificationHUDViewController.swift */; };
 		399FBF8D2CABE3A600F1AACF /* CrashReporter in Frameworks */ = {isa = PBXBuildFile; productRef = 02AE32E324D2FA8B00A19476 /* CrashReporter */; };
-		39A7138722E79C6700089423 /* ownCloud Intents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39A7138022E79C6700089423 /* ownCloud Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		39A7138722E79C6700089423 /* OpenCloud Intents.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39A7138022E79C6700089423 /* OpenCloud Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		39BC9C3023DB831F0097C52D /* DocumentEditingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CD755123D787E400193950 /* DocumentEditingAction.swift */; };
 		39BE385D23435AFE0062A2FE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE385C23435AFE0062A2FE /* String+Extension.swift */; };
 		39BF674C25E7FE020039663F /* CancelLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF674B25E7FE020039663F /* CancelLabelViewController.swift */; };
-		39BF67B225E804DF0039663F /* ownCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; };
-		39BF67B325E804EF0039663F /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		39BF67B225E804DF0039663F /* OpenCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; };
+		39BF67B325E804EF0039663F /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		39CC8AE6228C12100020253B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CC8AE5228C12100020253B /* Array+Extension.swift */; };
 		39CD755423D8392D00193950 /* EditDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CD755323D8392D00193950 /* EditDocumentViewController.swift */; };
 		39D06BEC229BE8D8000D7FC9 /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D06BEB229BE8D8000D7FC9 /* SettingsSection.swift */; };
@@ -99,9 +99,9 @@
 		39D091B62D079646001329DF /* ConfidentialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D091B52D079644001329DF /* ConfidentialManager.m */; };
 		39DC7CD025C2E1570001E08C /* DocumentActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DC7CCF25C2E1570001E08C /* DocumentActionViewController.swift */; };
 		39DC7CD325C2E1570001E08C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DC7CD125C2E1570001E08C /* MainInterface.storyboard */; };
-		39DC7CD725C2E1570001E08C /* ownCloud File Provider UI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39DC7CCD25C2E1570001E08C /* ownCloud File Provider UI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		39DC7CE725C305E40001E08C /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		39DC7CF425C305E80001E08C /* ownCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; };
+		39DC7CD725C2E1570001E08C /* OpenCloud File Provider UI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 39DC7CCD25C2E1570001E08C /* OpenCloud File Provider UI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		39DC7CE725C305E40001E08C /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		39DC7CF425C305E80001E08C /* OpenCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; };
 		39DF77D524EA854C0066E8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DF77BF24EA842C0066E8F0 /* LaunchScreen.storyboard */; };
 		39E104CA24C585C30085FDDD /* (null) in Resources */ = {isa = PBXBuildFile; };
 		39E6DE86233CDF1E008DAE04 /* OCItemTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6DE85233CDF1E008DAE04 /* OCItemTracker.swift */; };
@@ -220,8 +220,8 @@
 		DC0A359624C0E61500FB58FC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FD4502334CF66004B68A1 /* UIView+Extension.swift */; };
 		DC0A359824C0E68700FB58FC /* OCItem+AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBD8EA924B3755B00D92E1F /* OCItem+AppExtension.swift */; };
 		DC0A359924C0E6FE00FB58FC /* VendorServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB44D86218718BA00DAA4CC /* VendorServices.swift */; };
-		DC0A359E24C0EBE500FB58FC /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		DC0A359F24C0EBE500FB58FC /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		DC0A359E24C0EBE500FB58FC /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		DC0A359F24C0EBE500FB58FC /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		DC0A35A124C1091400FB58FC /* UserInterfaceContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0A35A024C1091400FB58FC /* UserInterfaceContext.swift */; };
 		DC0A5C432550C70800E6674B /* class-settings-sdk in Resources */ = {isa = PBXBuildFile; fileRef = DC0A5C422550C70800E6674B /* class-settings-sdk */; };
 		DC0CE19D28C89CD9009ABDFB /* CreateDocumentAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CE19C28C89CD9009ABDFB /* CreateDocumentAction.swift */; };
@@ -243,11 +243,11 @@
 		DC1621382B8FE9BF00EB17F8 /* AddToSidebarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1621372B8FE9BF00EB17F8 /* AddToSidebarAction.swift */; };
 		DC16213A2B8FEEE500EB17F8 /* OCSidebarItem+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1621392B8FEEE500EB17F8 /* OCSidebarItem+Cell.swift */; };
 		DC16213E2B8FF06800EB17F8 /* OCSidebarItem+Interactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC16213D2B8FF06800EB17F8 /* OCSidebarItem+Interactions.swift */; };
-		DC18898E218A773700CFB3F9 /* ownCloudMocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0196A620F754CA00C41B78 /* ownCloudMocking.framework */; };
+		DC18898E218A773700CFB3F9 /* OpenCloudMocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0196A620F754CA00C41B78 /* OpenCloudMocking.framework */; };
 		DC1B270C209CF34B004715E1 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B270B209CF34B004715E1 /* BookmarkViewController.swift */; };
 		DC1BEEF62C2DFE940016C94F /* HelpAndSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1BEEF52C2DFE940016C94F /* HelpAndSupportViewController.swift */; };
-		DC20DE6A21C01B210096000B /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
-		DC20DE6B21C01B210096000B /* ownCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; };
+		DC20DE6A21C01B210096000B /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
+		DC20DE6B21C01B210096000B /* OpenCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; };
 		DC2218C62822C5B900808BCE /* OCVFSNode+FileProviderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2218C52822C5B900808BCE /* OCVFSNode+FileProviderItem.m */; };
 		DC2218CC2823329100808BCE /* FileProviderContentEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2218CB2823329100808BCE /* FileProviderContentEnumerator.m */; };
 		DC2323DC2AA7B5D600BFF393 /* BookmarkComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2323DB2AA7B5D600BFF393 /* BookmarkComposer.swift */; };
@@ -271,7 +271,7 @@
 		DC2565EE225F5A1900828AA5 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2565E8225F5A1900828AA5 /* UserNotifications.framework */; };
 		DC26ADDE2550C0B20059680D /* MetadataDocumentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC26ADDD2550C0B20059680D /* MetadataDocumentationTests.swift */; };
 		DC27A18E20CA9F66008ACB6C /* OCItem+FileProviderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27A18D20CA9F66008ACB6C /* OCItem+FileProviderItem.m */; };
-		DC27A18F20CAA0BA008ACB6C /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		DC27A18F20CAA0BA008ACB6C /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		DC27A19D20CAB602008ACB6C /* FileProviderInterfaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC27A19C20CAB602008ACB6C /* FileProviderInterfaceManager.swift */; };
 		DC27A1A520CBEF85008ACB6C /* OCBookmark+FileProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27A1A420CBEF85008ACB6C /* OCBookmark+FileProvider.m */; };
 		DC27A1A820CC095C008ACB6C /* OCCore+FileProviderTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DC27A1A720CC095C008ACB6C /* OCCore+FileProviderTools.m */; };
@@ -304,8 +304,8 @@
 		DC2FB16A2D3EF4FD00726E97 /* ConfidentialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D091B52D079644001329DF /* ConfidentialManager.m */; };
 		DC36885824DC98BF00333600 /* OCFileProviderServiceSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DC36885624DC98BF00333600 /* OCFileProviderServiceSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC36885924DC98BF00333600 /* OCFileProviderServiceSession.m in Sources */ = {isa = PBXBuildFile; fileRef = DC36885724DC98BF00333600 /* OCFileProviderServiceSession.m */; };
-		DC36885D24DD916800333600 /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		DC36885F24DD917900333600 /* ownCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; };
+		DC36885D24DD916800333600 /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		DC36885F24DD917900333600 /* OpenCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; };
 		DC36886224DDA9AB00333600 /* ProgressIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36886024DDA3C300333600 /* ProgressIndicatorViewController.swift */; };
 		DC3AB1982808C35300789435 /* ClientItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB1972808C35300789435 /* ClientItemViewController.swift */; };
 		DC3AB240280FFF2700789435 /* NSMutableAttributedString+AppendStyled.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB23F280FFF2700789435 /* NSMutableAttributedString+AppendStyled.swift */; };
@@ -313,8 +313,8 @@
 		DC3AB24428104AA500789435 /* UIFont+Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB24328104AA500789435 /* UIFont+Weight.swift */; };
 		DC3AB2462810602500789435 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB2452810602500789435 /* UILabel+Extension.swift */; };
 		DC3AB2482810A10300789435 /* ExpandableResourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB2472810A10300789435 /* ExpandableResourceCell.swift */; };
-		DC3BE0D82077BC5D002A0AC0 /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
-		DC3BE0DA2077BC6B002A0AC0 /* ownCloudSDK.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC3BE0D82077BC5D002A0AC0 /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
+		DC3BE0DA2077BC6B002A0AC0 /* OpenCloudSDK.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DC3DDF06287E1C0800E5586D /* UIViewController+HostBundleID.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DDF03287E1AC200E5586D /* UIViewController+HostBundleID.m */; };
 		DC3DDF07287E1C0E00E5586D /* UIViewController+HostBundleID.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3DDF02287E1AC200E5586D /* UIViewController+HostBundleID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC3DEC7B22AFA1F000F3352D /* DownloadItemsHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DEC7A22AFA1F000F3352D /* DownloadItemsHUDViewController.swift */; };
@@ -519,18 +519,18 @@
 		DCBAEAED29A627D900BFF393 /* DataSourceCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAEAEC29A627D900BFF393 /* DataSourceCondition.swift */; };
 		DCBD8EA824B3751900D92E1F /* OCItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397754E123279EED00119FCB /* OCItem+Extension.swift */; };
 		DCC085512293ED52008CC05C /* DisplaySettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC085502293ED52008CC05C /* DisplaySettingsSection.swift */; };
-		DCC085652293F1FD008CC05C /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		DCC0856E2293F1FD008CC05C /* ownCloudApp.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC0855E2293F1FD008CC05C /* ownCloudApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC085712293F1FD008CC05C /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
-		DCC085722293F1FD008CC05C /* ownCloudApp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DCC0857B2293F29F008CC05C /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		DCC085652293F1FD008CC05C /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		DCC0856E2293F1FD008CC05C /* OpenCloudApp.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC0855E2293F1FD008CC05C /* OpenCloudApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC085712293F1FD008CC05C /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
+		DCC085722293F1FD008CC05C /* OpenCloudApp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCC0857B2293F29F008CC05C /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		DCC0857F2293F48D008CC05C /* DisplaySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC0857D2293F2D7008CC05C /* DisplaySettings.m */; };
 		DCC085802293F490008CC05C /* DisplaySettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC0857C2293F2D7008CC05C /* DisplaySettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCC3700724D466D2008B0DEB /* DiagnosticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3700624D466D2008B0DEB /* DiagnosticManager.swift */; };
 		DCC3701624D4D365008B0DEB /* OCScanJobActivity+DiagnosticGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3701524D4D365008B0DEB /* OCScanJobActivity+DiagnosticGenerator.swift */; };
 		DCC5E4472326564F002E5B84 /* NSObject+AnnotatedProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC5E444232654DE002E5B84 /* NSObject+AnnotatedProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCC6564A20C9B7E400110A97 /* FileProviderExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC6564920C9B7E400110A97 /* FileProviderExtension.m */; };
-		DCC6566520C9B7E400110A97 /* ownCloud File Provider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCC6564620C9B7E300110A97 /* ownCloud File Provider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCC6566520C9B7E400110A97 /* OpenCloud File Provider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCC6564620C9B7E300110A97 /* OpenCloud File Provider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DCC73F2E2B86BC960009A210 /* PasswordComposerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC73F2D2B86BC960009A210 /* PasswordComposerViewController.swift */; };
 		DCC832DE242C0C3700153F8C /* DisplaySleepPreventer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC832DD242C0C3700153F8C /* DisplaySleepPreventer.swift */; };
 		DCC832F1242CC27B00153F8C /* NotificationMessagePresenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC832E6242CB18700153F8C /* NotificationMessagePresenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -559,7 +559,7 @@
 		DCD9B87B2379612B00691929 /* OCLicenseManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD9B873237960E600691929 /* OCLicenseManager+Internal.h */; };
 		DCDBB60A2525305600FAD707 /* NotificationAuthErrorForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDBB60225252FDA00FAD707 /* NotificationAuthErrorForwarder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCDBB60B2525306000FAD707 /* NotificationAuthErrorForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDBB60325252FDA00FAD707 /* NotificationAuthErrorForwarder.m */; };
-		DCDC0ACF23CD186400DFE36D /* ownCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */; };
+		DCDC0ACF23CD186400DFE36D /* OpenCloudApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */; };
 		DCDC0AD123CD18D200DFE36D /* OCLicenseManager+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC0AD023CD18D200DFE36D /* OCLicenseManager+Setup.swift */; };
 		DCDC208C239912DC003CFF5B /* OCLicenseTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDC208A239912DC003CFF5B /* OCLicenseTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCDC208D239912DC003CFF5B /* OCLicenseTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDC208B239912DC003CFF5B /* OCLicenseTransaction.m */; };
@@ -570,7 +570,7 @@
 		DCDC20AC2399A8CF003CFF5B /* OCLicenseEnterpriseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDC20AA2399A8CF003CFF5B /* OCLicenseEnterpriseProvider.m */; };
 		DCDE444D2A36F56000BFF393 /* AppStateActionOpenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE444C2A36F56000BFF393 /* AppStateActionOpenItem.swift */; };
 		DCDF58B323CE82E100080BEB /* LicenseInAppPurchaseFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF58B223CE82E100080BEB /* LicenseInAppPurchaseFeatureView.swift */; };
-		DCE0275E21F1DF7E00F2544E /* ownCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		DCE0275E21F1DF7E00F2544E /* OpenCloudUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		DCE28F602433683700879DEC /* ClientSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE28F5F2433683700879DEC /* ClientSessionManager.swift */; };
 		DCE2F03E27FADF2600E9E136 /* UICollectionViewDiffableDataSource+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE2F03D27FADF2600E9E136 /* UICollectionViewDiffableDataSource+Tools.swift */; };
 		DCE442CE2387452000940A6D /* LicensingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC0856B2293F1FD008CC05C /* LicensingTests.m */; };
@@ -584,9 +584,9 @@
 		DCE4E43F24C19D370051722F /* UIAlertController+OCIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC434D1220D7A8F100740056 /* UIAlertController+OCIssue.swift */; };
 		DCE4E44724C1AC4F0051722F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B289A7226F1EE000BE0E11 /* MessageView.swift */; };
 		DCE4E45024C1E0400051722F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39104E0A223991C8002FC02F /* UIButton+Extension.swift */; };
-		DCE4E47224C1F5610051722F /* ownCloud Share Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCE4E46824C1F5610051722F /* ownCloud Share Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DCE4E47B24C1F5870051722F /* ownCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */; };
-		DCE4E48024C1F58D0051722F /* ownCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* ownCloudSDK.framework */; };
+		DCE4E47224C1F5610051722F /* OpenCloud Share Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DCE4E46824C1F5610051722F /* OpenCloud Share Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCE4E47B24C1F5870051722F /* OpenCloudAppShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */; };
+		DCE4E48024C1F58D0051722F /* OpenCloudSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239369782076110900BCE21A /* OpenCloudSDK.framework */; };
 		DCE4E48724C1F9F50051722F /* CreateFolderAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1B80A21A4004900E16C95 /* CreateFolderAction.swift */; };
 		DCE4E48824C1FA430051722F /* NamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D77FC6212BFBD100DE76F1 /* NamingViewController.swift */; };
 		DCE4E48924C1FB750051722F /* application-pdf.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E89A2080D780005F60CE /* application-pdf.tvg */; };
@@ -604,7 +604,7 @@
 		DCE4E49524C1FB750051722F /* icon-locked.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DC9BFBB820A1AF2B007064B5 /* icon-locked.tvg */; };
 		DCE4E49624C1FB750051722F /* icon-password-manager.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DC9BFBBA20A1B3CA007064B5 /* icon-password-manager.tvg */; };
 		DCE4E49724C1FB750051722F /* image.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E8942080D77F005F60CE /* image.tvg */; };
-		DCE4E49824C1FB750051722F /* owncloud-logo.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E8952080D77F005F60CE /* owncloud-logo.tvg */; };
+		DCE4E49824C1FB750051722F /* opencloud-logo.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E8952080D77F005F60CE /* opencloud-logo.tvg */; };
 		DCE4E49924C1FB750051722F /* package-x-generic.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E89C2080D780005F60CE /* package-x-generic.tvg */; };
 		DCE4E49A24C1FB750051722F /* status-flash.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCB504D7221EF07E007638BE /* status-flash.tvg */; };
 		DCE4E49B24C1FB750051722F /* text-calendar.tvg in Resources */ = {isa = PBXBuildFile; fileRef = DCE5E89D2080D780005F60CE /* text-calendar.tvg */; };
@@ -648,7 +648,7 @@
 		DCFA56432975734A0092C89F /* BrowserNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA56422975734A0092C89F /* BrowserNavigationViewController.swift */; };
 		DCFA5645297574A60092C89F /* BrowserNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA5644297574A60092C89F /* BrowserNavigationItem.swift */; };
 		DCFA9CAF2987E14B00004F24 /* BrowserNavigationBookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFA9CAB2987E14B00004F24 /* BrowserNavigationBookmark.swift */; };
-		DCFBAD0C21BE67A100943F76 /* ownCloudUI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* ownCloudUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCFBAD0C21BE67A100943F76 /* OpenCloudUI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 2393697C2076110900BCE21A /* OpenCloudUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCFC9ECC28002303005D9144 /* CollectionViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC9ECB28002303005D9144 /* CollectionViewSection.swift */; };
 		DCFC9ED128002335005D9144 /* CollectionViewCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC9ED028002335005D9144 /* CollectionViewCellProvider.swift */; };
 		DCFC9ED3280023BB005D9144 /* CollectionViewCellProvider+StandardImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC9ED2280023BB005D9144 /* CollectionViewCellProvider+StandardImplementations.swift */; };
@@ -680,32 +680,32 @@
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 233BDE9B204FEFE500C06732;
-			remoteInfo = ownCloud;
+			remoteInfo = OpenCloud;
 		};
 		239369772076110900BCE21A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DCC8F9AB202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		239369792076110900BCE21A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DCC8F9B4202852A200EB6701;
-			remoteInfo = ownCloudSDKTests;
+			remoteInfo = OpenCloudSDKTests;
 		};
 		2393697B2076110900BCE21A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DC3094842057358800189B9A;
-			remoteInfo = ownCloudUI;
+			remoteInfo = OpenCloudUI;
 		};
 		2393697D2076110900BCE21A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DC7E0A77203732B3006111FA;
 			remoteInfo = Ocean;
@@ -715,49 +715,49 @@
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 391933B32B0B81DB007DF90B;
-			remoteInfo = "ownCloud Action Extension";
+			remoteInfo = "OpenCloud Action Extension";
 		};
 		391933C72B0B8EA2007DF90B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		391933C92B0B8EA5007DF90B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 394A0AF822EEFC2C00603813;
-			remoteInfo = ownCloudAppShared;
+			remoteInfo = OpenCloudAppShared;
 		};
 		391933CB2B0B8EA9007DF90B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		394A0AFE22EEFC2C00603813 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 394A0AF822EEFC2C00603813;
-			remoteInfo = ownCloudAppShared;
+			remoteInfo = OpenCloudAppShared;
 		};
 		394A0B0722EEFCD900603813 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 394A0AF822EEFC2C00603813;
-			remoteInfo = ownCloudAppShared;
+			remoteInfo = OpenCloudAppShared;
 		};
 		394A0B0B22EEFD2800603813 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		39A7138522E79C6700089423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -768,178 +768,178 @@
 		};
 		39BF67F425E805300039663F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		39DC7CD525C2E1570001E08C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 39DC7CCC25C2E1570001E08C;
-			remoteInfo = "ownCloud File Provider UI";
+			remoteInfo = "OpenCloud File Provider UI";
 		};
 		39DC7CE925C305E40001E08C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		39DC7CF625C305E80001E08C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 394A0AF822EEFC2C00603813;
-			remoteInfo = ownCloudAppShared;
+			remoteInfo = OpenCloudAppShared;
 		};
 		DC0196A520F754CA00C41B78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DCA8922720F5F13E00AEFF98;
-			remoteInfo = ownCloudMocking;
+			remoteInfo = OpenCloudMocking;
 		};
 		DC0196A720F754CA00C41B78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = DCA8922F20F5F13F00AEFF98;
-			remoteInfo = ownCloudMockingTests;
+			remoteInfo = OpenCloudMockingTests;
 		};
 		DC0A359A24C0EBD800FB58FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		DC188986218A772900CFB3F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCA8922620F5F13E00AEFF98;
-			remoteInfo = ownCloudMocking;
+			remoteInfo = OpenCloudMocking;
 		};
 		DC20DE6121C01B190096000B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		DC20DE6321C01B190096000B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DC3094832057358800189B9A;
-			remoteInfo = ownCloudUI;
+			remoteInfo = OpenCloudUI;
 		};
 		DC27A19220CAA0C6008ACB6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		DC2A6C752AC6BE0100BFF393 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DC3094832057358800189B9A;
-			remoteInfo = ownCloudUI;
+			remoteInfo = OpenCloudUI;
 		};
 		DC3BE0CE2077BC52002A0AC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		DC3BE0D02077BC52002A0AC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DC3094832057358800189B9A;
-			remoteInfo = ownCloudUI;
+			remoteInfo = OpenCloudUI;
 		};
 		DCB2C058250C1C3F001083CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		DCB2C05A250C1C4D001083CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		DCC085662293F1FD008CC05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		DCC085682293F1FD008CC05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 233BDE9B204FEFE500C06732;
-			remoteInfo = ownCloud;
+			remoteInfo = OpenCloud;
 		};
 		DCC0856F2293F1FD008CC05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		DCC085792293F296008CC05C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 		DCC6566320C9B7E400110A97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC6564520C9B7E300110A97;
-			remoteInfo = "ownCloud File Provider";
+			remoteInfo = "OpenCloud File Provider";
 		};
 		DCDC0ACD23CD185F00DFE36D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC0855B2293F1FD008CC05C;
-			remoteInfo = ownCloudApp;
+			remoteInfo = OpenCloudApp;
 		};
 		DCE4E47024C1F5610051722F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DCE4E46724C1F5610051722F;
-			remoteInfo = "ownCloud Share Extension";
+			remoteInfo = "OpenCloud Share Extension";
 		};
 		DCE4E47D24C1F5880051722F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 233BDE94204FEFE500C06732 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 394A0AF822EEFC2C00603813;
-			remoteInfo = ownCloudAppShared;
+			remoteInfo = OpenCloudAppShared;
 		};
 		DCE4E48324C1F6630051722F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+			containerPortal = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = DCC8F9AA202852A200EB6701;
-			remoteInfo = ownCloudSDK;
+			remoteInfo = OpenCloudSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -969,10 +969,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				394A0B0122EEFC2C00603813 /* ownCloudAppShared.framework in Copy Frameworks */,
-				DCC085722293F1FD008CC05C /* ownCloudApp.framework in Copy Frameworks */,
-				DCFBAD0C21BE67A100943F76 /* ownCloudUI.framework in Copy Frameworks */,
-				DC3BE0DA2077BC6B002A0AC0 /* ownCloudSDK.framework in Copy Frameworks */,
+				394A0B0122EEFC2C00603813 /* OpenCloudAppShared.framework in Copy Frameworks */,
+				DCC085722293F1FD008CC05C /* OpenCloudApp.framework in Copy Frameworks */,
+				DCFBAD0C21BE67A100943F76 /* OpenCloudUI.framework in Copy Frameworks */,
+				DC3BE0DA2077BC6B002A0AC0 /* OpenCloudSDK.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -983,11 +983,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				39A7138722E79C6700089423 /* ownCloud Intents.appex in Embed Foundation Extensions */,
-				DCE4E47224C1F5610051722F /* ownCloud Share Extension.appex in Embed Foundation Extensions */,
-				DCC6566520C9B7E400110A97 /* ownCloud File Provider.appex in Embed Foundation Extensions */,
-				391933C22B0B81DB007DF90B /* ownCloud Action Extension.appex in Embed Foundation Extensions */,
-				39DC7CD725C2E1570001E08C /* ownCloud File Provider UI.appex in Embed Foundation Extensions */,
+				39A7138722E79C6700089423 /* OpenCloud Intents.appex in Embed Foundation Extensions */,
+				DCE4E47224C1F5610051722F /* OpenCloud Share Extension.appex in Embed Foundation Extensions */,
+				DCC6566520C9B7E400110A97 /* OpenCloud File Provider.appex in Embed Foundation Extensions */,
+				391933C22B0B81DB007DF90B /* OpenCloud Action Extension.appex in Embed Foundation Extensions */,
+				39DC7CD725C2E1570001E08C /* OpenCloud File Provider UI.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1012,13 +1012,13 @@
 		232B01F32126B0CE00366FA0 /* MoreViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewHeader.swift; sourceTree = "<group>"; };
 		232B01F52126B10900366FA0 /* MoreStaticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreStaticTableViewController.swift; sourceTree = "<group>"; };
 		232F7CAE2097260400EE22E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		233BDE9C204FEFE500C06732 /* ownCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ownCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233BDE9C204FEFE500C06732 /* OpenCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		233BDE9F204FEFE500C06732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		233BDEA6204FEFE500C06732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233BDEAB204FEFE500C06732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		233BDEB0204FEFE500C06732 /* ownCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ownCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233BDEB0204FEFE500C06732 /* OpenCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233BDEB6204FEFE500C06732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ownCloudSDK.xcodeproj; path = "ios-sdk/ownCloudSDK.xcodeproj"; sourceTree = "<group>"; };
+		233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OpenCloudSDK.xcodeproj; path = "ios-sdk/OpenCloudSDK.xcodeproj"; sourceTree = "<group>"; };
 		233E0FD72099F11D00C3D8D5 /* SecuritySettingsSection.swift */ = {isa = PBXFileReference; indentWidth = 8; lastKnownFileType = sourcecode.swift; path = SecuritySettingsSection.swift; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
 		236735A521217C3500E5834A /* FrameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameViewController.swift; sourceTree = "<group>"; };
 		23957A6C209AFFE8003C8537 /* MoreSettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSettingsSection.swift; sourceTree = "<group>"; };
@@ -1042,16 +1042,16 @@
 		391220932344C30F0026C290 /* CutAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CutAction.swift; sourceTree = "<group>"; };
 		3912D8AB29958BF400EDCB9A /* OCThemeValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCThemeValues.h; sourceTree = "<group>"; };
 		3912D8AC29958BF400EDCB9A /* OCThemeValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCThemeValues.m; sourceTree = "<group>"; };
-		391933B42B0B81DB007DF90B /* ownCloud Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ownCloud Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391933B42B0B81DB007DF90B /* OpenCloud Action Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenCloud Action Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		391933B52B0B81DB007DF90B /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
 		391933BF2B0B81DB007DF90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		391933D12B0B9577007DF90B /* ownCloud Action Extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "ownCloud Action Extension.entitlements"; sourceTree = "<group>"; };
+		391933D12B0B9577007DF90B /* OpenCloud Action Extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "OpenCloud Action Extension.entitlements"; sourceTree = "<group>"; };
 		392CFEB62705831700631D2B /* LAContext+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LAContext+Extension.swift"; sourceTree = "<group>"; };
 		392DDB1324CF024C009E5406 /* ImportFilesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportFilesController.swift; sourceTree = "<group>"; };
-		3931206A2326451900E8DFBA /* Branding.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Branding.plist; path = ownCloud/Resources/Theming/Branding.plist; sourceTree = SOURCE_ROOT; };
+		3931206A2326451900E8DFBA /* Branding.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Branding.plist; path = OpenCloud/Resources/Theming/Branding.plist; sourceTree = SOURCE_ROOT; };
 		3940C4EF2326985B008227AE /* GetAccountIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccountIntentHandler.swift; sourceTree = "<group>"; };
-		394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ownCloudAppShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		394A0AFB22EEFC2C00603813 /* ownCloudAppShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ownCloudAppShared.h; sourceTree = "<group>"; };
+		394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCloudAppShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		394A0AFB22EEFC2C00603813 /* OpenCloudAppShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCloudAppShared.h; sourceTree = "<group>"; };
 		394A0AFC22EEFC2C00603813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		394E1FD9233E2D64009D2897 /* FavoriteAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteAction.swift; sourceTree = "<group>"; };
 		394E1FDB233E3750009D2897 /* UnfavoriteAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnfavoriteAction.swift; sourceTree = "<group>"; };
@@ -1090,7 +1090,7 @@
 		399EA73925E656A900B6FF11 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		399EA74525E6575A00B6FF11 /* NotificationHUDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHUDViewController.swift; sourceTree = "<group>"; };
 		39A5C3A0231566D9009D9EE3 /* GetFileInfoIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFileInfoIntentHandler.swift; sourceTree = "<group>"; };
-		39A7138022E79C6700089423 /* ownCloud Intents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ownCloud Intents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A7138022E79C6700089423 /* OpenCloud Intents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenCloud Intents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A7138222E79C6700089423 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		39A7138422E79C6700089423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39A7139722E858E400089423 /* GetAccountsIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAccountsIntentHandler.swift; sourceTree = "<group>"; };
@@ -1123,19 +1123,19 @@
 		39D83A3125A721AB00FAA0A8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Intents.strings; sourceTree = "<group>"; };
 		39D83A4325A721AC00FAA0A8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Intents.strings; sourceTree = "<group>"; };
 		39D83A4D25A721AE00FAA0A8 /* th-TH */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "th-TH"; path = "th-TH.lproj/Intents.strings"; sourceTree = "<group>"; };
-		39DC7CCD25C2E1570001E08C /* ownCloud File Provider UI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ownCloud File Provider UI.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DC7CCD25C2E1570001E08C /* OpenCloud File Provider UI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenCloud File Provider UI.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39DC7CCF25C2E1570001E08C /* DocumentActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentActionViewController.swift; sourceTree = "<group>"; };
 		39DC7CD225C2E1570001E08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		39DC7CD425C2E1570001E08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39DC7D0825C30AAB0001E08C /* ownCloud_File_Provider_UI.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ownCloud_File_Provider_UI.entitlements; sourceTree = "<group>"; };
+		39DC7D0825C30AAB0001E08C /* OpenCloud_File_Provider_UI.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = OpenCloud_File_Provider_UI.entitlements; sourceTree = "<group>"; };
 		39DF77BF24EA842C0066E8F0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E2FDFF21FF814A00F0117F /* ThemeRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeRoundedButton.swift; sourceTree = "<group>"; };
 		39E42D1B2315288B00B82AC3 /* KeyCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCommands.swift; sourceTree = "<group>"; };
 		39E6DE85233CDF1E008DAE04 /* OCItemTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCItemTracker.swift; sourceTree = "<group>"; };
 		39EF06AF25D6C3FC001E1E19 /* PresentationModeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationModeAction.swift; sourceTree = "<group>"; };
-		39F689A922EF5EDC00E63429 /* ownCloud Intents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ownCloud Intents.entitlements"; sourceTree = "<group>"; };
+		39F689A922EF5EDC00E63429 /* OpenCloud Intents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenCloud Intents.entitlements"; sourceTree = "<group>"; };
 		39F689AA22F018C100E63429 /* GetDirectoryListingIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDirectoryListingIntentHandler.swift; sourceTree = "<group>"; };
-		42866B2892DC9EDC65D844E7 /* Pods_ownCloud_Screenshots_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ownCloud_Screenshots_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42866B2892DC9EDC65D844E7 /* Pods_OpenCloud_Screenshots_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCloud_Screenshots_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C05D8A4238708D40073EF50 /* MediaUploadStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaUploadStorage.swift; sourceTree = "<group>"; };
 		4C11EE5A22E88D4200B84869 /* InstantMediaUploadTaskExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantMediaUploadTaskExtension.swift; sourceTree = "<group>"; };
 		4C1561E7222321E0009C4EF3 /* PhotoSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectionViewController.swift; sourceTree = "<group>"; };
@@ -1168,7 +1168,7 @@
 		4CC46D202284C677009E938F /* BookmarkInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkInfoViewController.swift; sourceTree = "<group>"; };
 		4CC4A21122FA20AD00AE7E2C /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		4CC4A21822FB4F4C00AE7E2C /* MediaUploadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaUploadQueue.swift; sourceTree = "<group>"; };
-		54199937F74A129BC74DEB0A /* Pods_ownCloudScreenshotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ownCloudScreenshotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54199937F74A129BC74DEB0A /* Pods_OpenCloudScreenshotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCloudScreenshotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		593BAB44209AE1BC00023634 /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
 		593BAB45209AE1BC00023634 /* PasscodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeViewController.xib; sourceTree = "<group>"; };
 		593BAB96209F8A0500023634 /* AppLockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLockManager.swift; sourceTree = "<group>"; };
@@ -1185,7 +1185,7 @@
 		6EA78B8E2179B55400A5216A /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		6EB8EDBE2114358300C2BF44 /* folder-create.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "folder-create.tvg"; path = "img/filetypes-tvg/folder-create.tvg"; sourceTree = SOURCE_ROOT; };
 		6ED1B80A21A4004900E16C95 /* CreateFolderAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFolderAction.swift; sourceTree = "<group>"; };
-		A56EA84D8AD331FFA604138B /* Pods_ownCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ownCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56EA84D8AD331FFA604138B /* Pods_OpenCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D9C062DD1E85A838608B0F /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = Pods/EarlGrey/EarlGrey/EarlGrey.framework; sourceTree = SOURCE_ROOT; };
 		DC0030BF2350B1CE00BB8570 /* NSData+Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encoding.m"; sourceTree = "<group>"; };
 		DC0030C02350B1CE00BB8570 /* NSData+Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encoding.h"; sourceTree = "<group>"; };
@@ -1207,7 +1207,7 @@
 		DC081C8A299B9B9000BFF393 /* AppStateActionGoToPersonalFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateActionGoToPersonalFolder.swift; sourceTree = "<group>"; };
 		DC0A35A024C1091400FB58FC /* UserInterfaceContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceContext.swift; sourceTree = "<group>"; };
 		DC0A5C422550C70800E6674B /* class-settings-sdk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "class-settings-sdk"; path = "ios-sdk/doc/class-settings-sdk"; sourceTree = SOURCE_ROOT; };
-		DC0B37952051541C00189B9A /* ownCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ownCloud.entitlements; sourceTree = "<group>"; };
+		DC0B37952051541C00189B9A /* OpenCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCloud.entitlements; sourceTree = "<group>"; };
 		DC0B37962051681600189B9A /* ThemeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButton.swift; sourceTree = "<group>"; };
 		DC0CE19128C7DBE3009ABDFB /* OpenInWebAppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInWebAppAction.swift; sourceTree = "<group>"; };
 		DC0CE19C28C89CD9009ABDFB /* CreateDocumentAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDocumentAction.swift; sourceTree = "<group>"; };
@@ -1372,7 +1372,7 @@
 		DC6C68352574FD0400E46BD4 /* PLCrashReporter.LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = PLCrashReporter.LICENSE; sourceTree = "<group>"; };
 		DC6CC3142642C3560040ECAC /* ExternalBrowserBusyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalBrowserBusyHandler.swift; sourceTree = "<group>"; };
 		DC6CF7FA219446050013B9F9 /* LogSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogSettingsViewController.swift; sourceTree = "<group>"; };
-		DC6F0B962AE90C4A00BFF393 /* com.owncloud.ios-app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "com.owncloud.ios-app"; sourceTree = "<group>"; };
+		DC6F0B962AE90C4A00BFF393 /* eu.opencloud.ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = eu.opencloud.ios; sourceTree = "<group>"; };
 		DC6FDAF62953AD50004F0C7F /* ClientSharedWithMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSharedWithMeViewController.swift; sourceTree = "<group>"; };
 		DC70398326128B89009F2DC1 /* NSString+ByteCountParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ByteCountParser.h"; sourceTree = "<group>"; };
 		DC70398426128B89009F2DC1 /* NSString+ByteCountParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ByteCountParser.m"; sourceTree = "<group>"; };
@@ -1518,10 +1518,10 @@
 		DCBAEAEC29A627D900BFF393 /* DataSourceCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceCondition.swift; sourceTree = "<group>"; };
 		DCBD8EA924B3755B00D92E1F /* OCItem+AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OCItem+AppExtension.swift"; sourceTree = "<group>"; };
 		DCC085502293ED52008CC05C /* DisplaySettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettingsSection.swift; sourceTree = "<group>"; };
-		DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ownCloudApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC0855E2293F1FD008CC05C /* ownCloudApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ownCloudApp.h; sourceTree = "<group>"; };
+		DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCloudApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC0855E2293F1FD008CC05C /* OpenCloudApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCloudApp.h; sourceTree = "<group>"; };
 		DCC0855F2293F1FD008CC05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC085642293F1FD008CC05C /* ownCloudAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ownCloudAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC085642293F1FD008CC05C /* OpenCloudAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCloudAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC0856B2293F1FD008CC05C /* LicensingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensingTests.m; sourceTree = "<group>"; };
 		DCC0856D2293F1FD008CC05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC0857C2293F2D7008CC05C /* DisplaySettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplaySettings.h; sourceTree = "<group>"; };
@@ -1530,11 +1530,11 @@
 		DCC3701524D4D365008B0DEB /* OCScanJobActivity+DiagnosticGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCScanJobActivity+DiagnosticGenerator.swift"; sourceTree = "<group>"; };
 		DCC5E444232654DE002E5B84 /* NSObject+AnnotatedProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AnnotatedProperties.h"; sourceTree = "<group>"; };
 		DCC5E445232654DE002E5B84 /* NSObject+AnnotatedProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AnnotatedProperties.m"; sourceTree = "<group>"; };
-		DCC6564620C9B7E300110A97 /* ownCloud File Provider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ownCloud File Provider.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC6564620C9B7E300110A97 /* OpenCloud File Provider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenCloud File Provider.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC6564820C9B7E400110A97 /* FileProviderExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileProviderExtension.h; sourceTree = "<group>"; };
 		DCC6564920C9B7E400110A97 /* FileProviderExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileProviderExtension.m; sourceTree = "<group>"; };
 		DCC6565120C9B7E400110A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC6565220C9B7E400110A97 /* ownCloud_File_Provider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ownCloud_File_Provider.entitlements; sourceTree = "<group>"; };
+		DCC6565220C9B7E400110A97 /* OpenCloud_File_Provider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCloud_File_Provider.entitlements; sourceTree = "<group>"; };
 		DCC73F2D2B86BC960009A210 /* PasswordComposerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordComposerViewController.swift; sourceTree = "<group>"; };
 		DCC832DD242C0C3700153F8C /* DisplaySleepPreventer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySleepPreventer.swift; sourceTree = "<group>"; };
 		DCC832E1242C0EAC00153F8C /* MessageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSelector.swift; sourceTree = "<group>"; };
@@ -1581,9 +1581,9 @@
 		DCE28F5F2433683700879DEC /* ClientSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientSessionManager.swift; sourceTree = "<group>"; };
 		DCE2F03D27FADF2600E9E136 /* UICollectionViewDiffableDataSource+Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewDiffableDataSource+Tools.swift"; sourceTree = "<group>"; };
 		DCE4E43D24C19C3E0051722F /* Action+UserInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Action+UserInterface.swift"; sourceTree = "<group>"; };
-		DCE4E46824C1F5610051722F /* ownCloud Share Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ownCloud Share Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE4E46824C1F5610051722F /* OpenCloud Share Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OpenCloud Share Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE4E46F24C1F5610051722F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE4E48224C1F5B70051722F /* ownCloud Share Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ownCloud Share Extension.entitlements"; sourceTree = "<group>"; };
+		DCE4E48224C1F5B70051722F /* OpenCloud Share Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenCloud Share Extension.entitlements"; sourceTree = "<group>"; };
 		DCE4E4C624C255E00051722F /* AppExtensionNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensionNavigationController.swift; sourceTree = "<group>"; };
 		DCE5E88C2080D77E005F60CE /* video.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = video.tvg; path = "img/filetypes-tvg/video.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E88D2080D77E005F60CE /* folder-external.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "folder-external.tvg"; path = "img/filetypes-tvg/folder-external.tvg"; sourceTree = SOURCE_ROOT; };
@@ -1594,7 +1594,7 @@
 		DCE5E8922080D77F005F60CE /* x-office-spreadsheet.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "x-office-spreadsheet.tvg"; path = "img/filetypes-tvg/x-office-spreadsheet.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E8932080D77F005F60CE /* folder-public.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "folder-public.tvg"; path = "img/filetypes-tvg/folder-public.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E8942080D77F005F60CE /* image.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = image.tvg; path = "img/filetypes-tvg/image.tvg"; sourceTree = SOURCE_ROOT; };
-		DCE5E8952080D77F005F60CE /* owncloud-logo.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "owncloud-logo.tvg"; path = "img/filetypes-tvg/owncloud-logo.tvg"; sourceTree = SOURCE_ROOT; };
+		DCE5E8952080D77F005F60CE /* opencloud-logo.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "opencloud-logo.tvg"; path = "img/filetypes-tvg/opencloud-logo.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E8962080D77F005F60CE /* text.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = text.tvg; path = "img/filetypes-tvg/text.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E8972080D77F005F60CE /* x-office-document.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "x-office-document.tvg"; path = "img/filetypes-tvg/x-office-document.tvg"; sourceTree = SOURCE_ROOT; };
 		DCE5E8982080D77F005F60CE /* folder-starred.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "folder-starred.tvg"; path = "img/filetypes-tvg/folder-starred.tvg"; sourceTree = SOURCE_ROOT; };
@@ -1677,13 +1677,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				024F3A2124A3AB410083E11E /* CrashReporter in Frameworks */,
-				394A0B0022EEFC2C00603813 /* ownCloudAppShared.framework in Frameworks */,
-				DC3BE0D82077BC5D002A0AC0 /* ownCloudSDK.framework in Frameworks */,
+				394A0B0022EEFC2C00603813 /* OpenCloudAppShared.framework in Frameworks */,
+				DC3BE0D82077BC5D002A0AC0 /* OpenCloudSDK.framework in Frameworks */,
 				DC8BFC0E2A14CAB900BFF393 /* PocketSVG in Frameworks */,
 				DCD8640628115FD600CA6631 /* OpenSSL in Frameworks */,
 				DC080CF1238C8D850044C5D2 /* StoreKit.framework in Frameworks */,
-				DCC085712293F1FD008CC05C /* ownCloudApp.framework in Frameworks */,
-				DCE0275E21F1DF7E00F2544E /* ownCloudUI.framework in Frameworks */,
+				DCC085712293F1FD008CC05C /* OpenCloudApp.framework in Frameworks */,
+				DCE0275E21F1DF7E00F2544E /* OpenCloudUI.framework in Frameworks */,
 				DCEAF08D28084B3800980B6D /* Down in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1692,9 +1692,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC20DE6A21C01B210096000B /* ownCloudSDK.framework in Frameworks */,
-				DC20DE6B21C01B210096000B /* ownCloudUI.framework in Frameworks */,
-				DC18898E218A773700CFB3F9 /* ownCloudMocking.framework in Frameworks */,
+				DC20DE6A21C01B210096000B /* OpenCloudSDK.framework in Frameworks */,
+				DC20DE6B21C01B210096000B /* OpenCloudUI.framework in Frameworks */,
+				DC18898E218A773700CFB3F9 /* OpenCloudMocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1702,10 +1702,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				391933D02B0B8EC7007DF90B /* ownCloudUI.framework in Frameworks */,
-				391933CF2B0B8EC3007DF90B /* ownCloudSDK.framework in Frameworks */,
-				391933CE2B0B8EC0007DF90B /* ownCloudAppShared.framework in Frameworks */,
-				391933CD2B0B8EBD007DF90B /* ownCloudApp.framework in Frameworks */,
+				391933D02B0B8EC7007DF90B /* OpenCloudUI.framework in Frameworks */,
+				391933CF2B0B8EC3007DF90B /* OpenCloudSDK.framework in Frameworks */,
+				391933CE2B0B8EC0007DF90B /* OpenCloudAppShared.framework in Frameworks */,
+				391933CD2B0B8EBD007DF90B /* OpenCloudApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1715,8 +1715,8 @@
 			files = (
 				DC9B4FCA29413B480037F8F8 /* Down in Frameworks */,
 				DC04920B258CB06A00DEDC27 /* PocketSVG in Frameworks */,
-				DCDC0ACF23CD186400DFE36D /* ownCloudApp.framework in Frameworks */,
-				394A0B0A22EEFCF500603813 /* ownCloudSDK.framework in Frameworks */,
+				DCDC0ACF23CD186400DFE36D /* OpenCloudApp.framework in Frameworks */,
+				394A0B0A22EEFCF500603813 /* OpenCloudSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1724,9 +1724,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0A359E24C0EBE500FB58FC /* ownCloudApp.framework in Frameworks */,
-				DC0A359F24C0EBE500FB58FC /* ownCloudSDK.framework in Frameworks */,
-				394A0B0922EEFCE400603813 /* ownCloudAppShared.framework in Frameworks */,
+				DC0A359E24C0EBE500FB58FC /* OpenCloudApp.framework in Frameworks */,
+				DC0A359F24C0EBE500FB58FC /* OpenCloudSDK.framework in Frameworks */,
+				394A0B0922EEFCE400603813 /* OpenCloudAppShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1734,10 +1734,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39DC7CF425C305E80001E08C /* ownCloudAppShared.framework in Frameworks */,
-				39DC7CE725C305E40001E08C /* ownCloudApp.framework in Frameworks */,
-				39BF67B225E804DF0039663F /* ownCloudUI.framework in Frameworks */,
-				39BF67B325E804EF0039663F /* ownCloudSDK.framework in Frameworks */,
+				39DC7CF425C305E80001E08C /* OpenCloudAppShared.framework in Frameworks */,
+				39DC7CE725C305E40001E08C /* OpenCloudApp.framework in Frameworks */,
+				39BF67B225E804DF0039663F /* OpenCloudUI.framework in Frameworks */,
+				39BF67B325E804EF0039663F /* OpenCloudSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1753,7 +1753,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCEAF06D280767CF00980B6D /* OpenSSL in Frameworks */,
-				DCC0857B2293F29F008CC05C /* ownCloudSDK.framework in Frameworks */,
+				DCC0857B2293F29F008CC05C /* OpenCloudSDK.framework in Frameworks */,
 				DC6C9A132A12859900BFF393 /* PocketSVG in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1762,7 +1762,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC085652293F1FD008CC05C /* ownCloudApp.framework in Frameworks */,
+				DCC085652293F1FD008CC05C /* OpenCloudApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1771,7 +1771,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				399FBF8D2CABE3A600F1AACF /* CrashReporter in Frameworks */,
-				DC27A18F20CAA0BA008ACB6C /* ownCloudSDK.framework in Frameworks */,
+				DC27A18F20CAA0BA008ACB6C /* OpenCloudSDK.framework in Frameworks */,
 				DC2565EE225F5A1900828AA5 /* UserNotifications.framework in Frameworks */,
 				DC973BBE24A28ED0001DEEC4 /* CoreServices.framework in Frameworks */,
 			);
@@ -1781,10 +1781,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC36885D24DD916800333600 /* ownCloudApp.framework in Frameworks */,
-				DC36885F24DD917900333600 /* ownCloudUI.framework in Frameworks */,
-				DCE4E48024C1F58D0051722F /* ownCloudSDK.framework in Frameworks */,
-				DCE4E47B24C1F5870051722F /* ownCloudAppShared.framework in Frameworks */,
+				DC36885D24DD916800333600 /* OpenCloudApp.framework in Frameworks */,
+				DC36885F24DD917900333600 /* OpenCloudUI.framework in Frameworks */,
+				DCE4E48024C1F58D0051722F /* OpenCloudSDK.framework in Frameworks */,
+				DCE4E47B24C1F5870051722F /* OpenCloudAppShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1806,18 +1806,18 @@
 				DC3BAC63282472A80057FCD4 /* KNOWN_ISSUES.md */,
 				DC9BFBB220A19AF3007064B5 /* doc */,
 				DCB86E8E2BD7B9EE00492C09 /* PrivacyInfo.xcprivacy */,
-				233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */,
-				233BDE9E204FEFE500C06732 /* ownCloud */,
-				233BDEB3204FEFE500C06732 /* ownCloudTests */,
-				DCC0855D2293F1FD008CC05C /* ownCloudAppFramework */,
-				DCC0856A2293F1FD008CC05C /* ownCloudAppFrameworkTests */,
+				233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */,
+				233BDE9E204FEFE500C06732 /* OpenCloud */,
+				233BDEB3204FEFE500C06732 /* OpenCloudTests */,
+				DCC0855D2293F1FD008CC05C /* OpenCloudAppFramework */,
+				DCC0856A2293F1FD008CC05C /* OpenCloudAppFrameworkTests */,
 				DC7DBA3B207F86E900E7337D /* Tools */,
-				DCC6564720C9B7E400110A97 /* ownCloud File Provider */,
-				39A7138122E79C6700089423 /* ownCloud Intents */,
-				394A0AFA22EEFC2C00603813 /* ownCloudAppShared */,
-				DCE4E46924C1F5610051722F /* ownCloud Share Extension */,
-				39DC7CCE25C2E1570001E08C /* ownCloud File Provider UI */,
-				391933B72B0B81DB007DF90B /* ownCloud Action Extension */,
+				DCC6564720C9B7E400110A97 /* OpenCloud File Provider */,
+				39A7138122E79C6700089423 /* OpenCloud Intents */,
+				394A0AFA22EEFC2C00603813 /* OpenCloudAppShared */,
+				DCE4E46924C1F5610051722F /* OpenCloud Share Extension */,
+				39DC7CCE25C2E1570001E08C /* OpenCloud File Provider UI */,
+				391933B72B0B81DB007DF90B /* OpenCloud Action Extension */,
 				233BDE9D204FEFE500C06732 /* Products */,
 				DC85573220513CC700189B9A /* Frameworks */,
 			);
@@ -1827,22 +1827,22 @@
 		233BDE9D204FEFE500C06732 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				233BDE9C204FEFE500C06732 /* ownCloud.app */,
-				233BDEB0204FEFE500C06732 /* ownCloudTests.xctest */,
+				233BDE9C204FEFE500C06732 /* OpenCloud.app */,
+				233BDEB0204FEFE500C06732 /* OpenCloudTests.xctest */,
 				DC7DBA34207F84BF00E7337D /* MakeTVG */,
-				DCC6564620C9B7E300110A97 /* ownCloud File Provider.appex */,
-				DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */,
-				DCC085642293F1FD008CC05C /* ownCloudAppTests.xctest */,
-				39A7138022E79C6700089423 /* ownCloud Intents.appex */,
-				394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */,
-				DCE4E46824C1F5610051722F /* ownCloud Share Extension.appex */,
-				39DC7CCD25C2E1570001E08C /* ownCloud File Provider UI.appex */,
-				391933B42B0B81DB007DF90B /* ownCloud Action Extension.appex */,
+				DCC6564620C9B7E300110A97 /* OpenCloud File Provider.appex */,
+				DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */,
+				DCC085642293F1FD008CC05C /* OpenCloudAppTests.xctest */,
+				39A7138022E79C6700089423 /* OpenCloud Intents.appex */,
+				394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */,
+				DCE4E46824C1F5610051722F /* OpenCloud Share Extension.appex */,
+				39DC7CCD25C2E1570001E08C /* OpenCloud File Provider UI.appex */,
+				391933B42B0B81DB007DF90B /* OpenCloud Action Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		233BDE9E204FEFE500C06732 /* ownCloud */ = {
+		233BDE9E204FEFE500C06732 /* OpenCloud */ = {
 			isa = PBXGroup;
 			children = (
 				392DDB1224CF024C009E5406 /* Import */,
@@ -1867,18 +1867,18 @@
 				DCF4F1872052BA3500189B9A /* Tools */,
 				DC27A19B20CAB5D7008ACB6C /* FileProvider Integration */,
 				DC85573120513C7500189B9A /* Resources */,
-				DC0B37952051541C00189B9A /* ownCloud.entitlements */,
+				DC0B37952051541C00189B9A /* OpenCloud.entitlements */,
 			);
-			path = ownCloud;
+			path = OpenCloud;
 			sourceTree = "<group>";
 		};
-		233BDEB3204FEFE500C06732 /* ownCloudTests */ = {
+		233BDEB3204FEFE500C06732 /* OpenCloudTests */ = {
 			isa = PBXGroup;
 			children = (
 				DC26ADBD2550C02F0059680D /* Metadata */,
 				233BDEB6204FEFE500C06732 /* Info.plist */,
 			);
-			path = ownCloudTests;
+			path = OpenCloudTests;
 			sourceTree = "<group>";
 		};
 		2366821521144DCD0045EF72 /* Card Presentation Controller */ = {
@@ -1907,11 +1907,11 @@
 		239369712076110900BCE21A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				239369782076110900BCE21A /* ownCloudSDK.framework */,
-				2393697A2076110900BCE21A /* ownCloudSDKTests.xctest */,
-				DC0196A620F754CA00C41B78 /* ownCloudMocking.framework */,
-				DC0196A820F754CA00C41B78 /* ownCloudMockingTests.xctest */,
-				2393697C2076110900BCE21A /* ownCloudUI.framework */,
+				239369782076110900BCE21A /* OpenCloudSDK.framework */,
+				2393697A2076110900BCE21A /* OpenCloudSDKTests.xctest */,
+				DC0196A620F754CA00C41B78 /* OpenCloudMocking.framework */,
+				DC0196A820F754CA00C41B78 /* OpenCloudMockingTests.xctest */,
+				2393697C2076110900BCE21A /* OpenCloudUI.framework */,
 				2393697E2076110900BCE21A /* Ocean.app */,
 			);
 			name = Products;
@@ -1967,14 +1967,14 @@
 			path = Client;
 			sourceTree = "<group>";
 		};
-		391933B72B0B81DB007DF90B /* ownCloud Action Extension */ = {
+		391933B72B0B81DB007DF90B /* OpenCloud Action Extension */ = {
 			isa = PBXGroup;
 			children = (
 				395E3B1A2C8B0E84007979C9 /* InfoPlist.xcstrings */,
-				391933D12B0B9577007DF90B /* ownCloud Action Extension.entitlements */,
+				391933D12B0B9577007DF90B /* OpenCloud Action Extension.entitlements */,
 				391933BF2B0B81DB007DF90B /* Info.plist */,
 			);
-			path = "ownCloud Action Extension";
+			path = "OpenCloud Action Extension";
 			sourceTree = "<group>";
 		};
 		392DDB1224CF024C009E5406 /* Import */ = {
@@ -1985,7 +1985,7 @@
 			path = Import;
 			sourceTree = "<group>";
 		};
-		394A0AFA22EEFC2C00603813 /* ownCloudAppShared */ = {
+		394A0AFA22EEFC2C00603813 /* OpenCloudAppShared */ = {
 			isa = PBXGroup;
 			children = (
 				DC24B2A925BA3154005783E2 /* Branding */,
@@ -2001,12 +2001,12 @@
 				395E16FB22F0691F00DE89A1 /* Intent */,
 				DCE4E4C024C255A70051722F /* App Extensions */,
 				DCB330E929F6861400BFF393 /* Resources */,
-				394A0AFB22EEFC2C00603813 /* ownCloudAppShared.h */,
+				394A0AFB22EEFC2C00603813 /* OpenCloudAppShared.h */,
 				DCD863FA28115C8700CA6631 /* Down.LICENSE */,
 				DC0492B0258CC4EE00DEDC27 /* PocketSVG.LICENSE */,
 				394A0AFC22EEFC2C00603813 /* Info.plist */,
 			);
-			path = ownCloudAppShared;
+			path = OpenCloudAppShared;
 			sourceTree = "<group>";
 		};
 		395E16FB22F0691F00DE89A1 /* Intent */ = {
@@ -2103,10 +2103,10 @@
 			path = Notification;
 			sourceTree = "<group>";
 		};
-		39A7138122E79C6700089423 /* ownCloud Intents */ = {
+		39A7138122E79C6700089423 /* OpenCloud Intents */ = {
 			isa = PBXGroup;
 			children = (
-				39F689A922EF5EDC00E63429 /* ownCloud Intents.entitlements */,
+				39F689A922EF5EDC00E63429 /* OpenCloud Intents.entitlements */,
 				399A4C022317D1ED0027DDD6 /* OCBookmarkManager+Extension.swift */,
 				39A7138222E79C6700089423 /* IntentHandler.swift */,
 				DCDC0AD223CD1E3200DFE36D /* IntentSettings.swift */,
@@ -2122,18 +2122,18 @@
 				3984F56B2319202200DC2639 /* DeletePathItemIntentHandler.swift */,
 				39A7138422E79C6700089423 /* Info.plist */,
 			);
-			path = "ownCloud Intents";
+			path = "OpenCloud Intents";
 			sourceTree = "<group>";
 		};
 		39C31F8E22F1A4F50023923D /* Theming */ = {
 			isa = PBXGroup;
 			children = (
 				DCE8AB722AE8121B00BFF393 /* branding-assets */,
-				DC6F0B962AE90C4A00BFF393 /* com.owncloud.ios-app */,
+				DC6F0B962AE90C4A00BFF393 /* eu.opencloud.ios */,
 				3931206A2326451900E8DFBA /* Branding.plist */,
 			);
 			name = Theming;
-			path = ownCloud/Resources/Theming;
+			path = OpenCloud/Resources/Theming;
 			sourceTree = SOURCE_ROOT;
 		};
 		39D091AB2D07347F001329DF /* Confidential */ = {
@@ -2154,16 +2154,16 @@
 			path = Confidential;
 			sourceTree = "<group>";
 		};
-		39DC7CCE25C2E1570001E08C /* ownCloud File Provider UI */ = {
+		39DC7CCE25C2E1570001E08C /* OpenCloud File Provider UI */ = {
 			isa = PBXGroup;
 			children = (
-				39DC7D0825C30AAB0001E08C /* ownCloud_File_Provider_UI.entitlements */,
+				39DC7D0825C30AAB0001E08C /* OpenCloud_File_Provider_UI.entitlements */,
 				39DC7CCF25C2E1570001E08C /* DocumentActionViewController.swift */,
 				39BF674B25E7FE020039663F /* CancelLabelViewController.swift */,
 				39DC7CD125C2E1570001E08C /* MainInterface.storyboard */,
 				39DC7CD425C2E1570001E08C /* Info.plist */,
 			);
-			path = "ownCloud File Provider UI";
+			path = "OpenCloud File Provider UI";
 			sourceTree = "<group>";
 		};
 		39E42D152315286300B82AC3 /* Key Commands */ = {
@@ -2846,9 +2846,9 @@
 				DC2565E8225F5A1900828AA5 /* UserNotifications.framework */,
 				DC27A19020CAA0BA008ACB6C /* MobileCoreServices.framework */,
 				D0D9C062DD1E85A838608B0F /* EarlGrey.framework */,
-				A56EA84D8AD331FFA604138B /* Pods_ownCloudTests.framework */,
-				42866B2892DC9EDC65D844E7 /* Pods_ownCloud_Screenshots_Tests.framework */,
-				54199937F74A129BC74DEB0A /* Pods_ownCloudScreenshotsTests.framework */,
+				A56EA84D8AD331FFA604138B /* Pods_OpenCloudTests.framework */,
+				42866B2892DC9EDC65D844E7 /* Pods_OpenCloud_Screenshots_Tests.framework */,
+				54199937F74A129BC74DEB0A /* Pods_OpenCloudScreenshotsTests.framework */,
 				391933B52B0B81DB007DF90B /* UniformTypeIdentifiers.framework */,
 			);
 			name = Frameworks;
@@ -3167,11 +3167,11 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
-		DCC0855D2293F1FD008CC05C /* ownCloudAppFramework */ = {
+		DCC0855D2293F1FD008CC05C /* OpenCloudAppFramework */ = {
 			isa = PBXGroup;
 			children = (
 				39D091B02D0788D1001329DF /* Confidential */,
-				DCC0855E2293F1FD008CC05C /* ownCloudApp.h */,
+				DCC0855E2293F1FD008CC05C /* OpenCloudApp.h */,
 				DC774E5A22F44E2A000B11A1 /* Display Settings */,
 				DC6A0E4F26EA9E2B0076B533 /* AppLock Settings */,
 				DCD71E7827427446001592C6 /* Building */,
@@ -3190,17 +3190,17 @@
 				DC3DDEFE287E1AA500E5586D /* UIKit Extensions */,
 				DC774E6522F44EA7000B11A1 /* Resources */,
 			);
-			path = ownCloudAppFramework;
+			path = OpenCloudAppFramework;
 			sourceTree = "<group>";
 		};
-		DCC0856A2293F1FD008CC05C /* ownCloudAppFrameworkTests */ = {
+		DCC0856A2293F1FD008CC05C /* OpenCloudAppFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
 				DCC0856B2293F1FD008CC05C /* LicensingTests.m */,
 				DCB459042604AD2A006A02AB /* SearchSegmentationTests.m */,
 				DCC0856D2293F1FD008CC05C /* Info.plist */,
 			);
-			path = ownCloudAppFrameworkTests;
+			path = OpenCloudAppFrameworkTests;
 			sourceTree = "<group>";
 		};
 		DCC5E443232654C1002E5B84 /* Foundation Extensions */ = {
@@ -3218,7 +3218,7 @@
 			path = "Foundation Extensions";
 			sourceTree = "<group>";
 		};
-		DCC6564720C9B7E400110A97 /* ownCloud File Provider */ = {
+		DCC6564720C9B7E400110A97 /* OpenCloud File Provider */ = {
 			isa = PBXGroup;
 			children = (
 				DCC6564920C9B7E400110A97 /* FileProviderExtension.m */,
@@ -3244,10 +3244,10 @@
 				DCF2DA7924C82E480026D790 /* FileProviderServiceSource.m */,
 				DCF2DA7824C82E480026D790 /* FileProviderServiceSource.h */,
 				DCC6565120C9B7E400110A97 /* Info.plist */,
-				DCC6565220C9B7E400110A97 /* ownCloud_File_Provider.entitlements */,
+				DCC6565220C9B7E400110A97 /* OpenCloud_File_Provider.entitlements */,
 				395E3B1C2C8B0E84007979C9 /* Localizable.xcstrings */,
 			);
-			path = "ownCloud File Provider";
+			path = "OpenCloud File Provider";
 			sourceTree = "<group>";
 		};
 		DCC73F2C2B86BC170009A210 /* Password Composer */ = {
@@ -3309,7 +3309,7 @@
 				DC9BFBB820A1AF2B007064B5 /* icon-locked.tvg */,
 				DC9BFBBA20A1B3CA007064B5 /* icon-password-manager.tvg */,
 				DCE5E8942080D77F005F60CE /* image.tvg */,
-				DCE5E8952080D77F005F60CE /* owncloud-logo.tvg */,
+				DCE5E8952080D77F005F60CE /* opencloud-logo.tvg */,
 				DCE5E89C2080D780005F60CE /* package-x-generic.tvg */,
 				DC2A68D429D492B200BFF393 /* space.tvg */,
 				DCB504D7221EF07E007638BE /* status-flash.tvg */,
@@ -3437,15 +3437,15 @@
 			path = Licensing;
 			sourceTree = "<group>";
 		};
-		DCE4E46924C1F5610051722F /* ownCloud Share Extension */ = {
+		DCE4E46924C1F5610051722F /* OpenCloud Share Extension */ = {
 			isa = PBXGroup;
 			children = (
 				395E3B1E2C8B0E85007979C9 /* InfoPlist.xcstrings */,
-				DCE4E48224C1F5B70051722F /* ownCloud Share Extension.entitlements */,
+				DCE4E48224C1F5B70051722F /* OpenCloud Share Extension.entitlements */,
 				DC9B4FC42940F8D60037F8F8 /* ShareExtensionViewController.swift */,
 				DCE4E46F24C1F5610051722F /* Info.plist */,
 			);
-			path = "ownCloud Share Extension";
+			path = "OpenCloud Share Extension";
 			sourceTree = "<group>";
 		};
 		DCE4E4C024C255A70051722F /* App Extensions */ = {
@@ -3764,7 +3764,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394A0AFD22EEFC2C00603813 /* ownCloudAppShared.h in Headers */,
+				394A0AFD22EEFC2C00603813 /* OpenCloudAppShared.h in Headers */,
 				DCB2C05F250C1F9E001083CA /* BrandingClassSettingsSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3814,7 +3814,7 @@
 				DCF2DA7D24C835BF0026D790 /* OCVault+FPServices.h in Headers */,
 				DCDC20A12399A715003CFF5B /* OCCore+LicenseEnvironment.h in Headers */,
 				DCFEFE4F236880B5009A142F /* OCLicenseOffer.h in Headers */,
-				DCC0856E2293F1FD008CC05C /* ownCloudApp.h in Headers */,
+				DCC0856E2293F1FD008CC05C /* OpenCloudApp.h in Headers */,
 				DCF2DA8124C836240026D790 /* OCBookmark+FPServices.h in Headers */,
 				DC66F3A523965A1400CF4812 /* NSDate+RFC3339.h in Headers */,
 				DC1621352B8FE26200EB17F8 /* OCVault+SidebarItems.h in Headers */,
@@ -3841,9 +3841,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		233BDE9B204FEFE500C06732 /* ownCloud */ = {
+		233BDE9B204FEFE500C06732 /* OpenCloud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 233BDEB9204FEFE500C06732 /* Build configuration list for PBXNativeTarget "ownCloud" */;
+			buildConfigurationList = 233BDEB9204FEFE500C06732 /* Build configuration list for PBXNativeTarget "OpenCloud" */;
 			buildPhases = (
 				23813A32205286E100DB9488 /* Run SwiftLint */,
 				233BDE98204FEFE500C06732 /* Sources */,
@@ -3868,20 +3868,20 @@
 				39DC7CD625C2E1570001E08C /* PBXTargetDependency */,
 				391933C12B0B81DB007DF90B /* PBXTargetDependency */,
 			);
-			name = ownCloud;
+			name = OpenCloud;
 			packageProductDependencies = (
 				024F3A2024A3AB410083E11E /* CrashReporter */,
 				DCEAF08C28084B3800980B6D /* Down */,
 				DCD8640528115FD600CA6631 /* OpenSSL */,
 				DC8BFC0D2A14CAB900BFF393 /* PocketSVG */,
 			);
-			productName = ownCloud;
-			productReference = 233BDE9C204FEFE500C06732 /* ownCloud.app */;
+			productName = OpenCloud;
+			productReference = 233BDE9C204FEFE500C06732 /* OpenCloud.app */;
 			productType = "com.apple.product-type.application";
 		};
-		233BDEAF204FEFE500C06732 /* ownCloudTests */ = {
+		233BDEAF204FEFE500C06732 /* OpenCloudTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 233BDEBC204FEFE600C06732 /* Build configuration list for PBXNativeTarget "ownCloudTests" */;
+			buildConfigurationList = 233BDEBC204FEFE600C06732 /* Build configuration list for PBXNativeTarget "OpenCloudTests" */;
 			buildPhases = (
 				233BDEAC204FEFE500C06732 /* Sources */,
 				233BDEAD204FEFE500C06732 /* Frameworks */,
@@ -3895,14 +3895,14 @@
 				DC188987218A772900CFB3F9 /* PBXTargetDependency */,
 				233BDEB2204FEFE500C06732 /* PBXTargetDependency */,
 			);
-			name = ownCloudTests;
-			productName = ownCloudTests;
-			productReference = 233BDEB0204FEFE500C06732 /* ownCloudTests.xctest */;
+			name = OpenCloudTests;
+			productName = OpenCloudTests;
+			productReference = 233BDEB0204FEFE500C06732 /* OpenCloudTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		391933B32B0B81DB007DF90B /* ownCloud Action Extension */ = {
+		391933B32B0B81DB007DF90B /* OpenCloud Action Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 391933C32B0B81DC007DF90B /* Build configuration list for PBXNativeTarget "ownCloud Action Extension" */;
+			buildConfigurationList = 391933C32B0B81DC007DF90B /* Build configuration list for PBXNativeTarget "OpenCloud Action Extension" */;
 			buildPhases = (
 				391933B02B0B81DB007DF90B /* Sources */,
 				391933B12B0B81DB007DF90B /* Frameworks */,
@@ -3916,14 +3916,14 @@
 				391933CA2B0B8EA5007DF90B /* PBXTargetDependency */,
 				391933C82B0B8EA2007DF90B /* PBXTargetDependency */,
 			);
-			name = "ownCloud Action Extension";
-			productName = "ownCloud Action Extension";
-			productReference = 391933B42B0B81DB007DF90B /* ownCloud Action Extension.appex */;
+			name = "OpenCloud Action Extension";
+			productName = "OpenCloud Action Extension";
+			productReference = 391933B42B0B81DB007DF90B /* OpenCloud Action Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		394A0AF822EEFC2C00603813 /* ownCloudAppShared */ = {
+		394A0AF822EEFC2C00603813 /* OpenCloudAppShared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 394A0B0222EEFC2C00603813 /* Build configuration list for PBXNativeTarget "ownCloudAppShared" */;
+			buildConfigurationList = 394A0B0222EEFC2C00603813 /* Build configuration list for PBXNativeTarget "OpenCloudAppShared" */;
 			buildPhases = (
 				394A0AF422EEFC2C00603813 /* Headers */,
 				394A0AF522EEFC2C00603813 /* Sources */,
@@ -3940,18 +3940,18 @@
 				394A0B0C22EEFD2800603813 /* PBXTargetDependency */,
 				DC2A6C762AC6BE0100BFF393 /* PBXTargetDependency */,
 			);
-			name = ownCloudAppShared;
+			name = OpenCloudAppShared;
 			packageProductDependencies = (
 				DC04920A258CB06A00DEDC27 /* PocketSVG */,
 				DC9B4FC929413B480037F8F8 /* Down */,
 			);
-			productName = ownCloudAppShared;
-			productReference = 394A0AF922EEFC2C00603813 /* ownCloudAppShared.framework */;
+			productName = OpenCloudAppShared;
+			productReference = 394A0AF922EEFC2C00603813 /* OpenCloudAppShared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		39A7137F22E79C6700089423 /* ownCloud Intents */ = {
+		39A7137F22E79C6700089423 /* OpenCloud Intents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39A7138822E79C6700089423 /* Build configuration list for PBXNativeTarget "ownCloud Intents" */;
+			buildConfigurationList = 39A7138822E79C6700089423 /* Build configuration list for PBXNativeTarget "OpenCloud Intents" */;
 			buildPhases = (
 				39A7137C22E79C6700089423 /* Sources */,
 				39A7137D22E79C6700089423 /* Frameworks */,
@@ -3965,14 +3965,14 @@
 				DC0A359B24C0EBD800FB58FC /* PBXTargetDependency */,
 				394A0B0822EEFCD900603813 /* PBXTargetDependency */,
 			);
-			name = "ownCloud Intents";
+			name = "OpenCloud Intents";
 			productName = SiriKit;
-			productReference = 39A7138022E79C6700089423 /* ownCloud Intents.appex */;
+			productReference = 39A7138022E79C6700089423 /* OpenCloud Intents.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		39DC7CCC25C2E1570001E08C /* ownCloud File Provider UI */ = {
+		39DC7CCC25C2E1570001E08C /* OpenCloud File Provider UI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39DC7CDD25C2E1570001E08C /* Build configuration list for PBXNativeTarget "ownCloud File Provider UI" */;
+			buildConfigurationList = 39DC7CDD25C2E1570001E08C /* Build configuration list for PBXNativeTarget "OpenCloud File Provider UI" */;
 			buildPhases = (
 				39DC7CC925C2E1570001E08C /* Sources */,
 				39DC7CCA25C2E1570001E08C /* Frameworks */,
@@ -3985,9 +3985,9 @@
 				39DC7CEA25C305E40001E08C /* PBXTargetDependency */,
 				39DC7CF725C305E80001E08C /* PBXTargetDependency */,
 			);
-			name = "ownCloud File Provider UI";
-			productName = "ownCloud File Provider UI";
-			productReference = 39DC7CCD25C2E1570001E08C /* ownCloud File Provider UI.appex */;
+			name = "OpenCloud File Provider UI";
+			productName = "OpenCloud File Provider UI";
+			productReference = 39DC7CCD25C2E1570001E08C /* OpenCloud File Provider UI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		DC7DBA33207F84BF00E7337D /* MakeTVG */ = {
@@ -4007,9 +4007,9 @@
 			productReference = DC7DBA34207F84BF00E7337D /* MakeTVG */;
 			productType = "com.apple.product-type.tool";
 		};
-		DCC0855B2293F1FD008CC05C /* ownCloudApp */ = {
+		DCC0855B2293F1FD008CC05C /* OpenCloudApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCC085732293F1FD008CC05C /* Build configuration list for PBXNativeTarget "ownCloudApp" */;
+			buildConfigurationList = DCC085732293F1FD008CC05C /* Build configuration list for PBXNativeTarget "OpenCloudApp" */;
 			buildPhases = (
 				DCC085572293F1FD008CC05C /* Headers */,
 				DCC085582293F1FD008CC05C /* Sources */,
@@ -4022,18 +4022,18 @@
 				DC6C9A112A12858F00BFF393 /* PBXTargetDependency */,
 				DCC0857A2293F296008CC05C /* PBXTargetDependency */,
 			);
-			name = ownCloudApp;
+			name = OpenCloudApp;
 			packageProductDependencies = (
 				DCEAF06C280767CF00980B6D /* OpenSSL */,
 				DC6C9A122A12859900BFF393 /* PocketSVG */,
 			);
-			productName = ownCloudApp;
-			productReference = DCC0855C2293F1FD008CC05C /* ownCloudApp.framework */;
+			productName = OpenCloudApp;
+			productReference = DCC0855C2293F1FD008CC05C /* OpenCloudApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DCC085632293F1FD008CC05C /* ownCloudAppTests */ = {
+		DCC085632293F1FD008CC05C /* OpenCloudAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCC085762293F1FD008CC05C /* Build configuration list for PBXNativeTarget "ownCloudAppTests" */;
+			buildConfigurationList = DCC085762293F1FD008CC05C /* Build configuration list for PBXNativeTarget "OpenCloudAppTests" */;
 			buildPhases = (
 				DCC085602293F1FD008CC05C /* Sources */,
 				DCC085612293F1FD008CC05C /* Frameworks */,
@@ -4044,14 +4044,14 @@
 				DCC085672293F1FD008CC05C /* PBXTargetDependency */,
 				DCC085692293F1FD008CC05C /* PBXTargetDependency */,
 			);
-			name = ownCloudAppTests;
-			productName = ownCloudAppTests;
-			productReference = DCC085642293F1FD008CC05C /* ownCloudAppTests.xctest */;
+			name = OpenCloudAppTests;
+			productName = OpenCloudAppTests;
+			productReference = DCC085642293F1FD008CC05C /* OpenCloudAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DCC6564520C9B7E300110A97 /* ownCloud File Provider */ = {
+		DCC6564520C9B7E300110A97 /* OpenCloud File Provider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCC6566F20C9B7E400110A97 /* Build configuration list for PBXNativeTarget "ownCloud File Provider" */;
+			buildConfigurationList = DCC6566F20C9B7E400110A97 /* Build configuration list for PBXNativeTarget "OpenCloud File Provider" */;
 			buildPhases = (
 				DCC6564220C9B7E300110A97 /* Sources */,
 				DCC6564320C9B7E300110A97 /* Frameworks */,
@@ -4062,17 +4062,17 @@
 			dependencies = (
 				DC27A19320CAA0C6008ACB6C /* PBXTargetDependency */,
 			);
-			name = "ownCloud File Provider";
+			name = "OpenCloud File Provider";
 			packageProductDependencies = (
 				02AE32E324D2FA8B00A19476 /* CrashReporter */,
 			);
-			productName = "ownCloud File Provider";
-			productReference = DCC6564620C9B7E300110A97 /* ownCloud File Provider.appex */;
+			productName = "OpenCloud File Provider";
+			productReference = DCC6564620C9B7E300110A97 /* OpenCloud File Provider.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		DCE4E46724C1F5610051722F /* ownCloud Share Extension */ = {
+		DCE4E46724C1F5610051722F /* OpenCloud Share Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE4E47A24C1F5610051722F /* Build configuration list for PBXNativeTarget "ownCloud Share Extension" */;
+			buildConfigurationList = DCE4E47A24C1F5610051722F /* Build configuration list for PBXNativeTarget "OpenCloud Share Extension" */;
 			buildPhases = (
 				DCE4E46424C1F5610051722F /* Sources */,
 				DCE4E46524C1F5610051722F /* Frameworks */,
@@ -4085,9 +4085,9 @@
 				DCB2C059250C1C3F001083CA /* PBXTargetDependency */,
 				DCE4E47E24C1F5880051722F /* PBXTargetDependency */,
 			);
-			name = "ownCloud Share Extension";
-			productName = "ownCloud Share Extension";
-			productReference = DCE4E46824C1F5610051722F /* ownCloud Share Extension.appex */;
+			name = "OpenCloud Share Extension";
+			productName = "OpenCloud Share Extension";
+			productReference = DCE4E46824C1F5610051722F /* OpenCloud Share Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -4206,45 +4206,45 @@
 			projectReferences = (
 				{
 					ProductGroup = 239369712076110900BCE21A /* Products */;
-					ProjectRef = 233BDEBF204FEFF300C06732 /* ownCloudSDK.xcodeproj */;
+					ProjectRef = 233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				233BDE9B204FEFE500C06732 /* ownCloud */,
-				233BDEAF204FEFE500C06732 /* ownCloudTests */,
+				233BDE9B204FEFE500C06732 /* OpenCloud */,
+				233BDEAF204FEFE500C06732 /* OpenCloudTests */,
 				DC7DBA33207F84BF00E7337D /* MakeTVG */,
-				DCC6564520C9B7E300110A97 /* ownCloud File Provider */,
-				39DC7CCC25C2E1570001E08C /* ownCloud File Provider UI */,
-				39A7137F22E79C6700089423 /* ownCloud Intents */,
-				DCE4E46724C1F5610051722F /* ownCloud Share Extension */,
-				DCC0855B2293F1FD008CC05C /* ownCloudApp */,
-				394A0AF822EEFC2C00603813 /* ownCloudAppShared */,
-				DCC085632293F1FD008CC05C /* ownCloudAppTests */,
-				391933B32B0B81DB007DF90B /* ownCloud Action Extension */,
+				DCC6564520C9B7E300110A97 /* OpenCloud File Provider */,
+				39DC7CCC25C2E1570001E08C /* OpenCloud File Provider UI */,
+				39A7137F22E79C6700089423 /* OpenCloud Intents */,
+				DCE4E46724C1F5610051722F /* OpenCloud Share Extension */,
+				DCC0855B2293F1FD008CC05C /* OpenCloudApp */,
+				394A0AF822EEFC2C00603813 /* OpenCloudAppShared */,
+				DCC085632293F1FD008CC05C /* OpenCloudAppTests */,
+				391933B32B0B81DB007DF90B /* OpenCloud Action Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		239369782076110900BCE21A /* ownCloudSDK.framework */ = {
+		239369782076110900BCE21A /* OpenCloudSDK.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ownCloudSDK.framework;
+			path = OpenCloudSDK.framework;
 			remoteRef = 239369772076110900BCE21A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2393697A2076110900BCE21A /* ownCloudSDKTests.xctest */ = {
+		2393697A2076110900BCE21A /* OpenCloudSDKTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ownCloudSDKTests.xctest;
+			path = OpenCloudSDKTests.xctest;
 			remoteRef = 239369792076110900BCE21A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2393697C2076110900BCE21A /* ownCloudUI.framework */ = {
+		2393697C2076110900BCE21A /* OpenCloudUI.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ownCloudUI.framework;
+			path = OpenCloudUI.framework;
 			remoteRef = 2393697B2076110900BCE21A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -4255,17 +4255,17 @@
 			remoteRef = 2393697D2076110900BCE21A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DC0196A620F754CA00C41B78 /* ownCloudMocking.framework */ = {
+		DC0196A620F754CA00C41B78 /* OpenCloudMocking.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ownCloudMocking.framework;
+			path = OpenCloudMocking.framework;
 			remoteRef = DC0196A520F754CA00C41B78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DC0196A820F754CA00C41B78 /* ownCloudMockingTests.xctest */ = {
+		DC0196A820F754CA00C41B78 /* OpenCloudMockingTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ownCloudMockingTests.xctest;
+			path = OpenCloudMockingTests.xctest;
 			remoteRef = DC0196A720F754CA00C41B78 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -4337,7 +4337,7 @@
 				395E3B192C8B0E84007979C9 /* Localizable.xcstrings in Resources */,
 				DCE4E49324C1FB750051722F /* folder-create.tvg in Resources */,
 				DCB7967F2BC83E6E00D6D759 /* text-uri-list.tvg in Resources */,
-				DCE4E49824C1FB750051722F /* owncloud-logo.tvg in Resources */,
+				DCE4E49824C1FB750051722F /* opencloud-logo.tvg in Resources */,
 				DC0492B1258CC4EE00DEDC27 /* PocketSVG.LICENSE in Resources */,
 				DCD863FB28115C8700CA6631 /* Down.LICENSE in Resources */,
 				DCE4E48A24C1FB750051722F /* application.tvg in Resources */,
@@ -4435,8 +4435,8 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/branding-action-extension-icon.png",
-				"${PROJECT_DIR}/ownCloud/Resources/Theming/com.owncloud.ios-app/branding-action-extension-icon.png",
+				"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/branding-action-extension-icon.png",
+				"${PROJECT_DIR}/OpenCloud/Resources/Theming/eu.opencloud.ios/branding-action-extension-icon.png",
 			);
 			name = "Copy branding asset action extension icon";
 			outputFileListPaths = (
@@ -4446,7 +4446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\n\n# Determine branding assets folder to use\nASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/ownCloud/Resources/Theming/com.owncloud.ios-app/\"\n\nASSETS_FILE_COUNT=$(ls -A \"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\"branding-action-extension-icon.png | wc -l)\necho \"File count in branding-assets:\" ${ASSETS_FILE_COUNT}\n\nif [ -e \"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\" ]; then\n    if [ $ASSETS_FILE_COUNT -ne 0 ]; then\n        # Copy branding-*.png files from branding-assets\n        ASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\"\n    fi\nfi\n\n\nICON_FILE_COUNT=$(ls -A ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png | wc -l)\n\necho \"Icon count in assets source folder:\" ${ICON_FILE_COUNT}\n\nif [ $ICON_FILE_COUNT -ne 0 ]; then\n    # Copy branding-action-extension-icon.png assets\n    echo \"Copying branding-action-extension-icon.png files from\" ${ASSETS_SOURCE_FOLDER}\n    echo cp ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\n    cp ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-action-extension-icon.png\"\nfi\n";
+			shellScript = "#!/bin/bash\n\n# Determine branding assets folder to use\nASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/OpenCloud/Resources/Theming/eu.opencloud.ios/\"\n\nASSETS_FILE_COUNT=$(ls -A \"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\"branding-action-extension-icon.png | wc -l)\necho \"File count in branding-assets:\" ${ASSETS_FILE_COUNT}\n\nif [ -e \"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\" ]; then\n    if [ $ASSETS_FILE_COUNT -ne 0 ]; then\n        # Copy branding-*.png files from branding-assets\n        ASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\"\n    fi\nfi\n\n\nICON_FILE_COUNT=$(ls -A ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png | wc -l)\n\necho \"Icon count in assets source folder:\" ${ICON_FILE_COUNT}\n\nif [ $ICON_FILE_COUNT -ne 0 ]; then\n    # Copy branding-action-extension-icon.png assets\n    echo \"Copying branding-action-extension-icon.png files from\" ${ASSETS_SOURCE_FOLDER}\n    echo cp ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\n    cp ${ASSETS_SOURCE_FOLDER}branding-action-extension-icon.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-action-extension-icon.png\"\nfi\n";
 		};
 		DC049259258CB33600DEDC27 /* Copy PocketSVG license (inactive) */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -4473,19 +4473,19 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets-input.xcfilelist",
+				"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets-input.xcfilelist",
 			);
 			inputPaths = (
 			);
 			name = "Copy branding assets";
 			outputFileListPaths = (
-				"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets-output.xcfilelist",
+				"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets-output.xcfilelist",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "#!/bin/bash\n\n# Determine branding assets folder to use\nASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/ownCloud/Resources/Theming/com.owncloud.ios-app/\"\n\nASSETS_FILE_COUNT=$(ls -A \"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\"branding-*.png | wc -l)\necho \"File count in branding-assets:\" ${ASSETS_FILE_COUNT}\n\nif [ -e \"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\" ]; then\n\tif [ $ASSETS_FILE_COUNT -ne 0 ]; then\n\t\t# Copy branding-*.png files from branding-assets\n\t\tASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/ownCloud/Resources/Theming/branding-assets/\"\n\tfi\nfi\n\n# Copy branding-*.png assets\necho \"Copying branding-*.png files from\" ${ASSETS_SOURCE_FOLDER}\necho cp ${ASSETS_SOURCE_FOLDER}branding-*.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\ncp ${ASSETS_SOURCE_FOLDER}branding-*.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\n\n# Remove assets from the assets folder that aren't used by the app from the build product\nif [ -e \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-icon.png\" ]; then\n    rm \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-icon.png\"\nfi\n";
+			shellScript = "#!/bin/bash\n\n# Determine branding assets folder to use\nASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/OpenCloud/Resources/Theming/eu.opencloud.ios/\"\n\nASSETS_FILE_COUNT=$(ls -A \"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\"branding-*.png | wc -l)\necho \"File count in branding-assets:\" ${ASSETS_FILE_COUNT}\n\nif [ -e \"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\" ]; then\n\tif [ $ASSETS_FILE_COUNT -ne 0 ]; then\n\t\t# Copy branding-*.png files from branding-assets\n\t\tASSETS_SOURCE_FOLDER=\"${PROJECT_DIR}/OpenCloud/Resources/Theming/branding-assets/\"\n\tfi\nfi\n\n# Copy branding-*.png assets\necho \"Copying branding-*.png files from\" ${ASSETS_SOURCE_FOLDER}\necho cp ${ASSETS_SOURCE_FOLDER}branding-*.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\ncp ${ASSETS_SOURCE_FOLDER}branding-*.png \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/\"\n\n# Remove assets from the assets folder that aren't used by the app from the build product\nif [ -e \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-icon.png\" ]; then\n    rm \"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/branding-icon.png\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -5067,67 +5067,67 @@
 /* Begin PBXTargetDependency section */
 		233BDEB2204FEFE500C06732 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 233BDE9B204FEFE500C06732 /* ownCloud */;
+			target = 233BDE9B204FEFE500C06732 /* OpenCloud */;
 			targetProxy = 233BDEB1204FEFE500C06732 /* PBXContainerItemProxy */;
 		};
 		391933C12B0B81DB007DF90B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 391933B32B0B81DB007DF90B /* ownCloud Action Extension */;
+			target = 391933B32B0B81DB007DF90B /* OpenCloud Action Extension */;
 			targetProxy = 391933C02B0B81DB007DF90B /* PBXContainerItemProxy */;
 		};
 		391933C82B0B8EA2007DF90B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = 391933C72B0B8EA2007DF90B /* PBXContainerItemProxy */;
 		};
 		391933CA2B0B8EA5007DF90B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 394A0AF822EEFC2C00603813 /* ownCloudAppShared */;
+			target = 394A0AF822EEFC2C00603813 /* OpenCloudAppShared */;
 			targetProxy = 391933C92B0B8EA5007DF90B /* PBXContainerItemProxy */;
 		};
 		391933CC2B0B8EA9007DF90B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = 391933CB2B0B8EA9007DF90B /* PBXContainerItemProxy */;
 		};
 		394A0AFF22EEFC2C00603813 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 394A0AF822EEFC2C00603813 /* ownCloudAppShared */;
+			target = 394A0AF822EEFC2C00603813 /* OpenCloudAppShared */;
 			targetProxy = 394A0AFE22EEFC2C00603813 /* PBXContainerItemProxy */;
 		};
 		394A0B0822EEFCD900603813 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 394A0AF822EEFC2C00603813 /* ownCloudAppShared */;
+			target = 394A0AF822EEFC2C00603813 /* OpenCloudAppShared */;
 			targetProxy = 394A0B0722EEFCD900603813 /* PBXContainerItemProxy */;
 		};
 		394A0B0C22EEFD2800603813 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = 394A0B0B22EEFD2800603813 /* PBXContainerItemProxy */;
 		};
 		39A7138622E79C6700089423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39A7137F22E79C6700089423 /* ownCloud Intents */;
+			target = 39A7137F22E79C6700089423 /* OpenCloud Intents */;
 			targetProxy = 39A7138522E79C6700089423 /* PBXContainerItemProxy */;
 		};
 		39BF67F525E805300039663F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = 39BF67F425E805300039663F /* PBXContainerItemProxy */;
 		};
 		39DC7CD625C2E1570001E08C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39DC7CCC25C2E1570001E08C /* ownCloud File Provider UI */;
+			target = 39DC7CCC25C2E1570001E08C /* OpenCloud File Provider UI */;
 			targetProxy = 39DC7CD525C2E1570001E08C /* PBXContainerItemProxy */;
 		};
 		39DC7CEA25C305E40001E08C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = 39DC7CE925C305E40001E08C /* PBXContainerItemProxy */;
 		};
 		39DC7CF725C305E80001E08C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 394A0AF822EEFC2C00603813 /* ownCloudAppShared */;
+			target = 394A0AF822EEFC2C00603813 /* OpenCloudAppShared */;
 			targetProxy = 39DC7CF625C305E80001E08C /* PBXContainerItemProxy */;
 		};
 		DC0491AA258CAF9800DEDC27 /* PBXTargetDependency */ = {
@@ -5140,43 +5140,43 @@
 		};
 		DC0A359B24C0EBD800FB58FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			name = OpenCloudSDK;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = DC0A359A24C0EBD800FB58FC /* PBXContainerItemProxy */;
 		};
 		DC188987218A772900CFB3F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudMocking;
+			name = OpenCloudMocking;
 			targetProxy = DC188986218A772900CFB3F9 /* PBXContainerItemProxy */;
 		};
 		DC20DE6221C01B190096000B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DC20DE6121C01B190096000B /* PBXContainerItemProxy */;
 		};
 		DC20DE6421C01B190096000B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudUI;
+			name = OpenCloudUI;
 			targetProxy = DC20DE6321C01B190096000B /* PBXContainerItemProxy */;
 		};
 		DC27A19320CAA0C6008ACB6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DC27A19220CAA0C6008ACB6C /* PBXContainerItemProxy */;
 		};
 		DC2A6C762AC6BE0100BFF393 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudUI;
+			name = OpenCloudUI;
 			targetProxy = DC2A6C752AC6BE0100BFF393 /* PBXContainerItemProxy */;
 		};
 		DC3BE0CF2077BC52002A0AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DC3BE0CE2077BC52002A0AC0 /* PBXContainerItemProxy */;
 		};
 		DC3BE0D12077BC52002A0AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudUI;
+			name = OpenCloudUI;
 			targetProxy = DC3BE0D02077BC52002A0AC0 /* PBXContainerItemProxy */;
 		};
 		DC6C9A112A12858F00BFF393 /* PBXTargetDependency */ = {
@@ -5189,57 +5189,57 @@
 		};
 		DCB2C059250C1C3F001083CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = DCB2C058250C1C3F001083CA /* PBXContainerItemProxy */;
 		};
 		DCB2C05B250C1C4D001083CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DCB2C05A250C1C4D001083CA /* PBXContainerItemProxy */;
 		};
 		DCC085672293F1FD008CC05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = DCC085662293F1FD008CC05C /* PBXContainerItemProxy */;
 		};
 		DCC085692293F1FD008CC05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 233BDE9B204FEFE500C06732 /* ownCloud */;
+			target = 233BDE9B204FEFE500C06732 /* OpenCloud */;
 			targetProxy = DCC085682293F1FD008CC05C /* PBXContainerItemProxy */;
 		};
 		DCC085702293F1FD008CC05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = DCC0856F2293F1FD008CC05C /* PBXContainerItemProxy */;
 		};
 		DCC0857A2293F296008CC05C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DCC085792293F296008CC05C /* PBXContainerItemProxy */;
 		};
 		DCC6566420C9B7E400110A97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC6564520C9B7E300110A97 /* ownCloud File Provider */;
+			target = DCC6564520C9B7E300110A97 /* OpenCloud File Provider */;
 			targetProxy = DCC6566320C9B7E400110A97 /* PBXContainerItemProxy */;
 		};
 		DCDC0ACE23CD185F00DFE36D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCC0855B2293F1FD008CC05C /* ownCloudApp */;
+			target = DCC0855B2293F1FD008CC05C /* OpenCloudApp */;
 			targetProxy = DCDC0ACD23CD185F00DFE36D /* PBXContainerItemProxy */;
 		};
 		DCE4E47124C1F5610051722F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCE4E46724C1F5610051722F /* ownCloud Share Extension */;
+			target = DCE4E46724C1F5610051722F /* OpenCloud Share Extension */;
 			targetProxy = DCE4E47024C1F5610051722F /* PBXContainerItemProxy */;
 		};
 		DCE4E47E24C1F5880051722F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 394A0AF822EEFC2C00603813 /* ownCloudAppShared */;
+			target = 394A0AF822EEFC2C00603813 /* OpenCloudAppShared */;
 			targetProxy = DCE4E47D24C1F5880051722F /* PBXContainerItemProxy */;
 		};
 		DCE4E48424C1F6630051722F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ownCloudSDK;
+			name = OpenCloudSDK;
 			targetProxy = DCE4E48324C1F6630051722F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -5288,7 +5288,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APP_BUILD_FLAGS = "$(inherited)";
 				APP_BUILD_FLAGS_SWIFT = "$(APP_BUILD_FLAGS)";
-				APP_PRODUCT_NAME = ownCloud;
+				APP_PRODUCT_NAME = OpenCloud;
 				APP_SHORT_VERSION = 12.4.0;
 				APP_VERSION = 296;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -5359,7 +5359,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APP_BUILD_FLAGS = "$(inherited)";
 				APP_BUILD_FLAGS_SWIFT = "$(APP_BUILD_FLAGS)";
-				APP_PRODUCT_NAME = ownCloud;
+				APP_PRODUCT_NAME = OpenCloud;
 				APP_SHORT_VERSION = 12.4.0;
 				APP_VERSION = 296;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -5426,7 +5426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ownCloud/ownCloud.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OpenCloud/OpenCloud.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -5435,7 +5435,7 @@
 				FRAMEWORK_SEARCH_PATHS = "${TARGET_BUILD_DIR}";
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_FILE = ownCloud/Resources/Info.plist;
+				INFOPLIST_FILE = OpenCloud/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCloud;
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5464,7 +5464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ownCloud/ownCloud.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OpenCloud/OpenCloud.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
@@ -5473,7 +5473,7 @@
 				FRAMEWORK_SEARCH_PATHS = "${TARGET_BUILD_DIR}";
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_FILE = ownCloud/Resources/Info.plist;
+				INFOPLIST_FILE = OpenCloud/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCloud;
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5490,7 +5490,7 @@
 				MARKETING_VERSION = "${APP_SHORT_VERSION}";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.opencloud.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios";
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5504,16 +5504,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9B5WD74GWJ;
-				INFOPLIST_FILE = ownCloudTests/Info.plist;
+				INFOPLIST_FILE = OpenCloudTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ownCloud.app/ownCloud";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCloud.app/OpenCloud";
 			};
 			name = Debug;
 		};
@@ -5523,16 +5523,16 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9B5WD74GWJ;
-				INFOPLIST_FILE = ownCloudTests/Info.plist;
+				INFOPLIST_FILE = OpenCloudTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ownCloud.app/ownCloud";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCloud.app/OpenCloud";
 			};
 			name = Release;
 		};
@@ -5543,7 +5543,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Action Extension/ownCloud Action Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Action Extension/OpenCloud Action Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -5556,7 +5556,7 @@
 					"$(inherited)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ownCloud Action Extension/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Save to $(APP_PRODUCT_NAME)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ownCloud GmbH. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -5592,7 +5592,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Action Extension/ownCloud Action Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Action Extension/OpenCloud Action Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
@@ -5601,7 +5601,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ownCloud Action Extension/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Save to $(APP_PRODUCT_NAME)";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ownCloud GmbH. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -5619,9 +5619,9 @@
 				);
 				MARKETING_VERSION = "${APP_SHORT_VERSION}";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.ios-app.ownCloud-Action-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.opencloud.ios.OpenCloud-Action-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app.ownCloud-Action-Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios.OpenCloud-Action-Extension";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -5648,7 +5648,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ownCloudAppShared/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppShared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5664,7 +5664,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudAppShared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudAppShared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
@@ -5692,7 +5692,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ownCloudAppShared/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppShared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5707,7 +5707,7 @@
 					OCLocalizedString,
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudAppShared;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudAppShared;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
@@ -5723,7 +5723,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Intents/ownCloud Intents.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Intents/OpenCloud Intents.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -5732,7 +5732,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ownCloud Intents/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Intents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5759,12 +5759,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Intents/ownCloud Intents.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Intents/OpenCloud Intents.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = "ownCloud Intents/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Intents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5780,7 +5780,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.opencloud.ios.OpenCloud-Intents";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app.ownCloud-Intents";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios.OpenCloud-Intents";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -5791,7 +5791,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud File Provider UI/ownCloud_File_Provider_UI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud File Provider UI/OpenCloud_File_Provider_UI.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -5800,7 +5800,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ownCloud File Provider UI/Info.plist";
+				INFOPLIST_FILE = "OpenCloud File Provider UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5827,12 +5827,12 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud File Provider UI/ownCloud_File_Provider_UI.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud File Provider UI/OpenCloud_File_Provider_UI.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = "ownCloud File Provider UI/Info.plist";
+				INFOPLIST_FILE = "OpenCloud File Provider UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5848,7 +5848,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.opencloud.ios.OpenCloud-File-ProviderUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app.ownCloud-File-ProviderUI";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios.OpenCloud-File-ProviderUI";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -5900,7 +5900,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ownCloudAppFramework/Resources/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppFramework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				INTENTS_CODEGEN_LANGUAGE = Swift;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5917,7 +5917,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudApp;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
@@ -5945,7 +5945,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = "$(APP_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ownCloudAppFramework/Resources/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppFramework/Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				INTENTS_CODEGEN_LANGUAGE = Swift;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5961,7 +5961,7 @@
 					OCLocalizedString,
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudApp;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
@@ -5983,7 +5983,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ownCloudAppTests/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5991,10 +5991,10 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ownCloud.app/ownCloud";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCloud.app/OpenCloud";
 			};
 			name = Debug;
 		};
@@ -6005,17 +6005,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = ownCloudAppTests/Info.plist;
+				INFOPLIST_FILE = OpenCloudAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.owncloud.ownCloudAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opencloud.OpenCloudAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ownCloud.app/ownCloud";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCloud.app/OpenCloud";
 			};
 			name = Release;
 		};
@@ -6023,12 +6023,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud File Provider/ownCloud_File_Provider.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud File Provider/OpenCloud_File_Provider.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = "ownCloud File Provider/Info.plist";
+				INFOPLIST_FILE = "OpenCloud File Provider/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6053,12 +6053,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud File Provider/ownCloud_File_Provider.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud File Provider/OpenCloud_File_Provider.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = "ownCloud File Provider/Info.plist";
+				INFOPLIST_FILE = "OpenCloud File Provider/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6073,7 +6073,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.opencloud.ios.OpenCloud-File-Provider";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app.ownCloud-File-Provider";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios.OpenCloud-File-Provider";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -6083,7 +6083,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Share Extension/ownCloud Share Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Share Extension/OpenCloud Share Extension.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -6093,7 +6093,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ownCloud Share Extension/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Share Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6122,13 +6122,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_ENTITLEMENTS = "ownCloud Share Extension/ownCloud Share Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "OpenCloud Share Extension/OpenCloud Share Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 161;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
-				INFOPLIST_FILE = "ownCloud Share Extension/Info.plist";
+				INFOPLIST_FILE = "OpenCloud Share Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6143,9 +6143,9 @@
 				);
 				MARKETING_VERSION = "${APP_SHORT_VERSION}";
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.owncloud.ios-app.ownCloud-Share-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "eu.opencloud.ios.OpenCloud-Share-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.owncloud.ios-app.ownCloud-Share-Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios.OpenCloud-Share-Extension";
 				SKIP_INSTALL = YES;
 				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -6165,7 +6165,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		233BDEB9204FEFE500C06732 /* Build configuration list for PBXNativeTarget "ownCloud" */ = {
+		233BDEB9204FEFE500C06732 /* Build configuration list for PBXNativeTarget "OpenCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				233BDEBA204FEFE500C06732 /* Debug */,
@@ -6174,7 +6174,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		233BDEBC204FEFE600C06732 /* Build configuration list for PBXNativeTarget "ownCloudTests" */ = {
+		233BDEBC204FEFE600C06732 /* Build configuration list for PBXNativeTarget "OpenCloudTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				233BDEBD204FEFE600C06732 /* Debug */,
@@ -6183,7 +6183,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		391933C32B0B81DC007DF90B /* Build configuration list for PBXNativeTarget "ownCloud Action Extension" */ = {
+		391933C32B0B81DC007DF90B /* Build configuration list for PBXNativeTarget "OpenCloud Action Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				391933C42B0B81DC007DF90B /* Debug */,
@@ -6192,7 +6192,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		394A0B0222EEFC2C00603813 /* Build configuration list for PBXNativeTarget "ownCloudAppShared" */ = {
+		394A0B0222EEFC2C00603813 /* Build configuration list for PBXNativeTarget "OpenCloudAppShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				394A0B0322EEFC2C00603813 /* Debug */,
@@ -6201,7 +6201,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39A7138822E79C6700089423 /* Build configuration list for PBXNativeTarget "ownCloud Intents" */ = {
+		39A7138822E79C6700089423 /* Build configuration list for PBXNativeTarget "OpenCloud Intents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39A7138922E79C6700089423 /* Debug */,
@@ -6210,7 +6210,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39DC7CDD25C2E1570001E08C /* Build configuration list for PBXNativeTarget "ownCloud File Provider UI" */ = {
+		39DC7CDD25C2E1570001E08C /* Build configuration list for PBXNativeTarget "OpenCloud File Provider UI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39DC7CD825C2E1570001E08C /* Debug */,
@@ -6228,7 +6228,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCC085732293F1FD008CC05C /* Build configuration list for PBXNativeTarget "ownCloudApp" */ = {
+		DCC085732293F1FD008CC05C /* Build configuration list for PBXNativeTarget "OpenCloudApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC085742293F1FD008CC05C /* Debug */,
@@ -6237,7 +6237,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCC085762293F1FD008CC05C /* Build configuration list for PBXNativeTarget "ownCloudAppTests" */ = {
+		DCC085762293F1FD008CC05C /* Build configuration list for PBXNativeTarget "OpenCloudAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC085772293F1FD008CC05C /* Debug */,
@@ -6246,7 +6246,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCC6566F20C9B7E400110A97 /* Build configuration list for PBXNativeTarget "ownCloud File Provider" */ = {
+		DCC6566F20C9B7E400110A97 /* Build configuration list for PBXNativeTarget "OpenCloud File Provider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCC6566620C9B7E400110A97 /* Debug */,
@@ -6255,7 +6255,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE4E47A24C1F5610051722F /* Build configuration list for PBXNativeTarget "ownCloud Share Extension" */ = {
+		DCE4E47A24C1F5610051722F /* Build configuration list for PBXNativeTarget "OpenCloud Share Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCE4E47324C1F5610051722F /* Debug */,

@@ -1,50 +1,50 @@
 [main]
 host = https://www.transifex.com
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app]
+[o:opencloud-org:p:opencloud-ios:r:ios-app]
 resource_name = ios-app
-file_filter = ownCloud/Resources/Localizable.xcstrings
-source_file = ownCloud/Resources/Localizable.xcstrings
+file_filter = OpenCloud/Resources/Localizable.xcstrings
+source_file = OpenCloud/Resources/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app-infoplist]
+[o:opencloud-org:p:opencloud-ios:r:ios-app-infoplist]
 resource_name = ios-app-infoplist
-file_filter = ownCloud/Resources/InfoPlist.xcstrings
-source_file = ownCloud/Resources/InfoPlist.xcstrings
+file_filter = OpenCloud/Resources/InfoPlist.xcstrings
+source_file = OpenCloud/Resources/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app-framework]
+[o:opencloud-org:p:opencloud-ios:r:ios-app-framework]
 resource_name = ios-app-framework
-file_filter = ownCloudAppFramework/Resources/Localizable.xcstrings
-source_file = ownCloudAppFramework/Resources/Localizable.xcstrings
+file_filter = OpenCloudAppFramework/Resources/Localizable.xcstrings
+source_file = OpenCloudAppFramework/Resources/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app-file-provider]
+[o:opencloud-org:p:opencloud-ios:r:ios-app-file-provider]
 resource_name = ios-app-file-provider
-file_filter = ownCloud File Provider/Localizable.xcstrings
-source_file = ownCloud File Provider/Localizable.xcstrings
+file_filter = OpenCloud File Provider/Localizable.xcstrings
+source_file = OpenCloud File Provider/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app-share-extension]
+[o:opencloud-org:p:opencloud-ios:r:ios-app-share-extension]
 resource_name = ios-app-share-extension
-file_filter = ownCloud Share Extension/InfoPlist.xcstrings
-source_file = ownCloud Share Extension/InfoPlist.xcstrings
+file_filter = OpenCloud Share Extension/InfoPlist.xcstrings
+source_file = OpenCloud Share Extension/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:owncloud-org:p:owncloud-ios:r:ios-app-action-extension]
+[o:opencloud-org:p:opencloud-ios:r:ios-app-action-extension]
 resource_name = ios-app-action-extension
-file_filter = ownCloud Action Extension/InfoPlist.xcstrings
-source_file = ownCloud Action Extension/InfoPlist.xcstrings
+file_filter = OpenCloud Action Extension/InfoPlist.xcstrings
+source_file = OpenCloud Action Extension/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75

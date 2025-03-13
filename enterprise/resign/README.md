@@ -1,6 +1,6 @@
-# Script to resign your iOS ownCloud App
+# Script to resign your iOS OpenCloud App
 
-This script allows you to resign the ownCloud App IPA file with a different Apple certificate.
+This script allows you to resign the OpenCloud App IPA file with a different Apple certificate.
 
 ## App IDs and Provisioning Files
 
@@ -8,15 +8,15 @@ This script allows you to resign the ownCloud App IPA file with a different Appl
 
    - `com.yourcompany.ios-app`
 
-   - `com.yourcompany.ios-app.ownCloud-File-Provider`
+   - `com.yourcompany.ios-app.OpenCloud-File-Provider`
 
-   - `com.yourcompany.ios-app.ownCloud-File-ProviderUI`
+   - `com.yourcompany.ios-app.OpenCloud-File-ProviderUI`
 
-   - `com.yourcompany.ios-app.ownCloud-Intent`
+   - `com.yourcompany.ios-app.OpenCloud-Intent`
 
-   - `com.yourcompany.ios-app.ownCloud-Share-Extension`
+   - `com.yourcompany.ios-app.OpenCloud-Share-Extension`
 
-   - `com.yourcompany.ios-app.ownCloud-Action-Extension`
+   - `com.yourcompany.ios-app.OpenCloud-Action-Extension`
 
 2. Generate one App Group:
 

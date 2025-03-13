@@ -4,7 +4,7 @@
  #
  # This code is covered by the GNU Public License Version 3.
  #
- # For distribution utilizing Apple mechanisms please see https://owncloud.org/contribute/iOS-license-exception/
+ # For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
  # You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
  
  # Version 1.1.0
@@ -226,7 +226,7 @@ class AppRegistration
 			if !app
 				puts ""
 				puts("App does not exist. Creating a new app…")
-				app = Spaceship::Portal.app.create!(bundle_id: bundle_id, name: "ownCloud Target #{target}")
+				app = Spaceship::Portal.app.create!(bundle_id: bundle_id, name: "OpenCloud Target #{target}")
 			end
 			app = app.update_service(Spaceship::Portal.app_service.associated_domains.on)
 			app = app.update_service(Spaceship::Portal.app_service.app_group.on)
@@ -309,8 +309,8 @@ end
 
 # Prepare App IDs and Provisioning Profiles
 register.prepareAppID("iOS-App", "App.mobileprovision", groups, registrationType, "#{bundlePrefix}.ios-app", cert)
-register.prepareAppID("File Provider", "FileProvider.mobileprovision", groups,registrationType, "#{bundlePrefix}.ios-app.ownCloud-File-Provider", cert)
-register.prepareAppID("File Provider UI", "FileProviderUI.mobileprovision", groups, registrationType, "#{bundlePrefix}.ios-app.ownCloud-File-ProviderUI", cert)
-register.prepareAppID("Intent", "Intent.mobileprovision", groups, registrationType, "#{bundlePrefix}.ios-app.ownCloud-Intent", cert)
-register.prepareAppID("ShareExtension", "ShareExtension.mobileprovision", groups, registrationType,"#{bundlePrefix}.ios-app.ownCloud-Share-Extension", cert)
-register.prepareAppID("ActionExtension", "ActionExtension.mobileprovision", groups, registrationType,"#{bundlePrefix}.ios-app.ownCloud-Action-Extension", cert)
+register.prepareAppID("File Provider", "FileProvider.mobileprovision", groups,registrationType, "#{bundlePrefix}.ios-app.OpenCloud-File-Provider", cert)
+register.prepareAppID("File Provider UI", "FileProviderUI.mobileprovision", groups, registrationType, "#{bundlePrefix}.ios-app.OpenCloud-File-ProviderUI", cert)
+register.prepareAppID("Intent", "Intent.mobileprovision", groups, registrationType, "#{bundlePrefix}.ios-app.OpenCloud-Intent", cert)
+register.prepareAppID("ShareExtension", "ShareExtension.mobileprovision", groups, registrationType,"#{bundlePrefix}.ios-app.OpenCloud-Share-Extension", cert)
+register.prepareAppID("ActionExtension", "ActionExtension.mobileprovision", groups, registrationType,"#{bundlePrefix}.ios-app.OpenCloud-Action-Extension", cert)

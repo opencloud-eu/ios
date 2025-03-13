@@ -1,0 +1,26 @@
+/* 
+  InfoPlist.strings
+  OpenCloud
+
+  Created by Javier Gonzalez on 06/06/2018.
+  Copyright © 2018 ownCloud GmbH. All rights reserved.
+*/
+
+/*
+ * Copyright (C) 2018, ownCloud GmbH.
+ *
+ * This code is covered by the GNU Public License Version 3.
+ *
+ * For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
+ * You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
+ *
+ */
+
+"NSFaceIDUsageDescription" = "Parola kodunu girmeden uygulamanın kilidini açın.";
+"NSAppleMusicUsageDescription" = "Bu izin, sunucunuza medya dosyaları yüklemek için gereklidir.";
+"NSPhotoLibraryAddUsageDescription" = "Bu izin, fotoğraf kitaplığınızdan fotoğraf ve video yüklemek için gereklidir.";
+"NSPhotoLibraryUsageDescription" = "Bu izin, fotoğraf kitaplığınızdan fotoğraf ve video yüklemek için gereklidir.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Bu izin, fotoğrafların ve videoların arka planda otomatik olarak yüklenmesini sağlamak için gereklidir.";
+"NSLocationAlwaysUsageDescription" = "Bu izin, fotoğrafların ve videoların arka planda otomatik olarak yüklenmesini sağlamak için gereklidir.";
+"NSLocationWhenInUseUsageDescription" = "Bu izin, fotoğrafların ve videoların arka planda otomatik olarak yüklenmesini sağlamak için gereklidir.";
+"NSMicrophoneUsageDescription" = "Bu izin video kaydetmek için gerekli";

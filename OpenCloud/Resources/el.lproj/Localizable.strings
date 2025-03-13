@@ -1,0 +1,700 @@
+/*
+  Localizable.strings
+  OpenCloud
+
+  Created by Pablo Carrascal on 13/03/2018.
+  Copyright © 2018 ownCloud GmbH. All rights reserved.
+*/
+
+/*
+ * Copyright (C) 2018, ownCloud GmbH.
+ *
+ * This code is covered by the GNU Public License Version 3.
+ *
+ * For distribution utilizing Apple mechanisms please see https://opencloud.eu/contribute/iOS-license-exception/
+ * You should have received a copy of this license along with this program. If not, see <http://www.gnu.org/licenses/gpl-3.0.en.html>.
+ *
+ */
+
+/* Add / Edit Bookmark */
+"Edit account" = "Επεξεργασία λογαριασμού";
+"Add account" = "Προσθήκη λογαριασμού";
+"Server URL" = "Διεύθυνση URL διακομιστή";
+"https://example.com" = "https://example.com";
+"Continue" = "Συνέχεια";
+"Name" = "Όνομα";
+"Example Server" = "Παράδειγμα διακομιστή";
+"Show Certificate Details" = "Εμφάνιση λεπτομερειών πιστοποιητικού";
+"Connect" = "Σύνδεση";
+"Delete Authentication Data" = "Διαγραφή δεδομένων πιστοποίησης";
+"Authentication" = "Πιστοποίηση";
+"Username" = "Όνομα χρήστη";
+"Password" = "Συνθηματικό";
+"Certificate Details" = "Λεπτομέρειες πιστοποιητικού";
+"Cancel" = "Ακύρωση";
+"Approve" = "Έγκριση";
+"Error" = "Σφάλμα";
+"Review Connection" = "Επισκόπηση σύνδεσης";
+"Authenticated via" = "Πιστοποιήθηκε μέσω";
+"Authenticated as %@ via %@" = "Πιστοποιήθηκε ως %@ μέσω %@";
+"Edit" = "Επεξεργασία";
+"Credentials" = "Διαπιστευτήρια";
+"Rejected" = "Απορρίφθηκε";
+"Passed" = "Πέρασε";
+"Accepted" = "Αποδεκτός";
+"Validation Error" = "Σφάλμα επικύρωσης";
+"Certificate was rejected by user." = "Το πιστοποιητικό απορρίφθηκε από το χρήστη.";
+"Certificate has issues.\nOpen 'Certificate Details' for more informations." = "Το πιστοποιητικό έχει προβλήματα.\nΑνοίξτε τις 'Λεπτομέρειες πιστοποιητικού' για περισσότερες πληροφορίες.";
+"No issues found. Certificate passed validation." = "Δεν βρέθηκαν προβλήματα. Το πιστοποιητικό πέρασε την επικύρωση.";
+"Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." = "Το πιστοποιητικό ενδέχεται να έχει προβλήματα, αλλά έγινε αποδεκτό από τον χρήστη.\nΑνοίξτε τις 'Λεπτομέρειες πιστοποιητικού' για περισσότερες πληροφορίες";
+"If you 'Continue', you will be prompted to allow the '%@' App to open OAuth2 login where you can enter your credentials." = "Αν 'Συνεχίσετε', θα σας ζητηθεί να επιτρέψετε στην εφαρμογή '%@' να ανοίξει την σύνδεση OAuth2 από όπου μπορείτε να εισαγάγετε τα διαπιστευτήριά σας.";
+
+"Contacting server…" = "Γίνεται επικοινωνία με το διακομιστή…";
+"Authenticating…" = "Γίνεται πιστοποίηση…";
+
+"Fetching user information…" = "Γίνεται ανάκτηση πληροφοριών χρήστη…";
+"Updating connection…" = "Γίνεται ενημέρωση σύνδεσης…";
+
+"Missing hostname" = "Λείπει το όνομα κεντρικού υπολογιστή";
+"The entered URL does not include a hostname." = "Η εισαχθείσα διεύθυνση URL δεν περιλαμβάνει όνομα κεντρικού υπολογιστή.";
+"Add account" = "Προσθήκη λογαριασμού";
+"Server name" = "Όνομα διακομιστή";
+"Server Password" = "Συνθηματικό διακομιστή";
+"Server Username" = "Όνομα χρήστη διακομιστή";
+"Show accounts" = "Show accounts";
+"Setup complete" = "Setup complete";
+
+/* Client */
+"Browse" = "Περιήγηση";
+"Disconnect" = "Αποσύνδεση";
+"Connecting…" = "Γίνεται σύνδεση…";
+"Connected." = "Συνδεδεμένο.";
+"Select" = "Επιλογή";
+"Done" = "Ολοκληρώθηκε";
+
+"Folder" = "Φάκελος";
+
+"Stopped" = "Διακόπηκε";
+"Started…" = "Ξεκίνησε…";
+"Contents from cache." = "Περιεχόμενα από την λανθάνουσα μνήμη.";
+"Waiting for server response…" = "Αναμονή για απόκριση από τον διακομιστή…";
+"This folder no longer exists." = "Αυτός ο φάκελος δεν υπάρχει πλέον.";
+"Everything up-to-date." = "Τα πάντα είναι ενημερωμένα.";
+"Please wait…" = "Παρακαλούμε περιμένετε…";
+"Sort by %@" = "Ταξινόμηση κατά %@";
+"Sort by" = "Ταξινόμηση κατά";
+
+"name" = "όνομα";
+"kind" = "kind";
+"size" = "μέγεθος";
+"date" = "ημερομηνία";
+"Search this folder" = "Αναζήτηση σε αυτό το φάκελο";
+"Pending" = "Εκκρεμεί";
+"Show parent paths" = "Εμφάνιση γονικών διαδρομών";
+
+"%@ of %@ used" = "%@ από %@ σε χρήση";
+"Total: %@" = "Σύνολο: %@";
+"%@ item | " = "%@ item | ";
+"%@ items | " = "%@ items | ";
+
+/* Static Login Setup */
+"Server error" = " ";
+"The server doesn't support any allowed authentication method." = "The server doesn't support any allowed authentication method.";
+"The server doesn't support any known and allowed authentication method found." = "The server doesn't support any known and allowed authentication method found.";
+"Retry detection" = "Retry detection";
+
+/* Client Messages */
+"Empty folder" = "Άδειος φάκελος";
+"This folder contains no files or folders." = "Αυτός ο φάκελος δεν περιέχει αρχεία ή φακέλους.";
+
+"Folder removed" = "Ο φάκελος αφαιρέθηκε";
+"This folder no longer exists on the server." = "Αυτός ο φάκελος δεν υπάρχει πλέον στον διακομιστή.";
+"Are you sure you want to delete this item from the server?" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο από το διακομιστή;";
+"Are you sure you want to delete these items from the server?" = "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτά τα στοιχεία από το διακομιστή;";
+"Multiple items" = "Πολλαπλά αντικείμενα";
+"Deleting '%@'" = "Διαγράφεται το '%@'";
+"Renaming to %@" = "Μετονομασία σε %@";
+"Upload from your photo library" = "Μεταφορτώστε από τη βιβλιοθήκη φωτογραφιών σας";
+"Missing permissions" = "Λείπουν δικαιώματα";
+"This permission is needed to upload photos and videos from your photo library." = "Αυτά τα δικαιώματα είναι απαραίτητα για τη μεταφόρτωση φωτογραφιών και βίντεο από τη βιβλιοθήκη φωτογραφιών σας.";
+"Not now" = "Όχι τώρα";
+"Upload file" = "Μεταφόρτωση αρχείου";
+"Upload files" = "Μεταφόρτωση αρχείων";
+
+"No matches" = "Δεν υπάρχουν αντιστοιχίες";
+"There are no results for this search term" = "Δεν υπάρχουν αποτελέσματα για αυτόν τον όρο αναζήτησης";
+"Status" = "Κατάσταση";
+
+"Authorization failed" = "Απποτυχημένη εξουσιοδότηση";
+"The account has been disabled." = "Ο λογαριασμός έχει απενεργοποιηθεί.";
+"The server declined access with the credentials stored for this connection." = "Ο διακομιστής απέρριψε την πρόσβαση με τα διαπιστευτήρια που ήταν αποθηκευμένα για αυτήν τη σύνδεση.";
+"Access denied" = "Δεν επιτρέπεται η πρόσβαση";
+"The connection's access token has expired or become invalid. Sign in again to re-gain access." = "The connection's access token has expired or become invalid. Sign in again to re-gain access.";
+"No authentication data has been found for this connection." = "Δεν βρέθηκαν δεδομένα ελέγχου ταυτότητας για αυτήν τη σύνδεση.";
+"Sign in" = "Συνδεθείτε";
+"Continue offline" = "Continue offline";
+"Media upload in the previous session was incomplete since the application was terminated" = "Media upload in the previous session was incomplete since the application was terminated";
+
+"All done" = "All done";
+"No pending messages or ongoing actions." = "No pending messages or ongoing actions.";
+
+"Show all" = "Εμφάνιση όλων";
+"+ %ld more" = "+ %ld more";
+"Apply choice to all similar issues" = "Apply choice to all similar issues";
+"Apply to all" = "Apply to all";
+
+/* Server List*/
+"Cancel" = "Ακύρωση";
+"OK" = "ΟΚ";
+
+"'%@' is currently locked" = "Ο '%@' είναι αυτή τη στιγμή κλειδωμένο;";
+"An operation is currently performed that prevents connecting to '%@'. Please try again later." = "Αυτή τη στιγμή εκτελείται μια λειτουργία που εμποδίζει τη σύνδεση με το '%@'. Παρακαλούμε προσπαθήστε ξανά αργότερα.";
+"Do you really want to disconnect from your '%@' account?" = "Do you really want to disconnect from your '%@' account?";
+"This will remove all locally stored file copies from your device." = "This will remove all locally stored file copies from your device.";
+"Really delete '%@'?" = "Είστε βέβαιοι για την διαγραφή του '%@';";
+"This will also delete all locally stored file copies." = "Αυτό θα διαγράψει επίσης όλα τα τοπικά αποθηκευμένα αντίγραφα αρχείων.";
+"Delete" = "Διαγραφή";
+"Remove" = "Αφαίρεση";
+"Removing of '%@' failed" = "Removing of '%@' failed";
+"Accounts" = "Λογαριασμοί";
+
+"Help" = "Βοήθεια";
+"Feedback" = "Aνάδραση";
+"Welcome" = "Καλώς ήλθατε!";
+"Thanks for choosing %@! \n Start by adding your account." = "Ευχαριστούμε που επιλέξατε %@! \n Ξεκινήστε προσθέτοντας το λογαριασμό σας.";
+
+/* Settings Messages */
+
+"Security" = "Ασφάλεια";
+"Passcode Lock" = "Κλείδωμα με συνθηματικό";
+"Face ID" = "ID Προσώπου";
+"Touch ID" = "ID Αφής";
+"Videos" = "Βίντεο";
+"Photos" = "Φωτογραφίες";
+"Background uploads" = "Μεταφόρτωση στο παρασκήνιο";
+"Wifi only" = "Μόνο μέσω Wifi";
+"Settings" = "Ρυθμίσεις";
+"Lock application" = "Κλείδωμα εφαρμογής";
+"Upload videos via WiFi only" = "Μεταφόρτωση βίντεο μόνο μέσω WiFi";
+"Upload pictures via WiFi only" = "Μεταφόρτωση φωτογραφιών μόνο μέσω WiFi";
+"More" = "Περισσότερα";
+"Send feedback" = "Αποστολή ανάδρασης";
+"Recommend to a friend" = "Προτείνετε σε φίλο";
+"Privacy Policy" = "Πολιτική Απορρήτου";
+"Terms Of Use" = "Όροι χρήσης";
+"Acknowledgements" = "Ευχαριστίες";
+"Video upload path" = "Διαδρομή μεταφορτώσεων βίντεο";
+"Photo upload path" = "Διαδρομή μεταφορτώσεων φωτογραφιών";
+"Immediately" = "Αμέσως";
+"After 1 minute" = "Μετά από 1 λεπτό";
+"After 5 minutes" = "Μετά από 5 λεπτά";
+"After 30 minutes" = "Μετά από 30 λεπτά";
+"If you choose \"Immediately\" the App will be locked, when it is no longer in foreground.\n\nAccess in Files.app is not possible, if you choose lock interval \"Immediately\".\nPlease choose an other delay, if you want to access your files in the Files.app or via a document picker." = "Εάν επιλέξετε \"Άμεσα\", η εφαρμογή θα κλειδωθεί, όταν δεν είναι πλέον στο προσκήνιο.\n\nΗ πρόσβαση στο Files.app δεν είναι δυνατή αν επιλέξετε το διάστημα κλειδώματος \"Αμέσως\".\nΠαρακαλούμε επιλέξτε άλλη καθυστέρηση, εάν θέλετε να έχετε πρόσβαση στα αρχεία σας στο Files.app ή μέσω ενός εργαλείου επιλογής εγγράφων.";
+"Please configure an email account" = "Παρακαλούμε ρυθμίστε ένα λογαριασμό ηλεκτρονικού ταχυδρομείου";
+"You need to configure an email account first to be able to send emails." = "Πρέπει πρώτα να ρυθμίσετε έναν λογαριασμό ηλεκτρονικού ταχυδρομείου για να μπορείτε να στέλνετε μηνύματα ηλεκτρονικού ταχυδρομείου.";
+"Do you want to open the following URL?" = "Θέλετε να ανοίξετε την ακόλουθη διεύθυνση URL;";
+
+"%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)" = "%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)";
+"beta" = "beta";
+"release" = "έκδοση";
+"App Version" = "App Version";
+"Version information were copied to the clipboard" = "Version information were copied to the clipboard";
+
+
+/* User Interface Settings */
+"Theme" = "Θέμα";
+"User Interface" = "Διεπαφή χρήστη";
+"Dark" = "Σκούρο";
+"Light" = "Φωτεινό";
+"Classic" = "Κλασικό";
+"System" = "Σύστημα";
+"System Appeareance" = "Εμφάνιση συστήματος";
+
+/* Log settings */
+"Log Files" = "Αρχεία καταγραφής";
+"Browse log files" = "Περιήγηση στα αρχείων καταγραφής";
+"Share" = "Διαμοιρασμός";
+"Delete all log files?" = "Διαγραφή όλων των αρχείων καταγραφής";
+"Delete all" = "Διαγραφή όλων";
+
+"Log Level" = "Επίπεδο καταγραφών";
+"Log Destinations" = "Προορισμοί καταγραφής";
+"Privacy" = "Ιδιωτικότητα";
+
+"Logging" = "Καταγραφή";
+"Enable logging" = "Ενεργοποίηση καταγραφής";
+"Options" = "Επιλογές";
+
+"Off" = "Ανενεργό";
+"Info" = "Πληροφορίες";
+"Default" = "Προκαθορισμένο";
+"Warning" = "Προειδοποίηση";
+"Error" = "Σφάλμα";
+
+"Share log file" = "Διαμοιρασμός αρχείου καταγραφής";
+"Reset log file" = "Επαναφορά αρχείου καταγραφής";
+
+"When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility." = "Όταν ενεργοποιηθεί, τα αρχεία καταγραφής ενδέχεται να επηρεάσουν την απόδοση και να περιλαμβάνουν ευαίσθητες πληροφορίες. Ωστόσο, τα αρχεία καταγραφής δεν υπόκεινται σε αυτόματη υποβολή σε %@ διακομιστές. Η κοινή χρήση αρχείων καταγραφής με άλλους είναι αποκλειστική ευθύνη του χρήστη.";
+
+"The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." = "Τα τελευταία 10 αρχεία καταγραφής διατηρούνται στη συσκευή - με κάθε αρχείο να καλύπτει έως και 24 ώρες χρήσης. Κατά την κοινή χρήση, λάβετε υπόψη ότι τα αρχεία καταγραφής ενδέχεται να περιέχουν ευαίσθητες πληροφορίες όπως διευθύνσεις URL διακομιστή και πληροφορίες του χρήστη.";
+
+"Mask private data" = "Απόκρυψη ιδιωτικών δεδομένων";
+"Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." = "Η ενεργοποίηση αυτής της επιλογής θα προσπαθήσει να αποκρύψει ιδιωτικά δεδομένα, οπότε δεν αποθηκεύονται σε οποιουδήποτε αρχείου καταγραφής. Δεδομένου ότι η καταγραφή είναι χαρακτηριστικό ανάπτυξης και εντοπισμού σφαλμάτων, δεν μπορούμε να εγγυηθούμε ότι το αρχείο καταγραφής θα είναι απαλλαγμένο από οποιαδήποτε ιδιωτικά δεδομένα ακόμα και με ενεργοποιημένη αυτή την επιλογή. Επομένως, παρακαλούμε να εξετάσετε οποιοδήποτε αρχείο καταγραφής και να το επαληθεύσετε χωρίς δεδομένα που δεν είστε άνετα να μοιραστείτε πριν να το μοιραστείτε.";
+
+"No log file found" = "Δεν βρέθηκε αρχείο καταγραφής";
+"The log file can't be shared because no log file could be found or the log file is empty." = "Δεν είναι δυνατός ο διαμοιρασμός του αρχείου καταγραφής επειδή δεν βρέθηκε κανένα αρχείο καταγραφής ή το αρχείο καταγραφής είναι κενό.";
+"Enable log file" = "Ενεργοποίηση αρχείου καταγραφής";
+
+"Really reset log file?" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε το αρχείο καταγραφής;";
+"This action can't be undone." = "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.";
+
+/* Data usage settings */
+"Data usage" = "Data usage";
+"Delete unused local copies" = "Διαγραφή μη χρησιμοποιούμενων τοπικών αντιγράφων";
+"Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app." = "Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app.";
+"never" = "ποτέ";
+"after %@" = "after %@";
+"Decrease Slider Value" = "Decrease Slider Value";
+"Increase Slider Value" = "Increase Slider Value";
+
+"Cellular transfers" = "Cellular transfers";
+"Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." = "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app.";
+"Cellular transfers have been disabled via MDM configuration. Please contact your administrator for more information." = "Cellular transfers have been disabled via MDM configuration. Please contact your administrator for more information.";
+"General" = "Γενικά";
+"By feature" = "By feature";
+
+"off" = "off";
+"enabled" = "ενεργοποιημένο";
+
+/* Display settings */
+"Advanced settings" = "Ρυθμίσεις για προχωρημένους";
+"Show hidden files and folders" = "Εμφάνιση κρυφών αρχείων και φακέλων";
+"Show folders at the top" = "Show folders at the top";
+"Prevent gestures" = "Prevent gestures";
+"Prevent dragging of files and folders and multiselection using system defined gestures" = "Prevent dragging of files and folders and multiselection using system defined gestures";
+
+/* Advanced settings */
+"Enable diagnostics" = "Enable diagnostics";
+
+/* Passcode Messages */
+
+"Enter code" = "Εισάγετε κωδικό";
+"Repeat code" = "Επαναλάβετε τον κωδικό";
+"Delete code" = "Διαγράψτε τον κωδικό";
+"The entered codes are different" = "Οι κωδικοί που εισάγατε είναι διαφορετικοί";
+"Incorrect code" = "Εσφαλμένος κωδικός";
+"Please try again in %@" = "Παρακαλούμε δοκιμάστε ξανά σε %@";
+"Unlock %@" = "Ξεκλείδωμα %@";
+"Biometric authentication failed" = "Ο βιομετρικός έλεγχος ταυτότητας απέτυχε";
+
+/* Certificate management */
+
+"Certificates" = "Πιστοποιητικά";
+"User-approved certificates" = "Πιστοποιητικά εγκεκριμένα από τον χρήστη";
+
+"Approved" = "Εγκρίθηκε";
+"Auto-approved" = "Εγκρίθηκε αυτόματα";
+"Revoke approval" =  "Ανακαλείται η έγκριση";
+
+/* Actions */
+
+"Forbidden Characters" = "Απαγορευμένοι χαρακτήρες";
+"File name cannot contain / or \\" = "Το όνομα αρχείου δεν πρέπει να περιέχει / ή \\";
+"Item with same name already exists" = "Item with same name already exists";
+"An item with the same name already exists in this location." = "An item with the same name already exists in this location.";
+"New Folder" = "Νέος φάκελος";
+"Folder name" = "Όνομα φακέλου";
+"Rename" ="Μετονομασία";
+"Create folder" ="Δημιουργία φακέλου";
+"Duplicate" = "Αντίγραφο";
+"Move" = "Μετακίνηση";
+"Open in" = "Άνοιγμα σε";
+"Copy" = "Αντιγραφή";
+"Copy here" = "Αντιγραφή εδώ";
+"Cannot connect to " = "Αδυναμία σύνδεσης σε ";
+" couldn't download file(s)" = " δεν ήταν δυνατή η λήψη αρχείου(-ων)";
+"Actions" = "Ενέργειες";
+"copy" = "αντιγραφή";
+"Close Window" = "Κλείσιμο παραθύρου";
+"Open in a new Window" = "Άνοιγμα σε νέο παράθυρο";
+"Open in Window" = "Άνοιγμα σε παράθυρο";
+"Take photo or video" = "Λήψη φωτογραφίας ή βίντεο";
+
+"Preparing…" = "Γίνεται προετοιμασία…";
+
+"No actions available" = "Δεν υπάρχουν διαθέσιμες ενέργειες";
+"No actions are available for this folder, possibly because of missing permissions." = "No actions are available for this folder, possibly because of missing permissions.";
+
+"Close actions menu" = "Close actions menu";
+"Favorited" = "Αγαπημένα";
+"Favorite item" = "Favorite item";
+"Unfavorite item" = "Unfavorite item";
+
+/* Directory Picker Messages */
+"Move here" = "Μετακίνηση εδώ";
+
+/* Preview */
+"Open file" = "Άνοιγμα αρχείου";
+"Network unavailable" = "Το δίκτυο δεν είναι διαθέσιμο";
+"Error" = "Σφάλμα";
+"Could not get the picture" = "Αδυναμία λήψης εικόνας";
+"Downloading" = "Λήψη";
+"File couldn't be opened" = "Αδυναμία ανοίγματος αρχείου";
+"Connecting..." = "Γίνεται σύνδεση...";
+
+/* PDF Viewer */
+"Resume" = "Συνέχεια";
+"Go to page" = "Μετάβαση στη σελίδα";
+"Page" = "Σελίδα";
+"This document has %@ pages" = "Το έγγραφο έχει %@ σελίδες";
+"%@ of %@" = "%@ από %@";
+"Invalid Page" = "Μη έγκυρη σελίδα";
+"The entered page number doesn't exist" = "Ο αριθμός της σελίδας που δώσατε, δεν υπάρχει";
+"Search PDF" = "Αναζήτηση PDF";
+"Outline" = "Περίγραμμα";
+
+/* Photo Upload */
+"Upload" = "Μεταφόρτωση";
+"Select All" = "Επιλογή όλων";
+"Deselect All" = "Αποεπιλογή όλων";
+"All Photos" = "Όλες οι φωτογραφίες";
+"Albums" = "Άλμπουμ";
+"Importing from photo library" = "Εισαγωγή από τη βιβλιοθήκη φωτογραφιών";
+"Media import" = "Εισαγωγή μέσων";
+"%@ of %@" = "%@ από %@";
+"Selected folder lacks file creation permission" = "Ο επιλεγμένος φάκελος δεν έχει άδεια δημιουργίας αρχείων";
+"%d Item" = "%d Item";
+"%d Items" = "%d Items";
+
+/* Scan */
+"Scan" = "Σάρωση";
+"Scans" = "Σαρώσεις";
+"Scan document" = "Σάρωση εγγράφου";
+"Saving" = "Αποθήκευση";
+"File format" = "Μορφή αρχείου";
+"Name" = "Όνομα";
+"Save as" = "Αποθήκευση ως";
+"Options" = "Επιλογές";
+"Scan additional" = "Scan additional";
+"Create one file per page" = "Δημιουργία ενός αρχείου ανά σελίδα";
+
+/* Scan */
+"Scan" = "Σάρωση";
+"Scans" = "Σαρώσεις";
+"Scan document" = "Σάρωση εγγράφου";
+"Saving" = "Αποθήκευση";
+"File format" = "Μορφή αρχείου";
+"Name" = "Όνομα";
+"Save as" = "Αποθήκευση ως";
+"Options" = "Επιλογές";
+"Scan additional" = "Scan additional";
+"Create one file per page" = "Δημιουργία ενός αρχείου ανά σελίδα";
+
+/* Sharing */
+"Searching Shares…" = "Αναζήτηση κοινόχρηστων…";
+"Recipient" = "Παραλήπτης";
+"Recipients" = "Παραλήπτες";
+"Public Link" = "Δημόσιος σύνδεσμος";
+"Public Links" = "Δημόσιοι σύνδεσμοι";
+"Shared by %@" = "Διαμοιράστηκε από τον %@";
+"Invite Recipient" = "Μη έγκυρος παραλήπτης";
+"Recipients" = "Παραλήπτες";
+"Add email or name" = "Προσθήκη email ή ονόματος";
+"Users" = "Χρήστες";
+"Groups" = "Ομάδες";
+"Start typing to search users, groups and remote users." = "Ξεκινήστε την πληκτρολόγηση για να αναζητήσετε χρήστες, ομάδες και απομακρυσμένους χρήστες.";
+"(Group)" = "(Ομάδα)";
+"Adding User to Share failed" = "Αποτυχία προσθήκης χρήστη στο κονόχρηστο στοιχείο";
+"Permissions" = "Δικαιώματα";
+"Invited: %@" = "Προσκεκλημένος: %@";
+"Created: %@" = "Δημιουργήθηκε: %@";
+"Allows the users you share with to re-share" = "Επιτρέπει στους χρήστες με τους οποίους μοιράζεστε να το διαμοιράσουν ξανά";
+"Allows the users you share with to edit your shared files, and to collaborate" = "Επιτρέπει στους χρήστες με τους οποίους μοιράζεστε να επεξεργάζονται τα κοινόχρηστα αρχεία σας και να συνεργάζονται";
+"Allows the users you share with to create new files and add them to the share" = "Επιτρέπει στους χρήστες με τους οποίους μοιράζεστε να δημιουργούν νέα αρχεία και να τα προσθέτουν στο κοινόχρηστο στοιχείο";
+"Allows uploading a new version of a shared file and replacing it" = "Επιτρέπει τη μεταφόρτωση μιας νέας έκδοσης ενός κοινόχρηστου αρχείου και την αντικατάστασή του";
+"Allows the users you share with to delete shared files" = "Επιτρέπει στους χρήστες με τους οποίους μοιράζεστε να διαγράφουν τα κοινόχρηστα αρχεία";
+"Setting permission failed" = "Αποτυχία καθορισμού δικαιωμάτων";
+"Shared with" = "Διαμοιράστηκε με";
+"Remove Recipient failed" = "Αποτυχία αφαίρεσεης παραλήπτη";
+"Remove Recipient" = "Αφαίρεση παραλήπτη";
+"Create" = "Δημιουργία";
+"Change" = "Αλλαγή";
+"Recipients can view or download contents." = "Οι παραλήπτες μπορούν να προβάλλουν ή να κατεβάσουν περιεχόμενα.";
+"Recipients can view, download, edit, delete and upload contents." = "Οι παραλήπτες μπορούν να προβάλλουν, να κατεβάζουν, να επεξεργάζονται, να διαγράφουν και να μεταφορτώνουν περιεχόμενα.";
+"Receive files from multiple recipients without revealing the contents of the folder." = "Λήψη αρχείων από πολλούς παραλήπτες χωρίς να αποκαλύπτεται το περιεχόμενο του φακέλου.";
+"Download / View" = "Λήψη / Προβολή";
+"Download / View / Upload" = "Λήψη / Προβολή / Μεταφόρτωση";
+"Upload only (File Drop)" = "Μόνο μεταφόρτωση (File Drop)";
+"Creating public link failed" = "Αποτυχία δημιουργίας δημόσιου συνδέσμου";
+"Create Public Link" = "Δημιουργία δημόσιου συνδέσμου";
+"Links" = "Σύνδεσμοι";
+"Link" = "Σύνδεσμος";
+"Setting expiration date failed" = "Αποτυχία ορισμού ημερομηνίας λήξης";
+"Expiration date" = "Ημερομηνία λήξης";
+"Copy Public Link" = "Αντιγραφή δημόσιου συνδέσμου";
+"Delete Public Link" = "Διαγραφή δημόσιου συνδέσμου";
+"Deleting Public Link failed" = "Αποτυχία διαγραφής δημόσιου συνδέσμου";
+"Deleting password failed" = "Αποτυχία διαγραφής συνθηματικού";
+"Setting password failed" = "Αποτυχία ορισμού συνθηματικού";
+"Type to update password" = "Πληκτρολογήστε για ενημέρωση συνθηματικού";
+"Cannot change permission" = "Αδυναμία αλλαγής δικαιωμάτων";
+"Before you can set the permission\n%@,\n you must enter a password." = "Προτού μπορέσετε να ορίσετε την δικαιώματα\n%@,\n πρέπει να πληκτρολογήσετε ένα συνθηματικό.";
+"Password Protected" = "Προστατευμένο συνθηματικό";
+"Pending Federated Invites" = "Εκκρεμείς προσκλήσεις Federated";
+"Pending Invites" = "Εκκρεμείς προσκλήσεις";
+"Shared with you" = "Διαμοιρασμένα με εσάς";
+"Shared with others" = "Διαμοιρασμένα με άλλους";
+"Shares" = "Κοινόχρηστα";
+"Copy Private Link" = "Αντιγραφή ιδιωτικού συνδέσμου";
+"Only recipients can use this link. Use it as a permanent link to point to this resource" = "Μόνο οι παραλήπτες μπορούν να χρησιμοποιήσουν αυτόν τον σύνδεσμο. Χρησιμοποιήστε το ως μόνιμο σύνδεσμο για να επισημάνετε αυτόν τον πόρο";
+"Accept Share failed" = "Αποτυχία αποδοχής κοινόχρηστου";
+"Decline Share failed" = "Αποτυχία απόρριψης κοινόχρηστου";
+"Accept" = "Αποδοχή";
+"Decline" = "Απόρριψη";
+"Declined" = "Απορρίφθηκε";
+"Decline Share" = "Απόρριψη κοινόχρηστου";
+"Unshare" = "Διακοπή διαμοιρασμού";
+"Unshare failed" = "Αποτυχία διακοπής διαμοιρασμού";
+"Are you sure you want to unshare these items?" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε την κοινή χρήση αυτών των στοιχείων;";
+"Are you sure you want to unshare this item?" = "Είστε βέβαιοι ότι θέλετε να καταργήσετε την κοινή χρήση αυτού του στοιχείου";
+"Share" = "Διαμοιρασμός";
+"Read" = "Ανάγνωση";
+"Can Share" = "Μπορεί να διαμοιράσει";
+"Can Edit" = "Μπορεί να επεξεργαστεί";
+"Can Edit and Change" = "Μπορεί να επεξεργαστεί και να αλλάξει";
+"Can Create" = "Μπορεί να δημιουργήσει";
+"Can Change" = "Μπορεί να αλλάξει";
+"Can Delete" = "Μπορεί να διαγράψει";
+"Accept Invite %@" = "Αποδοχή πρόσκλησης %@";
+"Decline Invite %@" = "Απόρριψη πρόσκλησης %@";
+"Decline cannot be undone." = "Η απόρριψη δεν μπορεί να ανακληθεί.";
+"Sharing" = "Διαμοιρασμός";
+"You" = "Εσύ";
+"Share this file" = "Διαμοιρασμός αυτού του αρχείου";
+"Share this folder" = "Διαμοιρασμός αυτού του φακέλου";
+"shared" = "διαμοιρασμένα";
+"Owner" = "Ιδιοκτήτης";
+"Private Link" = "Ιδιωτικός σύνδεσμος";
+"Created Public Link" = "Created Public Link";
+"URL was copied to the clipboard" = "URL was copied to the clipboard";
+
+/* Quick Access view */
+"Quick Access" = "Γρήγορη πρόσβαση";
+"Collection" = "Συλλογή";
+"Recents" = "Παραλήπτες";
+"Favorites"= "Αγαπημένα";
+"Images" = "Εικόνες";
+"PDF Documents" = "Έγγραφα PDF";
+"Text" = "Κείμενο";
+"Documents" = "Έγγραφα";
+"Audio" = "Ήχος";
+
+/* Media files settings */
+"Media Files" = "Αρχεία πολυμέσων";
+"Download instead of streaming" = "Download instead of streaming";
+
+/* Photo upload settings */
+"Media Upload" = "Μεταφόρτωση μέσων";
+"Media Export" = "Media Export";
+"Auto Upload" = "Auto Upload";
+"Convert HEIC to JPEG" = "Μετατροπή HEIC σε JPEG";
+"Convert videos to MP4" = "Μετατροπή videos σε MP4";
+"Preserve original media file names" = "Preserve original media file names";
+"Auto Upload Photos" = "Αυτόματη μεταφόρτωση φωτογραφιών";
+"Auto Upload Videos" = "Αυτόματη μεταφόρτωση βίντεο";
+"Account" = "Λογαριασμός";
+"Accounts" = "Λογαριασμοί";
+"Select account" = "Επιλογή λογαρισμού";
+"Photo upload path" = "Διαδρομή μεταφορτώσεων φωτογραφιών";
+"Video upload path" = "Διαδρομή μεταφορτώσεων βίντεο";
+"Select Upload Path" = "Επιλογή διαδρομής μεταφόρτωσης";
+"Auto upload of media was disabled since configured account / folder was not found" = "Auto upload of media was disabled since configured account / folder was not found";
+"Importing %@ media files for upload" = "Importing %@ media files for upload";
+"Photo upload" = "Photo upload";
+"Video upload" = "Video upload";
+
+/* Background media uploads */
+"Background uploads" = "Μεταφόρτωση στο παρασκήνιο";
+"Use background refresh" = "Use background refresh";
+"Enable background uploads" = "Enable background uploads";
+"Use background location updates" = "Use background location updates";
+"Background upload notifications" = "Background upload notifications";
+"if you would like background media uploads to be more reliable, you should enable background location updates." = "if you would like background media uploads to be more reliable, you should enable background location updates.";
+"Background media uploads rely on location updates and will stop working if location acquisition permissions are revoked." = "Background media uploads rely on location updates and will stop working if location acquisition permissions are revoked.";
+"Otherwise background media uploads using background refresh technology would depend on how frequently you use the app." = "Otherwise background media uploads using background refresh technology would depend on how frequently you use the app.";
+"Location permission denied" = "Location permission denied";
+"Please re-enable location acquisition in system settings" = "Please re-enable location acquisition in system settings";
+"Scheduled upload of %ld media assets" = "Scheduled upload of %ld media assets";
+
+/* Progress summarizer */
+"Creating %ld folders…" = "Δημιουργία %ld φακέλων…";
+"Moving %ld items…" = "Μετακίνηση %ld αντικειμένων…";
+"Copying %ld items…" = "Αντιγραφή %ld αντικειμένων…";
+"Deleting %ld items…" = "Διαγραφή %ld αντικειμένων…";
+"Uploading %ld files…" = "Μεταφόρτωση %ld αρχείων…";
+"Downloading %ld files…" = "Λήψη %ld αρχείων…";
+"Updating %ld items…" = "Ενημέρωση %ld αντικειμένων…";
+
+/* Offline storage management */
+"Free on %@" = "Ελεύθερα στο %@";
+"unknown" = "αγνωστο";
+"Offline files use" = "Χρήση αρχείων εκτός σύνδεσης";
+"Compacting of '%@' failed" = "Αποτυχία συμπίεσης του '%@'";
+"Include available offline files" = "Include available offline files";
+"Delete Local Copies" = "Διαγραφή τοπικών αντιγράφων";
+"Manage" = "Διαχείριση";
+"Storage" = "Αποθηκευτικός χώρος";
+"Compacting" = "Συμπίεση";
+
+"Really include available offline files?" = "Really include available offline files?";
+"Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." = "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required).";
+
+/* Diagnostic */
+"Diagnostic Overview" = "Diagnostic Overview";
+"Diagnostics" = "Διαγνωστικά";
+"Share Diagnostics" = "Share Diagnostics";
+"Action executed" = "Action executed";
+
+"Update Status" = "Update Status";
+"Completed update scans" = "Completed update scans";
+"Total update scans" = "Total update scans";
+
+/* Available offline */
+"Root folder" = "Root folder";
+"at" = "στο";
+"(no match)" = "(no match)";
+
+"Make available offline" = "Make available offline";
+"Make unavailable offline" = "Make unavailable offline";
+
+"Available Offline" = "Διαθέσιμο χωρίς σύνδεση";
+"No items have been selected for offline availability." = "No items have been selected for offline availability.";
+
+"Overview" = "Overview";
+"All Files" = "Όλα τα αρχεία";
+
+/* Single Account */
+"You are connected as\n%@ to %@" = "You are connected as\n%@ to %@";
+
+/* Release Notes */
+"Proceed" = "Συνέχιση";
+"New in OpenCloud" = "New in OpenCloud";
+"Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" = "Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️";
+
+/* Key Commands */
+"Select Next" = "Επιλογή επομένου";
+"Select Previous" = "Επιλογή προηγούμενου";
+"Open Selected" = "Άνοιγμα επιλεγμένων";
+"Change Sort Order" = "Αλλαγή σειράς ταξινόμησης";
+"Search" = "Αναζήτηση";
+"Back" = "Πίσω";
+"Save" = "Αποθήκευση";
+"Sort by %@" = "Ταξινόμηση κατά %@";
+"Tab %@" = "Tab %@";
+"Select Last Item on Page" = "Επιλογή τελευταίου αντικειμένου στη σελίδα";
+"Scroll to Top" = "Κύλιση προς τα επάνω";
+"Scroll to Bottom" = "Κύλιση προς τα κάτω";
+"Copy to Pasteboard" = "Αντιγραφή στο Pasteboard";
+"Import from Pasteboard" = "Εισαγωγή από το Pasteboard";
+"Next" = "Επόμενο";
+"Previous" = "Προηγούμενο";
+"Favorite" = "Αγαπημένο";
+"Cut" = "Αποκοπή";
+
+/* Markup */
+"How should this file be saved?" = "Πώς πρέπει να αποθηκευτεί αυτό το αρχείο;";
+"Overwrite original" = "Overwrite original";
+"Save as copy" = "Αποθήκευση ως αντίγραφο";
+"Discard changes" = "Discard changes";
+"Markup" = "Markup";
+"Crop or Rotate" = "Περικοπή ή περιστροφή";
+"Saving edited file failed" = "Αποτυχία αποθήκευσης του επεξεργασμένου αρχείου";
+"File no longer exists" = "File no longer exists";
+
+/* Licensing */
+"Unlocked" = "Unlocked";
+"Unlock" = "Ξεκλείδωμα";
+
+"Subscribe Now" = "Subscribe Now";
+"Free" = "Δωρεάν";
+
+"%@ / %@" = "%@ / %@";
+"after free %@ trial" = "after free %@ trial";
+
+/* Example usage: "Try [14 days] for free." */
+"Try %@ for free." = "Δωρεάν δοκιμή για %@.";
+
+/* Example usage: "Then [1,99 €] / [year]." */
+"Then %@ / %@." = "Τότε %@ / %@.";
+
+/* Example usage: "[1,99 €] / [year] - starting immediately." */
+"%@ / %@ – starting immediately" = "%@ / %@ – starting immediately";
+
+/* Licensing: Pro Features */
+"Pro Features" = "Pro Features";
+
+/* Licensing: App Store */
+"Restore purchases" = "Restore purchases";
+"Restoring purchases…" = "Restoring purchases…";
+"Error restoring purchases" = "Error restoring purchases";
+"Error loading product info from App Store"= "Error loading product info from App Store";
+"Purchase failed" = "Αποτυχία αγοράς";
+
+/* Licensing: Enterprise */
+"Enterprise" = "Enterprise";
+
+/* Licensing: Settings */
+"In-App Purchases" = "In-App Purchases";
+"Purchases" = "Αγορές";
+"Error fetching transactions" = "Error fetching transactions";
+"Document Scanner" = "Σαρωτής εγγράφων";
+"Scan documents and photos with your camera." = "Scan documents and photos with your camera.";
+"Shortcuts Actions" = "Shortcuts Actions";
+"Use OpenCloud actions in Shortcuts." = "Use OpenCloud actions in Shortcuts.";
+"Markup Documents" = "Markup Documents";
+"Markup photos and PDF files." = "Markup photos and PDF files.";
+"Unlock all Pro Features." = "Unlock all Pro Features.";
+"Purchased App Version" = "Purchased App Version";
+"Receipt Date" = "Ημερομηνία απόδειξης";
+"Manage subscription" = "Manage subscription";
+"Purchases are not allowed on this device." = "Purchases are not allowed on this device.";
+"Type" = "Τύπος";
+"Quantity" = "Quantity";
+"Product" = "Προϊόν";
+"Date" = "Ημερομηνία";
+"Cancelled" = "Ακυρώθηκε";
+"Ends" = "Τελειώνει";
+"none" = "καμία";
+"trial" = "δοκιμαστικό";
+"purchase" = "αγορά";
+"subscription" = "subscription";
+
+/* Share Sheet */
+"Save File" = "Αποθήκευση αρχείου";
+"Choose an account and folder to import into." = "Choose an account and folder to import into.";
+"No account configured.\nSetup an new account in the app to save to." = "No account configured.\nSetup an new account in the app to save to.";
+"Importing item %ld of %ld" = "Importing item %ld of %ld";
+"Error importing %@" = "Error importing %@";
+"Error loading item" = "Error loading item";
+"Preparing…" = "Γίνεται προετοιμασία…";
+"Save here" = "Save here";
+
+/* Data migration from legacy app */
+"Account Migration" = "Account Migration";
+"App Passcode" = "App Passcode";
+"Instant Upload Settings" = "Instant Upload Settings";
+"Migrating" = "Migrating";
+"Migrated" = "Migrated";
+"Failed to migrate" = "Failed to migrate";
+"Failed to access legacy user data" = "Failed to access legacy user data";
+
+
+/* Misc. accessibility */
+"Enter multiple selection" = "Enter multiple selection";
+
+/* Universal Links */
+"Resolving link…" = "Resolving link…";
+"Link resolution failed" = "Link resolution failed";
+"Couldn't resolve a private link since you are offline and corresponding item is not cached locally." = "Couldn't resolve a private link since you are offline and corresponding item is not cached locally.";
+"Couldn't resolve a private link since the item is not known to the server." = "Couldn't resolve a private link since the item is not known to the server.";
+"Link points to an account bookmark which is not configured in the app." = "Link points to an account bookmark which is not configured in the app.";

@@ -1,4 +1,4 @@
-git_url(ENV['OWNCLOUD_GIT_URL'])
+git_url(ENV['OPENCLOUD_GIT_URL'])
 
 type("development") # The default type, can be: appstore, adhoc, enterprise or development
 
@@ -6,5 +6,5 @@ for_lane :beta do
 	type "appstore"
 end
 
-app_identifier(ENV['OWNCLOUD_APP_IDENTIFIER'])
-username(ENV['OWNCLOUD_APPLE_ID']) # Your Apple Developer Portal username
+app_identifier(ENV['OPENCLOUD_APP_IDENTIFIER'])
+username(ENV['OPENCLOUD_APPLE_ID']) # Your Apple Developer Portal username

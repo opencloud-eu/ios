@@ -19,7 +19,7 @@ jobs:
       - name: mxcl/Xcodebuild
         uses: mxcl/xcodebuild@v3.4.0
         with:
-          scheme: ownCloud
+          scheme: OpenCloud
           action: build
           platform: iOS
           platform-version: 18.2

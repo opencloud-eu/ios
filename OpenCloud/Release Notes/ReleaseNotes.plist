@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Versions</key>
+	<array>
+		<dict>
+			<key>Version</key>
+			<string>1.2.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Multiple Window Support</string>
+					<key>Subtitle</key>
+					<string>Starting with iPadOS 13 you can have multiple windows and app instances. Open your ${CFBundleDisplayName} accounts side by side, show a file preview in a new window or drag and drop files between two accounts. All windows will be restored, after the app was launched.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>uiwindow.split.2x1</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Restore User Interface</string>
+					<key>Subtitle</key>
+					<string>On iOS 13 the last opened folder or file will be restored, after the app was launched. 
+On iPadOS 13 all windows will be restored, after the app was launched.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>memories</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Keyboard Commands</string>
+					<key>Subtitle</key>
+					<string>On iPadOS you can control the app with a hardware keyboard. Long press the command key to see all available actions. These actions can change, if an item is selected or not.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>keyboard</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Media Player Improvements</string>
+					<key>Subtitle</key>
+					<string>The integrated Media Player autoplays all media files from the current folder. The media player was improved, to show available album covers. Furthermore you have now controls, to skip 10 seconds forward or backward. If you have an Apple Watch, you can control the media playback right from your wrist.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>play.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Better File Previews</string>
+					<key>Subtitle</key>
+					<string>We replaced the file preview rendering engine. Now you can display more file types directly in the app. Furthermore you can get  better preview icons for more file types.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>photo</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Arabic Language Support</string>
+					<key>Subtitle</key>
+					<string>Now the app is also available in Arabic language</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>globe</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Sort alphabetically</string>
+					<key>Subtitle</key>
+					<string>All sort types got a second sort parameter alphabetically.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Share Sheet on iPad</string>
+					<key>Subtitle</key>
+					<string>On iPad the Share Sheet did not appear, if the selected item was out of the first visible file list page</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: FileProvider File Type Issue</string>
+					<key>Subtitle</key>
+					<string>Some file types (Collabora Office) can&apos;t be opened or saved via FileProvider</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: FileProvider Offline Browsing</string>
+					<key>Subtitle</key>
+					<string>Allows browsing of folders in the File Provider while in Airplane mode with Files app.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Photo Upload</string>
+					<key>Subtitle</key>
+					<string>Fixes some problems regarding the auto photo and video upload. The app is now more responsive, when uploading a huge amount of files.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>1.2.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Passcode Lock Screen on iOS 13</string>
+					<key>Subtitle</key>
+					<string>Passcode lock does not worked</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>1.3.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Document Scanner</string>
+					<key>Subtitle</key>
+					<string>Scan your documents directly into your ${CFBundleDisplayName}. You do not longer need a third party app or import scanned documents. Our ${CFBundleDisplayName} app has an integrated document scanner. Tap on the &quot;+&quot; button to start your scan!</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>doc.text.viewfinder</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Markup Documents</string>
+					<key>Subtitle</key>
+					<string>Annotate, sign or draw in your PDF files and Images direclty in the app. So easy and all your files stays in your cloud.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>pencil.tip.crop.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Shortcut Support</string>
+					<key>Subtitle</key>
+					<string>On iOS 13 you get great Shortcut support. We have added multiple action, to build your own scripts and automation for your ${CFBundleDisplayName}.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Quick Access</string>
+					<key>Subtitle</key>
+					<string>We added some more quick access collections to get faster access to your specific file types.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>folder.badge.plus</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>File List Layout</string>
+					<key>Subtitle</key>
+					<string>There is a smaller and cleaner file list layout to show more informations.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>list.dash</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Sort Bar in Directory Picker</string>
+					<key>Subtitle</key>
+					<string>The sort bar is now also present in the Directory Picker view.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrow.up.arrow.down.square</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Blank File List</string>
+					<key>Subtitle</key>
+					<string>We fixed the UI restoration, when last opened path no longer exists. Sorry!</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Share Sheet on iPad</string>
+					<key>Subtitle</key>
+					<string>On iPad the Share Sheet did not appear, when trying to share a log file.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>1.3.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Shortcut - Save Action</string>
+					<key>Subtitle</key>
+					<string>The Save Action got a new parameter &quot;Overwrite existing File&quot;.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Markup Documents</string>
+					<key>Subtitle</key>
+					<string>Sometimes the edited document was not saved, when edit mode was not disabled.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Offline Usage</string>
+					<key>Subtitle</key>
+					<string>Fixed some problems, when device is in flight mode.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Available Offline</string>
+					<key>Subtitle</key>
+					<string>Fixed a problem, when device was offline and an available offline resource was changed on an other device.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Permissions</string>
+					<key>Subtitle</key>
+					<string>Show and perform actions only, when permission was granted.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>1.3.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>iPad: Mouse and Trackpad support</string>
+					<key>Subtitle</key>
+					<string>With iPadOS 13.4 we supporting mouse and trackpads</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>dot.square</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Shortcut - Save Action</string>
+					<key>Subtitle</key>
+					<string>Fixed saving, when device is in flight mode.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Keep open files up-to-date</string>
+					<key>Subtitle</key>
+					<string>Open items will be automatically updated if the content was changed</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Cellular Options</string>
+					<key>Subtitle</key>
+					<string>New settings give users more choice and control over their data usage, including which feature can use cellular data and the option to fully disable cellular data usage.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>antenna.radiowaves.left.and.right</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Share Sheet</string>
+					<key>Subtitle</key>
+					<string>Our new share sheet imports nearly everything from nearly everywhere. Just tap on the share button and select the ${CFBundleDisplayName} app to save multiple files, photos, selected text, downloads and so much more.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.and.arrow.up</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Camera Access</string>
+					<key>Subtitle</key>
+					<string>Take a photo or video right from the app and upload it to your ${CFBundleDisplayName}.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>camera</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Better Issue Handling</string>
+					<key>Subtitle</key>
+					<string>Easier issue handling through the grouping of identical issues to perform actions on them in bulk.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>exclamationmark.triangle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Folders on top</string>
+					<key>Subtitle</key>
+					<string>There is a new option to show folders on top, with the option of keeping the existing behaviour.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>folder</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Contextual Menu</string>
+					<key>Subtitle</key>
+					<string>A long press on a file list item or right click on your mouse shows a contextual menu.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>sidebar.left</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Multitouch gestures</string>
+					<key>Subtitle</key>
+					<string>On iOS 13, users can multi-select items by swiping.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>hand.draw</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Inline Authentication</string>
+					<key>Subtitle</key>
+					<string>When a re-authentication is needed the app no longer looses focus and authenticates directly from your context.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>ellipses.bubble</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Image Upload: Change file name</string>
+					<key>Subtitle</key>
+					<string>When media upload is enabled, users can decide between different file name formats.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>textbox</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>App Version Information</string>
+					<key>Subtitle</key>
+					<string>The app version information in the app settings can be copied to the clipboard for sharing.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>textformat.123</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improved Media Upload</string>
+					<key>Subtitle</key>
+					<string>New option added to specify different upload folders for instant photo and video uploads. The photo picker can now select items from shared albums.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.and.arrow.up</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Media Streaming</string>
+					<key>Subtitle</key>
+					<string>Media files will be streamed by default, instead of downloading the file first. You can revert to downloading first in the app settings.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>play.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Public Link Creation</string>
+					<key>Subtitle</key>
+					<string>When a public link is created, the URL is copied to the clipboard. Public links can now be dragged to another app.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>link</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Diagnostics</string>
+					<key>Subtitle</key>
+					<string>The new diagnostic view shows account informations in the manage view or, if something went wrong, in the state tab for every item. Please enable the diagnostic option in the app settings first.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>magnifyingglass</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Item Counter</string>
+					<key>Subtitle</key>
+					<string>The total number of items is shown in the footer. The number of selected items is shown on the top.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>textformat.123</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Universal Links / Deep Linking</string>
+					<key>Subtitle</key>
+					<string>Open a file directly in the app through an universal link. More information can be found in the app documentation.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrowshape.turn.up.left.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Shortcuts: Get File Info</string>
+					<key>Subtitle</key>
+					<string>In the Shortcuts.app, the action &quot;Get File Info&quot; has two new output parameters, &quot;File ID&quot; and &quot;Local File ID&quot;.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Avoid duplicate photo upload</string>
+					<key>Subtitle</key>
+					<string>Fixes the re-upload of photos upon each modification when instant upload is active</string>
+					<key>Type</key>
+					<string>Fix:</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Markup</string>
+					<key>Subtitle</key>
+					<string>When opening a file for markup, the app immediately switches to edit mode instead of showing the file view first.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Audio Playback</string>
+					<key>Subtitle</key>
+					<string>Fixes the simultaneous playback of multiple media files when the current media file is loosing focus.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Serveral UI Improvements</string>
+					<key>Subtitle</key>
+					<string>Better accessibility. Some UI elements got polished.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: File Provider</string>
+					<key>Subtitle</key>
+					<string>Fixes the failure to open some file types in third party apps in the document browser</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Quick Access</string>
+					<key>Subtitle</key>
+					<string>Fixes the display of locally downloaded files as items available offline in the Quick Access section</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Sort by Type</string>
+					<key>Subtitle</key>
+					<string>Sort by type works now as expected</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Image Metadata</string>
+					<key>Subtitle</key>
+					<string>View metadata (EXIF, IPTC, Geolocation) on image files.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>photo</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Pro Photo Upload</string>
+					<key>Subtitle</key>
+					<string>Two new settings give the user more control over photo uploads: 
+Users can choose to prefer the original photo instead of an edited version and also to upload the raw photo format, if available.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>camera</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Media Upload Path</string>
+					<key>Subtitle</key>
+					<string>Upload path for photo and video was not visible in settings for some cases.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: File List</string>
+					<key>Subtitle</key>
+					<string>In some cases the file list was not presented.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Markup</string>
+					<key>Subtitle</key>
+					<string>Markup mode was not enabled automatically when using iOS 14.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Shortcuts</string>
+					<key>Subtitle</key>
+					<string>The Shortcuts in-app purchase could not be retrieved.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Share Sheet</string>
+					<key>Subtitle</key>
+					<string>Share Sheet on iOS 12 could not be dismissed.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Multiple Selection</string>
+					<key>Subtitle</key>
+					<string>Improved performance when selecting multiple items.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: File Provider</string>
+					<key>Subtitle</key>
+					<string>Some file types were grayed out and could not be opened.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: General Improvements</string>
+					<key>Subtitle</key>
+					<string>We made some internal improvements to make everything smoother and removed some edge cases.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Create Public Link</string>
+					<key>Subtitle</key>
+					<string>The process of creating a public link on a federated share was broken</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Support for new Display Sizes</string>
+					<key>Subtitle</key>
+					<string>We supporting all upcoming new display sizes with native screen resolution.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>rectangle.and.arrow.up.right.and.arrow.down.left</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Favorites in Directory Picker</string>
+					<key>Subtitle</key>
+					<string>We added access to the favorite items directly from the directory picker.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>star.fill</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Rename Filename in Scan View</string>
+					<key>Subtitle</key>
+					<string>Now it is easier to rename a filename in the scan view by preselecting the filename.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>textbox</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Save Attachments from Mail.app</string>
+					<key>Subtitle</key>
+					<string>Saving attachments from iOS Mail.app was broken via the share sheet.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Authentication Error in FileProvider</string>
+					<key>Subtitle</key>
+					<string>Notifies the user with a notification if authentication fails in File Provider.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: New Folder in FileProvider</string>
+					<key>Subtitle</key>
+					<string>A newly created folder in File Provider was not selectable.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4.3</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: iOS 14 UI Adaptions</string>
+					<key>Subtitle</key>
+					<string>Fixed some problems on iOS 14, with unresponsive UI elements.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4.4</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: iPad on iOS 12</string>
+					<key>Subtitle</key>
+					<string>UI on iPad with iOS 12 does not appeared</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Improvements on Apple Silicon macOS</string>
+					<key>Subtitle</key>
+					<string>Fixed a crash and some improvements when running on macOS 11 Apple Silicon</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.4.5</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Crash in Detail View</string>
+					<key>Subtitle</key>
+					<string>Fixed a crash when selecting an item, which is still uploading</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Upload Improvements</string>
+					<key>Subtitle</key>
+					<string>Fixed some problems when uploading items in the background or from the share sheet</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.5</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Full Screen PDF View</string>
+					<key>Subtitle</key>
+					<string>A PDF file can be opened in fullscreen view and hides unnecessary UI elements.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrow.up.left.and.arrow.down.right</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Video Upload Improvements</string>
+					<key>Subtitle</key>
+					<string>Added an option to allow uploading original videos like slow motion, unedited version without re-encoding</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>camera</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Right-to-Left Language UI Improvements</string>
+					<key>Subtitle</key>
+					<string>We improved our App UI for Right-to-Left languages</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>text.alignright</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>UI Improvements</string>
+					<key>Subtitle</key>
+					<string>The app is using the OpenCloud colors and we also polished some UI elements</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Certificate Changes</string>
+					<key>Subtitle</key>
+					<string>Show certificate changes in a comparison view</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Login Improvements</string>
+					<key>Subtitle</key>
+					<string>User login to a bookmark is only possible with the same user ID</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improved Drag &amp; Drop</string>
+					<key>Subtitle</key>
+					<string>We improved Drag &amp; Drop and now it is also possible for non local files</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>hand.draw</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Bookmark name editing</string>
+					<key>Subtitle</key>
+					<string>Editing the bookmark name was not possible</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Sync</string>
+					<key>Subtitle</key>
+					<string>Fixed some problems with items in stuck</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Media Playback</string>
+					<key>Subtitle</key>
+					<string>Media Player stopped playing, if there was a non media file item in the folder.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.5.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Crash on iOS 12 devices</string>
+					<key>Subtitle</key>
+					<string>Fixed a crash on startup, when iOS 12 is installed on the device.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.5.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Links in PDF documents</string>
+					<key>Subtitle</key>
+					<string>A tap on a hyperlink in PDF documents now opens the link.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: PDF thumbnail view on the iPad</string>
+					<key>Subtitle</key>
+					<string>Fixed the position of the PDF thumbnail view on the iPad. Now, more PDF content is visible.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Message View</string>
+					<key>Subtitle</key>
+					<string>In some cases, the message view hid content and also was not selectable.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.6.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Improved Local Search</string>
+					<key>Subtitle</key>
+					<string>User can now switch from searching the local folder to a local account-wide search. Search now also supports using custom queries. Search terms and filter keywords can be combined in the search field to get more granular search results.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>magnifyingglass</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Added File Provider Actions for Sharing and Public Links</string>
+					<key>Subtitle</key>
+					<string>New file provider actions for Sharing and Public Links now will open the UI, allowing users to add or edit Sharing Links and Public Links to the selected item, directly from the file provider.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>link</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improved File Provider Passcode Unlock</string>
+					<key>Subtitle</key>
+					<string>If the app is protected with a passcode, the file provider extension now presents a user interface for direct unlocking.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>ellipsis</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Added Presentation Mode</string>
+					<key>Subtitle</key>
+					<string>Presentation mode opens a file in a full screen detail view, preventing the display from entering sleep mode until the detail view is closed.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>tv</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Moved &quot;Go to Page&quot; in PDF previews</string>
+					<key>Subtitle</key>
+					<string>The &quot;Go to Page&quot; option for PDF files has moved to the Actions menu. It is also available by tapping on the page label.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrow.up.doc</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Updated Keyboard Shortcuts</string>
+					<key>Subtitle</key>
+					<string>The PDF view now has additional keyboard shortcuts. Media playback can now be operated entirely with just keyboard commands. Fixed some broken keyboard commands.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>keyboard</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improved UI</string>
+					<key>Subtitle</key>
+					<string>Polished some UI elements.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Added French Localization</string>
+					<key>Subtitle</key>
+					<string>The app is now localized in French.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>globe</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Shortcut uploads and error handling improvements</string>
+					<key>Subtitle</key>
+					<string>Improved error handling for Shortcut actions. Now also reporting authentication errors.
+
+Added an optional &quot;Wait for completion&quot; option to the &quot;Save File&quot; and &quot;Create Folder&quot; action.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Swiping PDF thumbnail view on the iPhone</string>
+					<key>Subtitle</key>
+					<string>The App prevented the page container from scrolling when users tried to scroll inside the pdf thumbnail view on the iPhone</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Preview update</string>
+					<key>Subtitle</key>
+					<string>User can now decide do automatically update to a newer file version or to keep the current version in preview mode and we fixed some problems when displaying files. </string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Enabling Markup Mode</string>
+					<key>Subtitle</key>
+					<string>Previously, in some cases enabling markup mode failed.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Disable Markup Action for Mime-Type Gif</string>
+					<key>Subtitle</key>
+					<string>Disabled markup actions for images with mime type image/gif that can not be edited.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Passcode Settings Section</string>
+					<key>Subtitle</key>
+					<string>If a passcode is enabled or disabled in the settings, the UI section now gets properly updated.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Japanese Input Support </string>
+					<key>Subtitle</key>
+					<string>Fixed a problem in scan view when renaming a file and using a Japanese keyboard layout.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Added Dark Mode Support to Preview</string>
+					<key>Subtitle</key>
+					<string>The preview view is now available in a dark mode theme.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.6.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Additional URL Scheme</string>
+					<key>Subtitle</key>
+					<string>Added an additional URL scheme to open a specific app, if more than one OpenCloud apps are installed with different bundle IDs. (opencloud-app, opencloud-emm or opencloud-online)</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Let&apos;s encrypt</string>
+					<key>Subtitle</key>
+					<string>Fixed misleading warnings at let&apos;s encrypt cert renewal</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: FileProvider UI on iOS 12</string>
+					<key>Subtitle</key>
+					<string>Views in File Provider UI (public links, share with user) could not be dismissed on iOS 12</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Background Media Upload</string>
+					<key>Subtitle</key>
+					<string>In some cases, background media upload worked not as expected.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.7.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Clipboard Support</string>
+					<key>Subtitle</key>
+					<string>Clipboard support provides copy and paste actions! Use the system-wide clipboard to copy and paste files and content to the OpenCloud app or third-party apps!</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>doc.on.clipboard.fill</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Background Media Upload</string>
+					<key>Subtitle</key>
+					<string>Uploading new media files is now more reliable in the background when &quot;Use background location updates&quot; is enabled in the settings.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>photo</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Filename Layout</string>
+					<key>Subtitle</key>
+					<string>Adopted the filename layout to the new Web UI layout.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Six Digits Passcode</string>
+					<key>Subtitle</key>
+					<string>Passcode lock supports to set a passcode lock with 4 or 6 digits.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.7.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Enabling Markup Edit Mode</string>
+					<key>Subtitle</key>
+					<string>Auto-enabling the markup edit mode on iOS 15 was broken.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: PDF-Viewer</string>
+					<key>Subtitle</key>
+					<string>The last page of a PDF file could not be opened with the &quot;Go to page&quot; action</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: PDF-Viewer</string>
+					<key>Subtitle</key>
+					<string>Keyboard does not disappear when using the &quot;Go to page&quot; action on the iPad.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Private Link</string>
+					<key>Subtitle</key>
+					<string>Resolving a private link opened via the URL scheme was not successful in some cases.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Automatic Photo Upload </string>
+					<key>Subtitle</key>
+					<string>Fixed an crash on iOS 15.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.8.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Account List</string>
+					<key>Subtitle</key>
+					<string>There is a fresh new look for the single account overview.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Biometrical Unlock</string>
+					<key>Subtitle</key>
+					<string>When protecting the app with a pin code, biometrical unlock will be suggested as default.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Display Name</string>
+					<key>Subtitle</key>
+					<string>If the users display name is available, it will be shown in the account view, instead of the user name.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Background Location Settings</string>
+					<key>Subtitle</key>
+					<string>Only show background location settings if needed.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improvements</string>
+					<key>Subtitle</key>
+					<string>There are a lot of improvements under the hood.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.8.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Sorting</string>
+					<key>Subtitle</key>
+					<string>Localized and improved sorting</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Authentication Improvement</string>
+					<key>Subtitle</key>
+					<string>Fixed an OAuth2 token refresh problem </string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Connection Problem</string>
+					<key>Subtitle</key>
+					<string>Fixed a possible connection problem in the single account view</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.8.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Fix: PDF Editing</string>
+					<key>Subtitle</key>
+					<string>Fixed bug that prevents changes to PDFs being saved in place.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Fix: Continuous Audio Playback</string>
+					<key>Subtitle</key>
+					<string>Fixed continuous audio playback, which stopped after two audio files.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>bandage</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.9.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Biometrical Authentication Button</string>
+					<key>Subtitle</key>
+					<string>Added a biometrical authentication button to the passcode unlock view. The biomatrical cancel button enables passcode unlock as fallback.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Rename Account</string>
+					<key>Subtitle</key>
+					<string>Renaming an account does no longer need a re-authentication</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>pencil</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Media Playback</string>
+					<key>Subtitle</key>
+					<string>Fixes a bug where media playback failed</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Faster Account Scan</string>
+					<key>Subtitle</key>
+					<string>We improved the time for the initial scan after setting up a new account</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.9.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Faster Account Scan</string>
+					<key>Subtitle</key>
+					<string>We improved the time for the initial scan after setting up a new account</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Biometrical Authentication Button</string>
+					<key>Subtitle</key>
+					<string>Improvements when setting up a passcode with biometrical unlock</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.10.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>UI fixes on iOS 15</string>
+					<key>Subtitle</key>
+					<string>This version fixes some UI problems on iOS 15.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Shortcuts Action</string>
+					<key>Subtitle</key>
+					<string>The shortcuts action Delete Path Item did not provide configured accounts.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Increased Timeout for Copy Action</string>
+					<key>Subtitle</key>
+					<string>Timeout for Copy Action was increased up to 10 minutes.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.10.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Available Offline Folders</string>
+					<key>Subtitle</key>
+					<string>Shows the contents of the available folders when offline.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>11.11.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>New Dark Mode Themes</string>
+					<key>Subtitle</key>
+					<string>Two new dark mode themes are available.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>iOS 16: Markup Mode</string>
+					<key>Subtitle</key>
+					<string>Markup mode was not enabled automatically on iOS 16.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>iOS 16: Video Player</string>
+					<key>Subtitle</key>
+					<string>Video player controls were not showing on iOS 16.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Video Player</string>
+					<key>Subtitle</key>
+					<string>Metadata image could overlay the video player canvas.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Passcode Interval</string>
+					<key>Subtitle</key>
+					<string>The passcode lock interval was not taken into use in the share extension.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Version 12 Major Release</string>
+					<key>Subtitle</key>
+					<string>Rearchitectured for iOS 15 and later.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>star</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>OpenCloud Infinite Scale support</string>
+					<key>Subtitle</key>
+					<string>Support for Spaces, Authenticated WebFinger and other new oCIS features.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>rectangle.grid.2x2.fill</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>New Search Capabilities</string>
+					<key>Subtitle</key>
+					<string>Powerful new search UI, saved searches and search templates.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>magnifyingglass</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>New Navigation</string>
+					<key>Subtitle</key>
+					<string>Navigate via the new sidebar, breadcrumbs and browser controls.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Role-based Sharing Interface</string>
+					<key>Subtitle</key>
+					<string>The new role-based sharing user interface makes creating and editing shares and links even easier.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.and.arrow.up</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Grid View Modes</string>
+					<key>Subtitle</key>
+					<string>Switch between list and several, different grid modes to display your folder&apos;s contents in new ways.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.grid.4x3.fill</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>App Provider support</string>
+					<key>Subtitle</key>
+					<string>Create and edit new documents through app providers on servers that support them.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>app</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Improved Theming</string>
+					<key>Subtitle</key>
+					<string>The updated dark and light themes make use of a new, CSS-based theming system.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>paintbrush</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>MDM Enhancements</string>
+					<key>Subtitle</key>
+					<string>Many new MDM parameters.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>person.badge.shield.checkmark</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.0.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Fixed keyboard, media streaming, full screen mode, offline indicator, duplicated sharing option, and UI issues.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.0.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Added missing Recents Group</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Unable to authenticate using OpenID Connect</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Attach files from third-party apps</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Solves &quot;Content unavailable&quot; in Files.app</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.0.3</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>Fixed File Provider, App Provider and layout issues.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>New account wizard</string>
+					<key>Subtitle</key>
+					<string>Introducing a new, intuitive account wizard user interface for a fast onboarding experience.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>sparkles.rectangle.stack</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Reordering accounts</string>
+					<key>Subtitle</key>
+					<string>Now you can easily reorder accounts in the sidebar by simply dragging and dropping them.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>line.3.horizontal.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Location breadcrumb</string>
+					<key>Subtitle</key>
+					<string>We have added a location breadcrumb dropdown in the file viewer, making it easier to navigate through your files.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>chevron.down</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Text recognition</string>
+					<key>Subtitle</key>
+					<string>You can now perform text recognition actions on images.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>text.viewfinder</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>File extension / suffix protection</string>
+					<key>Subtitle</key>
+					<string>To prevent accidental removal or modification of the suffix for new documents and document scanner files, we have implemented file extension protection.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Share Action &quot;Save to OpenCloud&quot;</string>
+					<key>Subtitle</key>
+					<string>We have added a new action called &quot;Save to OpenCloud&quot; to the share sheet, allowing you to easily save files to your OpenCloud account.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.and.arrow.up</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Link naming</string>
+					<key>Subtitle</key>
+					<string>You can now enter and edit the name of link shares.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>character.textbox</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Sort by Last Used</string>
+					<key>Subtitle</key>
+					<string>Introducing a new sorting method - “Last Used” - which allows you to sort items based on the most recently accessed ones.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>arrow.up.arrow.down</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Markup Edit Mode on iOS 17</string>
+					<key>Subtitle</key>
+					<string>We have fixed the issue that was disabling the edit mode in the markup document view on iOS 17.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Open OpenCloud Links in App</string>
+					<key>Subtitle</key>
+					<string>We have resolved the issue with opening private links from third-party apps.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>We have addressed various issues with the File Provider and the app itself.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.2</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Search in sidebar</string>
+					<key>Subtitle</key>
+					<string>Search and Quick Access have been merged into a new, more powerful sidebar item.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>magnifyingglass.circle</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>More powerful sidebar</string>
+					<key>Subtitle</key>
+					<string>Add folders and saved searches directly to the sidebar.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>sidebar.leading</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Share link + password together</string>
+					<key>Subtitle</key>
+					<string>Directly share created links - along with their passwords.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>square.and.arrow.up</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Password policies + generator</string>
+					<key>Subtitle</key>
+					<string>Now supports validating and generating passwords based on server-provided password policies.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>lock</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>Bug Fixes</string>
+					<key>Subtitle</key>
+					<string>We have fixed a bug where the app repeatedly tried to download Available Offline items located on no longer accessible spaces.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.2.1</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Security Fix</string>
+					<key>Subtitle</key>
+					<string>Detect attempts to bypass a lock timeout by changing the clock</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>lock.shield</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.3</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>iOS 18</string>
+					<key>Subtitle</key>
+					<string>The app is now compatible with iOS 18.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>wand.and.stars</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>General Improvements</string>
+					<key>Subtitle</key>
+					<string>General app improvements and internal fixes to enhance performance, synchronization, and stability.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>wrench</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Version</key>
+			<string>12.4.0</string>
+			<key>ReleaseNotes</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Confidential Protection</string>
+					<key>Subtitle</key>
+					<string>Watermarking, screenshot protection and more are now available via MDM and branding.</string>
+					<key>Type</key>
+					<string>New</string>
+					<key>ImageName</key>
+					<string>slider.horizontal.3</string>
+				</dict>
+				<dict>
+					<key>Title</key>
+					<string>File Provider Memory Efficiency</string>
+					<key>Subtitle</key>
+					<string>The File Provider is now more stable thanks to improved memory efficiency.</string>
+					<key>Type</key>
+					<string>Fix</string>
+					<key>ImageName</key>
+					<string>memorychip</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
