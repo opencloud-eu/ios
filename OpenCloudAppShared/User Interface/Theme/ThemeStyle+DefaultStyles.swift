@@ -21,15 +21,15 @@ import OpenCloudSDK
 
 // MARK: - OpenCloud brand colors
 extension UIColor {
-	static var OpenCloudLightColor : UIColor { return UIColor(hex: 0x4E85C8) }
-	static var OpenCloudDarkColor : UIColor { return UIColor(hex: 0x041E42) }
+	static var OpenCloudLightColor : UIColor { return UIColor(hex: 0x20434F) }
+	static var OpenCloudDarkColor : UIColor { return UIColor(hex: 0xE2BAFF) }
 }
 
 extension ThemeStyle {
 	static public func systemLight(with tintColor: UIColor? = nil, cssRecordStrings: [String]? = nil) -> ThemeStyle {
-		return (ThemeStyle(styleIdentifier: "com.opencloud.light", darkStyleIdentifier: "com.opencloud.dark", localizedName: OCLocalizedString("Light", nil), lightColor: tintColor ?? .tintColor, darkColor: .label, themeStyle: .light, useSystemColors: true, systemTintColor: tintColor, cssRecordStrings: cssRecordStrings))
+		return (ThemeStyle(styleIdentifier: "com.opencloud.light", darkStyleIdentifier: "com.opencloud.dark", localizedName: OCLocalizedString("Light", nil), lightColor: tintColor ?? UIColor.OpenCloudLightColor, darkColor: .label, themeStyle: .light, useSystemColors: true, systemTintColor: tintColor, cssRecordStrings: cssRecordStrings))
 	}
 	static public func systemDark(with tintColor: UIColor? = nil, cssRecordStrings: [String]? = nil) -> ThemeStyle {
-		return (ThemeStyle(styleIdentifier: "com.opencloud.dark", localizedName: OCLocalizedString("Dark", nil), lightColor: tintColor ?? .tintColor, darkColor: .secondarySystemGroupedBackground, themeStyle: .dark, useSystemColors: true, systemTintColor: tintColor, cssRecordStrings: cssRecordStrings))
+		return (ThemeStyle(styleIdentifier: "com.opencloud.dark", localizedName: OCLocalizedString("Dark", nil), lightColor: tintColor ?? UIColor.OpenCloudDarkColor, darkColor: .secondarySystemGroupedBackground, themeStyle: .dark, useSystemColors: true, systemTintColor: tintColor, cssRecordStrings: cssRecordStrings))
 	}
 }
