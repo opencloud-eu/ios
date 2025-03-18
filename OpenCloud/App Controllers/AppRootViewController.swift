@@ -464,7 +464,7 @@ public extension AppRootViewController {
 	static func addIcons() {
 		Theme.shared.add(tvgResourceFor: "icon-available-offline")
 		Theme.shared.add(tvgResourceFor: "status-flash")
-		Theme.shared.add(tvgResourceFor: "opencloud-logo")
+		//Theme.shared.add(tvgResourceFor: "opencloud-logo")
 
 		OCItem.registerIcons()
 	}
