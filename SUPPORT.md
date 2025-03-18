@@ -4,16 +4,7 @@ We use GitHub for tracking bugs and feature requests.
 
 ### Community Forums
 
-* [OpenCloud Central](https://central.opencloud.eu/): OpenClouds main help desk. Get in touch with our community and devs and work on solutions together.
-
-### Social Media
-
-Follow us, stay up-to-date and get in touch with us.
-
-* [Facebook](https://www.facebook.com/OpenClouders/)
-* [Twitter](https://twitter.com/opencloud)
-* [Google+](https://plus.google.com/+OwncloudOfficial)
-* [YouTube](https://www.youtube.com/channel/UCA8Ehsdu3KaxSz5KOcCgHbw)
+* [Matrixl](https://opencloud.eu/de/opencloud-community): Get in touch with our community and devs and work on solutions together.
 
 ### OpenCloud Documentation
 
@@ -39,18 +30,3 @@ The OpenCloud Community is active on Stack Overflow, you can post your questions
   * Here are some tips for [about how to ask good questions](http://stackoverflow.com/help/how-to-ask).
   * Don't forget to check to see [what's on topic](http://stackoverflow.com/help/on-topic).
 
-### Real-time Chat
-
-* [Rocketchat](https://talk.opencloud.eu):
-  
-  * The `#mobile` channel is the right place to ask for support for the OpenCloud iOS App.
-  * Also you can check other [channels](https://talk.opencloud.eu/directory) for support.
-
-
-### General OpenCloud help
-
-* [Help](https://opencloud.eu/help/)
-
-### Mail Support
-
-* Support mail: apps@opencloud.eu.

@@ -27,7 +27,7 @@ in this directory. This will install all needed Ruby libraries into the path `ve
 After preparing the environement you can run the script:
 
 ```
-sudo bundle exec registerOwncloudApp.rb
+sudo bundle exec registerOpencloudApp.rb
 ```
 
 The script will guide you to enter all needed values to setup all informations to register all targets for the OpenCloud app to your Apple Developer account.

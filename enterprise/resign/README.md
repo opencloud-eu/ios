@@ -57,9 +57,9 @@ Create a text file containing a list of line-break separated domain names (FQN) 
 
 5. Execute the script
 
-   - `sh resignOwncloudApp "COMMON NAME DISTRIBUTION CERT"`
+   - `sh resignOpencloudApp "COMMON NAME DISTRIBUTION CERT"`
 
-   - `sh resignOwncloudApp "COMMON NAME DISTRIBUTION CERT"`
+   - `sh resignOpencloudApp "COMMON NAME DISTRIBUTION CERT"`
 
 
 
