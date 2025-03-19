@@ -17,10 +17,10 @@ Xcode version to work with:
 
 * [ ] [DEV] Update [SBOM](https://cloud.opencloud.eu/f/6072865)
 - [ ] [GIT] Create branch `release/[major].[minor].[patch]` (freeze the code)
-- [ ] [DEV] Update `APP_SHORT_VERSION` `[major].[minor].[patch]` in [OpenCloud.xcodeproj/project.pbxproj](https://github.com/opencloud/ios-app/blob/master/OpenCloud.xcodeproj/project.pbxproj)
+- [ ] [DEV] Update `APP_SHORT_VERSION` `[major].[minor].[patch]` in [OpenCloud.xcodeproj/project.pbxproj](https://github.com/opencloud-eu/ios-app/blob/master/OpenCloud.xcodeproj/project.pbxproj)
 - [ ] [TRFX] Update translations from transifex branch.
 - [ ] [TRFX] Check for missing translations.
-- [ ] [DIS] Update [changelog](https://github.com/opencloud/ios-app/blob/master/CHANGELOG.md)
+- [ ] [DIS] Update [changelog](https://github.com/opencloud-eu/ios-app/blob/master/CHANGELOG.md)
 - [ ] [DEV] Update In-App Release Notes (changelog) in OpenCloud/Release Notes/ReleaseNotes.plist
 - [ ] [DEV] Changelog: Created a folder for the new version like $majorVersion.$minorVersion.$patchVersion_YYYY-MM-DD
 - [ ] [DEV] Changelog: Moved all changelog files from the unreleased folder to the new version folder
@@ -30,9 +30,9 @@ Xcode version to work with:
 - [ ] [DOC] Update https://opencloud.eu/mobile-apps/#ios version numbers (notify #marketing)
 - [ ] [GIT] Merge branch `release/[major].[minor].[patch]` in master
 - [ ] [GIT] Create tag and sign it `[major].[minor].[patch]`
-- [ ] [GIT] Add the new release on [GitHub ios-app](https://github.com/opencloud/ios-app/releases)
+- [ ] [GIT] Add the new release on [GitHub ios-app](https://github.com/opencloud-eu/ios-app/releases)
 - [ ] [DEV] ownBrander: Update the ownBrander git tag in repository `customer_portal` to new release tag
-- [ ] [DEV] Update used Xcode version for the release in [.xcode-version](https://github.com/opencloud/ios-app/blob/master/.xcode-version)
+- [ ] [DEV] Update used Xcode version for the release in [.xcode-version](https://github.com/opencloud-eu/ios-app/blob/master/.xcode-version)
 - [ ] [DEV] Inform #documentation about the new release to set new documentation branch tag
 
 If it is required to update the iOS-SDK version:
@@ -40,10 +40,10 @@ If it is required to update the iOS-SDK version:
 - [ ] [GIT] Create branch library `release/[major].[minor].[patch]`(freeze the code)
 - [ ] [mail] inform #marketing about the new release.
 - [ ] [DIS] Update README.md (version number, third party, supported versions of iOS, Xcode)
-- [ ] [DIS] Update [changelog](https://github.com/opencloud/ios-sdk/blob/master/CHANGELOG.md)
+- [ ] [DIS] Update [changelog](https://github.com/opencloud-eu/ios-sdk/blob/master/CHANGELOG.md)
 - [ ] [GIT] Merge branch `release/[major].[minor].[patch]` in `master`
 - [ ] [GIT] Create tag and sign it `[major].[minor].[patch]`
-- [ ] [GIT] Add the new release on [GitHub ios-sdk](https://github.com/opencloud/ios-sdk/releases)
+- [ ] [GIT] Add the new release on [GitHub ios-sdk](https://github.com/opencloud-eu/ios-sdk/releases)
 
 If it is required to update third party:
 

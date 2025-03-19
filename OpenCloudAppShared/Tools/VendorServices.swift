@@ -164,7 +164,7 @@ extension VendorServices : OCClassSettingsSupport {
 				.enableUIAnimations: true,
 				.enableReviewPrompt: VendorServices.shared.enableReviewPrompt,
 
-				.appStoreLink : "https://itunes.apple.com/app/id1359583808?mt=8",
+				.appStoreLink : "https://itunes.apple.com/app/id6743121005?mt=8",
 				.recommendToFriendEnabled: !VendorServices.shared.isBranded
 			]
 		}

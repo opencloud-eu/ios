@@ -118,7 +118,7 @@ A `GET` request is sent to `$serverURL/status.php`.
 
 If the response comes back with an error status, the user is informed that a connection is not possible.
 
-If the response comes back with a `301 Moved Permanently` status, the SDK follows [this logic](https://github.com/opencloud/administration/blob/master/redirectServer/Readme.md) to determine a new URL for `$serverURL` based on the `Location`, asks the user for confirmation, uses the determined new URL as `$serverURL` if the user agrees and restarts this step with the new URL.
+If the response comes back with a `301 Moved Permanently` status, the SDK follows [this logic](https://github.com/opencloud-eu/administration/blob/master/redirectServer/Readme.md) to determine a new URL for `$serverURL` based on the `Location`, asks the user for confirmation, uses the determined new URL as `$serverURL` if the user agrees and restarts this step with the new URL.
 
 If the response comes back with a success status, it typically looks like this:
 ```json

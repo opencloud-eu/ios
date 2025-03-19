@@ -4,7 +4,7 @@
 
 Our iOS app is free for downloading available on the AppStore
 
-<a href="https://apps.apple.com/app/id1359583808?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1561593600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://apps.apple.com/app/id6743121005?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1561593600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 ####  🌎 https://OpenCloud.com
 
@@ -25,11 +25,11 @@ Our iOS app is free for downloading available on the AppStore
 * 🚢 Free on the AppStore
 * 🇪🇺 Localised in many languages
 * 📱iOS 11+
-* 🧩 License: [GPLv3](https://github.com/opencloud/ios-app/LICENSE)
+* 🧩 License: [GPLv3](https://github.com/opencloud-eu/ios-app/LICENSE)
 
 ## 🛠 Build our App
 
-To build our App, please read our [SETUP.md](https://github.com/opencloud/ios-app/blob/master/SETUP.md)
+To build our App, please read our [SETUP.md](https://github.com/opencloud-eu/ios-app/blob/master/SETUP.md)
 
 ```
 $ read SETUP.md
@@ -44,30 +44,28 @@ Support and help can be found here: [Docs & Guides](https://opencloud.eu/docs-gu
 ## 🇪🇺 Translate
 
 The App is translated in many languages. If your language is missing or if you want to improve a string, you are welcome!
-This can be done in [Transifex](https://www.transifex.com/signup/?join_project=opencloud).
 
 
 ## 💡 Found a bug or have some ideas for improvement?
 
-- 💬 Open a new issue on [Github](https://github.com/opencloud/ios-app/issues/new) or [chat](https://talk.opencloud.eu/) with us
+- 💬 Open a new issue on [Github](https://github.com/opencloud-eu/ios-app/issues/new) or [chat](https://talk.opencloud.eu/) with us
 - 🐥 Don't forget to follow us on [Twitter](https://twitter.com/opencloud) 
 
 ## 📋 Start Contributing
 
-Make sure you read [SETUP.md](https://github.com/opencloud/ios-app/blob/master/SETUP.md) when you start working on this project. Basically: Fork this repository and contribute back using pull requests to the master branch.
-Easy starting points are also reviewing [pull requests](https://github.com/opencloud/ios-app/pulls) and working on [good first issue](https://github.com/opencloud/ios-app/labels/good%20first%20issue).
+Make sure you read [SETUP.md](https://github.com/opencloud-eu/ios-app/blob/master/SETUP.md) when you start working on this project. Basically: Fork this repository and contribute back using pull requests to the master branch.
+Easy starting points are also reviewing [pull requests](https://github.com/opencloud-eu/ios-app/pulls) and working on [good first issue](https://github.com/opencloud-eu/ios-app/labels/good%20first%20issue).
 
 ## ☁️ OpenCloud Server
 
-[Learn](https://opencloud.eu/news/how-to-set-up-an-opencloud-in-3-minutes/), how you can easily setup your own OpenCloud server in 3 minutes or test our OpenCloud iOS app with our demo server:
 
-- [Download](https://apps.apple.com/app/id1359583808) our iOS App
+- [Download](https://apps.apple.com/app/id6743121005) our iOS App
 - Add account 
 
 ### Demo credentials
 
 | Server URL | demo.opencloud.eu |
 | ---------- | ----------------- |
-| User       | demo              |
+| User       | alan              |
 | Password   | demo              |
 

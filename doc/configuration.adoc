@@ -355,7 +355,7 @@ tag::app[]
 
 |app.app-store-link
 |string
-|`https://itunes.apple.com/app/id1359583808?mt=8`
+|`https://itunes.apple.com/app/id6743121005?mt=8`
 |URL for the app in the App Store.
 |advanced `candidate`
 
@@ -772,19 +772,19 @@ tag::build[]
 |build.custom-app-scheme
 |string
 |`opencloud`
-|Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|Name of the URL scheme to use for private links. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud-eu/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.custom-auth-scheme
 |string
 |`oc`
-|Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|Name of the URL scheme to use for OAuth2/OIDC authentication. Must be provided in Branding.plist at build time. The authentication redirect URI parameters must also be changed accordingly in Branding.plist and on the server side. For documentation, please see https://github.com/opencloud-eu/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.flags
 |string
 |
-|A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
+|A set of space separated flags to customize the build. Must be provided in Branding.plist at build time. For documentation, please see https://github.com/opencloud-eu/ios-app/blob/master/doc/BUILD_CUSTOMIZATION.md.
 |supported `candidate`
 
 |build.oc-app-group-identifier

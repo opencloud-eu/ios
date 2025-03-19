@@ -51,7 +51,7 @@ The third party software included and used by this project is:
         Licensed under GNU Public License, Version 3.
         Placed at ios-sdk
         Original license document included at ios-sdk/LICENSE.
-        See https://github.com/opencloud/ios-sdk
+        See https://github.com/opencloud-eu/ios-sdk
 
  *      Down
         Copyright (c) 2016 Rob Phillips.

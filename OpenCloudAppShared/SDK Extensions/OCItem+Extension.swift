@@ -56,7 +56,6 @@ extension OCItem {
 	}()
 
 	static public let validIconNames : [String] = [
-		// List taken from https://github.com/opencloud/core/blob/master/core/js/mimetypelist.js
 		"application",
 		"application-pdf",
 		"audio",

@@ -76,7 +76,7 @@ static NSMutableDictionary<OCLocalID, NSError *> *sOCItemUploadingErrors;
 
 			/*
 				These MIME-Types aren't correctly mapped by iOS, so they're hardcoded. Reference:
-				- OC10 suffix -> MIMEType map: https://github.com/opencloud/core/blob/master/resources/config/mimetypemapping.dist.json
+				- OC10 suffix -> MIMEType map: https://github.com/opencloud-eu/core/blob/master/resources/config/mimetypemapping.dist.json
 				- Apple UTI reference table: https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html
 			*/
 			@"application/illustrator"					: @"com.adobe.illustrator.ai-image",
