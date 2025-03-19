@@ -1,5 +1,0 @@
-Change: Migration to OpenSSL 1.1.0
-
-Migrated code to OpenSSL 1.1.1 API.
-
-https://github.com/owncloud/ios-app/pull/1116

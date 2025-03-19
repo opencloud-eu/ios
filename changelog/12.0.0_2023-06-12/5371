@@ -1,5 +1,0 @@
-Change: Disable access to File Provider via MDM
-
-Adds a new MDM option fileprovider.browseable
-
-https://github.com/owncloud/enterprise/issues/5371

@@ -126,12 +126,12 @@ If the response comes back with a success status, it typically looks like this:
     "installed": true,
     "maintenance": false,
     "needsDbUpgrade": false,
-    "version": "10.11.0.0",
-    "versionstring": "10.11.0",
+    "version": "1.0.0.0",
+    "versionstring": "1.0.0",
     "edition": "Community",
     "productname": "OpenCloud",
     "product": "OpenCloud",
-    "productversion": "6.6.1"
+    "productversion": "1.0.0"
 }
 ```
 

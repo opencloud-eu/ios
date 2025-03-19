@@ -1,5 +1,0 @@
-Bugfix: Upload-Metadata
-
-TUS -H Upload-Metadata: mtime missing
-
-https://github.com/owncloud/ios-app/issues/1227

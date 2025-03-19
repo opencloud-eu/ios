@@ -1,5 +1,0 @@
-Bugfix: Quick Access
-
-Fix bug where a quick access entry showed no items when selected a second time.
-
-https://github.com/owncloud/enterprise/issues/4767

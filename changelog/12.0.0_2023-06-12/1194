@@ -1,5 +1,0 @@
-Change: CSS theming
-
-ThemeCSS brings CSS-style styling to the UIViewController/UIView tree, by allowing to attach CSS-style selectors to them via new cssSelector and cssSelectors properties.
-
-https://github.com/owncloud/ios-app/pull/1194

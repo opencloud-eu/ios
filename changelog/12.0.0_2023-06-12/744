@@ -1,5 +1,0 @@
-Change: Gridview implementation
-
-Implements a dynamically adapting grid layout used for item grid view.
-
-https://github.com/owncloud/ios-app/issues/744

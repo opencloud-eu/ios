@@ -5289,8 +5289,8 @@
 				APP_BUILD_FLAGS = "$(inherited)";
 				APP_BUILD_FLAGS_SWIFT = "$(APP_BUILD_FLAGS)";
 				APP_PRODUCT_NAME = OpenCloud;
-				APP_SHORT_VERSION = 12.4.0;
-				APP_VERSION = 296;
+				APP_SHORT_VERSION = 1.0.0;
+				APP_VERSION = 1;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -5360,8 +5360,8 @@
 				APP_BUILD_FLAGS = "$(inherited)";
 				APP_BUILD_FLAGS_SWIFT = "$(APP_BUILD_FLAGS)";
 				APP_PRODUCT_NAME = OpenCloud;
-				APP_SHORT_VERSION = 12.4.0;
-				APP_VERSION = 296;
+				APP_SHORT_VERSION = 1.0.0;
+				APP_VERSION = 1;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -5430,13 +5430,14 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = "$(APP_VERSION)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
 				FRAMEWORK_SEARCH_PATHS = "${TARGET_BUILD_DIR}";
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = OpenCloud/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCloud;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5449,7 +5450,7 @@
 					OCLocalizedString,
 					OCLocalizedFormat,
 				);
-				MARKETING_VERSION = "${APP_SHORT_VERSION}";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.opencloud.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5468,13 +5469,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = "$(APP_VERSION)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8P6LQ2M542;
 				FRAMEWORK_SEARCH_PATHS = "${TARGET_BUILD_DIR}";
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = OpenCloud/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = OpenCloud;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_PREPROCESS = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5487,7 +5489,7 @@
 					OCLocalizedString,
 					OCLocalizedFormat,
 				);
-				MARKETING_VERSION = "${APP_SHORT_VERSION}";
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = eu.opencloud.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore eu.opencloud.ios";

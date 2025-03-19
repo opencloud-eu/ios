@@ -1,5 +1,0 @@
-Change: (Branding) Default User Settings
-
-Adds a new class setting to allow registration of alternative defaults for user defaults.
-
-https://github.com/owncloud/enterprise/issues/4766

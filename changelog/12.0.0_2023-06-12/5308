@@ -1,5 +1,0 @@
-Change: Disallow Extensions via MDM
-
-Add option to disallow extensions, show action for unviewable filetypes
-
-https://github.com/owncloud/enterprise/issues/5308
