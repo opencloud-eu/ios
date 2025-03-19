@@ -80,13 +80,13 @@ The example shows only the part used by the `OCServerLocatorWebFinger`. Actual r
 
 The first entry's `href` whose `rel` is `http://webfinger.opencloud/rel/server-instance` is henceforth used as new `$serverURL`.
 
-For security reasons, [Authenticated Instance Discovery](https://doc.opencloud.eu/ocis/next/deployment/services/s-list/webfinger.html#authenticated-instance-discovery) should be used instead of Server Instance Lookup whereever possible.
+For security reasons, [Authenticated Instance Discovery](https://doc.opencloud.eu/opencloud/next/deployment/services/s-list/webfinger.html#authenticated-instance-discovery) should be used instead of Server Instance Lookup whereever possible.
 
 ### Perform OpenID Connect Discovery
 
 The SDK only performs this step, if OpenID Connect is an allowed Authentication Method (which is the case if `connection.allowed-authentication-methods` contains `com.opencloud.openid-connect` (default)). If it is not allowed, this step is skipped.
 
-During [OpenID Connect Discovery](https://doc.opencloud.eu/ocis/next/deployment/services/s-list/webfinger.html#openid-connect-discovery), a `GET` request is sent to `$serverURL/.well-known/webfinger?resource=$serverURL`.
+During [OpenID Connect Discovery](https://doc.opencloud.eu/opencloud/next/deployment/services/s-list/webfinger.html#openid-connect-discovery), a `GET` request is sent to `$serverURL/.well-known/webfinger?resource=$serverURL`.
 
 If the server responds with an error status code, the SDK proceeds to the next step.
 
@@ -129,8 +129,8 @@ If the response comes back with a success status, it typically looks like this:
     "version": "10.11.0.0",
     "versionstring": "10.11.0",
     "edition": "Community",
-    "productname": "Infinite Scale",
-    "product": "Infinite Scale",
+    "productname": "OpenCloud",
+    "product": "OpenCloud",
     "productversion": "6.6.1"
 }
 ```
@@ -408,14 +408,14 @@ Finally, if no errors occured to this point, the Authentication Method indicates
 
 If `$webFingerAccountLookupURL` is set, the Bookmark Composer uses the SDK's `-[OCConnection retrieveAvailableInstancesWithOptions:authenticationMethodIdentifier:authenticationData:completionHandler:]` to obtain a list of servers for the user to choose from.
 
-To obtain the list, the SDK performs an [Authenticated Instance Discovery](https://doc.opencloud.eu/ocis/next/deployment/services/s-list/webfinger.html#authenticated-instance-discovery) by sending an authenticated `GET` request to `$webFingerAccountLookupURL`.
+To obtain the list, the SDK performs an [Authenticated Instance Discovery](https://doc.opencloud.eu/opencloud/next/deployment/services/s-list/webfinger.html#authenticated-instance-discovery) by sending an authenticated `GET` request to `$webFingerAccountLookupURL`.
 
 If the server responds with a success status and returns valid JSON, the SDK looks for `http://webfinger.opencloud/rel/server-instance` `rel`ations and creates an `OCServerInstance` object for each of them, including the provided `titles`.
 
 Example:
 ```json
 {
-    "subject": "acct:einstein@drive.ocis.test",
+    "subject": "acct:einstein@drive.opencloud.test",
     "links": [
         {
             "rel": "http://openid.net/specs/connect/1.0/issuer",
@@ -425,7 +425,7 @@ Example:
             "rel": "http://webfinger.opencloud/rel/server-instance",
             "href": "https://abc.drive.example.org",
             "titles": {
-                "en": "oCIS Instance"
+                "en": "OpenCloud Instance"
             }
         }
     ]

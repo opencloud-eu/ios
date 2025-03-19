@@ -120,7 +120,7 @@ class ServerSideSearchScope: ItemSearchScope {
 
 	func updateSearch() {
 		// OCQueryCondition.typeAliasToKeywordMap is currently matching KQL types defined in
-		// https://github.com/opencloud/ocis/blob/cff364c998355b1295793e9244e5efdfea064536/services/search/pkg/query/bleve/compiler.go#L287
+		// https://github.com/opencloud-eu/blob/cff364c998355b1295793e9244e5efdfea064536/services/search/pkg/query/bleve/compiler.go#L287
 		// If they diverge, an additional conversion from locally used keyword to server used keyword needs to take place here.
 		kqlQuery = queryCondition?.kqlStringWithTypeAlias(toKQLTypeMap: OCQueryCondition.typeAliasToKeywordMap, targetContent: searchedContent)
 	}

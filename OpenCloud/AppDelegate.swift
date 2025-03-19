@@ -220,7 +220,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// opencloud://pb/[set|clear]/[all|flatID]/?[int|string|sarray]=[value]
 		/*
 			Examples:
-			opencloud://pb/set/branding.app-name?string=ocisCloud
+			opencloud://pb/set/branding.app-name?string=OpenCloud
 			opencloud://pb/clear/branding.app-name
 			opencloud://pb/clear/all
 		*/

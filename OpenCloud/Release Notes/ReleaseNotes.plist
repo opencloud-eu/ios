@@ -1627,9 +1627,9 @@ Added an optional &quot;Wait for completion&quot; option to the &quot;Save File&
 				</dict>
 				<dict>
 					<key>Title</key>
-					<string>OpenCloud Infinite Scale support</string>
+					<string>OpenCloud support</string>
 					<key>Subtitle</key>
-					<string>Support for Spaces, Authenticated WebFinger and other new oCIS features.</string>
+					<string>Support for Spaces, Authenticated WebFinger and other new OpenCloud features.</string>
 					<key>Type</key>
 					<string>New</string>
 					<key>ImageName</key>

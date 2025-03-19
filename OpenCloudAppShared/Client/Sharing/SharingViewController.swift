@@ -77,7 +77,7 @@ open class SharingViewController: CollectionViewController {
 
 		if let itemSharesQueryDataSource = itemSharesQuery?.dataSource, let addRecipientDataSource {
 			recipientsSectionDatasource = OCDataSourceComposition(sources: [
-				// Unified solution based on a single data source, not currently possible for oCIS due to to https://github.com/owncloud/ocis/issues/5355
+				// Unified solution based on a single data source, not currently possible for OpenCloud due to to https://github.com/owncloud/ocis/issues/5355
 				// with sharedByMeDataSource = clientContext.core?.sharedByMeDataSource in if-clause
 				// sharedByMeDataSource,
 
@@ -94,7 +94,7 @@ open class SharingViewController: CollectionViewController {
 				}, for: itemSharesQueryDataSource)
 
 				/*
-				// Unified solution based on a single data source, not currently possible for oCIS due to to https://github.com/owncloud/ocis/issues/5355
+				// Unified solution based on a single data source, not currently possible for OpenCloud due to to https://github.com/owncloud/ocis/issues/5355
 				// with let location = item.location in if-clause
 				composedDataSource.setFilter({ dataSource, dataItemRef in
 					if let itemRecord = try? dataSource.record(forItemRef: dataItemRef),
@@ -119,7 +119,7 @@ open class SharingViewController: CollectionViewController {
 
 			if let itemSharesQueryDataSource = itemSharesQuery?.dataSource, let addLinkDataSource {
 				linksSectionDatasource = OCDataSourceComposition(sources: [
-					// Unified solution based on a single data source, not currently possible for oCIS due to to https://github.com/owncloud/ocis/issues/5355
+					// Unified solution based on a single data source, not currently possible for OpenCloud due to to https://github.com/owncloud/ocis/issues/5355
 					// with let sharedByLinkDataSource = clientContext.core?.sharedByLinkDataSource in if-clause
 					// sharedByLinkDataSource,
 
@@ -135,7 +135,7 @@ open class SharingViewController: CollectionViewController {
 						return false
 					}, for: itemSharesQueryDataSource)
 
-					// Unified solution based on a single data source, not currently possible for oCIS due to to https://github.com/owncloud/ocis/issues/5355
+					// Unified solution based on a single data source, not currently possible for OpenCloud due to to https://github.com/owncloud/ocis/issues/5355
 					/*
 					// with let location = item.location, in if-clause
 					composedDataSource.setFilter({ dataSource, dataItemRef in
