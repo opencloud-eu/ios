@@ -1,1 +1,0 @@
-This folder usually contains the custom fonts. You can define the fonts to use in the `Framefile.json` in the `screenshots` folder.
