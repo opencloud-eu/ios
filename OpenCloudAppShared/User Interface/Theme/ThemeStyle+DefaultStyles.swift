@@ -21,7 +21,8 @@ import OpenCloudSDK
 
 // MARK: - OpenCloud brand colors
 extension UIColor {
-	static var OpenCloudLightColor : UIColor { return UIColor(hex: 0x20434F) }
+	//static var OpenCloudLightColor : UIColor { return UIColor(hex: 0x20434F) } // mid petrol
+	static var OpenCloudLightColor : UIColor { return UIColor(hex: 0x396676) } // light petrol
 	static var OpenCloudDarkColor : UIColor { return UIColor(hex: 0xE2BAFF) }
 }
 
