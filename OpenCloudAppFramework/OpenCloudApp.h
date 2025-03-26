@@ -70,6 +70,8 @@ FOUNDATION_EXPORT const unsigned char OpenCloudAppVersionString[];
 
 #import <OpenCloudApp/OCLicenseQAProvider.h>
 
+#import <OpenCloudApp/OCLicenseFreeProvider.h>
+
 #import <OpenCloudApp/OCLicenseEnvironment.h>
 #import <OpenCloudApp/OCCore+LicenseEnvironment.h>
 

@@ -67,34 +67,41 @@ public extension OCLicenseManager {
 
 		// Set up App Store License Provider
 		#if !DISABLE_APPSTORE_LICENSING
-		if let disableAppStoreLicensing = classSetting(forOCClassSettingsKey: .disableAppStoreLicensing) as? Bool, disableAppStoreLicensing == false, // only add AppStore IAP provider (and IAPs) if IAP licernsing has not been disabled via ClassSettings
-		   !OCLicenseEMMProvider.isEMMVersion { // only add AppStore IAP provider (and IAPs) if this is not the EMM version (which is supposed to already include all of them)
-			let appStoreLicenseProvider = OCLicenseAppStoreProvider(items: [
-				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.documentscanner", productIdentifier: .singleDocumentScanner),
-				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.shortcuts", productIdentifier: .singleShortcuts),
-				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.documentmarkup", productIdentifier: .singleDocumentMarkup),
-				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.photo_pro_features", productIdentifier: .singlePhotoProFeatures),
-				OCLicenseAppStoreItem.subscription(withAppStoreIdentifier: "bundle.pro", productIdentifier: .bundlePro, trialDuration: OCLicenseDuration(unit: .day, length: 14))
-			])
-
-			add(appStoreLicenseProvider)
-		}
+		exit(1)
+//		if let disableAppStoreLicensing = classSetting(forOCClassSettingsKey: .disableAppStoreLicensing) as? Bool, disableAppStoreLicensing == false, // only add AppStore IAP provider (and IAPs) if IAP licernsing has not been disabled via ClassSettings
+//		   !OCLicenseEMMProvider.isEMMVersion { // only add AppStore IAP provider (and IAPs) if this is not the EMM version (which is supposed to already include all of them)
+//			let appStoreLicenseProvider = OCLicenseAppStoreProvider(items: [
+//				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.documentscanner", productIdentifier: .singleDocumentScanner),
+//				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.shortcuts", productIdentifier: .singleShortcuts),
+//				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.documentmarkup", productIdentifier: .singleDocumentMarkup),
+//				OCLicenseAppStoreItem.nonConsumableIAP(withAppStoreIdentifier: "single.photo_pro_features", productIdentifier: .singlePhotoProFeatures),
+//				OCLicenseAppStoreItem.subscription(withAppStoreIdentifier: "bundle.pro", productIdentifier: .bundlePro, trialDuration: OCLicenseDuration(unit: .day, length: 14))
+//			])
+//
+//			add(appStoreLicenseProvider)
+//		}
 		#endif
 
 		// Set up Enterprise Provider
-		if let disableEnterpriseLicensing = classSetting(forOCClassSettingsKey: .disableEnterpriseLicensing) as? Bool, disableEnterpriseLicensing == false { // only add Enterprise provider if not disabled via ClassSettings
-			let enterpriseProvider = OCLicenseEnterpriseProvider(unlockedProductIdentifiers: [.bundlePro])
-
-			add(enterpriseProvider)
-		}
+//		if let disableEnterpriseLicensing = classSetting(forOCClassSettingsKey: .disableEnterpriseLicensing) as? Bool, disableEnterpriseLicensing == false { // only add Enterprise provider if not disabled via ClassSettings
+//			let enterpriseProvider = OCLicenseEnterpriseProvider(unlockedProductIdentifiers: [.bundlePro])
+//
+//			add(enterpriseProvider)
+//		}
 
 		// Set up EMM Provider
-		let emmProvider = OCLicenseEMMProvider(unlockedProductIdentifiers: [.bundlePro])
-		add(emmProvider)
+//		let emmProvider = OCLicenseEMMProvider(unlockedProductIdentifiers: [.bundlePro])
+//		add(emmProvider)
 
 		// Set up QA Provider
-		let qaProvider = OCLicenseQAProvider(unlockedProductIdentifiers: [.bundlePro], delegate: VendorServices.shared)
-		add(qaProvider)
+//		let qaProvider = OCLicenseQAProvider(unlockedProductIdentifiers: [.bundlePro], delegate: VendorServices.shared)
+//		add(qaProvider)
+
+		// TODO: The whole stuff above here could at some point be removed if we never switch back to enterprise or IAP stuff ^
+
+		// Set up Free Provider
+		let freeProvider = OCLicenseFreeProvider(unlockedProductIdentifiers: [.bundlePro])
+		add(freeProvider)
 	}
 }
 
