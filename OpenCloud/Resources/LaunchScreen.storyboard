@@ -51,6 +51,6 @@
     </scenes>
     <resources>
         <image name="branding-splashscreen-background.png" width="1" height="1"/>
-        <image name="branding-splashscreen-logo.png" width="2048" height="2048"/>
+        <image name="branding-splashscreen-logo.png" width="1024" height="1024"/>
     </resources>
 </document>
