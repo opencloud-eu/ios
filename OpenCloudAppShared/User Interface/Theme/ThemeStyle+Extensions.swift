@@ -183,8 +183,13 @@ extension ThemeStyle {
 
 	static public func registerDefaultStyles() {
 		if !Branding.shared.setupThemeStyles() {
-			OCExtensionManager.shared.addExtension(ThemeStyle.systemLight().themeStyleExtension(isDefault: true))
-			OCExtensionManager.shared.addExtension(ThemeStyle.systemDark().themeStyleExtension())
+			let cssRecordStrings = [String]()//"....stroke: #ff0000", "......fill: #00ff00"*/
+			OCExtensionManager.shared.addExtension(
+				ThemeStyle.systemLight(with:UIColor.OpenCloudLightColor, cssRecordStrings: cssRecordStrings)
+					.themeStyleExtension(isDefault: true))
+			OCExtensionManager.shared.addExtension(
+				ThemeStyle.systemDark(with:UIColor.OpenCloudDarkColor, cssRecordStrings: cssRecordStrings)
+					.themeStyleExtension())
 		}
 	}
 
