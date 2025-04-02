@@ -346,7 +346,7 @@ public class AccountController: NSObject, OCDataItem, OCDataItemVersioning, Acco
 					spacesDataSource
 				]
 			} else {
-				// OC10 Root folder
+				// old server Root folder
 				sources = [
 					OCDataSourceArray(items: [legacyAccountRootLocation])
 				]

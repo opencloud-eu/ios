@@ -189,7 +189,7 @@ public extension OCLocation {
 			if let driveID = self.driveID {
 				location = OCLocation(driveID: driveID, path: "/")
 			} else {
-				// avoid duplicate OC10 root breadcrumb when the server name is also included
+				// avoid duplicate old server root breadcrumb when the server name is also included
 				effectiveIncludeServername = true // alternative would be: location = .legacyRoot - but then there's Files /and/ the server name in the breadcrumbs if includeServername already == true; so for consistency, instead of a "Files" breadcrumb the server name is shown
 			}
 

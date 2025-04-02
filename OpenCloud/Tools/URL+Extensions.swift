@@ -69,7 +69,7 @@ extension URL {
 		return progress
 	}
 
-	// MARK: - Private link handling (OC10)
+	// MARK: - Private link handling (old server)
 	var privateLinkItemID: String? {
 		// Check if the link URL has format https://<server>/f/<item_id>
 		if self.pathComponents.count > 2 {
