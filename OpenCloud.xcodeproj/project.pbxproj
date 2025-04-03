@@ -5571,7 +5571,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OpenCloud Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Save to $(APP_PRODUCT_NAME)";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ownCloud GmbH. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5615,7 +5615,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OpenCloud Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Save to $(APP_PRODUCT_NAME)";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 ownCloud GmbH. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
