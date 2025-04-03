@@ -55,6 +55,7 @@ class TextViewController: UIViewController, Themeable {
 	}
 
 	func applyThemeCollection(theme: Theme, collection: ThemeCollection, event: ThemeEvent) {
-		textView?.apply(css: collection.css, properties: [.stroke, .fill])
+		//textView?.apply(css: collection.css, properties: [.stroke, .fill])
+		self.textView?.backgroundColor = UIColor.white; // hotfix dark mode appearance, proper fix pending.
 	}
 }
