@@ -70,7 +70,7 @@ extension Branding : OpenCloudApp.BrandingInitialization {
 		self.registerOCClassSettingsDefaults([
 			.documentationURL : "https://docs.opencloud.eu/",
 			.helpURL 	  : "https://docs.opencloud.eu/",
-			.privacyURL 	  : "https://opencloud.eu/de/datenschutzhinweise",
+			.privacyURL 	  : "https://opencloud.eu/en/data-protection-notice",
 			.termsOfUseURL 	  : "https://raw.githubusercontent.com/opencloud-eu/ios-app/main/LICENSE",
 			.canAddAccount : true,
 			.canEditAccount : true,
