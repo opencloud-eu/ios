@@ -1294,7 +1294,6 @@
 		DC3AB2452810602500789435 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		DC3AB2472810A10300789435 /* ExpandableResourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableResourceCell.swift; sourceTree = "<group>"; };
 		DC3AB24A2810A69600789435 /* OCResourceText+ViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCResourceText+ViewProvider.swift"; sourceTree = "<group>"; };
-		DC3BAC63282472A80057FCD4 /* KNOWN_ISSUES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = KNOWN_ISSUES.md; sourceTree = "<group>"; };
 		DC3BE0E02077CD4B002A0AC0 /* Synchronized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
 		DC3DDF02287E1AC200E5586D /* UIViewController+HostBundleID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HostBundleID.h"; sourceTree = "<group>"; };
 		DC3DDF03287E1AC200E5586D /* UIViewController+HostBundleID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HostBundleID.m"; sourceTree = "<group>"; };
@@ -1807,7 +1806,6 @@
 		233BDE93204FEFE500C06732 = {
 			isa = PBXGroup;
 			children = (
-				DC3BAC63282472A80057FCD4 /* KNOWN_ISSUES.md */,
 				DC9BFBB220A19AF3007064B5 /* doc */,
 				DCB86E8E2BD7B9EE00492C09 /* PrivacyInfo.xcprivacy */,
 				233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */,
