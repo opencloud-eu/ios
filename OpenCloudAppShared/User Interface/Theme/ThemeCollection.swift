@@ -282,6 +282,9 @@ public class ThemeCollection : NSObject {
 
 		var moreHeaderBackgroundColor: UIColor
 
+		var darkPetrol = UIColor(hex: 0x19353F)
+		var labelColorFilledButton = UIColor.white
+
 		var modalBackgroundColor: UIColor
 
 		let lightBrandColors = ThemeColorCollection(
@@ -339,7 +342,7 @@ public class ThemeCollection : NSObject {
 				sidebarCellStateSet.selected.backgroundColor = useSystemColors ? resolvedSystemTintColor :  sidebarCellStateSet.regular.labelColor
 				//sidebarCellStateSet.selected.labelColor = useSystemColors ? .white : sidebarCellStateSet.regular.backgroundColor
 				// For https://github.com/opencloud-eu/ios-app/issues/1 .. let's check if there is a better way later:
-				sidebarCellStateSet.selected.labelColor = useSystemColors ? "#19353F".colorFromHex! : sidebarCellStateSet.regular.backgroundColor
+				sidebarCellStateSet.selected.labelColor = useSystemColors ? darkPetrol : sidebarCellStateSet.regular.backgroundColor
 				sidebarCellStateSet.selected.iconColor = sidebarCellStateSet.selected.labelColor
 
 				sidebarLogoIconColor = .white
@@ -369,6 +372,8 @@ public class ThemeCollection : NSObject {
 
 				// Logo fill color
 				logoFillColor = .white
+
+				labelColorFilledButton = darkPetrol
 
 			case .light:
 				// Interface style
@@ -613,7 +618,7 @@ public class ThemeCollection : NSObject {
 			ThemeCSSRecord(selectors: [.slider], 				property: .stroke, value: lightBrandColor),
 
 			// - Buttons + Popups
-			ThemeCSSRecord(selectors: [.button],				property: .stroke, value: lightBrandColor),
+			ThemeCSSRecord(selectors: [.button],                            property: .stroke, value: lightBrandColor),
 			ThemeCSSRecord(selectors: [.popupButton],			property: .stroke, value: lightBrandColor),
 
 			// - Label styles
@@ -719,7 +724,7 @@ public class ThemeCollection : NSObject {
 			ThemeCSSRecord(selectors: [.accountSetup, .step, .title], 		property: .stroke, value: primaryLabelColor),
 			ThemeCSSRecord(selectors: [.accountSetup, .step, .message], 		property: .stroke, value: secondaryLabelColor),
 			ThemeCSSRecord(selectors: [.accountSetup, .step, .background],		property: .fill,   value: collectionBackgroundColor),
-			ThemeCSSRecord(selectors: [.accountSetup, .step, .button, .filled],	property: .stroke, value: UIColor.white),
+			ThemeCSSRecord(selectors: [.accountSetup, .step, .button, .filled],	property: .stroke, value: labelColorFilledButton),
 			ThemeCSSRecord(selectors: [.accountSetup, .step, .button, .filled],	property: .fill,   value: lightBrandColor),
 			ThemeCSSRecord(selectors: [.accountSetup, .help, .subtitle], 		property: .stroke, value: UIColor.lightGray),
 			ThemeCSSRecord(selectors: [.accountSetup, .help, .button], 		property: .stroke, value: lightBrandColor),
