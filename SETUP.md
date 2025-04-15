@@ -3,15 +3,15 @@ If you want to start help developing OpenCloud please follow the [contribution g
 
 NOTE: To compile the code you need Xcode 10.2, iOS11, cocoa pods and swiftlint.
 
-### 1. Fork and download ios-app/master repository:
+### 1. Fork and download ios/master repository:
 
-* Navigate to https://github.com/opencloud-eu/ios-app, click fork.
-* Clone your new repo: ```git clone git@github.com:YOURGITHUBNAME/ios-app.git```
-* Move to the project folder with ```cd ios-app```
+* Navigate to https://github.com/opencloud-eu/ios, click fork.
+* Clone your new repo: ```git clone git@github.com:YOURGITHUBNAME/ios.git```
+* Move to the project folder with ```cd ios```
 * Checkout remote develop branch: ```git checkout -b master remotes/origin/master```
 * Pull changes from your develop branch: ```git pull origin master```
-* Make official OpenCloud repo known as upstream: ```git remote add upstream git@github.com:opencloud/ios-app.git```
-* Make sure to get the latest changes from official ios-issues/master branch: ```git pull upstream master```
+* Make official OpenCloud repo known as upstream: ```git remote add upstream git@github.com:opencloud/ios.git```
+* Make sure to get the latest changes from official ios/master branch: ```git pull upstream master```
 
 
 ### 2. Add the OpenCloud iOS SDK:
@@ -72,8 +72,7 @@ Please submit translations via Transifex.
 
 
 
-[0]: https://github.com/opencloud-eu/ios-app/CONTRIBUTING.md
+[0]: https://github.com/opencloud-eu/ios/CONTRIBUTING.md
 [1]: https://opencloud.eu/about/contributor-agreement/
 [2]: http://opensource.org/licenses/MIT
 [3]: https://opencloud.eu/contribute/iOS-license-exception/
-
