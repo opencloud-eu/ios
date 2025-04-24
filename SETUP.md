@@ -1,4 +1,4 @@
-If you want to start help developing OpenCloud please follow the [contribution guidelines][0] and observe these instructions:
+If you want to start help developing OpenCloud please follow these instructions:
 
 
 NOTE: To compile the code you need Xcode 10.2, iOS11, cocoa pods and swiftlint.
@@ -36,7 +36,7 @@ NOTE: This will connect with our OpenCloud iOS Library repository at ```https://
 
 NOTE: You must use the same "extension" on the certificates of the extensions (OpenCloudExtApp, OpenCloudExtAppFileProvider, OC-Share-Sheet)
 
-* Login at https://developer.apple.com/ as developer and there to to the Certificates section.
+* Login at https://developer.apple.com/ as developer and there to the Certificates section.
 * Create a Development Certificate for you (probably you got it one now)
 * Create an App Id for the main app. Ex: com.mywebpage.opencloud.ios
 * Create an AppGroup and add it too all the App Id. Must have the App Id than the main app but with the group. Ex: group.com.mywebpage.opencloud.ios
@@ -65,14 +65,13 @@ To make sure your new pull request does not contain commits which are already co
 * ```git checkout -b my_new_main_branch upstream/main```
 * If you want to rename that branch later: ```git checkout -b my_new_main_branch_with_new_name```
 * Push branch to server: ```git push -u origin name_of_local_main_branch```
-* Use Github to issue PR
+* Use GitHub to create a pull request
 
 ## Translations
 Please submit translations via Transifex.
 
 
 
-[0]: https://github.com/opencloud-eu/ios/blob/main/CONTRIBUTING.md
 [1]: https://opencloud.eu/about/contributor-agreement/
 [2]: http://opensource.org/licenses/MIT
 [3]: https://opencloud.eu/contribute/iOS-license-exception/

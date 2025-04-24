@@ -25,11 +25,11 @@ Our iOS app is free for downloading available on the AppStore
 * 🚢 Free on the AppStore
 * 🇪🇺 Localised in many languages
 * 📱iOS 11+
-* 🧩 License: [GPLv3](https://github.com/opencloud-eu/ios-app/LICENSE)
+* 🧩 License: [GPLv3](https://github.com/opencloud-eu/ios/LICENSE)
 
 ## 🛠 Build our App
 
-To build our App, please read our [SETUP.md](https://github.com/opencloud-eu/ios-app/blob/master/SETUP.md)
+To build our App, please read our [SETUP.md](https://github.com/opencloud-eu/ios/blob/main/SETUP.md)
 
 ```
 $ read SETUP.md
@@ -37,7 +37,7 @@ $ read SETUP.md
 
 ## 📖 Documentation & Help
 
-The documentation for the app can be viewed here: [iOS Documentation](https://doc.opencloud.eu/ios-app/)
+The documentation for the app can be viewed here: [iOS Documentation](https://docs.opencloud.eu/ios/)
 
 Support and help can be found here: [Docs & Guides](https://opencloud.eu/docs-guides/)
 
@@ -48,13 +48,13 @@ The App is translated in many languages. If your language is missing or if you w
 
 ## 💡 Found a bug or have some ideas for improvement?
 
-- 💬 Open a new issue on [Github](https://github.com/opencloud-eu/ios-app/issues/new) or [chat](https://talk.opencloud.eu/) with us
-- 🐥 Don't forget to follow us on [Twitter](https://twitter.com/opencloud) 
+- 💬 Open a new issue on [Github](https://github.com/opencloud-eu/ios/issues/new) or [chat](https://matrix.to/#/#opencloud:matrix.org) with us
+- 🐥 Don't forget to follow us on [Mastodon](https://social.opencloud.eu/@OpenCloud) 
 
 ## 📋 Start Contributing
 
-Make sure you read [SETUP.md](https://github.com/opencloud-eu/ios-app/blob/master/SETUP.md) when you start working on this project. Basically: Fork this repository and contribute back using pull requests to the master branch.
-Easy starting points are also reviewing [pull requests](https://github.com/opencloud-eu/ios-app/pulls) and working on [good first issue](https://github.com/opencloud-eu/ios-app/labels/good%20first%20issue).
+Make sure you read [SETUP.md](https://github.com/opencloud-eu/ios/blob/main/SETUP.md) when you start working on this project. Basically: Fork this repository and contribute back using pull requests to the main branch.
+Easy starting points are also reviewing [pull requests](https://github.com/opencloud-eu/ios/pulls) and working on [good first issue](https://github.com/opencloud-eu/ios/labels/good%20first%20issue).
 
 ## ☁️ OpenCloud Server
 

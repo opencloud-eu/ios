@@ -1,48 +1,48 @@
 [main]
 host = https://www.transifex.com
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app]
-resource_name = ios-app
+[o:opencloud-eu:p:opencloud-eu:r:ios]
+resource_name = ios
 file_filter = OpenCloud/Resources/Localizable.xcstrings
 source_file = OpenCloud/Resources/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app-infoplist]
-resource_name = ios-app-infoplist
+[o:opencloud-eu:p:opencloud-eu:r:ios-infoplist]
+resource_name = ios-infoplist
 file_filter = OpenCloud/Resources/InfoPlist.xcstrings
 source_file = OpenCloud/Resources/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app-framework]
-resource_name = ios-app-framework
+[o:opencloud-eu:p:opencloud-eu:r:ios-framework]
+resource_name = ios-framework
 file_filter = OpenCloudAppFramework/Resources/Localizable.xcstrings
 source_file = OpenCloudAppFramework/Resources/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app-file-provider]
-resource_name = ios-app-file-provider
+[o:opencloud-eu:p:opencloud-eu:r:ios-file-provider]
+resource_name = ios-file-provider
 file_filter = OpenCloud File Provider/Localizable.xcstrings
 source_file = OpenCloud File Provider/Localizable.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app-share-extension]
-resource_name = ios-app-share-extension
+[o:opencloud-eu:p:opencloud-eu:r:ios-share-extension]
+resource_name = ios-share-extension
 file_filter = OpenCloud Share Extension/InfoPlist.xcstrings
 source_file = OpenCloud Share Extension/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-org:p:opencloud-ios:r:ios-app-action-extension]
-resource_name = ios-app-action-extension
+[o:opencloud-eu:p:opencloud-eu:r:ios-action-extension]
+resource_name = ios-action-extension
 file_filter = OpenCloud Action Extension/InfoPlist.xcstrings
 source_file = OpenCloud Action Extension/InfoPlist.xcstrings
 source_lang = en

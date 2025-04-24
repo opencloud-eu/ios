@@ -71,7 +71,7 @@ extension Branding : OpenCloudApp.BrandingInitialization {
 			.documentationURL : "https://docs.opencloud.eu/",
 			.helpURL 	  : "https://docs.opencloud.eu/",
 			.privacyURL 	  : "https://opencloud.eu/en/data-protection-notice",
-			.termsOfUseURL 	  : "https://raw.githubusercontent.com/opencloud-eu/ios-app/main/LICENSE",
+			.termsOfUseURL 	  : "https://raw.githubusercontent.com/opencloud-eu/ios/main/LICENSE",
 			.canAddAccount : true,
 			.canEditAccount : true,
 			.enableReviewPrompt : false,
