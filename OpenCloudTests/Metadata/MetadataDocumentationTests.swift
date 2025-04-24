@@ -20,6 +20,7 @@ import XCTest
 import OpenCloudSDK
 import OpenCloudAppShared
 
+// FIXME: delete all references to this file and then this file.
 class MetadataDocumentationTests: XCTestCase {
 	func testUpdateConfigurationJSONFromMetadata() throws {
 	 	let sdkDocsURL = Bundle(for: type(of: self)).url(forResource: "class-settings-sdk", withExtension: nil)
