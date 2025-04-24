@@ -77,9 +77,9 @@ class HelpAndSupportViewController: CollectionViewController {
 				}
 			}), image: nil, cssSelectors: [ .info ]),
 
-			.button(OCLocalizedString("Visit the forums", nil), action: UIAction(handler: { [weak self] _ in
+			.button(OCLocalizedString("Visit GitHub Discussions", nil), action: UIAction(handler: { [weak self] _ in
 				if let self {
-					VendorServices.shared.openSFWebView(on: self, for: URL(string: "https://central.opencloud.eu/c/ios/")!)
+					VendorServices.shared.openSFWebView(on: self, for: URL(string: "https://github.com/orgs/opencloud-eu/discussions")!)
 				}
 			}), image: nil, cssSelectors: [ .info ]),
 
