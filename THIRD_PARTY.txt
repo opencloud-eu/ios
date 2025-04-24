@@ -54,7 +54,7 @@ The third party software included and used by this project is:
 
  *      Down
         Copyright (c) 2016 Rob Phillips.
-        Licensed under MIT License. Components used by "Down" under indivdiual licenses.
+        Licensed under MIT License. Components used by "Down" under individual licenses.
         Placed as Swift package
         Original license document included at OpenCloudAppShared/Down.LICENSE.
         See https://github.com/johnxnguyen/Down

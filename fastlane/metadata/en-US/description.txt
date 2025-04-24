@@ -23,5 +23,5 @@ Thank you for your support!" Matthias Huehne
 ABOUT OPENCLOUD
 OpenCloud is the market leading open source content collaboration solution worldwide. OpenCloud enables users to securely access and share data from any device, anywhere in the world. With more than 200,000 installations and 50 million users, OpenCloud provides users a modern collaborative experience, thereby boosting productivity without compromising on security. 
 
-Terms of Use: https://raw.githubusercontent.com/opencloud/ios-app/master/LICENSE
+Terms of Use: https://raw.githubusercontent.com/opencloud-eu/ios/main/LICENSE
 Privacy Policy: https://opencloud.eu/privacy-legal/

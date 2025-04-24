@@ -341,7 +341,7 @@ public class ThemeCollection : NSObject {
 				sidebarCellStateSet = ThemeColorStateSet.from(colorSet: darkBrandSet, for: interfaceStyle)
 				sidebarCellStateSet.selected.backgroundColor = useSystemColors ? resolvedSystemTintColor :  sidebarCellStateSet.regular.labelColor
 				//sidebarCellStateSet.selected.labelColor = useSystemColors ? .white : sidebarCellStateSet.regular.backgroundColor
-				// For https://github.com/opencloud-eu/ios-app/issues/1 .. let's check if there is a better way later:
+				// For https://github.com/opencloud-eu/ios/issues/1 .. let's check if there is a better way later:
 				sidebarCellStateSet.selected.labelColor = useSystemColors ? darkPetrol : sidebarCellStateSet.regular.backgroundColor
 				sidebarCellStateSet.selected.iconColor = sidebarCellStateSet.selected.labelColor
 

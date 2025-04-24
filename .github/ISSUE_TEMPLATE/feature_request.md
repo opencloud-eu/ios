@@ -30,7 +30,7 @@ Add any other context or screenshots about the feature request here.
 - [ ] Code review and apply changes requested
 - [ ] Design test plan
 - [ ] QA
-- [ ] Merge branch feature/feature_name into master
+- [ ] Merge branch feature/feature_name into main
 
 ### PR
 

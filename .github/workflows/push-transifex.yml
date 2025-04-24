@@ -3,7 +3,7 @@ name: "Push source language to Transifex"
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push-translations:

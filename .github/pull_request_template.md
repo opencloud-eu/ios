@@ -1,9 +1,9 @@
 <!--
 Thanks for submitting a change to OpenCloud!
 
-To make it possible for us to get your change reviewed and merged please fill out below information carefully.
+To make it possible for us to get your change reviewed and merged, please carefully fill out the information below.
 
-Please note that any kind of change first has to be submitted to the master branch which holds the next major version of OpenCloud.
+Please note that any kind of change first has to be submitted to the main branch which holds the next major version of OpenCloud.
 -->
 
 ## Description
@@ -36,8 +36,7 @@ Please note that any kind of change first has to be submitted to the master bran
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 - [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
-- [ ] Added an issue with details about all relevant changes in the [**iOS documentation repository**](https://github.com/opencloud-eu/docs-client-ios-app/issues).
-- [ ] I have read the [**CONTRIBUTING**](https://github.com/opencloud-eu/ios-app/blob/master/CONTRIBUTING.md) document.
+- [ ] Added an issue with details about all relevant changes in the [**docs repository**](https://github.com/opencloud-eu/docs/issues).
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
-- [ ] Added changelog files for the fixed issues in folder changelog/unreleased
+- [ ] I have set a pull request label and a meaningful title for changelog automation
