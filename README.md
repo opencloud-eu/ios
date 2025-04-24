@@ -8,10 +8,6 @@ Our iOS app is free for downloading available on the AppStore
 
 ####  🌎 https://opencloud.eu
 
-| Account List                                                 | File List                                                    | File Actions                                                 | Preview Files                                                | Quick Access                                                 | Settings                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="doc/images/en-US/iPhone 11 Pro Max-11_ios_accounts_list_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> | <img src="doc/images/en-US/iPhone 11 Pro Max-20_ios_files_list_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> | <img src="doc/images/en-US/iPhone 11 Pro Max-21_ios_files_actions_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> | <img src="doc/images/en-US/iPhone 11 Pro Max-22_ios_files_preview_pdf_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> | <img src="doc/images/en-US/iPhone 11 Pro Max-40_ios_quick_access_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> | <img src="doc/images/en-US/iPhone 11 Pro Max-60_ios_settings_demo.png" alt="Simulator Screen Shot - iPhone 11 Pro"> |
-
 ## 😍 Features
 
 * 🦋 Using the current iOS frameworks
