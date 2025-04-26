@@ -10,6 +10,30 @@
     "'%@' is currently locked" : {
 
     },
+    "{{attribute}} {{direction}}" : {
+
+    },
+    "{{fileName}} (file)" : {
+
+    },
+    "{{folderName}} (folder)" : {
+
+    },
+    "{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)" : {
+
+    },
+    "{{itemName}} ({{link}}) | password: {{password}}" : {
+
+    },
+    "{{link}} | password: {{password}}" : {
+
+    },
+    "{{remaining}} available" : {
+
+    },
+    "{{spaceName}} (space)" : {
+
+    },
     "%@ (%d bits/channel)" : {
       "localizations" : {
         "en" : {
@@ -352,10 +376,16 @@
     "Change password" : {
 
     },
+    "Changed {{settingID}} to {{newValue}}." : {
+
+    },
     "Choose destination directory…" : {
 
     },
     "Clear" : {
+
+    },
+    "Cleared {{settingID}}." : {
 
     },
     "Cleared all." : {
@@ -425,6 +455,12 @@
 
     },
     "Copy" : {
+
+    },
+    "Copy \"{{itemName}}\"" : {
+
+    },
+    "Copy {{itemCount}} items" : {
 
     },
     "Copy here" : {
@@ -655,6 +691,9 @@
     "Error" : {
 
     },
+    "Error creating {{itemName}}" : {
+
+    },
     "Error fetching transactions" : {
 
     },
@@ -665,6 +704,9 @@
 
     },
     "Error loading product info from App Store" : {
+
+    },
+    "Error opening {{itemName}} in {{appName}}" : {
 
     },
     "Error opening %@" : {
@@ -680,6 +722,9 @@
 
     },
     "Expiration date" : {
+
+    },
+    "Expires {{expirationDate}}" : {
 
     },
     "Exposure bias" : {
@@ -805,6 +850,9 @@
     "Histogram" : {
 
     },
+    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." : {
+
+    },
     "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." : {
 
     },
@@ -842,6 +890,12 @@
 
     },
     "Immediately" : {
+
+    },
+    "Import \"{{itemName}}\"" : {
+
+    },
+    "Import {{itemCount}} files" : {
 
     },
     "Importing files through opening is not allowed on this device." : {
@@ -1037,10 +1091,19 @@
     "More" : {
 
     },
+    "More for {{title}}" : {
+
+    },
     "More information" : {
 
     },
     "Move" : {
+
+    },
+    "Move \"{{itemName}}\"" : {
+
+    },
+    "Move {{itemCount}} items" : {
 
     },
     "Move here" : {
@@ -1194,6 +1257,9 @@
 
     },
     "Open in" : {
+
+    },
+    "Open in {{appName}} (web)" : {
 
     },
     "Open in a new Window" : {
@@ -1535,6 +1601,9 @@
     "Search" : {
 
     },
+    "Search {{space.name}}" : {
+
+    },
     "Search account" : {
 
     },
@@ -1542,6 +1611,9 @@
 
     },
     "Search for users or groups" : {
+
+    },
+    "Search from {{folder.name}}" : {
 
     },
     "Search in" : {
@@ -1661,6 +1733,9 @@
     "Shared" : {
 
     },
+    "Shared by {{owner}}" : {
+
+    },
     "Shared by link" : {
 
     },
@@ -1668,6 +1743,12 @@
 
     },
     "Shared with" : {
+
+    },
+    "Shared with {{recipient}}" : {
+
+    },
+    "Shared with {{recipients}}" : {
 
     },
     "Shared with me" : {
@@ -1683,6 +1764,9 @@
 
     },
     "Shortcut" : {
+
+    },
+    "Shortcut to '{{hostname}}'" : {
 
     },
     "Shortcuts Actions" : {
@@ -1734,6 +1818,9 @@
 
     },
     "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." : {
+
+    },
+    "Sort by {{attribute}} in {{direction}} order" : {
 
     },
     "Space" : {
@@ -1859,6 +1946,9 @@
     "This permission is needed to upload photos and videos from your photo library." : {
 
     },
+    "This shortcut points to:\n{{url}}" : {
+
+    },
     "This will also delete all locally stored file copies." : {
 
     },
@@ -1940,6 +2030,9 @@
     "Upload from your photo library" : {
 
     },
+    "Uploading {{remainingFileCount}} files…" : {
+
+    },
     "Uploading %ld files…" : {
 
     },
@@ -1997,7 +2090,7 @@
     "View documentation" : {
 
     },
-    "Visit the forums" : {
+    "Visit GitHub Discussions" : {
 
     },
     "W" : {
