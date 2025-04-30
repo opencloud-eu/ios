@@ -24,13 +24,9 @@ NOTE: This will connect with our OpenCloud iOS Library repository at ```https://
 
 ### 3. Set up in your local
 
-* [Cocoa pods][cocoapods]
-* [Swiftlint][swiftlint]
-* [EarlGrey][earlGrey]
+Install cocapods:
 
-[cocoapods]:https://cocoapods.org/
-[swiftlint]:https://github.com/realm/SwiftLint/blob/master/README.md
-[earlGrey]:https://github.com/google/EarlGrey/blob/master/docs/install-and-run.md#cocoapods-installation
+``` brew install cocoapods ```
 
 ### 4. Create your own certificates
 
@@ -41,7 +37,7 @@ NOTE: You must use the same "extension" on the certificates of the extensions (O
 * Create an App Id for the main app. Ex: com.mywebpage.opencloud.ios
 * Create an AppGroup and add it too all the App Id. Must have the App Id than the main app but with the group. Ex: group.com.mywebpage.opencloud.ios
 * Add the UDID of your device on the Devices section.
-* Create 4 Development Profiles. One for each App Id.
+* Create 5 Development Profiles. One for each App Id.
 
 ### 5. Create pull request:
 
