@@ -436,7 +436,6 @@
 		DC9B4FC629413AE20037F8F8 /* OCResourceText+ViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AB24A2810A69600789435 /* OCResourceText+ViewProvider.swift */; };
 		DC9B4FCA29413B480037F8F8 /* Down in Frameworks */ = {isa = PBXBuildFile; productRef = DC9B4FC929413B480037F8F8 /* Down */; };
 		DC9B4FCE2941DA6E0037F8F8 /* UINavigationItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9B4FCD2941DA6E0037F8F8 /* UINavigationItem+Extension.swift */; };
-		DC9BFBB320A19AF4007064B5 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = DC9BFBB220A19AF3007064B5 /* doc */; };
 		DC9BFBBD20A1C37B007064B5 /* PasswordManagerAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9BFBBC20A1C37B007064B5 /* PasswordManagerAccess.swift */; };
 		DC9C1AEC247C76470067895A /* MessageGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C1AEB247C76470067895A /* MessageGroupCell.swift */; };
 		DCA05A602AE6603E00BFF393 /* ClientLocationPopupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA05A5F2AE6603E00BFF393 /* ClientLocationPopupButton.swift */; };
@@ -1432,7 +1431,6 @@
 		DC9B4FC2293F453C0037F8F8 /* EmbeddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingViewController.swift; sourceTree = "<group>"; };
 		DC9B4FC42940F8D60037F8F8 /* ShareExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionViewController.swift; sourceTree = "<group>"; };
 		DC9B4FCD2941DA6E0037F8F8 /* UINavigationItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Extension.swift"; sourceTree = "<group>"; };
-		DC9BFBB220A19AF3007064B5 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
 		DC9BFBB820A1AF2B007064B5 /* icon-locked.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "icon-locked.tvg"; path = "img/filetypes-tvg/icon-locked.tvg"; sourceTree = SOURCE_ROOT; };
 		DC9BFBBA20A1B3CA007064B5 /* icon-password-manager.tvg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "icon-password-manager.tvg"; path = "img/filetypes-tvg/icon-password-manager.tvg"; sourceTree = SOURCE_ROOT; };
 		DC9BFBBC20A1C37B007064B5 /* PasswordManagerAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordManagerAccess.swift; sourceTree = "<group>"; };
@@ -1460,7 +1458,6 @@
 		DCB2C05D250C1F9E001083CA /* BrandingClassSettingsSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandingClassSettingsSource.h; sourceTree = "<group>"; };
 		DCB2C05E250C1F9E001083CA /* BrandingClassSettingsSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandingClassSettingsSource.m; sourceTree = "<group>"; };
 		DCB3256A2559989200058EEB /* generate_docs.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generate_docs.sh; sourceTree = "<group>"; };
-		DCB3257425599ABC00058EEB /* ios_mdm_tables.adoc.tmpl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ios_mdm_tables.adoc.tmpl; sourceTree = "<group>"; };
 		DCB32FE729E704D600BFF393 /* SelectionCheckmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCheckmarkButton.swift; sourceTree = "<group>"; };
 		DCB330C029EDDD4C00BFF393 /* SharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingViewController.swift; sourceTree = "<group>"; };
 		DCB330C229EEFF6100BFF393 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -1806,7 +1803,6 @@
 		233BDE93204FEFE500C06732 = {
 			isa = PBXGroup;
 			children = (
-				DC9BFBB220A19AF3007064B5 /* doc */,
 				DCB86E8E2BD7B9EE00492C09 /* PrivacyInfo.xcprivacy */,
 				233BDEBF204FEFF300C06732 /* OpenCloudSDK.xcodeproj */,
 				233BDE9E204FEFE500C06732 /* OpenCloud */,
@@ -3008,7 +3004,6 @@
 		DCB3257525599BAC00058EEB /* templates */ = {
 			isa = PBXGroup;
 			children = (
-				DCB3257425599ABC00058EEB /* ios_mdm_tables.adoc.tmpl */,
 			);
 			path = templates;
 			sourceTree = "<group>";
@@ -4291,7 +4286,6 @@
 				395E3B172C8B0E84007979C9 /* Localizable.xcstrings in Resources */,
 				DCE684F6241BD4E800799C30 /* Branding.plist in Resources */,
 				395E3B152C8B0E83007979C9 /* InfoPlist.xcstrings in Resources */,
-				DC9BFBB320A19AF4007064B5 /* doc in Resources */,
 				233BDEA7204FEFE500C06732 /* Assets.xcassets in Resources */,
 				DC6C68362574FD0400E46BD4 /* PLCrashReporter.LICENSE in Resources */,
 			);
