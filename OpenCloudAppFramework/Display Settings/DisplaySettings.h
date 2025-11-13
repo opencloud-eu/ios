@@ -35,6 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Drag files
 @property(assign,nonatomic) BOOL preventDraggingFiles;
 
+#pragma mark - OIDC Claim
+@property(assign,nonatomic) NSString *oidcCustomClaim;
+
 #pragma mark - Query condition
 @property(nonatomic,readonly,nullable) OCQueryCondition *queryConditionForDisplaySettings;
 
@@ -46,6 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 extern NSString *DisplaySettingsShowHiddenFilesPrefsKey;			//!< The UserDefaults Key containing the BOOL value for .showHiddenFiles
 extern NSString *DisplaySettingsSortFoldersFirstPrefsKey;			//!< The UserDefaults Key containing the BOOL value for .sortFoldersFirst
 extern NSString *DisplaySettingsPreventDraggingFilesPrefsKey;			//!< The UserDefaults Key containing the BOOL value for .preventDraggingFiles
+extern NSString *DisplaySettingsOidcCustomClaimPrefsKey;			//!< The UserDefaults Key containing the BOOL value for .oidcCustomClaim
 
 extern OCIPCNotificationName OCIPCNotificationNameDisplaySettingsChanged; 	//!< Posted when display settings changed (internal use only)
 extern NSNotificationName DisplaySettingsChanged;				//!< Posted when display settings changed (for use by app + File Provider)
@@ -54,5 +58,6 @@ extern OCClassSettingsIdentifier OCClassSettingsIdentifierDisplay; 		//!< The cl
 extern OCClassSettingsKey OCClassSettingsKeyDisplayShowHiddenFiles;		//!< The class settings key for Show Hidden Files
 extern OCClassSettingsKey OCClassSettingsKeyDisplaySortFoldersFirst;		//!< The class settings key for sorting folders first
 extern OCClassSettingsKey OCClassSettingsKeyDisplayPreventDraggingFiles;	//!< The class settings key if Drag Files is enabled
+extern OCClassSettingsKey OCClassSettingsKeyCustomOidcClaim;	//!< The class settings key for custom OIDC claim
 
 NS_ASSUME_NONNULL_END
