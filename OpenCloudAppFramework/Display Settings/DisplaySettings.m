@@ -115,6 +115,10 @@
 	_preventDraggingFiles = [self _preventDraggingFilesValue];
 	[self didChangeValueForKey:@"preventDraggingFiles"];
 
+	[self willChangeValueForKey:@"oidcCustomClaim"];
+	_oidcCustomClaim = [self _oidcCustomClaimValue];
+	[self didChangeValueForKey:@"oidcCustomClaim"];
+	
 	[[NSNotificationCenter defaultCenter] postNotificationName:DisplaySettingsChanged object:self];
 }
 
@@ -204,11 +208,11 @@
 	return ([self classSettingForOCClassSettingsKey:OCClassSettingsKeyCustomOidcClaim]);
 }
 
-- (void)setoidcCustomClaim:(NSString*)oidcCustomClaim
+- (void)setOidcCustomClaim:(NSString*)oidcCustomClaim
 {
 	_oidcCustomClaim = oidcCustomClaim;
 
-	[OCAppIdentity.sharedAppIdentity.userDefaults setValue:oidcCustomClaim forKey:DisplaySettingsPreventDraggingFilesPrefsKey];
+	[OCAppIdentity.sharedAppIdentity.userDefaults setValue:oidcCustomClaim forKey:DisplaySettingsOidcCustomClaimPrefsKey];
 
 	[self postChangeNotifications];
 }
