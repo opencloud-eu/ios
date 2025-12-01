@@ -59,5 +59,7 @@
 	<true/>
 	<key>OCKeychainAccessGroupIdentifier</key>
 	<string>group.eu.opencloud.ios</string>
+	<key>OCAppComponentIdentifier</key>
+	<string>intentsExtension</string>
 </dict>
 </plist>
