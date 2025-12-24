@@ -55,7 +55,7 @@ class DisplaySettingsSection: SettingsSection {
 			if let oidcClaim = row.value as? String {
 				DisplaySettings.shared.oidcCustomClaim = oidcClaim as NSString
 			}
-		}, placeholder: "Custom OIDC claim", value: "", autocorrectionType: UITextAutocorrectionType.no, identifier: "oidc-string"))
+		}, placeholder: "Custom OIDC claim", value: DisplaySettings.shared.oidcCustomClaim as String, autocorrectionType: UITextAutocorrectionType.no, identifier: "oidc-string"))
 
 		if OCLicenseQAProvider.isQAUnlockPossible {
 			self.add(row: StaticTableViewRow(switchWithAction: { (row, _) in
