@@ -151,8 +151,8 @@ class BookmarkComposer: NSObject {
 		// Probe URL
 		bookmark.url = serverURL
 
-		let customScope = (OCAppIdentity.shared.userDefaults! as UserDefaults).object(forKey:"oidc-custom-claim")
-		bookmark.customOIDCClaim = customScope as? String
+		let customScopes = (OCAppIdentity.shared.userDefaults! as UserDefaults).object(forKey:"oidc-custom-scopes")
+		bookmark.customOIDCScopes = customScopes as? String
 
 		let connection = instantiateConnection(for: bookmark)
 

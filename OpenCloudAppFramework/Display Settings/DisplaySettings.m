@@ -89,7 +89,7 @@
 		_showHiddenFiles = [self _showHiddenFilesValue];
 		_sortFoldersFirst = [self _sortFoldersFirst];
 		_preventDraggingFiles = [self _preventDraggingFilesValue];
-		_oidcCustomClaim = [self _oidcCustomClaimValue];
+		_oidcCustomScopes = [self _oidcCustomScopesValue];
 	}
 
 	return (self);
@@ -115,9 +115,9 @@
 	_preventDraggingFiles = [self _preventDraggingFilesValue];
 	[self didChangeValueForKey:@"preventDraggingFiles"];
 
-	[self willChangeValueForKey:@"oidcCustomClaim"];
-	_oidcCustomClaim = [self _oidcCustomClaimValue];
-	[self didChangeValueForKey:@"oidcCustomClaim"];
+	[self willChangeValueForKey:@"oidcCustomScopes"];
+	_oidcCustomScopes = [self _oidcCustomScopesValue];
+	[self didChangeValueForKey:@"oidcCustomScopes"];
 	
 	[[NSNotificationCenter defaultCenter] postNotificationName:DisplaySettingsChanged object:self];
 }
@@ -195,24 +195,24 @@
 }
 
 
-#pragma mark - OIDC Custom Claim
-- (NSString*)_oidcCustomClaimValue
+#pragma mark - OIDC Custom Scopes
+- (NSString*)_oidcCustomScopesValue
 {
-	NSString *oidcClaim;
+	NSString *oidcScopes;
 
-	if ((oidcClaim = [OCAppIdentity.sharedAppIdentity.userDefaults objectForKey:DisplaySettingsOidcCustomClaimPrefsKey]) != nil)
+	if ((oidcScopes = [OCAppIdentity.sharedAppIdentity.userDefaults objectForKey:DisplaySettingsOIDCCustomScopesPrefsKey]) != nil)
 	{
-		return oidcClaim;
+		return oidcScopes;
 	}
 
-	return ([self classSettingForOCClassSettingsKey:OCClassSettingsKeyCustomOidcClaim]);
+	return ([self classSettingForOCClassSettingsKey:OCClassSettingsKeyCustomOidcScopes]);
 }
 
-- (void)setOidcCustomClaim:(NSString*)oidcCustomClaim
+- (void)setOidcCustomScopes:(NSString*)oidcCustomScopes
 {
-	_oidcCustomClaim = oidcCustomClaim;
+	_oidcCustomScopes = oidcCustomScopes;
 
-	[OCAppIdentity.sharedAppIdentity.userDefaults setValue:oidcCustomClaim forKey:DisplaySettingsOidcCustomClaimPrefsKey];
+	[OCAppIdentity.sharedAppIdentity.userDefaults setValue:oidcCustomScopes forKey:DisplaySettingsOIDCCustomScopesPrefsKey];
 
 	[self postChangeNotifications];
 }
@@ -271,7 +271,7 @@
 NSString *DisplaySettingsShowHiddenFilesPrefsKey = @"display-show-hidden-files";
 NSString *DisplaySettingsSortFoldersFirstPrefsKey = @"display-sort-folders-first";
 NSString *DisplaySettingsPreventDraggingFilesPrefsKey = @"display-prevent-dragging-files";
-NSString *DisplaySettingsOidcCustomClaimPrefsKey = @"oidc-custom-claim";
+NSString *DisplaySettingsOIDCCustomScopesPrefsKey = @"oidc-custom-scopes";
 
 OCIPCNotificationName OCIPCNotificationNameDisplaySettingsChanged = @"org.opencloud.display-settings-changed";
 
@@ -281,4 +281,4 @@ OCClassSettingsIdentifier OCClassSettingsIdentifierDisplay = @"display";
 OCClassSettingsKey OCClassSettingsKeyDisplayShowHiddenFiles = @"show-hidden-files";
 OCClassSettingsKey OCClassSettingsKeyDisplaySortFoldersFirst = @"sort-folders-first";
 OCClassSettingsKey OCClassSettingsKeyDisplayPreventDraggingFiles = @"prevent-dragging-files";
-OCClassSettingsKey OCClassSettingsKeyCustomOidcClaim = @"custom-claim";
+OCClassSettingsKey OCClassSettingsKeyCustomOidcScopes = @"custom-scopes";
