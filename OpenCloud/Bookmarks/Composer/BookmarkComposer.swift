@@ -151,6 +151,9 @@ class BookmarkComposer: NSObject {
 		// Probe URL
 		bookmark.url = serverURL
 
+		let customScope = (OCAppIdentity.shared.userDefaults! as UserDefaults).object(forKey:"oidc-custom-claim")
+		bookmark.customOIDCClaim = customScope as? String
+
 		let connection = instantiateConnection(for: bookmark)
 
 		hudMessage = OCLocalizedString("Contacting server…", nil)
