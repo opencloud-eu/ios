@@ -511,6 +511,9 @@
     "Credentials" : {
 
     },
+    "Custom OIDC scopes to be appended to fixed ones." : {
+
+    },
     "Cut" : {
 
     },
@@ -1239,6 +1242,12 @@
 
     },
     "Offline files use" : {
+
+    },
+    "OIDC Scopes" : {
+
+    },
+    "OIDC settings" : {
 
     },
     "OK" : {

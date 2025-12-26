@@ -51,12 +51,6 @@ class DisplaySettingsSection: SettingsSection {
 			}
 		}, title: OCLocalizedString("Enable diagnostics", nil), value: DiagnosticManager.shared.enabled, identifier: "diagnostics-enabled"))
 
-		self.add(row: StaticTableViewRow(textFieldWithAction: { (row, _, _) in
-			if let oidcScopes = row.value as? String {
-				DisplaySettings.shared.oidcCustomScopes = oidcScopes as NSString
-			}
-		}, placeholder: "Custom OIDC scopes", value: DisplaySettings.shared.oidcCustomScopes as String, autocorrectionType: UITextAutocorrectionType.no, identifier: "oidc-string"))
-
 		if OCLicenseQAProvider.isQAUnlockPossible {
 			self.add(row: StaticTableViewRow(switchWithAction: { (row, _) in
 				if let qaUnlockedProFeatures = row.value as? Bool {

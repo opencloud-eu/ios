@@ -47,6 +47,7 @@ class SettingsViewController: StaticTableViewController {
 			self.addSection(UserInterfaceSettingsSection(userDefaults: userDefaults))
 			self.addSection(DataSettingsSection(userDefaults: userDefaults))
 			self.addSection(DisplaySettingsSection(userDefaults: userDefaults))
+			self.addSection(OIDCSettingsSection(userDefaults: userDefaults))
 			self.addSection(MediaFilesSettingsSection(userDefaults: userDefaults))
 
 			#if !DISABLE_APPSTORE_LICENSING
