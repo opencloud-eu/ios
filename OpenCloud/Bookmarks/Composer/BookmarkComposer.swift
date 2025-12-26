@@ -77,6 +77,9 @@ class BookmarkComposer: NSObject {
 	}
 
 	func instantiateConnection(for bmark: OCBookmark) -> OCConnection {
+		let customScopes = (OCAppIdentity.shared.userDefaults! as UserDefaults).object(forKey:"oidc-custom-scopes")
+		bmark.customOIDCScopes = customScopes as? String
+
 		let connection = OCConnection(bookmark: bmark)
 
 		connection.hostSimulator = OCHostSimulatorManager.shared.hostSimulator(forLocation: .accountSetup, for: self)
@@ -150,9 +153,6 @@ class BookmarkComposer: NSObject {
 
 		// Probe URL
 		bookmark.url = serverURL
-
-		let customScopes = (OCAppIdentity.shared.userDefaults! as UserDefaults).object(forKey:"oidc-custom-scopes")
-		bookmark.customOIDCScopes = customScopes as? String
 
 		let connection = instantiateConnection(for: bookmark)
 
