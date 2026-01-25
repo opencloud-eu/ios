@@ -534,8 +534,201 @@
       }
     },
 
+    "Auto" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto" } },
+        "de" : { "stringUnit" : { "value" : "Automatisch" } }
+      }
+    },
+
+    "Auto mode" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto mode" } },
+        "de" : { "stringUnit" : { "value" : "Automatikmodus" } }
+      }
+    },
+
+    "Auto Upload" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload" } }
+      }
+    },
+
+    "Auto upload disabled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto upload disabled" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload deaktiviert" } }
+      }
+    },
+
+    "Auto upload of media was disabled since configured account / folder was not found" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto upload of media was disabled since configured account / folder was not found" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload von Medien wurde deaktiviert, da das konfigurierte Konto / der Ordner nicht gefunden wurde" } }
+      }
+    },
+
+    "Auto Upload Photos" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload Photos" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Foto-Upload" } }
+      }
+    },
+
+    "Auto Upload Videos" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload Videos" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Video-Upload" } }
+      }
+    },
+
+    "Auto-approved" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto-approved" } },
+        "de" : { "stringUnit" : { "value" : "Automatisch genehmigt" } }
+      }
+    },
+
+    "Available offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Available offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar" } }
+      }
+    },
+
+    "Available Offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Available Offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar" } }
+      }
+    },
+
+    "Average" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Average" } },
+        "de" : { "stringUnit" : { "value" : "Durchschnitt" } }
+      }
+    },
+
+    "Back" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Back" } },
+        "de" : { "stringUnit" : { "value" : "Zurück" } }
+      }
+    },
+
+    "Background upload notifications" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Background upload notifications" } },
+        "de" : { "stringUnit" : { "value" : "Benachrichtigungen für Hintergrund-Uploads" } }
+      }
+    },
+
+    "Background uploads (Lab Version)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Background uploads (Lab Version)" } },
+        "de" : { "stringUnit" : { "value" : "Hintergrund-Uploads (Lab-Version)" } }
+      }
+    },
+
+    "beta" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "beta" } },
+        "de" : { "stringUnit" : { "value" : "Beta" } }
+      }
+    },
+
+    "Beta Warning" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Beta Warning" } },
+        "de" : { "stringUnit" : { "value" : "Beta-Warnung" } }
+      }
+    },
+
+    "Biometric authentication failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Biometric authentication failed" } },
+        "de" : { "stringUnit" : { "value" : "Biometrische Authentifizierung fehlgeschlagen" } }
+      }
+    },
+
+    "Bookmark Metadata" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Bookmark Metadata" } },
+        "de" : { "stringUnit" : { "value" : "Lesezeichen-Metadaten" } }
+      }
+    },
+
+    "Browse" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Browse" } },
+        "de" : { "stringUnit" : { "value" : "Durchsuchen" } }
+      }
+    },
+
+    "Busy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Busy" } },
+        "de" : { "stringUnit" : { "value" : "Beschäftigt" } }
+      }
+    },
+
+    "By feature" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "By feature" } },
+        "de" : { "stringUnit" : { "value" : "Nach Funktion" } }
+      }
+    },
+
+    "Camera details" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Camera details" } },
+        "de" : { "stringUnit" : { "value" : "Kamera-Details" } }
+      }
+    },
+
+    "Cancel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cancel" } },
+        "de" : { "stringUnit" : { "value" : "Abbrechen" } }
+      }
+    },
+
+    "Cannot connect to " : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cannot connect to " } },
+        "de" : { "stringUnit" : { "value" : "Verbindung zu … nicht möglich" } }
+      }
+    },
+
+    "Capture settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Capture settings" } },
+        "de" : { "stringUnit" : { "value" : "Aufnahmeeinstellungen" } }
+      }
+    },
+
+    "Cellular Data Usage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cellular Data Usage" } },
+        "de" : { "stringUnit" : { "value" : "Mobilfunkdaten-Verbrauch" } }
+      }
+    },
+
+    "Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." } },
+        "de" : { "stringUnit" : { "value" : "Mobilfunkdaten-Nutzung wurde über die MDM-Konfiguration deaktiviert. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator." } }
+      }
+    },
+
+    "CenterWeightedAverage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "CenterWeightedAverage" } },
+        "de" : { "stringUnit" : { "value" : "Zentralgewichteter Mittelwert" } }
+      }
+    },
 
 
-
-
-
+---
