@@ -1,2128 +1,4841 @@
 {
   "sourceLanguage" : "en",
+  "version" : "1.1",
   "strings" : {
     "\nThis is a BETA release that may - and likely will - still contain bugs.\n\nYOU SHOULD NOT USE THIS BETA VERSION WITH PRODUCTION SYSTEMS, PRODUCTION DATA OR DATA OF VALUE. YOU'RE USING THIS BETA AT YOUR OWN RISK." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "\nThis is a BETA release that may - and likely will - still contain bugs.\n\nYOU SHOULD NOT USE THIS BETA VERSION WITH PRODUCTION SYSTEMS, PRODUCTION DATA OR DATA OF VALUE. YOU'RE USING THIS BETA AT YOUR OWN RISK." } },
+        "de" : { "stringUnit" : { "value" : "\nDies ist eine BETA-Version, die möglicherweise – und sehr wahrscheinlich – noch Fehler enthält.\n\nSIE SOLLTEN DIESE BETA-VERSION NICHT MIT PRODUKTIONSSYSTEMEN, PRODUKTIONSDATEN ODER WERTVOLLEN DATEN VERWENDEN. SIE VERWENDEN DIESE BETA AUF EIGENES RISIKO." } }
+      }
     },
+
     " couldn't download file(s)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : " couldn't download file(s)" } },
+        "de" : { "stringUnit" : { "value" : " konnte(n) nicht heruntergeladen werden" } }
+      }
     },
+
     "'%@' is currently locked" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "'%@' is currently locked" } },
+        "de" : { "stringUnit" : { "value" : "'%@' ist derzeit gesperrt" } }
+      }
     },
+
     "{{attribute}} {{direction}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{attribute}} {{direction}}" } },
+        "de" : { "stringUnit" : { "value" : "{{attribute}} {{direction}}" } }
+      }
     },
+
     "{{fileName}} (file)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{fileName}} (file)" } },
+        "de" : { "stringUnit" : { "value" : "{{fileName}} (Datei)" } }
+      }
     },
+
     "{{folderName}} (folder)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{folderName}} (folder)" } },
+        "de" : { "stringUnit" : { "value" : "{{folderName}} (Ordner)" } }
+      }
     },
+
     "{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Elemente mit insgesamt {{totalSize}} ({{fileCount}} Dateien, {{folderCount}} Ordner)" } }
+      }
     },
+
     "{{itemName}} ({{link}}) | password: {{password}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{itemName}} ({{link}}) | password: {{password}}" } },
+        "de" : { "stringUnit" : { "value" : "{{itemName}} ({{link}}) | Passwort: {{password}}" } }
+      }
     },
+
     "{{link}} | password: {{password}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{link}} | password: {{password}}" } },
+        "de" : { "stringUnit" : { "value" : "{{link}} | Passwort: {{password}}" } }
+      }
     },
+
     "{{remaining}} available" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{remaining}} available" } },
+        "de" : { "stringUnit" : { "value" : "{{remaining}} verfügbar" } }
+      }
     },
+
     "{{spaceName}} (space)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "{{spaceName}} (space)" } },
+        "de" : { "stringUnit" : { "value" : "{{spaceName}} (Space)" } }
+      }
     },
+
     "%@ (%d bits/channel)" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ (%2$d bits/channel)"
-          }
-        }
+        "en" : { "stringUnit" : { "state" : "new", "value" : "%1$@ (%2$d bits/channel)" } },
+        "de" : { "stringUnit" : { "state" : "new", "value" : "%1$@ (%2$d Bits/Kanal)" } }
       }
     },
+
     "%@ / %@" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ / %2$@"
-          }
-        }
+        "en" : { "stringUnit" : { "state" : "new", "value" : "%1$@ / %2$@" } },
+        "de" : { "stringUnit" : { "state" : "new", "value" : "%1$@ / %2$@" } }
       }
     },
+
     "%@ / %@ – starting immediately" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ / %2$@ – starting immediately"
-          }
-        }
+        "en" : { "stringUnit" : { "state" : "new", "value" : "%1$@ / %2$@ – starting immediately" } },
+        "de" : { "stringUnit" : { "state" : "new", "value" : "%1$@ / %2$@ – startet sofort" } }
       }
     },
+
     "%@ of %@" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ of %2$@"
-          }
-        }
+        "en" : { "stringUnit" : { "state" : "new", "value" : "%1$@ of %2$@" } },
+        "de" : { "stringUnit" : { "state" : "new", "value" : "%1$@ von %2$@" } }
       }
     },
-    "%@ was updated" : {
 
+    "%@ was updated" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "%@ was updated" } },
+        "de" : { "stringUnit" : { "value" : "%@ wurde aktualisiert" } }
+      }
     },
+
     "%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@%2$@ %3$@ version %4$@ build %5$@\n(app: %6$@, sdk: %7$@)"
-          }
-        }
+        "en" : { "stringUnit" : { "state" : "new", "value" : "%1$@%2$@ %3$@ version %4$@ build %5$@\n(app: %6$@, sdk: %7$@)" } },
+        "de" : { "stringUnit" : { "state" : "new", "value" : "%1$@%2$@ %3$@ Version %4$@ Build %5$@\n(App: %6$@, SDK: %7$@)" } }
       }
     },
+
     "%ld digit code" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "%ld digit code" } },
+        "de" : { "stringUnit" : { "value" : "%ld-stelliger Code" } }
+      }
     },
+
     "%ld Item was copied to the clipboard" : {
-
+      "localizations" : {
+    "en" : { "stringUnit" : { "value" : "%ld Item was copied to the clipboard" } },
+    "de" : { "stringUnit" : { "value" : "%ld Element wurde in die Zwischenablage kopiert" } }
+      }
     },
+
     "%ld Items were copied to the clipboard" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "%ld Items were copied to the clipboard" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente wurden in die Zwischenablage kopiert" } }
+      }
     },
+
     "+ %ld more" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "+ %ld more" } },
+        "de" : { "stringUnit" : { "value" : "+ %ld weitere" } }
+      }
     },
+
     "Accept" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accept" } },
+    "de" : { "stringUnit" : { "value" : "Akzeptieren" } }
+      }
     },
+
     "Accept or decline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accept or decline" } },
+        "de" : { "stringUnit" : { "value" : "Akzeptieren oder ablehnen" } }
+      }
     },
+
     "Accept share" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accept share" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe akzeptieren" } }
+      }
     },
+
     "Accept Share failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accept Share failed" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe konnte nicht akzeptiert werden" } }
+      }
     },
+
     "Accepted" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accepted" } },
+        "de" : { "stringUnit" : { "value" : "Akzeptiert" } }
+      }
     },
+
     "Access denied" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Access denied" } },
+        "de" : { "stringUnit" : { "value" : "Zugriff verweigert" } }
+      }
     },
+
     "Access for the media selected for upload is limited" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Access for the media selected for upload is limited" } },
+        "de" : { "stringUnit" : { "value" : "Zugriff auf die ausgewählten Medien für den Upload ist eingeschränkt" } }
+      }
     },
+
     "Account" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Account" } },
+        "de" : { "stringUnit" : { "value" : "Konto" } }
+      }
     },
+
     "Account setup complete" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Account setup complete" } },
+        "de" : { "stringUnit" : { "value" : "Kontoeinrichtung abgeschlossen" } }
+      }
     },
+
     "Accounts" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Accounts" } },
+        "de" : { "stringUnit" : { "value" : "Konten" } }
+      }
     },
+
     "Acknowledgements" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Acknowledgements" } },
+        "de" : { "stringUnit" : { "value" : "Danksagungen" } }
+      }
     },
+
     "Action" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Action" } },
+        "de" : { "stringUnit" : { "value" : "Aktion" } }
+      }
     },
+
     "Action executed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Action executed" } },
+        "de" : { "stringUnit" : { "value" : "Aktion ausgeführt" } }
+      }
     },
+
     "Actions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Actions" } },
+        "de" : { "stringUnit" : { "value" : "Aktionen" } }
+      }
     },
+
     "Add" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Add" } },
+        "de" : { "stringUnit" : { "value" : "Hinzufügen" } }
+      }
     },
+
     "Add account" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Add account" } },
+        "de" : { "stringUnit" : { "value" : "Konto hinzufügen" } }
+      }
     },
+
     "Add item" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Add item" } },
+        "de" : { "stringUnit" : { "value" : "Element hinzufügen" } }
+      }
     },
+
     "Add to sidebar" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Add to sidebar" } },
+        "de" : { "stringUnit" : { "value" : "Zur Seitenleiste hinzufügen" } }
+      }
     },
+
     "Advanced settings" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Advanced settings" } },
+        "de" : { "stringUnit" : { "value" : "Erweiterte Einstellungen" } }
+      }
     },
+
     "after %@" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "after %@" } },
+        "de" : { "stringUnit" : { "value" : "nach %@" } }
+      }
     },
+
     "After %ld seconds" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "After %ld seconds" } },
+        "de" : { "stringUnit" : { "value" : "Nach %ld Sekunden" } }
+      }
     },
+
     "After 1 minute" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "After 1 minute" } },
+        "de" : { "stringUnit" : { "value" : "Nach 1 Minute" } }
+      }
     },
+
     "After 5 minutes" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "After 5 minutes" } },
+        "de" : { "stringUnit" : { "value" : "Nach 5 Minuten" } }
+      }
     },
+
     "After 30 minutes" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "After 30 minutes" } },
+        "de" : { "stringUnit" : { "value" : "Nach 30 Minuten" } }
+      }
     },
+
     "after free %@ trial" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "after free %@ trial" } },
+        "de" : { "stringUnit" : { "value" : "nach der kostenlosen %@ Testphase" } }
+      }
     },
+
     "Agree" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Agree" } },
+        "de" : { "stringUnit" : { "value" : "Zustimmen" } }
+      }
     },
+
     "Albums" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Albums" } },
+        "de" : { "stringUnit" : { "value" : "Alben" } }
+      }
     },
+
     "All done" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "All done" } },
+        "de" : { "stringUnit" : { "value" : "Fertig" } }
+      }
     },
+
     "All Photos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "All Photos" } },
+        "de" : { "stringUnit" : { "value" : "Alle Fotos" } }
+      }
     },
+
     "Allow this app to refresh the content when on Wi-Fi or mobile network in background." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Allow this app to refresh the content when on Wi-Fi or mobile network in background." } },
+        "de" : { "stringUnit" : { "value" : "Diese App darf Inhalte im Hintergrund bei WLAN- oder Mobilfunkverbindung aktualisieren." } }
+      }
     },
+
     "Altitude" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Altitude" } },
+        "de" : { "stringUnit" : { "value" : "Höhe" } }
+      }
     },
+
     "An error occurred" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "An error occurred" } },
+        "de" : { "stringUnit" : { "value" : "Ein Fehler ist aufgetreten" } }
+      }
     },
+
     "An item with the same name already exists in this location." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "An item with the same name already exists in this location." } },
+        "de" : { "stringUnit" : { "value" : "An diesem Ort existiert bereits ein Element mit demselben Namen." } }
+      }
     },
+
     "An operation is currently performed that prevents connecting to '%@'. Please try again later." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "An operation is currently performed that prevents connecting to '%@'. Please try again later." } },
+        "de" : { "stringUnit" : { "value" : "Eine laufende Operation verhindert derzeit die Verbindung zu '%@'. Bitte versuchen Sie es später erneut." } }
+      }
     },
+
     "Aperture" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Aperture" } },
+        "de" : { "stringUnit" : { "value" : "Blende" } }
+      }
     },
+
     "Aperture priority" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Aperture priority" } },
+        "de" : { "stringUnit" : { "value" : "Blendenpriorität" } }
+      }
     },
+
     "App Version" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "App Version" } },
+        "de" : { "stringUnit" : { "value" : "App-Version" } }
+      }
     },
+
     "Apply choice to all similar issues" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Apply choice to all similar issues" } },
+        "de" : { "stringUnit" : { "value" : "Auswahl auf alle ähnlichen Probleme anwenden" } }
+      }
     },
+
     "Apply to all" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Apply to all" } },
+        "de" : { "stringUnit" : { "value" : "Auf alle anwenden" } }
+      }
     },
+
     "Approve" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Approve" } },
+        "de" : { "stringUnit" : { "value" : "Genehmigen" } }
+      }
     },
+
     "Approved" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Approved" } },
+        "de" : { "stringUnit" : { "value" : "Genehmigt" } }
+      }
     },
+
     "Are you sure you want to delete these items from the server?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Are you sure you want to delete these items from the server?" } },
+        "de" : { "stringUnit" : { "value" : "Sind Sie sicher, dass Sie diese Elemente vom Server löschen möchten?" } }
+      }
     },
+
     "Are you sure you want to delete this item from the server?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Are you sure you want to delete this item from the server?" } },
+        "de" : { "stringUnit" : { "value" : "Sind Sie sicher, dass Sie dieses Element vom Server löschen möchten?" } }
+      }
     },
+
     "Are you sure you want to unshare these items?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Are you sure you want to unshare these items?" } },
+        "de" : { "stringUnit" : { "value" : "Sind Sie sicher, dass Sie diese Elemente nicht mehr freigeben möchten?" } }
+      }
     },
+
     "Are you sure you want to unshare this item?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Are you sure you want to unshare this item?" } },
+        "de" : { "stringUnit" : { "value" : "Sind Sie sicher, dass Sie dieses Element nicht mehr freigeben möchten?" } }
+      }
     },
+
     "ascending" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "ascending" } },
+        "de" : { "stringUnit" : { "value" : "aufsteigend" } }
+      }
     },
+
     "Audios" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Audios" } },
+        "de" : { "stringUnit" : { "value" : "Audios" } }
+      }
     },
+
     "Authenticated as %@ via %@" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Authenticated as %1$@ via %2$@"
-          }
-        }
+        "en" : { "stringUnit" : { "value" : "Authenticated as %1$@ via %2$@" } },
+        "de" : { "stringUnit" : { "value" : "Authentifiziert als %1$@ über %2$@" } }
       }
     },
+
     "Authenticated via" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authenticated via" } },
+        "de" : { "stringUnit" : { "value" : "Authentifiziert über" } }
+      }
     },
+
     "Authenticating…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authenticating…" } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierung…" } }
+      }
     },
+
     "Authentication error" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authentication error" } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierungsfehler" } }
+      }
     },
+
     "Authentication failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authentication failed" } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierung fehlgeschlagen" } }
+      }
     },
+
     "Authentication with %@ is no longer allowed. Re-authentication needed." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authentication with %@ is no longer allowed. Re-authentication needed." } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierung mit %@ ist nicht mehr erlaubt. Erneute Authentifizierung erforderlich." } }
+      }
     },
+
     "Authoring" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authoring" } },
+        "de" : { "stringUnit" : { "value" : "Erstellen" } }
+      }
     },
+
     "Authorization failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Authorization failed" } },
+        "de" : { "stringUnit" : { "value" : "Autorisierung fehlgeschlagen" } }
+      }
     },
+
     "Auto" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto" } },
+        "de" : { "stringUnit" : { "value" : "Automatisch" } }
+      }
     },
+
     "Auto mode" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto mode" } },
+        "de" : { "stringUnit" : { "value" : "Automatikmodus" } }
+      }
     },
+
     "Auto Upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload" } }
+      }
     },
+
     "Auto upload disabled" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto upload disabled" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload deaktiviert" } }
+      }
     },
+
     "Auto upload of media was disabled since configured account / folder was not found" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto upload of media was disabled since configured account / folder was not found" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Upload von Medien wurde deaktiviert, da das konfigurierte Konto / der Ordner nicht gefunden wurde" } }
+      }
     },
+
     "Auto Upload Photos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload Photos" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Foto-Upload" } }
+      }
     },
+
     "Auto Upload Videos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto Upload Videos" } },
+        "de" : { "stringUnit" : { "value" : "Automatischer Video-Upload" } }
+      }
     },
+
     "Auto-approved" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Auto-approved" } },
+        "de" : { "stringUnit" : { "value" : "Automatisch genehmigt" } }
+      }
     },
+
     "Available offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Available offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar" } }
+      }
     },
+
     "Available Offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Available Offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar" } }
+      }
     },
+
     "Average" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Average" } },
+        "de" : { "stringUnit" : { "value" : "Durchschnitt" } }
+      }
     },
+
     "Back" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Back" } },
+        "de" : { "stringUnit" : { "value" : "Zurück" } }
+      }
     },
+
     "Background upload notifications" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Background upload notifications" } },
+        "de" : { "stringUnit" : { "value" : "Benachrichtigungen für Hintergrund-Uploads" } }
+      }
     },
+
     "Background uploads (Lab Version)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Background uploads (Lab Version)" } },
+        "de" : { "stringUnit" : { "value" : "Hintergrund-Uploads (Lab-Version)" } }
+      }
     },
+
     "beta" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "beta" } },
+        "de" : { "stringUnit" : { "value" : "Beta" } }
+      }
     },
+
     "Beta Warning" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Beta Warning" } },
+        "de" : { "stringUnit" : { "value" : "Beta-Warnung" } }
+      }
     },
+
     "Biometric authentication failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Biometric authentication failed" } },
+        "de" : { "stringUnit" : { "value" : "Biometrische Authentifizierung fehlgeschlagen" } }
+      }
     },
+
     "Bookmark Metadata" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Bookmark Metadata" } },
+        "de" : { "stringUnit" : { "value" : "Lesezeichen-Metadaten" } }
+      }
     },
+
     "Browse" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Browse" } },
+        "de" : { "stringUnit" : { "value" : "Durchsuchen" } }
+      }
     },
+
     "Busy" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Busy" } },
+        "de" : { "stringUnit" : { "value" : "Beschäftigt" } }
+      }
     },
+
     "By feature" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "By feature" } },
+        "de" : { "stringUnit" : { "value" : "Nach Funktion" } }
+      }
     },
+
     "Camera details" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Camera details" } },
+        "de" : { "stringUnit" : { "value" : "Kamera-Details" } }
+      }
     },
+
     "Cancel" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cancel" } },
+        "de" : { "stringUnit" : { "value" : "Abbrechen" } }
+      }
     },
+
     "Cannot connect to " : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cannot connect to " } },
+        "de" : { "stringUnit" : { "value" : "Verbindung zu … nicht möglich" } }
+      }
     },
+
     "Capture settings" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Capture settings" } },
+        "de" : { "stringUnit" : { "value" : "Aufnahmeeinstellungen" } }
+      }
     },
+
     "Cellular Data Usage" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cellular Data Usage" } },
+        "de" : { "stringUnit" : { "value" : "Mobilfunkdaten-Verbrauch" } }
+      }
     },
+
     "Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information." } },
+        "de" : { "stringUnit" : { "value" : "Mobilfunkdaten-Nutzung wurde über die MDM-Konfiguration deaktiviert. Bitte wenden Sie sich für weitere Informationen an Ihren Administrator." } }
+      }
     },
+
     "CenterWeightedAverage" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "CenterWeightedAverage" } },
+        "de" : { "stringUnit" : { "value" : "Zentralgewichteter Mittelwert" } }
+      }
     },
+
     "Certificate Details" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate Details" } },
+        "de" : { "stringUnit" : { "value" : "Zertifikatsdetails" } }
+      }
     },
+
     "Certificate has issues.\nOpen 'Certificate Details' for more informations." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate has issues.\nOpen 'Certificate Details' for more informations." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat weist Probleme auf.\nÖffnen Sie die „Zertifikatsdetails“ für weitere Informationen." } }
+      }
     },
+
     "Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat weist möglicherweise Probleme auf, wurde jedoch vom Benutzer akzeptiert.\nÖffnen Sie die „Zertifikatsdetails“ für weitere Informationen." } }
+      }
     },
+
     "Certificate was rejected by user." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate was rejected by user." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat wurde vom Benutzer abgelehnt." } }
+      }
     },
+
     "Certificates" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificates" } },
+        "de" : { "stringUnit" : { "value" : "Zertifikate" } }
+      }
     },
+
     "Change" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Change" } },
+        "de" : { "stringUnit" : { "value" : "Ändern" } }
+      }
     },
+
     "Change password" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Change password" } },
+        "de" : { "stringUnit" : { "value" : "Passwort ändern" } }
+      }
     },
+
     "Changed {{settingID}} to {{newValue}}." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Changed {{settingID}} to {{newValue}}." } },
+        "de" : { "stringUnit" : { "value" : "{{settingID}} wurde auf {{newValue}} geändert." } }
+      }
     },
+
     "Choose destination directory…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Choose destination directory…" } },
+        "de" : { "stringUnit" : { "value" : "Zielverzeichnis auswählen…" } }
+      }
     },
+
     "Clear" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Clear" } },
+        "de" : { "stringUnit" : { "value" : "Leeren" } }
+      }
     },
+
     "Cleared {{settingID}}." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cleared {{settingID}}." } },
+        "de" : { "stringUnit" : { "value" : "{{settingID}} wurde gelöscht." } }
+      }
     },
+
     "Cleared all." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cleared all." } },
+        "de" : { "stringUnit" : { "value" : "Alles gelöscht." } }
+      }
     },
+
     "Close actions menu" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Close actions menu" } },
+        "de" : { "stringUnit" : { "value" : "Aktionsmenü schließen" } }
+      }
     },
+
     "Close Window" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Close Window" } },
+        "de" : { "stringUnit" : { "value" : "Fenster schließen" } }
+      }
     },
+
     "Color model" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Color model" } },
+        "de" : { "stringUnit" : { "value" : "Farbmodell" } }
+      }
     },
+
     "Color space" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Color space" } },
+        "de" : { "stringUnit" : { "value" : "Farbraum" } }
+      }
     },
+
     "Compacting" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compacting" } },
+        "de" : { "stringUnit" : { "value" : "Wird komprimiert" } }
+      }
     },
+
     "Compacting of '%@' failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compacting of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Komprimieren von „%@“ fehlgeschlagen" } }
+      }
     },
+
     "Completed update scans" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Completed update scans" } },
+        "de" : { "stringUnit" : { "value" : "Aktualisierungsscans abgeschlossen" } }
+      }
     },
+
     "Compulsory flash firing" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compulsory flash firing" } },
+        "de" : { "stringUnit" : { "value" : "Blitz erzwingen" } }
+      }
     },
-    "Compulsory flash supression" : {
 
+    "Compulsory flash supression" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compulsory flash supression" } },
+        "de" : { "stringUnit" : { "value" : "Blitz unterdrücken" } }
+      }
     },
     "Connecting" : {
-
-    },
-    "Connecting..." : {
-
-    },
-    "Connecting…" : {
-
-    },
-    "Contact info" : {
-
-    },
-    "Contacting server…" : {
-
-    },
-    "contents" : {
-
-    },
-    "Contents from cache." : {
-
-    },
-    "Continue" : {
-
-    },
-    "Continue offline" : {
-
-    },
-    "Convert HEIC to JPEG" : {
-
-    },
-    "Convert videos to MP4" : {
-
-    },
-    "Coordinates" : {
-
-    },
-    "Copy" : {
-
-    },
-    "Copy \"{{itemName}}\"" : {
-
-    },
-    "Copy {{itemCount}} items" : {
-
-    },
-    "Copy here" : {
-
-    },
-    "Copy Private Link" : {
-
-    },
-    "Copy to clipboard" : {
-
-    },
-    "Copying %ld items…" : {
-
-    },
-    "Copyright" : {
-
-    },
-    "Could not get the picture" : {
-
-    },
-    "Couldn't resolve a private link since the item is not known to the server." : {
-
-    },
-    "Couldn't resolve a private link since you are offline and corresponding item is not cached locally." : {
-
-    },
-    "Create" : {
-
-    },
-    "Create folder" : {
-
-    },
-    "Create link" : {
-
-    },
-    "Create one file per page" : {
-
-    },
-    "Create shortcut" : {
-
-    },
-    "Creating %ld folders…" : {
-
-    },
-    "Creative" : {
-
-    },
-    "Credentials" : {
-
-    },
-    "Cut" : {
-
-    },
-    "Dark" : {
-
-    },
-    "Data usage" : {
-
-    },
-    "date" : {
-
-    },
-    "Date" : {
-
-    },
-    "Debug" : {
-
-    },
-    "Decline" : {
-
-    },
-    "Decline share" : {
-
-    },
-    "Decline Share failed" : {
-
-    },
-    "Declined" : {
-
-    },
-    "Default search scope" : {
-
-    },
-    "Delete" : {
-
-    },
-    "Delete all" : {
-
-    },
-    "Delete all log files?" : {
-
-    },
-    "Delete all Offline Files" : {
-
-    },
-    "Delete Authentication Data" : {
-
-    },
-    "Delete code" : {
-
-    },
-    "Delete unused local copies" : {
-
-    },
-    "Deleting %ld items…" : {
-
-    },
-    "Deletion of '%@' failed" : {
-
-    },
-    "Density" : {
-
-    },
-    "descending" : {
-
-    },
-    "Description" : {
-
-    },
-    "Deselect All" : {
-
-    },
-    "Diagnostic Overview" : {
-
-    },
-    "Diagnostics" : {
-
-    },
-    "Didn't fire" : {
-
-    },
-    "Digitized date" : {
-
-    },
-    "Disable" : {
-
-    },
-    "Disable gestures" : {
-
-    },
-    "Discard changes" : {
-
-    },
-    "Disconnect" : {
-
-    },
-    "Do you want to log out from '%@'?" : {
-
-    },
-    "Do you want to open the following URL?" : {
-
-    },
-    "Document Scanner" : {
-
-    },
-    "Documentation" : {
-
-    },
-    "Documents" : {
-
-    },
-    "Done" : {
-
-    },
-    "Download" : {
-
-    },
-    "Download / View" : {
-
-    },
-    "Download instead of streaming" : {
-
-    },
-    "Downloaded Files" : {
-
-    },
-    "Downloading %ld files…" : {
-
-    },
-    "Duplicate" : {
-
-    },
-    "E" : {
-
-    },
-    "Edit" : {
-
-    },
-    "Edit account" : {
-
-    },
-    "Enable" : {
-
-    },
-    "Enable diagnostics" : {
-
-    },
-    "Enable logging" : {
-
-    },
-    "Enable Pro Features (QA)" : {
-
-    },
-    "enabled" : {
-
-    },
-    "Enabling presentation mode will prevent the display from sleep mode until the view is closed." : {
-
-    },
-    "Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." : {
-
-    },
-    "Enter a new code with %ld digits" : {
-
-    },
-    "Enter a search term" : {
-
-    },
-    "Enter code" : {
-
-    },
-    "Enter multiple selection" : {
-
-    },
-    "Enter the user or group you want to invite." : {
-
-    },
-    "Error" : {
-
-    },
-    "Error creating {{itemName}}" : {
-
-    },
-    "Error fetching transactions" : {
-
-    },
-    "Error importing %@" : {
-
-    },
-    "Error loading item" : {
-
-    },
-    "Error loading product info from App Store" : {
-
-    },
-    "Error opening {{itemName}} in {{appName}}" : {
-
-    },
-    "Error opening %@" : {
-
-    },
-    "Error restoring purchases" : {
-
-    },
-    "EXIF aux info" : {
-
-    },
-    "Exit multiple selection" : {
-
-    },
-    "Expiration date" : {
-
-    },
-    "Expires {{expirationDate}}" : {
-
-    },
-    "Exposure bias" : {
-
-    },
-    "Extend by one week" : {
-
-    },
-    "Extended upload settings" : {
-
-    },
-    "Face ID" : {
-
-    },
-    "Favorite item" : {
-
-    },
-    "Favorites" : {
-
-    },
-    "Feedback" : {
-
-    },
-    "Fetching server information…" : {
-
-    },
-    "Fetching user information…" : {
-
-    },
-    "File" : {
-
-    },
-    "File an issue" : {
-
-    },
-    "File couldn't be opened" : {
-
-    },
-    "File format" : {
-
-    },
-    "File name cannot contain / or \\" : {
-
-    },
-    "File no longer exists" : {
-
-    },
-    "Files" : {
-
-    },
-    "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." : {
-
-    },
-    "Files selected and downloaded for offline availability will show up here." : {
-
-    },
-    "Find information, answers and solutions in the detailed documentation." : {
-
-    },
-    "Fired" : {
-
-    },
-    "Firmware" : {
-
-    },
-    "Flash" : {
-
-    },
-    "Flash compensation" : {
-
-    },
-    "Focal length" : {
-
-    },
-    "Focal length @ 35 mm" : {
-
-    },
-    "Folder" : {
-
-    },
-    "Folder name" : {
-
-    },
-    "Folder removed" : {
-
-    },
-    "Forbidden Characters" : {
-
-    },
-    "Free on %@" : {
-
-    },
-    "General" : {
-
-    },
-    "Generate" : {
-
-    },
-    "Get in touch with our community in the forums - or file a GitHub issue to report a bug or request a feature." : {
-
-    },
-    "Go to page" : {
-
-    },
-    "GPS Location" : {
-
-    },
-    "Grid" : {
-
-    },
-    "Group" : {
-
-    },
-    "Help" : {
-
-    },
-    "Help & Contact" : {
-
-    },
-    "Hide" : {
-
-    },
-    "Histogram" : {
-
-    },
-    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." : {
-
-    },
-    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." : {
-
-    },
-    "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." : {
-
-    },
-    "If you have a moment to give us your feedback, please take our survey." : {
-
-    },
-    "If you make an item a favorite, it will turn up here." : {
-
-    },
-    "If you would like background media uploads to be more reliable, you should enable background location updates." : {
-
-    },
-    "If you'd like to give the account a custom name, please enter it below:" : {
-
-    },
-    "Ignore updates" : {
-
-    },
-    "Image details" : {
-
-    },
-    "Image grid" : {
-
-    },
-    "Image metadata" : {
-
-    },
-    "Image metadata, extended upload options" : {
-
-    },
-    "Images" : {
-
-    },
-    "Immediately" : {
-
-    },
-    "Import \"{{itemName}}\"" : {
-
-    },
-    "Import {{itemCount}} files" : {
-
-    },
-    "Importing files through opening is not allowed on this device." : {
-
-    },
-    "Importing files through the Share Extension is not allowed on this device." : {
-
-    },
-    "Importing item %ld of %ld" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Importing item %1$ld of %2$ld"
-          }
-        }
+        "en" : { "stringUnit" : { "value" : "Connecting" } },
+        "de" : { "stringUnit" : { "value" : "Verbinden" } }
       }
     },
+
+    "Connecting..." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Connecting..." } },
+        "de" : { "stringUnit" : { "value" : "Verbindung wird hergestellt..." } }
+      }
+    },
+
+    "Connecting…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Connecting…" } },
+        "de" : { "stringUnit" : { "value" : "Verbindung wird hergestellt…" } }
+      }
+    },
+
+    "Contact info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contact info" } },
+        "de" : { "stringUnit" : { "value" : "Kontaktinformationen" } }
+      }
+    },
+
+    "Contacting server…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contacting server…" } },
+        "de" : { "stringUnit" : { "value" : "Server wird kontaktiert…" } }
+      }
+    },
+
+    "contents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "contents" } },
+        "de" : { "stringUnit" : { "value" : "Inhalt" } }
+      }
+    },
+
+    "Contents from cache." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contents from cache." } },
+        "de" : { "stringUnit" : { "value" : "Inhalt aus dem Cache." } }
+      }
+    },
+
+    "Continue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Continue" } },
+        "de" : { "stringUnit" : { "value" : "Fortfahren" } }
+      }
+    },
+
+    "Continue offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Continue offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline fortfahren" } }
+      }
+    },
+
+    "Convert HEIC to JPEG" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Convert HEIC to JPEG" } },
+        "de" : { "stringUnit" : { "value" : "HEIC in JPEG konvertieren" } }
+      }
+    },
+
+    "Convert videos to MP4" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Convert videos to MP4" } },
+        "de" : { "stringUnit" : { "value" : "Videos in MP4 konvertieren" } }
+      }
+    },
+
+    "Coordinates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Coordinates" } },
+        "de" : { "stringUnit" : { "value" : "Koordinaten" } }
+      }
+    },
+
+    "Copy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy" } },
+        "de" : { "stringUnit" : { "value" : "Kopieren" } }
+      }
+    },
+
+    "Copy \"{{itemName}}\"" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy \"{{itemName}}\"" } },
+        "de" : { "stringUnit" : { "value" : "„{{itemName}}“ kopieren" } }
+      }
+    },
+
+    "Copy {{itemCount}} items" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy {{itemCount}} items" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Elemente kopieren" } }
+      }
+    },
+
+    "Copy here" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy here" } },
+        "de" : { "stringUnit" : { "value" : "Hierher kopieren" } }
+      }
+    },
+
+    "Copy Private Link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy Private Link" } },
+        "de" : { "stringUnit" : { "value" : "Privaten Link kopieren" } }
+      }
+    },
+
+    "Copy to clipboard" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy to clipboard" } },
+        "de" : { "stringUnit" : { "value" : "In die Zwischenablage kopieren" } }
+      }
+    },
+
+    "Copying %ld items…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copying %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente werden kopiert…" } }
+      }
+    },
+
+    "Copyright" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copyright" } },
+        "de" : { "stringUnit" : { "value" : "Urheberrecht" } }
+      }
+    },
+
+    "Could not get the picture" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Could not get the picture" } },
+        "de" : { "stringUnit" : { "value" : "Bild konnte nicht geladen werden" } }
+      }
+    },
+
+    "Couldn't resolve a private link since the item is not known to the server." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Couldn't resolve a private link since the item is not known to the server." } },
+        "de" : { "stringUnit" : { "value" : "Privater Link konnte nicht aufgelöst werden, da das Element dem Server nicht bekannt ist." } }
+      }
+    },
+
+    "Couldn't resolve a private link since you are offline and corresponding item is not cached locally." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Couldn't resolve a private link since you are offline and corresponding item is not cached locally." } },
+        "de" : { "stringUnit" : { "value" : "Privater Link konnte nicht aufgelöst werden, da Sie offline sind und das entsprechende Element nicht lokal zwischengespeichert ist." } }
+      }
+    },
+
+    "Create" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create" } },
+        "de" : { "stringUnit" : { "value" : "Erstellen" } }
+      }
+    },
+
+    "Create folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner erstellen" } }
+      }
+    },
+
+    "Create link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create link" } },
+        "de" : { "stringUnit" : { "value" : "Link erstellen" } }
+      }
+    },
+
+    "Create one file per page" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create one file per page" } },
+        "de" : { "stringUnit" : { "value" : "Eine Datei pro Seite erstellen" } }
+      }
+    },
+
+    "Create shortcut" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create shortcut" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung erstellen" } }
+      }
+    },
+
+    "Creating %ld folders…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Creating %ld folders…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Ordner werden erstellt…" } }
+      }
+    },
+
+    "Creative" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Creative" } },
+        "de" : { "stringUnit" : { "value" : "Kreativ" } }
+      }
+    },
+
+    "Credentials" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Credentials" } },
+        "de" : { "stringUnit" : { "value" : "Anmeldedaten" } }
+      }
+    },
+
+    "Cut" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cut" } },
+        "de" : { "stringUnit" : { "value" : "Ausschneiden" } }
+      }
+    },
+
+    "Dark" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Dark" } },
+        "de" : { "stringUnit" : { "value" : "Dunkel" } }
+      }
+    },
+
+    "Data usage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Data usage" } },
+        "de" : { "stringUnit" : { "value" : "Datenverbrauch" } }
+      }
+    },
+
+    "date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "date" } },
+        "de" : { "stringUnit" : { "value" : "Datum" } }
+      }
+    },
+
+    "Date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Date" } },
+        "de" : { "stringUnit" : { "value" : "Datum" } }
+      }
+    },
+
+    "Debug" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Debug" } },
+        "de" : { "stringUnit" : { "value" : "Debug" } }
+      }
+    },
+
+    "Decline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline" } },
+        "de" : { "stringUnit" : { "value" : "Ablehnen" } }
+      }
+    },
+
+    "Decline share" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline share" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe ablehnen" } }
+      }
+    },
+
+    "Decline Share failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline Share failed" } },
+        "de" : { "stringUnit" : { "value" : "Ablehnen der Freigabe fehlgeschlagen" } }
+      }
+    },
+
+    "Declined" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Declined" } },
+        "de" : { "stringUnit" : { "value" : "Abgelehnt" } }
+      }
+    },
+
+    "Default search scope" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Default search scope" } },
+        "de" : { "stringUnit" : { "value" : "Standard-Suchbereich" } }
+      }
+    },
+
+    "Delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete" } },
+        "de" : { "stringUnit" : { "value" : "Löschen" } }
+      }
+    },
+
+    "Delete all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all" } },
+        "de" : { "stringUnit" : { "value" : "Alle löschen" } }
+      }
+    },
+
+    "Delete all log files?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all log files?" } },
+        "de" : { "stringUnit" : { "value" : "Alle Protokolldateien löschen?" } }
+      }
+    },
+
+    "Delete all Offline Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all Offline Files" } },
+        "de" : { "stringUnit" : { "value" : "Alle Offline-Dateien löschen" } }
+      }
+    },
+
+    "Delete Authentication Data" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete Authentication Data" } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierungsdaten löschen" } }
+      }
+    },
+
+    "Delete code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete code" } },
+        "de" : { "stringUnit" : { "value" : "Code löschen" } }
+      }
+    },
+
+    "Delete unused local copies" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete unused local copies" } },
+        "de" : { "stringUnit" : { "value" : "Nicht verwendete lokale Kopien löschen" } }
+      }
+    },
+
+    "Deleting %ld items…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deleting %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente werden gelöscht…" } }
+      }
+    },
+
+    "Deletion of '%@' failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deletion of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Löschen von „%@“ fehlgeschlagen" } }
+      }
+    },
+
+    "Density" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Density" } },
+        "de" : { "stringUnit" : { "value" : "Dichte" } }
+      }
+    },
+
+    "descending" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "descending" } },
+        "de" : { "stringUnit" : { "value" : "absteigend" } }
+      }
+    },
+
+    "Description" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Description" } },
+        "de" : { "stringUnit" : { "value" : "Beschreibung" } }
+      }
+    },
+
+    "Deselect All" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deselect All" } },
+        "de" : { "stringUnit" : { "value" : "Auswahl aufheben" } }
+      }
+    },
+
+    "Diagnostic Overview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Diagnostic Overview" } },
+        "de" : { "stringUnit" : { "value" : "Diagnoseübersicht" } }
+      }
+    },
+
+    "Diagnostics" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose" } }
+      }
+    },
+
+    "Didn't fire" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Didn't fire" } },
+        "de" : { "stringUnit" : { "value" : "Nicht ausgelöst" } }
+      }
+    },
+
+    "Digitized date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Digitized date" } },
+        "de" : { "stringUnit" : { "value" : "Digitalisierungsdatum" } }
+      }
+    },
+
+    "Disable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disable" } },
+        "de" : { "stringUnit" : { "value" : "Deaktivieren" } }
+      }
+    },
+
+    "Disable gestures" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disable gestures" } },
+        "de" : { "stringUnit" : { "value" : "Gesten deaktivieren" } }
+      }
+    },
+
+    "Discard changes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Discard changes" } },
+        "de" : { "stringUnit" : { "value" : "Änderungen verwerfen" } }
+      }
+    },
+
+    "Disconnect" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disconnect" } },
+        "de" : { "stringUnit" : { "value" : "Trennen" } }
+      }
+    },
+
+    "Do you want to log out from '%@'?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Do you want to log out from '%@'?" } },
+        "de" : { "stringUnit" : { "value" : "Möchten Sie sich von '%@' abmelden?" } }
+      }
+    },
+
+    "Do you want to open the following URL?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Do you want to open the following URL?" } },
+        "de" : { "stringUnit" : { "value" : "Möchten Sie die folgende URL öffnen?" } }
+      }
+    },
+
+    "Document Scanner" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Document Scanner" } },
+        "de" : { "stringUnit" : { "value" : "Dokumentenscanner" } }
+      }
+    },
+
+    "Documentation" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Documentation" } },
+        "de" : { "stringUnit" : { "value" : "Dokumentation" } }
+      }
+    },
+
+    "Documents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Documents" } },
+        "de" : { "stringUnit" : { "value" : "Dokumente" } }
+      }
+    },
+
+    "Done" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Done" } },
+        "de" : { "stringUnit" : { "value" : "Fertig" } }
+      }
+    },
+
+    "Download" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen" } }
+      }
+    },
+
+    "Download / View" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download / View" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen / Anzeigen" } }
+      }
+    },
+
+    "Download instead of streaming" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download instead of streaming" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen statt Streamen" } }
+      }
+    },
+
+    "Downloaded Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Downloaded Files" } },
+        "de" : { "stringUnit" : { "value" : "Heruntergeladene Dateien" } }
+      }
+    },
+
+    "Downloading %ld files…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Downloading %ld files…" } },
+        "de" : { "stringUnit" : { "value" : "Lade %ld Dateien herunter…" } }
+      }
+    },
+
+    "Duplicate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Duplicate" } },
+        "de" : { "stringUnit" : { "value" : "Duplikat" } }
+      }
+    },
+
+    "E" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "E" } },
+        "de" : { "stringUnit" : { "value" : "E" } }
+      }
+    },
+
+    "Edit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Edit" } },
+        "de" : { "stringUnit" : { "value" : "Bearbeiten" } }
+      }
+    },
+
+    "Edit account" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Edit account" } },
+        "de" : { "stringUnit" : { "value" : "Konto bearbeiten" } }
+      }
+    },
+
+    "Enable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable" } },
+        "de" : { "stringUnit" : { "value" : "Aktivieren" } }
+      }
+    },
+
+    "Enable diagnostics" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose aktivieren" } }
+      }
+    },
+
+    "Enable logging" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable logging" } },
+        "de" : { "stringUnit" : { "value" : "Protokollierung aktivieren" } }
+      }
+    },
+
+    "Enable Pro Features (QA)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable Pro Features (QA)" } },
+        "de" : { "stringUnit" : { "value" : "Pro-Funktionen aktivieren (QA)" } }
+      }
+    },
+
+    "enabled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "enabled" } },
+        "de" : { "stringUnit" : { "value" : "aktiviert" } }
+      }
+    },
+
+    "Enabling presentation mode will prevent the display from sleep mode until the view is closed." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enabling presentation mode will prevent the display from sleep mode until the view is closed." } },
+        "de" : { "stringUnit" : { "value" : "Die Aktivierung des Präsentationsmodus verhindert, dass das Display in den Ruhemodus geht, bis die Ansicht geschlossen wird." } }
+      }
+    },
+
+    "Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." } },
+        "de" : { "stringUnit" : { "value" : "Durch Aktivierung dieser Option werden private Daten maskiert, sodass sie nicht Teil eines Protokolls werden. Da Protokollierung jedoch eine Entwicklungs- und Debugging-Funktion ist, können wir nicht garantieren, dass das Logfile frei von privaten Daten ist, selbst wenn diese Option aktiviert ist. Bitte überprüfen Sie daher jedes Logfile und stellen Sie sicher, dass keine Daten enthalten sind, die Sie nicht teilen möchten, bevor Sie es weitergeben." } }
+      }
+    },
+
+    "Enter a new code with %ld digits" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter a new code with %ld digits" } },
+        "de" : { "stringUnit" : { "value" : "Geben Sie einen neuen Code mit %ld Ziffern ein" } }
+      }
+    },
+
+    "Enter a search term" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter a search term" } },
+        "de" : { "stringUnit" : { "value" : "Suchbegriff eingeben" } }
+      }
+    },
+
+    "Enter code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter code" } },
+        "de" : { "stringUnit" : { "value" : "Code eingeben" } }
+      }
+    },
+
+    "Enter multiple selection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter multiple selection" } },
+        "de" : { "stringUnit" : { "value" : "Mehrfachauswahl eingeben" } }
+      }
+    },
+
+    "Enter the user or group you want to invite." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter the user or group you want to invite." } },
+        "de" : { "stringUnit" : { "value" : "Geben Sie den Benutzer oder die Gruppe ein, die Sie einladen möchten." } }
+      }
+    },
+
+    "Error" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error" } },
+        "de" : { "stringUnit" : { "value" : "Fehler" } }
+      }
+    },
+
+    "Error creating {{itemName}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error creating {{itemName}}" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Erstellen von {{itemName}}" } }
+      }
+    },
+
+    "Error fetching transactions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error fetching transactions" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Abrufen der Transaktionen" } }
+      }
+    },
+
+    "Error importing %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error importing %@" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Importieren von %@" } }
+      }
+    },
+
+    "Error loading item" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error loading item" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Laden des Elements" } }
+      }
+    },
+
+    "Error loading product info from App Store" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error loading product info from App Store" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Laden der Produktinformationen aus dem App Store" } }
+      }
+    },
+
+    "Error opening {{itemName}} in {{appName}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error opening {{itemName}} in {{appName}}" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Öffnen von {{itemName}} in {{appName}}" } }
+      }
+    },
+
+    "Error opening %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error opening %@" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Öffnen von %@" } }
+      }
+    },
+
+    "Error restoring purchases" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error restoring purchases" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Wiederherstellen der Käufe" } }
+      }
+    },
+
+    "EXIF aux info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "EXIF aux info" } },
+        "de" : { "stringUnit" : { "value" : "EXIF Zusatzinformationen" } }
+      }
+    },
+
+    "Exit multiple selection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Exit multiple selection" } },
+        "de" : { "stringUnit" : { "value" : "Mehrfachauswahl beenden" } }
+      }
+    },
+
+    "Expiration date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Expiration date" } },
+        "de" : { "stringUnit" : { "value" : "Ablaufdatum" } }
+      }
+    },
+
+    "Expires {{expirationDate}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Expires {{expirationDate}}" } },
+        "de" : { "stringUnit" : { "value" : "Läuft ab am {{expirationDate}}" } }
+      }
+    },
+
+    "Exposure bias" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Exposure bias" } },
+        "de" : { "stringUnit" : { "value" : "Belichtungskorrektur" } }
+      }
+    },
+
+    "Extend by one week" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Extend by one week" } },
+        "de" : { "stringUnit" : { "value" : "Um eine Woche verlängern" } }
+      }
+    },
+
+    "Extended upload settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Extended upload settings" } },
+        "de" : { "stringUnit" : { "value" : "Erweiterte Upload-Einstellungen" } }
+      }
+    },
+
+    "Face ID" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Face ID" } },
+        "de" : { "stringUnit" : { "value" : "Face ID" } }
+      }
+    },
+
+    "Favorite item" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Favorite item" } },
+        "de" : { "stringUnit" : { "value" : "Favorit" } }
+      }
+    },
+
+    "Favorites" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Favorites" } },
+        "de" : { "stringUnit" : { "value" : "Favoriten" } }
+      }
+    },
+
+    "Feedback" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Feedback" } },
+        "de" : { "stringUnit" : { "value" : "Feedback" } }
+      }
+    },
+
+    "Fetching server information…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fetching server information…" } },
+        "de" : { "stringUnit" : { "value" : "Serverinformationen werden abgerufen…" } }
+      }
+    },
+
+    "Fetching user information…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fetching user information…" } },
+        "de" : { "stringUnit" : { "value" : "Benutzerinformationen werden abgerufen…" } }
+      }
+    },
+
+    "File" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File" } },
+        "de" : { "stringUnit" : { "value" : "Datei" } }
+      }
+    },
+
+    "File an issue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File an issue" } },
+        "de" : { "stringUnit" : { "value" : "Problem melden" } }
+      }
+    },
+
+    "File couldn't be opened" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File couldn't be opened" } },
+        "de" : { "stringUnit" : { "value" : "Datei konnte nicht geöffnet werden" } }
+      }
+    },
+
+    "File format" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File format" } },
+        "de" : { "stringUnit" : { "value" : "Dateiformat" } }
+      }
+    },
+
+    "File name cannot contain / or \\" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File name cannot contain / or \\" } },
+        "de" : { "stringUnit" : { "value" : "Dateiname darf / oder \\ nicht enthalten" } }
+      }
+    },
+
+    "File no longer exists" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File no longer exists" } },
+        "de" : { "stringUnit" : { "value" : "Datei existiert nicht mehr" } }
+      }
+    },
+
+    "Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files" } },
+        "de" : { "stringUnit" : { "value" : "Dateien" } }
+      }
+    },
+
+    "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." } },
+        "de" : { "stringUnit" : { "value" : "Dateien und Ordner, die als „Offline verfügbar“ markiert sind, werden nicht mehr verfügbar sein. Sie werden beim nächsten Anmelden wieder heruntergeladen (Internetverbindung erforderlich)." } }
+      }
+    },
+
+    "Files selected and downloaded for offline availability will show up here." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files selected and downloaded for offline availability will show up here." } },
+        "de" : { "stringUnit" : { "value" : "Hier werden Dateien angezeigt, die für die Offline-Verfügbarkeit ausgewählt und heruntergeladen wurden." } }
+      }
+    },
+
+    "Find information, answers and solutions in the detailed documentation." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Find information, answers and solutions in the detailed documentation." } },
+        "de" : { "stringUnit" : { "value" : "Finden Sie Informationen, Antworten und Lösungen in der ausführlichen Dokumentation." } }
+      }
+    },
+
+    "Fired" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fired" } },
+        "de" : { "stringUnit" : { "value" : "Ausgelöst" } }
+      }
+    },
+
+    "Firmware" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Firmware" } },
+        "de" : { "stringUnit" : { "value" : "Firmware" } }
+      }
+    },
+
+    "Flash" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Flash" } },
+        "de" : { "stringUnit" : { "value" : "Blitz" } }
+      }
+    },
+
+    "Flash compensation" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Flash compensation" } },
+        "de" : { "stringUnit" : { "value" : "Blitzkorrektur" } }
+      }
+    },
+
+    "Focal length" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Focal length" } },
+        "de" : { "stringUnit" : { "value" : "Brennweite" } }
+      }
+    },
+
+    "Focal length @ 35 mm" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Focal length @ 35 mm" } },
+        "de" : { "stringUnit" : { "value" : "Brennweite @ 35 mm" } }
+      }
+    },
+
+    "Folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner" } }
+      }
+    },
+
+    "Folder name" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder name" } },
+        "de" : { "stringUnit" : { "value" : "Ordnername" } }
+      }
+    },
+
+    "Folder removed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder removed" } },
+        "de" : { "stringUnit" : { "value" : "Ordner entfernt" } }
+      }
+    },
+
+    "Forbidden Characters" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Forbidden Characters" } },
+        "de" : { "stringUnit" : { "value" : "Verbotene Zeichen" } }
+      }
+    },
+
+    "Free on %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Free on %@" } },
+        "de" : { "stringUnit" : { "value" : "Frei auf %@" } }
+      }
+    },
+
+    "General" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "General" } },
+        "de" : { "stringUnit" : { "value" : "Allgemein" } }
+      }
+    },
+
+    "Generate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Generate" } },
+        "de" : { "stringUnit" : { "value" : "Erzeugen" } }
+      }
+    },
+
+    "Get in touch with our community in the forums - or file a GitHub issue to report a bug or request a feature." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Get in touch with our community in the forums - or file a GitHub issue to report a bug or request a feature." } },
+        "de" : { "stringUnit" : { "value" : "Treten Sie mit unserer Community in den Foren in Kontakt – oder erstellen Sie ein GitHub-Issue, um einen Fehler zu melden oder eine Funktion anzufordern." } }
+      }
+    },
+
+    "Go to page" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Go to page" } },
+        "de" : { "stringUnit" : { "value" : "Gehe zu Seite" } }
+      }
+    },
+
+    "GPS Location" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "GPS Location" } },
+        "de" : { "stringUnit" : { "value" : "GPS-Standort" } }
+      }
+    },
+
+    "Grid" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Grid" } },
+        "de" : { "stringUnit" : { "value" : "Raster" } }
+      }
+    },
+
+    "Group" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Group" } },
+        "de" : { "stringUnit" : { "value" : "Gruppe" } }
+      }
+    },
+
+    "Help" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Help" } },
+        "de" : { "stringUnit" : { "value" : "Hilfe" } }
+      }
+    },
+
+    "Help & Contact" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Help & Contact" } },
+        "de" : { "stringUnit" : { "value" : "Hilfe & Kontakt" } }
+      }
+    },
+
+    "Hide" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Hide" } },
+        "de" : { "stringUnit" : { "value" : "Ausblenden" } }
+      }
+    },
+
+    "Histogram" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Histogram" } },
+        "de" : { "stringUnit" : { "value" : "Histogramm" } }
+      }
+    },
+
+    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie auf 'Fortfahren' klicken, werden Sie aufgefordert, der App '{{app.name}}' zu erlauben, die {{authmethodName}}-Anmeldeseite zu öffnen, auf der Sie Ihre Zugangsdaten eingeben können." } }
+      }
+    },
+
+    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie auf 'Fortfahren' klicken, werden Sie aufgefordert, der App '{{app.name}}' zu erlauben, die Anmeldeseite zu öffnen, auf der Sie Ihre Zugangsdaten eingeben können." } }
+      }
+    },
+
+    "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie 'Sofort' wählen, wird die App gesperrt, sobald sie nicht mehr im Vordergrund ist." } }
+      }
+    },
+
+    "If you have a moment to give us your feedback, please take our survey." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you have a moment to give us your feedback, please take our survey." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie einen Moment Zeit haben, um uns Ihr Feedback zu geben, nehmen Sie bitte an unserer Umfrage teil." } }
+      }
+    },
+
+    "If you make an item a favorite, it will turn up here." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you make an item a favorite, it will turn up here." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie ein Element als Favorit markieren, erscheint es hier." } }
+      }
+    },
+
+    "If you would like background media uploads to be more reliable, you should enable background location updates." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you would like background media uploads to be more reliable, you should enable background location updates." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie möchten, dass Hintergrund-Medienuploads zuverlässiger sind, sollten Sie die Hintergrundstandortaktualisierungen aktivieren." } }
+      }
+    },
+
+    "If you'd like to give the account a custom name, please enter it below:" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you'd like to give the account a custom name, please enter it below:" } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie dem Konto einen eigenen Namen geben möchten, geben Sie ihn bitte unten ein:" } }
+      }
+    },
+
+    "Ignore updates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Ignore updates" } },
+        "de" : { "stringUnit" : { "value" : "Updates ignorieren" } }
+      }
+    },
+
+    "Image details" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image details" } },
+        "de" : { "stringUnit" : { "value" : "Bilddetails" } }
+      }
+    },
+
+    "Image grid" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image grid" } },
+        "de" : { "stringUnit" : { "value" : "Bildraster" } }
+      }
+    },
+
+    "Image metadata" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image metadata" } },
+        "de" : { "stringUnit" : { "value" : "Bildmetadaten" } }
+      }
+    },
+
+    "Image metadata, extended upload options" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image metadata, extended upload options" } },
+        "de" : { "stringUnit" : { "value" : "Bildmetadaten, erweiterte Upload-Optionen" } }
+      }
+    },
+
+    "Images" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Images" } },
+        "de" : { "stringUnit" : { "value" : "Bilder" } }
+      }
+    },
+
+    "Immediately" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Immediately" } },
+        "de" : { "stringUnit" : { "value" : "Sofort" } }
+      }
+    },
+
+    "Import \"{{itemName}}\"" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Import \"{{itemName}}\"" } },
+        "de" : { "stringUnit" : { "value" : "„{{itemName}}“ importieren" } }
+      }
+    },
+
+    "Import {{itemCount}} files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Import {{itemCount}} files" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Dateien importieren" } }
+      }
+    },
+
+    "Importing files through opening is not allowed on this device." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing files through opening is not allowed on this device." } },
+        "de" : { "stringUnit" : { "value" : "Das Importieren von Dateien durch Öffnen ist auf diesem Gerät nicht erlaubt." } }
+      }
+    },
+
+    "Importing files through the Share Extension is not allowed on this device." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing files through the Share Extension is not allowed on this device." } },
+        "de" : { "stringUnit" : { "value" : "Das Importieren von Dateien über die Share-Erweiterung ist auf diesem Gerät nicht erlaubt." } }
+      }
+    },
+
+    "Importing item %ld of %ld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing item %1$ld of %2$ld" } },
+        "de" : { "stringUnit" : { "value" : "Importiere Element %1$ld von %2$ld" } }
+      }
+    },
+
     "In order to accurately determine your current licensing status, please add one or more accounts first." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In order to accurately determine your current licensing status, please add one or more accounts first." } },
+        "de" : { "stringUnit" : { "value" : "Um Ihren aktuellen Lizenzstatus genau zu ermitteln, fügen Sie bitte zuerst ein oder mehrere Konten hinzu." } }
+      }
     },
+
     "In the cloud" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In the cloud" } },
+        "de" : { "stringUnit" : { "value" : "In der Cloud" } }
+      }
     },
+
     "In-App Purchases" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In-App Purchases" } },
+        "de" : { "stringUnit" : { "value" : "In-App-Käufe" } }
+      }
     },
+
     "Include available offline files" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Include available offline files" } },
+        "de" : { "stringUnit" : { "value" : "Verfügbare Offline-Dateien einbeziehen" } }
+      }
     },
+
     "Incorrect code" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Incorrect code" } },
+        "de" : { "stringUnit" : { "value" : "Falscher Code" } }
+      }
     },
+
     "Info" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Info" } },
+        "de" : { "stringUnit" : { "value" : "Information" } }
+      }
     },
+
     "Invalid Page" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Invalid Page" } },
+        "de" : { "stringUnit" : { "value" : "Ungültige Seite" } }
+      }
     },
+
     "Invite" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Invite" } },
+        "de" : { "stringUnit" : { "value" : "Einladen" } }
+      }
     },
+
     "ISO" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "ISO" } },
+        "de" : { "stringUnit" : { "value" : "ISO" } }
+      }
     },
+
     "Issues" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Issues" } },
+        "de" : { "stringUnit" : { "value" : "Probleme" } }
+      }
     },
+
     "Item grid" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Item grid" } },
+        "de" : { "stringUnit" : { "value" : "Elementraster" } }
+      }
     },
+
     "Item with same name already exists" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Item with same name already exists" } },
+        "de" : { "stringUnit" : { "value" : "Ein Element mit demselben Namen existiert bereits" } }
+      }
     },
+
     "Keywords" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Keywords" } },
+        "de" : { "stringUnit" : { "value" : "Schlüsselwörter" } }
+      }
     },
+
     "kind" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "kind" } },
+        "de" : { "stringUnit" : { "value" : "Typ" } }
+      }
     },
+
     "Landscape" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Landscape" } },
+        "de" : { "stringUnit" : { "value" : "Querformat" } }
+      }
     },
+
     "last used" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "last used" } },
+        "de" : { "stringUnit" : { "value" : "zuletzt verwendet" } }
+      }
     },
+
     "Lens ID" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens ID" } },
+        "de" : { "stringUnit" : { "value" : "Objektiv-ID" } }
+      }
     },
+
     "Lens info" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens info" } },
+        "de" : { "stringUnit" : { "value" : "Objektivinformationen" } }
+      }
     },
+
     "Lens make" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens make" } },
+        "de" : { "stringUnit" : { "value" : "Objektivhersteller" } }
+      }
     },
+
     "Lens model" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens model" } },
+        "de" : { "stringUnit" : { "value" : "Objektivmodell" } }
+      }
     },
+
     "Lens serial" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens serial" } },
+        "de" : { "stringUnit" : { "value" : "Objektiv-Seriennummer" } }
+      }
     },
+
     "license" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "license" } },
+        "de" : { "stringUnit" : { "value" : "Lizenz" } }
+      }
     },
+
     "Light" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Light" } },
+        "de" : { "stringUnit" : { "value" : "Hell" } }
+      }
     },
+
     "Limited Photo Access" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Limited Photo Access" } },
+        "de" : { "stringUnit" : { "value" : "Eingeschränkter Fotozugriff" } }
+      }
     },
+
     "Link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link" } },
+        "de" : { "stringUnit" : { "value" : "Link" } }
+      }
     },
+
     "Link points to an account bookmark which is not configured in the app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link points to an account bookmark which is not configured in the app." } },
+        "de" : { "stringUnit" : { "value" : "Der Link verweist auf ein Konto-Lesezeichen, das in der App nicht konfiguriert ist." } }
+      }
     },
+
     "Link resolution failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link resolution failed" } },
+        "de" : { "stringUnit" : { "value" : "Link-Auflösung fehlgeschlagen" } }
+      }
     },
+
     "Links" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Links" } },
+        "de" : { "stringUnit" : { "value" : "Links" } }
+      }
     },
+
     "List" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "List" } },
+        "de" : { "stringUnit" : { "value" : "Liste" } }
+      }
     },
+
     "Loading…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Loading…" } },
+        "de" : { "stringUnit" : { "value" : "Lädt…" } }
+      }
     },
+
     "Local copy" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Local copy" } },
+        "de" : { "stringUnit" : { "value" : "Lokale Kopie" } }
+      }
     },
+
     "Local version" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Local version" } },
+        "de" : { "stringUnit" : { "value" : "Lokale Version" } }
+      }
     },
+
     "Location permission denied" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Location permission denied" } },
+        "de" : { "stringUnit" : { "value" : "Standortberechtigung verweigert" } }
+      }
     },
+
     "Locations" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Locations" } },
+        "de" : { "stringUnit" : { "value" : "Standorte" } }
+      }
     },
+
     "Lock application" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lock application" } },
+        "de" : { "stringUnit" : { "value" : "App sperren" } }
+      }
     },
+
     "Log Destinations" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Destinations" } },
+        "de" : { "stringUnit" : { "value" : "Protokollziele" } }
+      }
     },
+
     "Log Files" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Files" } },
+        "de" : { "stringUnit" : { "value" : "Protokolldateien" } }
+      }
     },
+
     "Log Level" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Level" } },
+        "de" : { "stringUnit" : { "value" : "Protokollstufe" } }
+      }
     },
+
     "Log out" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log out" } },
+        "de" : { "stringUnit" : { "value" : "Abmelden" } }
+      }
     },
+
     "Log out of '%@' failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log out of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Abmeldung von '%@' fehlgeschlagen" } }
+      }
     },
+
     "Logging" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Logging" } },
+        "de" : { "stringUnit" : { "value" : "Protokollierung" } }
+      }
     },
+
     "Login" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Login" } },
+        "de" : { "stringUnit" : { "value" : "Anmelden" } }
+      }
     },
+
     "Make available offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Make available offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar machen" } }
+      }
     },
+
     "Make unavailable offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Make unavailable offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline-Verfügbarkeit aufheben" } }
+      }
     },
+
     "Manage" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Manage" } },
+        "de" : { "stringUnit" : { "value" : "Verwalten" } }
+      }
     },
+
     "Manual" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Manual" } },
+        "de" : { "stringUnit" : { "value" : "Manuell" } }
+      }
     },
+
     "Markup" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup" } },
+        "de" : { "stringUnit" : { "value" : "Markieren" } }
+      }
     },
+
     "Markup Documents" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup Documents" } },
+        "de" : { "stringUnit" : { "value" : "Dokumente markieren" } }
+      }
     },
+
     "Markup photos and PDF files." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup photos and PDF files." } },
+        "de" : { "stringUnit" : { "value" : "Fotos und PDF-Dateien markieren." } }
+      }
     },
+
     "Mask private data" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Mask private data" } },
+        "de" : { "stringUnit" : { "value" : "Private Daten maskieren" } }
+      }
     },
+
     "Media Export" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Export" } },
+        "de" : { "stringUnit" : { "value" : "Medienexport" } }
+      }
     },
+
     "Media Files" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Files" } },
+        "de" : { "stringUnit" : { "value" : "Mediendateien" } }
+      }
     },
+
     "Media import" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media import" } },
+        "de" : { "stringUnit" : { "value" : "Medienimport" } }
+      }
     },
+
     "Media Upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Upload" } },
+        "de" : { "stringUnit" : { "value" : "Medien-Upload" } }
+      }
     },
+
     "Messages" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Messages" } },
+        "de" : { "stringUnit" : { "value" : "Nachrichten" } }
+      }
     },
+
     "Metering" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Metering" } },
+        "de" : { "stringUnit" : { "value" : "Belichtungsmessung" } }
+      }
     },
+
     "Missing hostname" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Missing hostname" } },
+        "de" : { "stringUnit" : { "value" : "Hostname fehlt" } }
+      }
     },
+
     "Missing permissions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Missing permissions" } },
+        "de" : { "stringUnit" : { "value" : "Fehlende Berechtigungen" } }
+      }
     },
+
     "More" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "More" } },
+        "de" : { "stringUnit" : { "value" : "Mehr" } }
+      }
     },
+
     "More for {{title}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "More for {{title}}" } },
+        "de" : { "stringUnit" : { "value" : "Mehr zu {{title}}" } }
+      }
     },
+
     "More information" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "More information" } },
+        "de" : { "stringUnit" : { "value" : "Weitere Informationen" } }
+      }
     },
+
     "Move" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Move" } },
+        "de" : { "stringUnit" : { "value" : "Verschieben" } }
+      }
     },
+
     "Move \"{{itemName}}\"" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Move \"{{itemName}}\"" } },
+        "de" : { "stringUnit" : { "value" : "„{{itemName}}“ verschieben" } }
+      }
     },
+
     "Move {{itemCount}} items" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Move {{itemCount}} items" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Elemente verschieben" } }
+      }
     },
+
     "Move here" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Move here" } },
+        "de" : { "stringUnit" : { "value" : "Hierher verschieben" } }
+      }
     },
+
     "Moving %ld items…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Moving %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "Verschiebe %ld Elemente…" } }
+      }
     },
+
     "Multiple items" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Multiple items" } },
+        "de" : { "stringUnit" : { "value" : "Mehrere Elemente" } }
+      }
     },
+
     "MultiSpot" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "MultiSpot" } },
+        "de" : { "stringUnit" : { "value" : "Multispot" } }
+      }
     },
+
     "N" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "N" } },
+        "de" : { "stringUnit" : { "value" : "N" } }
+      }
     },
+
     "name" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "name" } },
+        "de" : { "stringUnit" : { "value" : "Name" } }
+      }
     },
+
     "Name" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Name" } },
+        "de" : { "stringUnit" : { "value" : "Name" } }
+      }
     },
+
     "name + contents" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "name + contents" } },
+        "de" : { "stringUnit" : { "value" : "Name + Inhalt" } }
+      }
     },
+
     "Name of saved search" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Name of saved search" } },
+        "de" : { "stringUnit" : { "value" : "Name der gespeicherten Suche" } }
+      }
     },
+
     "Name of template" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Name of template" } },
+        "de" : { "stringUnit" : { "value" : "Name der Vorlage" } }
+      }
     },
+
     "names" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "names" } },
+        "de" : { "stringUnit" : { "value" : "Namen" } }
+      }
     },
+
     "Network unavailable" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Network unavailable" } },
+        "de" : { "stringUnit" : { "value" : "Netzwerk nicht verfügbar" } }
+      }
     },
+
     "never" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "never" } },
+        "de" : { "stringUnit" : { "value" : "nie" } }
+      }
     },
+
     "New document" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "New document" } },
+        "de" : { "stringUnit" : { "value" : "Neues Dokument" } }
+      }
     },
+
     "New Folder" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "New Folder" } },
+        "de" : { "stringUnit" : { "value" : "Neuer Ordner" } }
+      }
     },
+
     "New in %@" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "New in %@" } },
+        "de" : { "stringUnit" : { "value" : "Neu in %@" } }
+      }
     },
+
     "New settings received from MDM" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "New settings received from MDM" } },
+        "de" : { "stringUnit" : { "value" : "Neue Einstellungen von MDM erhalten" } }
+      }
     },
+
     "Next item" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Next item" } },
+        "de" : { "stringUnit" : { "value" : "Nächstes Element" } }
+      }
     },
+
     "No Access to the media selected for upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No Access to the media selected for upload" } },
+        "de" : { "stringUnit" : { "value" : "Kein Zugriff auf die für den Upload ausgewählten Medien" } }
+      }
     },
+
     "No account configured" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No account configured" } },
+        "de" : { "stringUnit" : { "value" : "Kein Konto konfiguriert" } }
+      }
     },
+
     "No accounts found" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No accounts found" } },
+        "de" : { "stringUnit" : { "value" : "Keine Konten gefunden" } }
+      }
     },
+
     "No actions available" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No actions available" } },
+        "de" : { "stringUnit" : { "value" : "Keine Aktionen verfügbar" } }
+      }
     },
+
     "No authentication data has been found for this connection." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No authentication data has been found for this connection." } },
+        "de" : { "stringUnit" : { "value" : "Für diese Verbindung wurden keine Authentifizierungsdaten gefunden." } }
+      }
     },
+
     "No contents" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No contents" } },
+        "de" : { "stringUnit" : { "value" : "Kein Inhalt" } }
+      }
     },
+
     "No favorites found" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No favorites found" } },
+        "de" : { "stringUnit" : { "value" : "Keine Favoriten gefunden" } }
+      }
     },
+
     "No files available offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No files available offline" } },
+        "de" : { "stringUnit" : { "value" : "Keine Dateien offline verfügbar" } }
+      }
     },
+
     "No issues found. Certificate passed validation." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No issues found. Certificate passed validation." } },
+        "de" : { "stringUnit" : { "value" : "Keine Probleme gefunden. Zertifikat hat die Prüfung bestanden." } }
+      }
     },
+
     "No items found matching the search criteria." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No items found matching the search criteria." } },
+        "de" : { "stringUnit" : { "value" : "Keine Elemente gefunden, die den Suchkriterien entsprechen." } }
+      }
     },
+
     "No items shared by link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No items shared by link" } },
+        "de" : { "stringUnit" : { "value" : "Keine per Link freigegebenen Elemente" } }
+      }
     },
+
     "No items shared by you" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No items shared by you" } },
+        "de" : { "stringUnit" : { "value" : "Keine von Ihnen freigegebenen Elemente" } }
+      }
     },
+
     "No items shared with you" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No items shared with you" } },
+        "de" : { "stringUnit" : { "value" : "Keine mit Ihnen geteilten Elemente" } }
+      }
     },
+
     "No matches" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No matches" } },
+        "de" : { "stringUnit" : { "value" : "Keine Treffer" } }
+      }
     },
+
     "No pending messages or ongoing actions." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No pending messages or ongoing actions." } },
+        "de" : { "stringUnit" : { "value" : "Keine ausstehenden Nachrichten oder laufenden Aktionen." } }
+      }
     },
+
     "No spaces" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No spaces" } },
+        "de" : { "stringUnit" : { "value" : "Keine Spaces" } }
+      }
     },
+
     "No strobe return detection" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No strobe return detection" } },
+        "de" : { "stringUnit" : { "value" : "Keine Stroboskop-Rückkehrerkennung" } }
+      }
     },
+
     "No user or group matches your search." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "No user or group matches your search." } },
+        "de" : { "stringUnit" : { "value" : "Kein Benutzer oder keine Gruppe entspricht Ihrer Suche." } }
+      }
     },
+
     "none" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "none" } },
+        "de" : { "stringUnit" : { "value" : "keine" } }
+      }
     },
+
     "Normal" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Normal" } },
+        "de" : { "stringUnit" : { "value" : "Normal" } }
+      }
     },
+
     "Not defined" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Not defined" } },
+        "de" : { "stringUnit" : { "value" : "Nicht definiert" } }
+      }
     },
+
     "Not now" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Not now" } },
+        "de" : { "stringUnit" : { "value" : "Nicht jetzt" } }
+      }
     },
+
     "not present" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "not present" } },
+        "de" : { "stringUnit" : { "value" : "nicht vorhanden" } }
+      }
     },
+
     "off" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "off" } },
+        "de" : { "stringUnit" : { "value" : "aus" } }
+      }
     },
+
     "Off" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Off" } },
+        "de" : { "stringUnit" : { "value" : "Aus" } }
+      }
     },
+
     "Offline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline" } }
+      }
     },
+
     "Offline files use" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Offline files use" } },
+        "de" : { "stringUnit" : { "value" : "Verwendung von Offline-Dateien" } }
+      }
     },
+
     "OK" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "OK" } },
+        "de" : { "stringUnit" : { "value" : "OK" } }
+      }
     },
+
     "on" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "on" } },
+        "de" : { "stringUnit" : { "value" : "ein" } }
+      }
     },
+
     "Online" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Online" } },
+        "de" : { "stringUnit" : { "value" : "Online" } }
+      }
     },
+
     "Open file" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open file" } },
+        "de" : { "stringUnit" : { "value" : "Datei öffnen" } }
+      }
     },
+
     "Open help page" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open help page" } },
+        "de" : { "stringUnit" : { "value" : "Hilfeseite öffnen" } }
+      }
     },
+
     "Open in" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open in" } },
+        "de" : { "stringUnit" : { "value" : "Öffnen in" } }
+      }
     },
+
     "Open in {{appName}} (web)" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open in {{appName}} (web)" } },
+        "de" : { "stringUnit" : { "value" : "In {{appName}} (Web) öffnen" } }
+      }
     },
+
     "Open in a new Window" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open in a new Window" } },
+        "de" : { "stringUnit" : { "value" : "In neuem Fenster öffnen" } }
+      }
     },
+
     "Open link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open link" } },
+        "de" : { "stringUnit" : { "value" : "Link öffnen" } }
+      }
     },
+
     "Open login page" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open login page" } },
+        "de" : { "stringUnit" : { "value" : "Login-Seite öffnen" } }
+      }
     },
+
     "Open shortcut" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Open shortcut" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung öffnen" } }
+      }
     },
+
     "Opening documents is not supported by the app provider on this instance." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Opening documents is not supported by the app provider on this instance." } },
+        "de" : { "stringUnit" : { "value" : "Das Öffnen von Dokumenten wird vom App-Anbieter auf dieser Instanz nicht unterstützt." } }
+      }
     },
+
     "Opening link failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Opening link failed" } },
+        "de" : { "stringUnit" : { "value" : "Link konnte nicht geöffnet werden" } }
+      }
     },
+
     "Opening not allowed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Opening not allowed" } },
+        "de" : { "stringUnit" : { "value" : "Öffnen nicht erlaubt" } }
+      }
     },
+
     "Opening…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Opening…" } },
+        "de" : { "stringUnit" : { "value" : "Wird geöffnet…" } }
+      }
     },
+
     "Optic ID" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Optic ID" } },
+        "de" : { "stringUnit" : { "value" : "Optische ID" } }
+      }
     },
+
     "Options" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Options" } },
+        "de" : { "stringUnit" : { "value" : "Optionen" } }
+      }
     },
+
     "Original date" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Original date" } },
+        "de" : { "stringUnit" : { "value" : "Originaldatum" } }
+      }
     },
+
     "Otherwise background media uploads using background refresh technology would depend on how frequently you use the app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Otherwise background media uploads using background refresh technology would depend on how frequently you use the app." } },
+        "de" : { "stringUnit" : { "value" : "Andernfalls würden Hintergrund-Uploads von Medien über die Hintergrundaktualisierung davon abhängen, wie häufig Sie die App verwenden." } }
+      }
     },
+
     "Outline" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Outline" } },
+        "de" : { "stringUnit" : { "value" : "Kontur" } }
+      }
     },
+
     "Overwrite original" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Overwrite original" } },
+        "de" : { "stringUnit" : { "value" : "Original überschreiben" } }
+      }
     },
+
     "Owner" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Owner" } },
+        "de" : { "stringUnit" : { "value" : "Eigentümer" } }
+      }
     },
+
     "Page" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Page" } },
+        "de" : { "stringUnit" : { "value" : "Seite" } }
+      }
     },
+
     "Partial" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Partial" } },
+        "de" : { "stringUnit" : { "value" : "Teilweise" } }
+      }
     },
+
     "Passcode Lock" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Passcode Lock" } },
+        "de" : { "stringUnit" : { "value" : "Code-Sperre" } }
+      }
     },
+
     "Passcode option" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Passcode option" } },
+        "de" : { "stringUnit" : { "value" : "Code-Option" } }
+      }
     },
+
     "Passcode setup" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Passcode setup" } },
+        "de" : { "stringUnit" : { "value" : "Code einrichten" } }
+      }
     },
+
     "Passed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Passed" } },
+        "de" : { "stringUnit" : { "value" : "Bestanden" } }
+      }
     },
+
     "Password" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Password" } },
+        "de" : { "stringUnit" : { "value" : "Passwort" } }
+      }
     },
+
     "Paste" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Paste" } },
+        "de" : { "stringUnit" : { "value" : "Einfügen" } }
+      }
     },
+
     "Pattern" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pattern" } },
+        "de" : { "stringUnit" : { "value" : "Muster" } }
+      }
     },
+
     "PDF Documents" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "PDF Documents" } },
+        "de" : { "stringUnit" : { "value" : "PDF-Dokumente" } }
+      }
     },
+
     "Pending" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pending" } },
+        "de" : { "stringUnit" : { "value" : "Ausstehend" } }
+      }
     },
+
     "Permissions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Permissions" } },
+        "de" : { "stringUnit" : { "value" : "Berechtigungen" } }
+      }
     },
+
     "Photo Pro Features" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Photo Pro Features" } },
+        "de" : { "stringUnit" : { "value" : "Photo Pro Funktionen" } }
+      }
     },
+
     "Photo upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Photo upload" } },
+        "de" : { "stringUnit" : { "value" : "Foto-Upload" } }
+      }
     },
+
     "Photo upload path" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Photo upload path" } },
+        "de" : { "stringUnit" : { "value" : "Pfad für Foto-Upload" } }
+      }
     },
+
     "Photometric interpretation" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Photometric interpretation" } },
+        "de" : { "stringUnit" : { "value" : "Photometrische Interpretation" } }
+      }
     },
+
     "Pick a destination for photo uploads" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pick a destination for photo uploads" } },
+        "de" : { "stringUnit" : { "value" : "Ziel für Foto-Uploads wählen" } }
+      }
     },
+
     "Pick a destination for video uploads" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pick a destination for video uploads" } },
+        "de" : { "stringUnit" : { "value" : "Ziel für Video-Uploads wählen" } }
+      }
     },
+
     "Pick a document type to create:" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pick a document type to create:" } },
+        "de" : { "stringUnit" : { "value" : "Dokumenttyp auswählen:" } }
+      }
     },
+
     "Pick a name" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pick a name" } },
+        "de" : { "stringUnit" : { "value" : "Name auswählen" } }
+      }
     },
+
     "Pick file or folder" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pick file or folder" } },
+        "de" : { "stringUnit" : { "value" : "Datei oder Ordner auswählen" } }
+      }
     },
+
     "Place" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Place" } },
+        "de" : { "stringUnit" : { "value" : "Ort" } }
+      }
     },
+
     "Please choose how many digits you want to use for the passcode lock?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please choose how many digits you want to use for the passcode lock?" } },
+        "de" : { "stringUnit" : { "value" : "Bitte wählen Sie, wie viele Ziffern Sie für die Code-Sperre verwenden möchten?" } }
+      }
     },
+
     "Please configure an email account" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please configure an email account" } },
+        "de" : { "stringUnit" : { "value" : "Bitte richten Sie ein E-Mail-Konto ein" } }
+      }
     },
+
     "Please note: Folders can only be pasted into the %@ app and the same account." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please note: Folders can only be pasted into the %@ app and the same account." } },
+        "de" : { "stringUnit" : { "value" : "Hinweis: Ordner können nur in die %@-App und in dasselbe Konto eingefügt werden." } }
+      }
     },
+
     "Please open the app and select the account to re-authenticate." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please open the app and select the account to re-authenticate." } },
+        "de" : { "stringUnit" : { "value" : "Bitte öffnen Sie die App und wählen Sie das Konto zur erneuten Authentifizierung aus." } }
+      }
     },
+
     "Please re-enable location acquisition in system settings" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please re-enable location acquisition in system settings" } },
+        "de" : { "stringUnit" : { "value" : "Bitte aktivieren Sie die Standorterfassung in den Systemeinstellungen erneut" } }
+      }
     },
+
     "Please try again in %@" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please try again in %@" } },
+        "de" : { "stringUnit" : { "value" : "Bitte versuchen Sie es in %@ erneut" } }
+      }
     },
+
     "Please wait…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Please wait…" } },
+        "de" : { "stringUnit" : { "value" : "Bitte warten…" } }
+      }
     },
+
     "Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged." } },
+        "de" : { "stringUnit" : { "value" : "Teile dieser App können das folgende urheberrechtlich geschützte Material nutzen, dessen Nutzung hiermit anerkannt wird." } }
+      }
     },
+
     "Portrait" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Portrait" } },
+        "de" : { "stringUnit" : { "value" : "Hochformat" } }
+      }
     },
+
     "Prefer original videos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Prefer original videos" } },
+        "de" : { "stringUnit" : { "value" : "Originalvideos bevorzugen" } }
+      }
     },
+
     "Prefer RAW photos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Prefer RAW photos" } },
+        "de" : { "stringUnit" : { "value" : "RAW-Fotos bevorzugen" } }
+      }
     },
+
     "Prefer unedited photos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Prefer unedited photos" } },
+        "de" : { "stringUnit" : { "value" : "Unbearbeitete Fotos bevorzugen" } }
+      }
     },
+
     "Preparing account" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Preparing account" } },
+        "de" : { "stringUnit" : { "value" : "Konto wird vorbereitet" } }
+      }
     },
+
     "Preparing…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Preparing…" } },
+        "de" : { "stringUnit" : { "value" : "Wird vorbereitet…" } }
+      }
     },
+
     "Presentation Mode" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Presentation Mode" } },
+        "de" : { "stringUnit" : { "value" : "Präsentationsmodus" } }
+      }
     },
+
     "Preserve original media file names" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Preserve original media file names" } },
+        "de" : { "stringUnit" : { "value" : "Originaldateinamen der Medien beibehalten" } }
+      }
     },
+
     "Prevent dragging of files and folders and multiselection using system defined gestures" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Prevent dragging of files and folders and multiselection using system defined gestures" } },
+        "de" : { "stringUnit" : { "value" : "Dateien und Ordner sowie Mehrfachauswahl mit systemdefinierten Gesten verhindern" } }
+      }
     },
+
     "Previous item" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Previous item" } },
+        "de" : { "stringUnit" : { "value" : "Vorheriges Element" } }
+      }
     },
+
     "Privacy" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Privacy" } },
+        "de" : { "stringUnit" : { "value" : "Datenschutz" } }
+      }
     },
+
     "Privacy Policy" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Privacy Policy" } },
+        "de" : { "stringUnit" : { "value" : "Datenschutzrichtlinie" } }
+      }
     },
+
     "Private Link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Private Link" } },
+        "de" : { "stringUnit" : { "value" : "Privater Link" } }
+      }
     },
+
     "Pro Features" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pro Features" } },
+        "de" : { "stringUnit" : { "value" : "Pro-Funktionen" } }
+      }
     },
+
     "Proceed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Proceed" } },
+        "de" : { "stringUnit" : { "value" : "Fortfahren" } }
+      }
     },
+
     "Processing on server" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Processing on server" } },
+        "de" : { "stringUnit" : { "value" : "Wird auf dem Server verarbeitet" } }
+      }
     },
+
     "Profile" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Profile" } },
+        "de" : { "stringUnit" : { "value" : "Profil" } }
+      }
     },
+
     "Program" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Program" } },
+        "de" : { "stringUnit" : { "value" : "Programm" } }
+      }
     },
+
     "Public Link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Public Link" } },
+        "de" : { "stringUnit" : { "value" : "Öffentlicher Link" } }
+      }
     },
+
     "Purchase" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchase" } },
+        "de" : { "stringUnit" : { "value" : "Kauf" } }
+      }
     },
+
     "Purchase failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchase failed" } },
+        "de" : { "stringUnit" : { "value" : "Kauf fehlgeschlagen" } }
+      }
     },
+
     "Purchases & Subscriptions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchases & Subscriptions" } },
+        "de" : { "stringUnit" : { "value" : "Käufe & Abonnements" } }
+      }
     },
+
     "Quick Access" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Quick Access" } },
+        "de" : { "stringUnit" : { "value" : "Schnellzugriff" } }
+      }
     },
+
     "Read" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Read" } },
+        "de" : { "stringUnit" : { "value" : "Lesen" } }
+      }
     },
+
     "Really delete '%@'?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Really delete '%@'?" } },
+        "de" : { "stringUnit" : { "value" : "'%@' wirklich löschen?" } }
+      }
     },
+
     "Really include available offline files?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Really include available offline files?" } },
+        "de" : { "stringUnit" : { "value" : "Verfügbare Offline-Dateien wirklich einbeziehen?" } }
+      }
     },
+
     "Recents" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Recents" } },
+        "de" : { "stringUnit" : { "value" : "Zuletzt verwendet" } }
+      }
     },
+
     "Recommend to a friend" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Recommend to a friend" } },
+        "de" : { "stringUnit" : { "value" : "Einem Freund empfehlen" } }
+      }
     },
+
     "Red eye detection supported" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Red eye detection supported" } },
+        "de" : { "stringUnit" : { "value" : "Rote-Augen-Erkennung unterstützt" } }
+      }
     },
+
     "Refresh without asking" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Refresh without asking" } },
+        "de" : { "stringUnit" : { "value" : "Aktualisieren ohne Nachfrage" } }
+      }
     },
+
     "Rejected" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Rejected" } },
+        "de" : { "stringUnit" : { "value" : "Abgelehnt" } }
+      }
     },
+
     "release" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "release" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe" } }
+      }
     },
+
     "Remove" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove" } },
+        "de" : { "stringUnit" : { "value" : "Entfernen" } }
+      }
     },
+
     "Remove expiration date" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove expiration date" } },
+        "de" : { "stringUnit" : { "value" : "Ablaufdatum entfernen" } }
+      }
     },
+
     "Remove from sidebar" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove from sidebar" } },
+        "de" : { "stringUnit" : { "value" : "Aus der Seitenleiste entfernen" } }
+      }
     },
+
     "Remove password" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove password" } },
+        "de" : { "stringUnit" : { "value" : "Passwort entfernen" } }
+      }
     },
+
     "Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." } },
+        "de" : { "stringUnit" : { "value" : "Entfernt heruntergeladene Dateien und lokale Kopien von als 'Offline verfügbar' markierten Elementen. Letztere werden beim nächsten Anmelden erneut heruntergeladen (Internetverbindung erforderlich)." } }
+      }
     },
+
     "Rename" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Rename" } },
+        "de" : { "stringUnit" : { "value" : "Umbenennen" } }
+      }
     },
+
     "Repeat code" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Repeat code" } },
+        "de" : { "stringUnit" : { "value" : "Code wiederholen" } }
+      }
     },
+
     "Resolving link…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Resolving link…" } },
+        "de" : { "stringUnit" : { "value" : "Link wird aufgelöst…" } }
+      }
     },
+
     "Restore purchases" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Restore purchases" } },
+        "de" : { "stringUnit" : { "value" : "Käufe wiederherstellen" } }
+      }
     },
+
     "Restoring purchases…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Restoring purchases…" } },
+        "de" : { "stringUnit" : { "value" : "Käufe werden wiederhergestellt…" } }
+      }
     },
+
     "Resume" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Resume" } },
+        "de" : { "stringUnit" : { "value" : "Fortsetzen" } }
+      }
     },
+
     "Reveal" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Reveal" } },
+        "de" : { "stringUnit" : { "value" : "Anzeigen" } }
+      }
     },
+
     "Review Connection" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Review Connection" } },
+        "de" : { "stringUnit" : { "value" : "Verbindung prüfen" } }
+      }
     },
+
     "Revoke approval" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Revoke approval" } },
+        "de" : { "stringUnit" : { "value" : "Genehmigung widerrufen" } }
+      }
     },
+
     "RGB" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "RGB" } },
+        "de" : { "stringUnit" : { "value" : "RGB" } }
+      }
     },
+
     "S" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "S" } },
+        "de" : { "stringUnit" : { "value" : "S" } }
+      }
     },
+
     "Save" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save" } },
+        "de" : { "stringUnit" : { "value" : "Speichern" } }
+      }
     },
+
     "Save as" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as" } },
+        "de" : { "stringUnit" : { "value" : "Speichern unter" } }
+      }
     },
+
     "Save as copy" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as copy" } },
+        "de" : { "stringUnit" : { "value" : "Als Kopie speichern" } }
+      }
     },
+
     "Save as search template" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as search template" } },
+        "de" : { "stringUnit" : { "value" : "Als Suchvorlage speichern" } }
+      }
     },
+
     "Save changes" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save changes" } },
+        "de" : { "stringUnit" : { "value" : "Änderungen speichern" } }
+      }
     },
+
     "Save File" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save File" } },
+        "de" : { "stringUnit" : { "value" : "Datei speichern" } }
+      }
     },
+
     "Save here" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save here" } },
+        "de" : { "stringUnit" : { "value" : "Hier speichern" } }
+      }
     },
+
     "Save search" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save search" } },
+        "de" : { "stringUnit" : { "value" : "Suche speichern" } }
+      }
     },
+
     "Saved search" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saved search" } },
+        "de" : { "stringUnit" : { "value" : "Gespeicherte Suche" } }
+      }
     },
+
     "Saved searches" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saved searches" } },
+        "de" : { "stringUnit" : { "value" : "Gespeicherte Suchen" } }
+      }
     },
+
     "Saving" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saving" } },
+        "de" : { "stringUnit" : { "value" : "Speichert" } }
+      }
     },
+
     "Saving edited file failed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saving edited file failed" } },
+        "de" : { "stringUnit" : { "value" : "Speichern der bearbeiteten Datei fehlgeschlagen" } }
+      }
     },
+
     "Scan" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan" } },
+        "de" : { "stringUnit" : { "value" : "Scannen" } }
+      }
     },
+
     "Scan additional" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan additional" } },
+        "de" : { "stringUnit" : { "value" : "Zusätzlich scannen" } }
+      }
     },
+
     "Scan document" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan document" } },
+        "de" : { "stringUnit" : { "value" : "Dokument scannen" } }
+      }
     },
+
     "Scan documents and photos with your camera." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan documents and photos with your camera." } },
+        "de" : { "stringUnit" : { "value" : "Dokumente und Fotos mit der Kamera scannen." } }
+      }
     },
+
     "Scans" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scans" } },
+        "de" : { "stringUnit" : { "value" : "Scans" } }
+      }
     },
+
     "Scene" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scene" } },
+        "de" : { "stringUnit" : { "value" : "Szene" } }
+      }
     },
+
     "Scheduled upload of %ld media assets" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scheduled upload of %ld media assets" } },
+        "de" : { "stringUnit" : { "value" : "Geplanter Upload von %ld Medien" } }
+      }
     },
+
     "Search" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search" } },
+        "de" : { "stringUnit" : { "value" : "Suche" } }
+      }
     },
+
     "Search {{space.name}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search {{space.name}}" } },
+        "de" : { "stringUnit" : { "value" : "{{space.name}} durchsuchen" } }
+      }
     },
+
     "Search account" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search account" } },
+        "de" : { "stringUnit" : { "value" : "Konto durchsuchen" } }
+      }
     },
+
     "Search folder" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner durchsuchen" } }
+      }
     },
+
     "Search for users or groups" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search for users or groups" } },
+        "de" : { "stringUnit" : { "value" : "Nach Benutzern oder Gruppen suchen" } }
+      }
     },
+
     "Search from {{folder.name}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search from {{folder.name}}" } },
+        "de" : { "stringUnit" : { "value" : "Suche im Ordner {{folder.name}}" } }
+      }
     },
+
     "Search in" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search in" } },
+        "de" : { "stringUnit" : { "value" : "Suche in" } }
+      }
     },
+
     "Search on the server is unavailable while not connected. To search offline, switch to the Account scope." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search on the server is unavailable while not connected. To search offline, switch to the Account scope." } },
+        "de" : { "stringUnit" : { "value" : "Die Serversuche ist ohne Verbindung nicht verfügbar. Um offline zu suchen, wechseln Sie zum Kontobereich." } }
+      }
     },
+
     "Search PDF" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search PDF" } },
+        "de" : { "stringUnit" : { "value" : "PDF durchsuchen" } }
+      }
     },
+
     "Search server" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search server" } },
+        "de" : { "stringUnit" : { "value" : "Server durchsuchen" } }
+      }
     },
+
     "Search Settings" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search Settings" } },
+        "de" : { "stringUnit" : { "value" : "Sucheinstellungen" } }
+      }
     },
+
     "Search space" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search space" } },
+        "de" : { "stringUnit" : { "value" : "Bereich durchsuchen" } }
+      }
     },
+
     "Search template" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search template" } },
+        "de" : { "stringUnit" : { "value" : "Suchvorlage" } }
+      }
     },
+
     "Search templates" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search templates" } },
+        "de" : { "stringUnit" : { "value" : "Suchvorlagen" } }
+      }
     },
+
     "Search tree" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search tree" } },
+        "de" : { "stringUnit" : { "value" : "Suchbaum" } }
+      }
     },
+
     "Searches in the current space ONLY." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches in the current space ONLY." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht NUR den aktuellen Bereich." } }
+      }
     },
+
     "Searches the current folder and its subfolders." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the current folder and its subfolders." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den aktuellen Ordner und alle Unterordner." } }
+      }
     },
+
     "Searches the current folder ONLY." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the current folder ONLY." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht NUR den aktuellen Ordner." } }
+      }
     },
+
     "Searches the personal folder and all spaces." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the personal folder and all spaces." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den persönlichen Ordner und alle Bereiche." } }
+      }
     },
+
     "Searches using the server." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches using the server." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den Server." } }
+      }
     },
+
     "Security" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Security" } },
+        "de" : { "stringUnit" : { "value" : "Sicherheit" } }
+      }
     },
+
     "Select" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select" } },
+        "de" : { "stringUnit" : { "value" : "Auswählen" } }
+      }
     },
+
     "Select All" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select All" } },
+        "de" : { "stringUnit" : { "value" : "Alle auswählen" } }
+      }
     },
+
     "Select Destination" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select Destination" } },
+        "de" : { "stringUnit" : { "value" : "Ziel auswählen" } }
+      }
     },
+
     "Select folder" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner auswählen" } }
+      }
     },
+
     "Select one or more items." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select one or more items." } },
+        "de" : { "stringUnit" : { "value" : "Wählen Sie ein oder mehrere Elemente aus." } }
+      }
     },
+
     "Select target." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select target." } },
+        "de" : { "stringUnit" : { "value" : "Ziel auswählen." } }
+      }
     },
+
     "Send feedback" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Send feedback" } },
+        "de" : { "stringUnit" : { "value" : "Feedback senden" } }
+      }
     },
+
     "Serial number" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Serial number" } },
+        "de" : { "stringUnit" : { "value" : "Seriennummer" } }
+      }
     },
+
     "Server" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server" } },
+        "de" : { "stringUnit" : { "value" : "Server" } }
+      }
     },
+
     "Server name" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server name" } },
+        "de" : { "stringUnit" : { "value" : "Servername" } }
+      }
     },
+
     "Server Password" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server Password" } },
+        "de" : { "stringUnit" : { "value" : "Server-Passwort" } }
+      }
     },
+
     "Server search requires a connection" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server search requires a connection" } },
+        "de" : { "stringUnit" : { "value" : "Die Serversuche erfordert eine Verbindung" } }
+      }
     },
+
     "Server URL" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server URL" } },
+        "de" : { "stringUnit" : { "value" : "Server-URL" } }
+      }
     },
+
     "Server Username" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server Username" } },
+        "de" : { "stringUnit" : { "value" : "Server-Benutzername" } }
+      }
     },
+
     "Set" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Set" } },
+        "de" : { "stringUnit" : { "value" : "Festlegen" } }
+      }
     },
+
     "Settings" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Settings" } },
+        "de" : { "stringUnit" : { "value" : "Einstellungen" } }
+      }
     },
+
     "Setup a new account in the app to save to." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Setup a new account in the app to save to." } },
+        "de" : { "stringUnit" : { "value" : "Richten Sie ein neues Konto in der App ein, um dort zu speichern." } }
+      }
     },
+
     "Share" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share" } },
+        "de" : { "stringUnit" : { "value" : "Teilen" } }
+      }
     },
+
     "Share Diagnostics" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose teilen" } }
+      }
     },
+
     "Share Extension disabled" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Extension disabled" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe-Erweiterung deaktiviert" } }
+      }
     },
+
     "Share Extension unavailable" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Extension unavailable" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe-Erweiterung nicht verfügbar" } }
+      }
     },
+
     "Share with" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share with" } },
+        "de" : { "stringUnit" : { "value" : "Teilen mit" } }
+      }
     },
+
     "shared" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "shared" } },
+        "de" : { "stringUnit" : { "value" : "geteilt" } }
+      }
     },
+
     "Shared" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt" } }
+      }
     },
+
     "Shared by {{owner}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by {{owner}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt von {{owner}}" } }
+      }
     },
+
     "Shared by link" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by link" } },
+        "de" : { "stringUnit" : { "value" : "Per Link geteilt" } }
+      }
     },
+
     "Shared by me" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by me" } },
+        "de" : { "stringUnit" : { "value" : "Von mir geteilt" } }
+      }
     },
+
     "Shared with" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit" } }
+      }
     },
+
     "Shared with {{recipient}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with {{recipient}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit {{recipient}}" } }
+      }
     },
+
     "Shared with {{recipients}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with {{recipients}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit {{recipients}}" } }
+      }
     },
+
     "Shared with me" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with me" } },
+        "de" : { "stringUnit" : { "value" : "Mit mir geteilt" } }
+      }
     },
+
     "Shares" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shares" } },
+        "de" : { "stringUnit" : { "value" : "Freigaben" } }
+      }
     },
+
     "Sharing" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sharing" } },
+        "de" : { "stringUnit" : { "value" : "Teilen" } }
+      }
     },
+
     "Sharing requires an active connection." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sharing requires an active connection." } },
+        "de" : { "stringUnit" : { "value" : "Freigaben erfordern eine aktive Verbindung." } }
+      }
     },
+
     "Shortcut" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcut" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung" } }
+      }
     },
+
     "Shortcut to '{{hostname}}'" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcut to '{{hostname}}'" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung zu '{{hostname}}'" } }
+      }
     },
+
     "Shortcuts Actions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcuts Actions" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfungsaktionen" } }
+      }
     },
+
     "Shorten by one week" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shorten by one week" } },
+        "de" : { "stringUnit" : { "value" : "Um eine Woche verkürzen" } }
+      }
     },
+
     "Show" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show" } },
+        "de" : { "stringUnit" : { "value" : "Anzeigen" } }
+      }
     },
+
     "Show all" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show all" } },
+        "de" : { "stringUnit" : { "value" : "Alle anzeigen" } }
+      }
     },
+
     "Show folders on top" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show folders on top" } },
+        "de" : { "stringUnit" : { "value" : "Ordner oben anzeigen" } }
+      }
     },
+
     "Show hidden files and folders" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show hidden files and folders" } },
+        "de" : { "stringUnit" : { "value" : "Versteckte Dateien und Ordner anzeigen" } }
+      }
     },
+
     "Show message" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show message" } },
+        "de" : { "stringUnit" : { "value" : "Nachricht anzeigen" } }
+      }
     },
+
     "Show more results" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show more results" } },
+        "de" : { "stringUnit" : { "value" : "Weitere Ergebnisse anzeigen" } }
+      }
     },
+
     "Show new version" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show new version" } },
+        "de" : { "stringUnit" : { "value" : "Neue Version anzeigen" } }
+      }
     },
+
     "Show/Hide sidebar" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show/Hide sidebar" } },
+        "de" : { "stringUnit" : { "value" : "Seitenleiste ein-/ausblenden" } }
+      }
     },
+
     "Shutter priority" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shutter priority" } },
+        "de" : { "stringUnit" : { "value" : "Blendenpriorität" } }
+      }
     },
+
     "Shutter speed" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shutter speed" } },
+        "de" : { "stringUnit" : { "value" : "Verschlusszeit" } }
+      }
     },
+
     "Sign in" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sign in" } },
+        "de" : { "stringUnit" : { "value" : "Anmelden" } }
+      }
     },
+
     "size" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "size" } },
+        "de" : { "stringUnit" : { "value" : "Größe" } }
+      }
     },
+
     "Size" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Size" } },
+        "de" : { "stringUnit" : { "value" : "Größe" } }
+      }
     },
+
     "Skip" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Skip" } },
+        "de" : { "stringUnit" : { "value" : "Überspringen" } }
+      }
     },
+
     "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." } },
+        "de" : { "stringUnit" : { "value" : "Es können weiterhin mobile Daten verwendet werden. Um die Nutzung mobiler Daten vollständig zu vermeiden, deaktivieren Sie bitte den mobilen Zugriff für die gesamte App in den Systemeinstellungen." } }
+      }
     },
+
     "Sort by {{attribute}} in {{direction}} order" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sort by {{attribute}} in {{direction}} order" } },
+        "de" : { "stringUnit" : { "value" : "Sortieren nach {{attribute}} in {{direction}}" } }
+      }
     },
+
     "Space" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Space" } },
+        "de" : { "stringUnit" : { "value" : "Space" } }
+      }
     },
+
     "Spaces" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Spaces" } },
+        "de" : { "stringUnit" : { "value" : "Spaces" } }
+      }
     },
+
     "Spot" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Spot" } },
+        "de" : { "stringUnit" : { "value" : "Spot" } }
+      }
     },
+
     "Start setup" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Start setup" } },
+        "de" : { "stringUnit" : { "value" : "Setup starten" } }
+      }
     },
+
     "Status" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Status" } },
+        "de" : { "stringUnit" : { "value" : "Status" } }
+      }
     },
+
     "Storage" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Storage" } },
+        "de" : { "stringUnit" : { "value" : "Speicher" } }
+      }
     },
+
     "Strobe return light detected" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Strobe return light detected" } },
+        "de" : { "stringUnit" : { "value" : "Stroboskop-Rücklicht erkannt" } }
+      }
     },
+
     "Strobe return light not detected" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Strobe return light not detected" } },
+        "de" : { "stringUnit" : { "value" : "Stroboskop-Rücklicht nicht erkannt" } }
+      }
     },
+
     "Subscribe" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Subscribe" } },
+        "de" : { "stringUnit" : { "value" : "Abonnieren" } }
+      }
     },
+
     "Subscribe Now" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Subscribe Now" } },
+        "de" : { "stringUnit" : { "value" : "Jetzt abonnieren" } }
+      }
     },
+
     "System" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "System" } },
+        "de" : { "stringUnit" : { "value" : "System" } }
+      }
     },
+
     "System Appeareance" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "System Appeareance" } },
+        "de" : { "stringUnit" : { "value" : "Systemdarstellung" } }
+      }
     },
+
     "Take photo or video" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Take photo or video" } },
+        "de" : { "stringUnit" : { "value" : "Foto oder Video aufnehmen" } }
+      }
     },
+
     "Take survey" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Take survey" } },
+        "de" : { "stringUnit" : { "value" : "Umfrage ausfüllen" } }
+      }
     },
+
     "Tap to launch the app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Tap to launch the app." } },
+        "de" : { "stringUnit" : { "value" : "Tippen, um die App zu starten." } }
+      }
     },
+
     "Tap to quit the app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Tap to quit the app." } },
+        "de" : { "stringUnit" : { "value" : "Tippen, um die App zu beenden." } }
+      }
     },
+
     "Terms Of Use" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Terms Of Use" } },
+        "de" : { "stringUnit" : { "value" : "Nutzungsbedingungen" } }
+      }
     },
+
     "Text" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Text" } },
+        "de" : { "stringUnit" : { "value" : "Text" } }
+      }
     },
+
     "Thank you for using %@.\n" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Thank you for using %@.\n" } },
+        "de" : { "stringUnit" : { "value" : "Vielen Dank, dass Sie %@ nutzen.\n" } }
+      }
     },
+
     "Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" } },
+        "de" : { "stringUnit" : { "value" : "Vielen Dank, dass Sie %@ nutzen.\nWenn Ihnen unsere App gefällt, hinterlassen Sie bitte eine Bewertung im App Store.\n❤️" } }
+      }
     },
+
     "The {{app.name}} share extension is not available on this system." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The {{app.name}} share extension is not available on this system." } },
+        "de" : { "stringUnit" : { "value" : "Die Share-Erweiterung von {{app.name}} ist auf diesem System nicht verfügbar." } }
+      }
     },
+
     "The account has been disabled." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The account has been disabled." } },
+        "de" : { "stringUnit" : { "value" : "Das Konto wurde deaktiviert." } }
+      }
     },
+
     "The connection's access token has expired or become invalid. Sign in again to re-gain access." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The connection's access token has expired or become invalid. Sign in again to re-gain access." } },
+        "de" : { "stringUnit" : { "value" : "Das Zugriffstoken der Verbindung ist abgelaufen oder ungültig geworden. Melden Sie sich erneut an, um Zugriff zu erhalten." } }
+      }
     },
+
     "The destination this shortcut points to could not be found. It may have been deleted or you may not have access to it." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The destination this shortcut points to could not be found. It may have been deleted or you may not have access to it." } },
+        "de" : { "stringUnit" : { "value" : "Das Ziel, auf das diese Verknüpfung verweist, konnte nicht gefunden werden. Es wurde möglicherweise gelöscht oder Sie haben keinen Zugriff darauf." } }
+      }
     },
+
     "The entered codes are different" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered codes are different" } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebenen Codes sind unterschiedlich" } }
+      }
     },
+
     "The entered page number doesn't exist" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered page number doesn't exist" } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebene Seitenzahl existiert nicht" } }
+      }
     },
+
     "The entered URL does not include a hostname." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered URL does not include a hostname." } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebene URL enthält keinen Hostnamen." } }
+      }
     },
+
     "The following steps will guide you through the setup process." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The following steps will guide you through the setup process." } },
+        "de" : { "stringUnit" : { "value" : "Die folgenden Schritte führen Sie durch den Einrichtungsprozess." } }
+      }
     },
+
     "The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." } },
+        "de" : { "stringUnit" : { "value" : "Die letzten 10 archivierten Protokolle werden auf dem Gerät aufbewahrt – jedes Protokoll deckt bis zu 24 Stunden Nutzung ab. Bitte beachten Sie beim Teilen, dass Protokolle sensible Informationen wie Server-URLs und benutzerspezifische Daten enthalten können." } }
+      }
     },
+
     "The password was copied to the clipboard" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The password was copied to the clipboard" } },
+        "de" : { "stringUnit" : { "value" : "Das Passwort wurde in die Zwischenablage kopiert" } }
+      }
     },
+
     "The search term you entered did not match any item in the selected scope." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The search term you entered did not match any item in the selected scope." } },
+        "de" : { "stringUnit" : { "value" : "Der eingegebene Suchbegriff stimmt mit keinem Element im ausgewählten Bereich überein." } }
+      }
     },
+
     "The server declined access with the credentials stored for this connection." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The server declined access with the credentials stored for this connection." } },
+        "de" : { "stringUnit" : { "value" : "Der Server hat den Zugriff mit den für diese Verbindung gespeicherten Anmeldedaten verweigert." } }
+      }
     },
+
     "The shortcut points to a URL, but the configuration of this app prohibits opening it." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The shortcut points to a URL, but the configuration of this app prohibits opening it." } },
+        "de" : { "stringUnit" : { "value" : "Die Verknüpfung verweist auf eine URL, aber die Konfiguration dieser App verbietet deren Öffnung." } }
+      }
     },
+
     "The shortcut points to another item, but the configuration of this app prohibits opening it." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The shortcut points to another item, but the configuration of this app prohibits opening it." } },
+        "de" : { "stringUnit" : { "value" : "Die Verknüpfung verweist auf ein anderes Element, aber die Konfiguration dieser App verbietet dessen Öffnung." } }
+      }
     },
+
     "Theme" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Theme" } },
+        "de" : { "stringUnit" : { "value" : "Design" } }
+      }
     },
+
     "This action can't be undone." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This action can't be undone." } },
+        "de" : { "stringUnit" : { "value" : "Diese Aktion kann nicht rückgängig gemacht werden." } }
+      }
     },
+
     "This document has %@ pages" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This document has %@ pages" } },
+        "de" : { "stringUnit" : { "value" : "Dieses Dokument hat %@ Seiten" } }
+      }
     },
+
     "This folder is empty." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This folder is empty." } },
+        "de" : { "stringUnit" : { "value" : "Dieser Ordner ist leer." } }
+      }
     },
+
     "This folder is empty. Fill it with content:" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This folder is empty. Fill it with content:" } },
+        "de" : { "stringUnit" : { "value" : "Dieser Ordner ist leer. Füllen Sie ihn mit Inhalten:" } }
+      }
     },
+
     "This folder no longer exists on the server." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This folder no longer exists on the server." } },
+        "de" : { "stringUnit" : { "value" : "Dieser Ordner existiert auf dem Server nicht mehr." } }
+      }
     },
+
     "This permission is needed to upload photos and videos from your photo library." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This permission is needed to upload photos and videos from your photo library." } },
+        "de" : { "stringUnit" : { "value" : "Diese Berechtigung wird benötigt, um Fotos und Videos aus Ihrer Fotobibliothek hochzuladen." } }
+      }
     },
+
     "This shortcut points to:\n{{url}}" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This shortcut points to:\n{{url}}" } },
+        "de" : { "stringUnit" : { "value" : "Diese Verknüpfung verweist auf:\n{{url}}" } }
+      }
     },
+
     "This will also delete all locally stored file copies." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "This will also delete all locally stored file copies." } },
+        "de" : { "stringUnit" : { "value" : "Dies löscht auch alle lokal gespeicherten Dateikopien." } }
+      }
     },
+
     "TIFF" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "TIFF" } },
+        "de" : { "stringUnit" : { "value" : "TIFF" } }
+      }
     },
+
     "Time" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Time" } },
+        "de" : { "stringUnit" : { "value" : "Zeit" } }
+      }
     },
+
     "Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app." } },
+        "de" : { "stringUnit" : { "value" : "Zeit gemessen seit dem Hochladen, Bearbeiten, Herunterladen oder Anzeigen der jeweiligen Datei auf diesem Gerät. Gilt nicht für Dateien, die über die Funktion „Offline verfügbar“ heruntergeladen wurden. Lokale Kopien können vor Ablauf der angegebenen Zeit gelöscht werden, z. B. weil eine neuere Version der Datei auf dem Server vorhanden ist oder durch manuelles Löschen von Offline-Kopien. Lokale Kopien können nach Ablauf der angegebenen Zeit ebenfalls nicht gelöscht werden, z. B. wenn eine Aktion an der Datei durchgeführt wird, die Datei noch verwendet wird oder das Konto, das die Datei hält, nicht in der App genutzt wurde." } }
+      }
     },
+
     "To use the app, you need to create a passcode." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "To use the app, you need to create a passcode." } },
+        "de" : { "stringUnit" : { "value" : "Um die App zu nutzen, müssen Sie einen Passcode erstellen." } }
+      }
     },
+
     "Toggle layout" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Toggle layout" } },
+        "de" : { "stringUnit" : { "value" : "Layout umschalten" } }
+      }
     },
+
     "Total update scans" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Total update scans" } },
+        "de" : { "stringUnit" : { "value" : "Gesamtzahl der Update-Scans" } }
+      }
     },
+
     "Touch ID" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Touch ID" } },
+        "de" : { "stringUnit" : { "value" : "Touch ID" } }
+      }
     },
+
     "Tree" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Tree" } },
+        "de" : { "stringUnit" : { "value" : "Baum" } }
+      }
     },
+
     "Type" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Type" } },
+        "de" : { "stringUnit" : { "value" : "Typ" } }
+      }
     },
+
     "Uncalibrated" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Uncalibrated" } },
+        "de" : { "stringUnit" : { "value" : "Unkalibriert" } }
+      }
     },
+
     "undated" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "undated" } },
+        "de" : { "stringUnit" : { "value" : "ohne Datum" } }
+      }
     },
+
     "Unfavorite item" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unfavorite item" } },
+        "de" : { "stringUnit" : { "value" : "Aus Favoriten entfernen" } }
+      }
     },
+
     "unknown" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "unknown" } },
+        "de" : { "stringUnit" : { "value" : "unbekannt" } }
+      }
     },
+
     "Unknown" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unknown" } },
+        "de" : { "stringUnit" : { "value" : "Unbekannt" } }
+      }
     },
+
     "Unlock" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unlock" } },
+        "de" : { "stringUnit" : { "value" : "Entsperren" } }
+      }
     },
+
     "Unlock %@" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unlock %@" } },
+        "de" : { "stringUnit" : { "value" : "%@ entsperren" } }
+      }
     },
+
     "Unlock all Pro Features." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unlock all Pro Features." } },
+        "de" : { "stringUnit" : { "value" : "Alle Pro-Funktionen freischalten." } }
+      }
     },
+
     "Unlock using %@?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unlock using %@?" } },
+        "de" : { "stringUnit" : { "value" : "Mit %@ entsperren?" } }
+      }
     },
+
     "Unlocked" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unlocked" } },
+        "de" : { "stringUnit" : { "value" : "Entsperrt" } }
+      }
     },
+
     "Unshare" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Unshare" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe aufheben" } }
+      }
     },
+
     "Update Status" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Update Status" } },
+        "de" : { "stringUnit" : { "value" : "Update-Status" } }
+      }
     },
+
     "Updating %ld items…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Updating %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente werden aktualisiert…" } }
+      }
     },
+
     "Updating connection…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Updating connection…" } },
+        "de" : { "stringUnit" : { "value" : "Verbindung wird aktualisiert…" } }
+      }
     },
+
     "Upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Upload" } },
+        "de" : { "stringUnit" : { "value" : "Hochladen" } }
+      }
     },
+
     "Upload file" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Upload file" } },
+        "de" : { "stringUnit" : { "value" : "Datei hochladen" } }
+      }
     },
+
     "Upload from your photo library" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Upload from your photo library" } },
+        "de" : { "stringUnit" : { "value" : "Aus deiner Fotobibliothek hochladen" } }
+      }
     },
+
     "Uploading {{remainingFileCount}} files…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Uploading {{remainingFileCount}} files…" } },
+        "de" : { "stringUnit" : { "value" : "{{remainingFileCount}} Dateien werden hochgeladen…" } }
+      }
     },
+
     "Uploading %ld files…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Uploading %ld files…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Dateien werden hochgeladen…" } }
+      }
     },
+
     "URL" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "URL" } },
+        "de" : { "stringUnit" : { "value" : "URL" } }
+      }
     },
+
     "URL of webpage or item" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "URL of webpage or item" } },
+        "de" : { "stringUnit" : { "value" : "URL der Webseite oder des Elements" } }
+      }
     },
+
     "URL was copied to the clipboard" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "URL was copied to the clipboard" } },
+        "de" : { "stringUnit" : { "value" : "URL wurde in die Zwischenablage kopiert" } }
+      }
     },
+
     "Usage terms" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Usage terms" } },
+        "de" : { "stringUnit" : { "value" : "Nutzungsbedingungen" } }
+      }
     },
+
     "Use background location updates" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Use background location updates" } },
+        "de" : { "stringUnit" : { "value" : "Hintergrundstandortaktualisierungen verwenden" } }
+      }
     },
+
     "Use background refresh" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Use background refresh" } },
+        "de" : { "stringUnit" : { "value" : "Hintergrundaktualisierung verwenden" } }
+      }
     },
+
     "Use OpenCloud actions in Shortcuts." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Use OpenCloud actions in Shortcuts." } },
+        "de" : { "stringUnit" : { "value" : "OpenCloud-Aktionen in Kurzbefehlen verwenden." } }
+      }
     },
+
     "User Interface" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "User Interface" } },
+        "de" : { "stringUnit" : { "value" : "Benutzeroberfläche" } }
+      }
     },
+
     "User-approved certificates" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "User-approved certificates" } },
+        "de" : { "stringUnit" : { "value" : "Vom Benutzer genehmigte Zertifikate" } }
+      }
     },
+
     "Username" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Username" } },
+        "de" : { "stringUnit" : { "value" : "Benutzername" } }
+      }
     },
+
     "Validation Error" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Validation Error" } },
+        "de" : { "stringUnit" : { "value" : "Validierungsfehler" } }
+      }
     },
+
     "Verbose" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Verbose" } },
+        "de" : { "stringUnit" : { "value" : "Detailliert" } }
+      }
     },
+
     "Verifying password…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Verifying password…" } },
+        "de" : { "stringUnit" : { "value" : "Passwort wird überprüft…" } }
+      }
     },
+
     "Version information were copied to the clipboard" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Version information were copied to the clipboard" } },
+        "de" : { "stringUnit" : { "value" : "Versionsinformationen wurden in die Zwischenablage kopiert" } }
+      }
     },
+
     "Video upload" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Video upload" } },
+        "de" : { "stringUnit" : { "value" : "Video-Upload" } }
+      }
     },
+
     "Video upload path" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Video upload path" } },
+        "de" : { "stringUnit" : { "value" : "Video-Upload-Pfad" } }
+      }
     },
+
     "Videos" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Videos" } },
+        "de" : { "stringUnit" : { "value" : "Videos" } }
+      }
     },
+
     "View documentation" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "View documentation" } },
+        "de" : { "stringUnit" : { "value" : "Dokumentation anzeigen" } }
+      }
     },
+
     "Visit GitHub Discussions" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Visit GitHub Discussions" } },
+        "de" : { "stringUnit" : { "value" : "GitHub-Diskussionen besuchen" } }
+      }
     },
+
     "W" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "W" } },
+        "de" : { "stringUnit" : { "value" : "W" } }
+      }
     },
+
     "Waiting for response from login session in external browser…" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Waiting for response from login session in external browser…" } },
+        "de" : { "stringUnit" : { "value" : "Warten auf Antwort der Anmeldesitzung im externen Browser…" } }
+      }
     },
+
     "Warning" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Warning" } },
+        "de" : { "stringUnit" : { "value" : "Warnung" } }
+      }
     },
+
     "Welcome to %@" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Welcome to %@" } },
+        "de" : { "stringUnit" : { "value" : "Willkommen bei %@" } }
+      }
     },
+
     "When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility." : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility." } },
+        "de" : { "stringUnit" : { "value" : "Wenn aktiviert, können Protokolle die Leistung beeinträchtigen und sensible Informationen enthalten. Die Protokolle werden jedoch nicht automatisch an %@-Server übermittelt. Das Teilen von Protokollen mit anderen liegt in der alleinigen Verantwortung des Benutzers." } }
+      }
     },
+
     "White balance" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "White balance" } },
+        "de" : { "stringUnit" : { "value" : "Weißabgleich" } }
+      }
     },
+
     "Would you like to view the updated version?" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Would you like to view the updated version?" } },
+        "de" : { "stringUnit" : { "value" : "Möchten Sie die aktualisierte Version anzeigen?" } }
+      }
     },
+
     "YCbCr" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "YCbCr" } },
+        "de" : { "stringUnit" : { "value" : "YCbCr" } }
+      }
     },
+
     "You are required to set the passcode" : {
-
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "You are required to set the passcode" } },
+        "de" : { "stringUnit" : { "value" : "Sie müssen den Passcode festlegen" } }
+      }
     },
-    "You need to configure an email account first to be able to send emails." : {
 
+    "You need to configure an email account first to be able to send emails." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "You need to configure an email account first to be able to send emails." } },
+        "de" : { "stringUnit" : { "value" : "Sie müssen zuerst ein E-Mail-Konto einrichten, um E-Mails senden zu können." } }
+      }
     }
-  },
-  "version" : "1.0"
+  }
 }
