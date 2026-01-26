@@ -1443,6 +1443,524 @@
       }
     },
 
+    "Enable Pro Features (QA)" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable Pro Features (QA)" } },
+        "de" : { "stringUnit" : { "value" : "Pro-Funktionen aktivieren (QA)" } }
+      }
+    },
+
+    "enabled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "enabled" } },
+        "de" : { "stringUnit" : { "value" : "aktiviert" } }
+      }
+    },
+
+    "Enabling presentation mode will prevent the display from sleep mode until the view is closed." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enabling presentation mode will prevent the display from sleep mode until the view is closed." } },
+        "de" : { "stringUnit" : { "value" : "Die Aktivierung des Präsentationsmodus verhindert, dass das Display in den Ruhemodus geht, bis die Ansicht geschlossen wird." } }
+      }
+    },
+
+    "Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody." } },
+        "de" : { "stringUnit" : { "value" : "Durch Aktivierung dieser Option werden private Daten maskiert, sodass sie nicht Teil eines Protokolls werden. Da Protokollierung jedoch eine Entwicklungs- und Debugging-Funktion ist, können wir nicht garantieren, dass das Logfile frei von privaten Daten ist, selbst wenn diese Option aktiviert ist. Bitte überprüfen Sie daher jedes Logfile und stellen Sie sicher, dass keine Daten enthalten sind, die Sie nicht teilen möchten, bevor Sie es weitergeben." } }
+      }
+    },
+
+    "Enter a new code with %ld digits" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter a new code with %ld digits" } },
+        "de" : { "stringUnit" : { "value" : "Geben Sie einen neuen Code mit %ld Ziffern ein" } }
+      }
+    },
+
+    "Enter a search term" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter a search term" } },
+        "de" : { "stringUnit" : { "value" : "Suchbegriff eingeben" } }
+      }
+    },
+
+    "Enter code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter code" } },
+        "de" : { "stringUnit" : { "value" : "Code eingeben" } }
+      }
+    },
+
+    "Enter multiple selection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter multiple selection" } },
+        "de" : { "stringUnit" : { "value" : "Mehrfachauswahl eingeben" } }
+      }
+    },
+
+    "Enter the user or group you want to invite." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enter the user or group you want to invite." } },
+        "de" : { "stringUnit" : { "value" : "Geben Sie den Benutzer oder die Gruppe ein, die Sie einladen möchten." } }
+      }
+    },
+
+    "Error" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error" } },
+        "de" : { "stringUnit" : { "value" : "Fehler" } }
+      }
+    },
+
+    "Error creating {{itemName}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error creating {{itemName}}" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Erstellen von {{itemName}}" } }
+      }
+    },
+
+    "Error fetching transactions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error fetching transactions" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Abrufen der Transaktionen" } }
+      }
+    },
+
+    "Error importing %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error importing %@" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Importieren von %@" } }
+      }
+    },
+
+    "Error loading item" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error loading item" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Laden des Elements" } }
+      }
+    },
+
+    "Error loading product info from App Store" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error loading product info from App Store" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Laden der Produktinformationen aus dem App Store" } }
+      }
+    },
+
+    "Error opening {{itemName}} in {{appName}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error opening {{itemName}} in {{appName}}" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Öffnen von {{itemName}} in {{appName}}" } }
+      }
+    },
+
+    "Error opening %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error opening %@" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Öffnen von %@" } }
+      }
+    },
+
+    "Error restoring purchases" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Error restoring purchases" } },
+        "de" : { "stringUnit" : { "value" : "Fehler beim Wiederherstellen der Käufe" } }
+      }
+    },
+
+    "EXIF aux info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "EXIF aux info" } },
+        "de" : { "stringUnit" : { "value" : "EXIF Zusatzinformationen" } }
+      }
+    },
+
+    "Exit multiple selection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Exit multiple selection" } },
+        "de" : { "stringUnit" : { "value" : "Mehrfachauswahl beenden" } }
+      }
+    },
+
+    "Expiration date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Expiration date" } },
+        "de" : { "stringUnit" : { "value" : "Ablaufdatum" } }
+      }
+    },
+
+    "Expires {{expirationDate}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Expires {{expirationDate}}" } },
+        "de" : { "stringUnit" : { "value" : "Läuft ab am {{expirationDate}}" } }
+      }
+    },
+
+    "Exposure bias" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Exposure bias" } },
+        "de" : { "stringUnit" : { "value" : "Belichtungskorrektur" } }
+      }
+    },
+
+    "Extend by one week" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Extend by one week" } },
+        "de" : { "stringUnit" : { "value" : "Um eine Woche verlängern" } }
+      }
+    },
+
+    "Extended upload settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Extended upload settings" } },
+        "de" : { "stringUnit" : { "value" : "Erweiterte Upload-Einstellungen" } }
+      }
+    },
+
+    "Face ID" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Face ID" } },
+        "de" : { "stringUnit" : { "value" : "Face ID" } }
+      }
+    },
+
+    "Favorite item" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Favorite item" } },
+        "de" : { "stringUnit" : { "value" : "Favorit" } }
+      }
+    },
+
+    "Favorites" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Favorites" } },
+        "de" : { "stringUnit" : { "value" : "Favoriten" } }
+      }
+    },
+
+    "Feedback" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Feedback" } },
+        "de" : { "stringUnit" : { "value" : "Feedback" } }
+      }
+    },
+
+    "Fetching server information…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fetching server information…" } },
+        "de" : { "stringUnit" : { "value" : "Serverinformationen werden abgerufen…" } }
+      }
+    },
+
+    "Fetching user information…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fetching user information…" } },
+        "de" : { "stringUnit" : { "value" : "Benutzerinformationen werden abgerufen…" } }
+      }
+    },
+
+    "File" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File" } },
+        "de" : { "stringUnit" : { "value" : "Datei" } }
+      }
+    },
+
+    "File an issue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File an issue" } },
+        "de" : { "stringUnit" : { "value" : "Problem melden" } }
+      }
+    },
+
+    "File couldn't be opened" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File couldn't be opened" } },
+        "de" : { "stringUnit" : { "value" : "Datei konnte nicht geöffnet werden" } }
+      }
+    },
+
+    "File format" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File format" } },
+        "de" : { "stringUnit" : { "value" : "Dateiformat" } }
+      }
+    },
+
+    "File name cannot contain / or \\" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File name cannot contain / or \\" } },
+        "de" : { "stringUnit" : { "value" : "Dateiname darf / oder \\ nicht enthalten" } }
+      }
+    },
+
+    "File no longer exists" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "File no longer exists" } },
+        "de" : { "stringUnit" : { "value" : "Datei existiert nicht mehr" } }
+      }
+    },
+
+    "Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files" } },
+        "de" : { "stringUnit" : { "value" : "Dateien" } }
+      }
+    },
+
+    "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required)." } },
+        "de" : { "stringUnit" : { "value" : "Dateien und Ordner, die als „Offline verfügbar“ markiert sind, werden nicht mehr verfügbar sein. Sie werden beim nächsten Anmelden wieder heruntergeladen (Internetverbindung erforderlich)." } }
+      }
+    },
+
+    "Files selected and downloaded for offline availability will show up here." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Files selected and downloaded for offline availability will show up here." } },
+        "de" : { "stringUnit" : { "value" : "Hier werden Dateien angezeigt, die für die Offline-Verfügbarkeit ausgewählt und heruntergeladen wurden." } }
+      }
+    },
+
+    "Find information, answers and solutions in the detailed documentation." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Find information, answers and solutions in the detailed documentation." } },
+        "de" : { "stringUnit" : { "value" : "Finden Sie Informationen, Antworten und Lösungen in der ausführlichen Dokumentation." } }
+      }
+    },
+
+    "Fired" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Fired" } },
+        "de" : { "stringUnit" : { "value" : "Ausgelöst" } }
+      }
+    },
+
+    "Firmware" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Firmware" } },
+        "de" : { "stringUnit" : { "value" : "Firmware" } }
+      }
+    },
+
+    "Flash" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Flash" } },
+        "de" : { "stringUnit" : { "value" : "Blitz" } }
+      }
+    },
+
+    "Flash compensation" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Flash compensation" } },
+        "de" : { "stringUnit" : { "value" : "Blitzkorrektur" } }
+      }
+    },
+
+    "Focal length" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Focal length" } },
+        "de" : { "stringUnit" : { "value" : "Brennweite" } }
+      }
+    },
+
+    "Focal length @ 35 mm" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Focal length @ 35 mm" } },
+        "de" : { "stringUnit" : { "value" : "Brennweite @ 35 mm" } }
+      }
+    },
+
+    "Folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner" } }
+      }
+    },
+
+    "Folder name" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder name" } },
+        "de" : { "stringUnit" : { "value" : "Ordnername" } }
+      }
+    },
+
+    "Folder removed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Folder removed" } },
+        "de" : { "stringUnit" : { "value" : "Ordner entfernt" } }
+      }
+    },
+
+    "Forbidden Characters" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Forbidden Characters" } },
+        "de" : { "stringUnit" : { "value" : "Verbotene Zeichen" } }
+      }
+    },
+
+    "Free on %@" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Free on %@" } },
+        "de" : { "stringUnit" : { "value" : "Frei auf %@" } }
+      }
+    },
+
+    "General" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "General" } },
+        "de" : { "stringUnit" : { "value" : "Allgemein" } }
+      }
+    },
+
+    "Generate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Generate" } },
+        "de" : { "stringUnit" : { "value" : "Erzeugen" } }
+      }
+    },
+
+    "Get in touch with our community in the forums - or file a GitHub issue to report a bug or request a feature." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Get in touch with our community in the forums - or file a GitHub issue to report a bug or request a feature." } },
+        "de" : { "stringUnit" : { "value" : "Treten Sie mit unserer Community in den Foren in Kontakt – oder erstellen Sie ein GitHub-Issue, um einen Fehler zu melden oder eine Funktion anzufordern." } }
+      }
+    },
+
+    "Go to page" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Go to page" } },
+        "de" : { "stringUnit" : { "value" : "Gehe zu Seite" } }
+      }
+    },
+
+    "GPS Location" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "GPS Location" } },
+        "de" : { "stringUnit" : { "value" : "GPS-Standort" } }
+      }
+    },
+
+    "Grid" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Grid" } },
+        "de" : { "stringUnit" : { "value" : "Raster" } }
+      }
+    },
+
+    "Group" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Group" } },
+        "de" : { "stringUnit" : { "value" : "Gruppe" } }
+      }
+    },
+
+    "Help" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Help" } },
+        "de" : { "stringUnit" : { "value" : "Hilfe" } }
+      }
+    },
+
+    "Help & Contact" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Help & Contact" } },
+        "de" : { "stringUnit" : { "value" : "Hilfe & Kontakt" } }
+      }
+    },
+
+    "Hide" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Hide" } },
+        "de" : { "stringUnit" : { "value" : "Ausblenden" } }
+      }
+    },
+
+    "Histogram" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Histogram" } },
+        "de" : { "stringUnit" : { "value" : "Histogramm" } }
+      }
+    },
+
+    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie auf 'Fortfahren' klicken, werden Sie aufgefordert, der App '{{app.name}}' zu erlauben, die {{authmethodName}}-Anmeldeseite zu öffnen, auf der Sie Ihre Zugangsdaten eingeben können." } }
+      }
+    },
+
+    "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie auf 'Fortfahren' klicken, werden Sie aufgefordert, der App '{{app.name}}' zu erlauben, die Anmeldeseite zu öffnen, auf der Sie Ihre Zugangsdaten eingeben können." } }
+      }
+    },
+
+    "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you choose \"Immediately\" the App will be locked, when it is no longer in foreground." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie 'Sofort' wählen, wird die App gesperrt, sobald sie nicht mehr im Vordergrund ist." } }
+      }
+    },
+
+    "If you have a moment to give us your feedback, please take our survey." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you have a moment to give us your feedback, please take our survey." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie einen Moment Zeit haben, um uns Ihr Feedback zu geben, nehmen Sie bitte an unserer Umfrage teil." } }
+      }
+    },
+
+    "If you make an item a favorite, it will turn up here." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you make an item a favorite, it will turn up here." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie ein Element als Favorit markieren, erscheint es hier." } }
+      }
+    },
+
+    "If you would like background media uploads to be more reliable, you should enable background location updates." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you would like background media uploads to be more reliable, you should enable background location updates." } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie möchten, dass Hintergrund-Medienuploads zuverlässiger sind, sollten Sie die Hintergrundstandortaktualisierungen aktivieren." } }
+      }
+    },
+
+    "If you'd like to give the account a custom name, please enter it below:" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "If you'd like to give the account a custom name, please enter it below:" } },
+        "de" : { "stringUnit" : { "value" : "Wenn Sie dem Konto einen eigenen Namen geben möchten, geben Sie ihn bitte unten ein:" } }
+      }
+    },
+
+    "Ignore updates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Ignore updates" } },
+        "de" : { "stringUnit" : { "value" : "Updates ignorieren" } }
+      }
+    },
+
+    "Image details" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image details" } },
+        "de" : { "stringUnit" : { "value" : "Bilddetails" } }
+      }
+    },
+
+    "Image grid" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image grid" } },
+        "de" : { "stringUnit" : { "value" : "Bildraster" } }
+      }
+    },
+
+    "Image metadata" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image metadata" } },
+        "de" : { "stringUnit" : { "value" : "Bildmetadaten" } }
+      }
+    },
+
 
 
 ▲
