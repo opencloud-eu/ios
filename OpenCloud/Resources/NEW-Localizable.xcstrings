@@ -1963,9 +1963,121 @@
 
 
 
+
+
+
+    "Image metadata, extended upload options" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Image metadata, extended upload options" } },
+        "de" : { "stringUnit" : { "value" : "Bildmetadaten, erweiterte Upload-Optionen" } }
+      }
+    },
+
+    "Images" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Images" } },
+        "de" : { "stringUnit" : { "value" : "Bilder" } }
+      }
+    },
+
+    "Immediately" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Immediately" } },
+        "de" : { "stringUnit" : { "value" : "Sofort" } }
+      }
+    },
+
+    "Import \"{{itemName}}\"" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Import \"{{itemName}}\"" } },
+        "de" : { "stringUnit" : { "value" : "„{{itemName}}“ importieren" } }
+      }
+    },
+
+    "Import {{itemCount}} files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Import {{itemCount}} files" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Dateien importieren" } }
+      }
+    },
+
+    "Importing files through opening is not allowed on this device." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing files through opening is not allowed on this device." } },
+        "de" : { "stringUnit" : { "value" : "Das Importieren von Dateien durch Öffnen ist auf diesem Gerät nicht erlaubt." } }
+      }
+    },
+
+    "Importing files through the Share Extension is not allowed on this device." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing files through the Share Extension is not allowed on this device." } },
+        "de" : { "stringUnit" : { "value" : "Das Importieren von Dateien über die Share-Erweiterung ist auf diesem Gerät nicht erlaubt." } }
+      }
+    },
+
+    "Importing item %ld of %ld" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Importing item %1$ld of %2$ld" } },
+        "de" : { "stringUnit" : { "value" : "Importiere Element %1$ld von %2$ld" } }
+      }
+    },
+
+    "In order to accurately determine your current licensing status, please add one or more accounts first." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In order to accurately determine your current licensing status, please add one or more accounts first." } },
+        "de" : { "stringUnit" : { "value" : "Um Ihren aktuellen Lizenzstatus genau zu ermitteln, fügen Sie bitte zuerst ein oder mehrere Konten hinzu." } }
+      }
+    },
+
+    "In the cloud" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In the cloud" } },
+        "de" : { "stringUnit" : { "value" : "In der Cloud" } }
+      }
+    },
+
+    "In-App Purchases" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "In-App Purchases" } },
+        "de" : { "stringUnit" : { "value" : "In-App-Käufe" } }
+      }
+    },
+
+    "Include available offline files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Include available offline files" } },
+        "de" : { "stringUnit" : { "value" : "Verfügbare Offline-Dateien einbeziehen" } }
+      }
+    },
+
+    "Incorrect code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Incorrect code" } },
+        "de" : { "stringUnit" : { "value" : "Falscher Code" } }
+      }
+    },
+
+    "Info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Info" } },
+        "de" : { "stringUnit" : { "value" : "Information" } }
+      }
+    },
+
+    "Invalid Page" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Invalid Page" } },
+        "de" : { "stringUnit" : { "value" : "Ungültige Seite" } }
+      }
+    },
+
+    "Invite" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Invite" } },
+        "de" : { "stringUnit" : { "value" : "Einladen" } }
+      }
+    },
+
+
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
-
-
-
