@@ -358,14 +358,6 @@
 
     },
 
-
-▲
-└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
-┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
-▼
-
-
     "Certificate Details" : {
 
     },
@@ -402,6 +394,7 @@
     "Cleared all." : {
 
     },
+
     "Close actions menu" : {
 
     },
@@ -447,6 +440,7 @@
     "contents" : {
 
     },
+
     "Contents from cache." : {
 
     },
@@ -492,6 +486,14 @@
     "Could not get the picture" : {
 
     },
+
+
+▲
+└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
+┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
+▼
+
     "Couldn't resolve a private link since the item is not known to the server." : {
 
     },
