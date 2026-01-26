@@ -487,13 +487,6 @@
 
     },
 
-
-▲
-└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
-┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
-▼
-
     "Couldn't resolve a private link since the item is not known to the server." : {
 
     },
@@ -545,6 +538,7 @@
     "Decline" : {
 
     },
+
     "Decline share" : {
 
     },
@@ -605,6 +599,7 @@
     "Didn't fire" : {
 
     },
+
     "Digitized date" : {
 
     },
@@ -674,6 +669,15 @@
     "Enable logging" : {
 
     },
+
+
+▲
+└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
+┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
+▼
+
+
     "Enable Pro Features (QA)" : {
 
     },
