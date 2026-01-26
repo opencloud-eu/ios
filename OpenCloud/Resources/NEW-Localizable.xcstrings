@@ -186,8 +186,8 @@
 
     "Access denied" : {
       "localizations" : {
-    "en" : { "stringUnit" : { "value" : "Access denied" } },
-    "de" : { "stringUnit" : { "value" : "Zugriff verweigert" } }
+        "en" : { "stringUnit" : { "value" : "Access denied" } },
+        "de" : { "stringUnit" : { "value" : "Zugriff verweigert" } }
       }
     },
 
@@ -730,10 +730,303 @@
       }
     },
 
+    "Certificate Details" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate Details" } },
+        "de" : { "stringUnit" : { "value" : "Zertifikatsdetails" } }
+      }
+    },
+
+    "Certificate has issues.\nOpen 'Certificate Details' for more informations." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate has issues.\nOpen 'Certificate Details' for more informations." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat weist Probleme auf.\nÖffnen Sie die „Zertifikatsdetails“ für weitere Informationen." } }
+      }
+    },
+
+    "Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate may have issues, but was accepted by user.\nOpen 'Certificate Details' for more informations." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat weist möglicherweise Probleme auf, wurde jedoch vom Benutzer akzeptiert.\nÖffnen Sie die „Zertifikatsdetails“ für weitere Informationen." } }
+      }
+    },
+
+    "Certificate was rejected by user." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificate was rejected by user." } },
+        "de" : { "stringUnit" : { "value" : "Das Zertifikat wurde vom Benutzer abgelehnt." } }
+      }
+    },
+
+    "Certificates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Certificates" } },
+        "de" : { "stringUnit" : { "value" : "Zertifikate" } }
+      }
+    },
+
+    "Change" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Change" } },
+        "de" : { "stringUnit" : { "value" : "Ändern" } }
+      }
+    },
+
+    "Change password" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Change password" } },
+        "de" : { "stringUnit" : { "value" : "Passwort ändern" } }
+      }
+    },
+
+    "Changed {{settingID}} to {{newValue}}." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Changed {{settingID}} to {{newValue}}." } },
+        "de" : { "stringUnit" : { "value" : "{{settingID}} wurde auf {{newValue}} geändert." } }
+      }
+    },
+
+    "Choose destination directory…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Choose destination directory…" } },
+        "de" : { "stringUnit" : { "value" : "Zielverzeichnis auswählen…" } }
+      }
+    },
+
+    "Clear" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Clear" } },
+        "de" : { "stringUnit" : { "value" : "Leeren" } }
+      }
+    },
+
+    "Cleared {{settingID}}." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cleared {{settingID}}." } },
+        "de" : { "stringUnit" : { "value" : "{{settingID}} wurde gelöscht." } }
+      }
+    },
+
+    "Cleared all." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cleared all." } },
+        "de" : { "stringUnit" : { "value" : "Alles gelöscht." } }
+      }
+    },
+
+    "Close actions menu" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Close actions menu" } },
+        "de" : { "stringUnit" : { "value" : "Aktionsmenü schließen" } }
+      }
+    },
+
+    "Close Window" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Close Window" } },
+        "de" : { "stringUnit" : { "value" : "Fenster schließen" } }
+      }
+    },
+
+    "Color model" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Color model" } },
+        "de" : { "stringUnit" : { "value" : "Farbmodell" } }
+      }
+    },
+
+    "Color space" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Color space" } },
+        "de" : { "stringUnit" : { "value" : "Farbraum" } }
+      }
+    },
+
+    "Compacting" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compacting" } },
+        "de" : { "stringUnit" : { "value" : "Wird komprimiert" } }
+      }
+    },
+
+    "Compacting of '%@' failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compacting of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Komprimieren von „%@“ fehlgeschlagen" } }
+      }
+    },
+
+    "Completed update scans" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Completed update scans" } },
+        "de" : { "stringUnit" : { "value" : "Aktualisierungsscans abgeschlossen" } }
+      }
+    },
+
+    "Compulsory flash firing" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compulsory flash firing" } },
+        "de" : { "stringUnit" : { "value" : "Blitz erzwingen" } }
+      }
+    },
+
+    "Compulsory flash supression" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Compulsory flash supression" } },
+        "de" : { "stringUnit" : { "value" : "Blitz unterdrücken" } }
+      }
+    },
+    "Connecting" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Connecting" } },
+        "de" : { "stringUnit" : { "value" : "Verbinden" } }
+      }
+    },
+
+    "Connecting..." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Connecting..." } },
+        "de" : { "stringUnit" : { "value" : "Verbindung wird hergestellt..." } }
+      }
+    },
+
+    "Connecting…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Connecting…" } },
+        "de" : { "stringUnit" : { "value" : "Verbindung wird hergestellt…" } }
+      }
+    },
+
+    "Contact info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contact info" } },
+        "de" : { "stringUnit" : { "value" : "Kontaktinformationen" } }
+      }
+    },
+
+    "Contacting server…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contacting server…" } },
+        "de" : { "stringUnit" : { "value" : "Server wird kontaktiert…" } }
+      }
+    },
+
+    "contents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "contents" } },
+        "de" : { "stringUnit" : { "value" : "Inhalt" } }
+      }
+    },
+
+    "Contents from cache." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Contents from cache." } },
+        "de" : { "stringUnit" : { "value" : "Inhalt aus dem Cache." } }
+      }
+    },
+
+    "Continue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Continue" } },
+        "de" : { "stringUnit" : { "value" : "Fortfahren" } }
+      }
+    },
+
+    "Continue offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Continue offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline fortfahren" } }
+      }
+    },
+
+    "Convert HEIC to JPEG" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Convert HEIC to JPEG" } },
+        "de" : { "stringUnit" : { "value" : "HEIC in JPEG konvertieren" } }
+      }
+    },
+
+    "Convert videos to MP4" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Convert videos to MP4" } },
+        "de" : { "stringUnit" : { "value" : "Videos in MP4 konvertieren" } }
+      }
+    },
+
+    "Coordinates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Coordinates" } },
+        "de" : { "stringUnit" : { "value" : "Koordinaten" } }
+      }
+    },
+
+    "Copy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy" } },
+        "de" : { "stringUnit" : { "value" : "Kopieren" } }
+      }
+    },
+
+    "Copy \"{{itemName}}\"" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy \"{{itemName}}\"" } },
+        "de" : { "stringUnit" : { "value" : "„{{itemName}}“ kopieren" } }
+      }
+    },
+
+    "Copy {{itemCount}} items" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy {{itemCount}} items" } },
+        "de" : { "stringUnit" : { "value" : "{{itemCount}} Elemente kopieren" } }
+      }
+    },
+
+    "Copy here" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy here" } },
+        "de" : { "stringUnit" : { "value" : "Hierher kopieren" } }
+      }
+    },
+
+    "Copy Private Link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy Private Link" } },
+        "de" : { "stringUnit" : { "value" : "Privaten Link kopieren" } }
+      }
+    },
+
+    "Copy to clipboard" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copy to clipboard" } },
+        "de" : { "stringUnit" : { "value" : "In die Zwischenablage kopieren" } }
+      }
+    },
+
+    "Copying %ld items…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copying %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente werden kopiert…" } }
+      }
+    },
+
+    "Copyright" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Copyright" } },
+        "de" : { "stringUnit" : { "value" : "Urheberrecht" } }
+      }
+    },
+
+    "Could not get the picture" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Could not get the picture" } },
+        "de" : { "stringUnit" : { "value" : "Bild konnte nicht geladen werden" } }
+      }
+    },
+
+
 
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
 
 
 
