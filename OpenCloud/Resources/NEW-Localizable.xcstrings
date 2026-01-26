@@ -1023,10 +1023,431 @@
       }
     },
 
+    "Couldn't resolve a private link since the item is not known to the server." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Couldn't resolve a private link since the item is not known to the server." } },
+        "de" : { "stringUnit" : { "value" : "Privater Link konnte nicht aufgelöst werden, da das Element dem Server nicht bekannt ist." } }
+      }
+    },
+
+    "Couldn't resolve a private link since you are offline and corresponding item is not cached locally." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Couldn't resolve a private link since you are offline and corresponding item is not cached locally." } },
+        "de" : { "stringUnit" : { "value" : "Privater Link konnte nicht aufgelöst werden, da Sie offline sind und das entsprechende Element nicht lokal zwischengespeichert ist." } }
+      }
+    },
+
+    "Create" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create" } },
+        "de" : { "stringUnit" : { "value" : "Erstellen" } }
+      }
+    },
+
+    "Create folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner erstellen" } }
+      }
+    },
+
+    "Create link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create link" } },
+        "de" : { "stringUnit" : { "value" : "Link erstellen" } }
+      }
+    },
+
+    "Create one file per page" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create one file per page" } },
+        "de" : { "stringUnit" : { "value" : "Eine Datei pro Seite erstellen" } }
+      }
+    },
+
+    "Create shortcut" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Create shortcut" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung erstellen" } }
+      }
+    },
+
+    "Creating %ld folders…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Creating %ld folders…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Ordner werden erstellt…" } }
+      }
+    },
+
+    "Creative" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Creative" } },
+        "de" : { "stringUnit" : { "value" : "Kreativ" } }
+      }
+    },
+
+    "Credentials" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Credentials" } },
+        "de" : { "stringUnit" : { "value" : "Anmeldedaten" } }
+      }
+    },
+
+    "Cut" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Cut" } },
+        "de" : { "stringUnit" : { "value" : "Ausschneiden" } }
+      }
+    },
+
+    "Dark" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Dark" } },
+        "de" : { "stringUnit" : { "value" : "Dunkel" } }
+      }
+    },
+
+    "Data usage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Data usage" } },
+        "de" : { "stringUnit" : { "value" : "Datenverbrauch" } }
+      }
+    },
+
+    "date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "date" } },
+        "de" : { "stringUnit" : { "value" : "Datum" } }
+      }
+    },
+
+    "Date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Date" } },
+        "de" : { "stringUnit" : { "value" : "Datum" } }
+      }
+    },
+
+    Debug" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Debug" } },
+        "de" : { "stringUnit" : { "value" : "Debug" } }
+      }
+    },
+
+    "Decline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline" } },
+        "de" : { "stringUnit" : { "value" : "Ablehnen" } }
+      }
+    },
+
+    "Decline share" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline share" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe ablehnen" } }
+      }
+    },
+
+    "Decline Share failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Decline Share failed" } },
+        "de" : { "stringUnit" : { "value" : "Ablehnen der Freigabe fehlgeschlagen" } }
+      }
+    },
+
+    "Declined" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Declined" } },
+        "de" : { "stringUnit" : { "value" : "Abgelehnt" } }
+      }
+    },
+
+    "Default search scope" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Default search scope" } },
+        "de" : { "stringUnit" : { "value" : "Standard-Suchbereich" } }
+      }
+    },
+
+    "Delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete" } },
+        "de" : { "stringUnit" : { "value" : "Löschen" } }
+      }
+    },
+
+    "Delete all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all" } },
+        "de" : { "stringUnit" : { "value" : "Alle löschen" } }
+      }
+    },
+
+    "Delete all log files?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all log files?" } },
+        "de" : { "stringUnit" : { "value" : "Alle Protokolldateien löschen?" } }
+      }
+    },
+
+    "Delete all Offline Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete all Offline Files" } },
+        "de" : { "stringUnit" : { "value" : "Alle Offline-Dateien löschen" } }
+      }
+    },
+
+    "Delete Authentication Data" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete Authentication Data" } },
+        "de" : { "stringUnit" : { "value" : "Authentifizierungsdaten löschen" } }
+      }
+    },
+
+    "Delete code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete code" } },
+        "de" : { "stringUnit" : { "value" : "Code löschen" } }
+      }
+    },
+
+    "Delete unused local copies" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Delete unused local copies" } },
+        "de" : { "stringUnit" : { "value" : "Nicht verwendete lokale Kopien löschen" } }
+      }
+    },
+
+    "Deleting %ld items…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deleting %ld items…" } },
+        "de" : { "stringUnit" : { "value" : "%ld Elemente werden gelöscht…" } }
+      }
+    },
+
+    "Deletion of '%@' failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deletion of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Löschen von „%@“ fehlgeschlagen" } }
+      }
+    },
+
+    "Density" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Density" } },
+        "de" : { "stringUnit" : { "value" : "Dichte" } }
+      }
+    },
+
+    "descending" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "descending" } },
+        "de" : { "stringUnit" : { "value" : "absteigend" } }
+      }
+    },
+
+    "Description" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Description" } },
+        "de" : { "stringUnit" : { "value" : "Beschreibung" } }
+      }
+    },
+
+    "Deselect All" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Deselect All" } },
+        "de" : { "stringUnit" : { "value" : "Auswahl aufheben" } }
+      }
+    },
+
+    "Diagnostic Overview" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Diagnostic Overview" } },
+        "de" : { "stringUnit" : { "value" : "Diagnoseübersicht" } }
+      }
+    },
+
+    "Diagnostics" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose" } }
+      }
+    },
+
+    "Didn't fire" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Didn't fire" } },
+        "de" : { "stringUnit" : { "value" : "Nicht ausgelöst" } }
+      }
+    },
+
+    "Digitized date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Digitized date" } },
+        "de" : { "stringUnit" : { "value" : "Digitalisierungsdatum" } }
+      }
+    },
+
+    "Disable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disable" } },
+        "de" : { "stringUnit" : { "value" : "Deaktivieren" } }
+      }
+    },
+
+    "Disable gestures" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disable gestures" } },
+        "de" : { "stringUnit" : { "value" : "Gesten deaktivieren" } }
+      }
+    },
+
+    "Discard changes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Discard changes" } },
+        "de" : { "stringUnit" : { "value" : "Änderungen verwerfen" } }
+      }
+    },
+
+    "Disconnect" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Disconnect" } },
+        "de" : { "stringUnit" : { "value" : "Trennen" } }
+      }
+    },
+
+    "Do you want to log out from '%@'?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Do you want to log out from '%@'?" } },
+        "de" : { "stringUnit" : { "value" : "Möchten Sie sich von '%@' abmelden?" } }
+      }
+    },
+
+    "Do you want to open the following URL?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Do you want to open the following URL?" } },
+        "de" : { "stringUnit" : { "value" : "Möchten Sie die folgende URL öffnen?" } }
+      }
+    },
+
+    "Document Scanner" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Document Scanner" } },
+        "de" : { "stringUnit" : { "value" : "Dokumentenscanner" } }
+      }
+    },
+
+    "Documentation" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Documentation" } },
+        "de" : { "stringUnit" : { "value" : "Dokumentation" } }
+      }
+    },
+
+    "Documents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Documents" } },
+        "de" : { "stringUnit" : { "value" : "Dokumente" } }
+      }
+    },
+
+    "Done" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Done" } },
+        "de" : { "stringUnit" : { "value" : "Fertig" } }
+      }
+    },
+
+    "Download" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen" } }
+      }
+    },
+
+    "Download / View" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download / View" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen / Anzeigen" } }
+      }
+    },
+
+    "Download instead of streaming" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Download instead of streaming" } },
+        "de" : { "stringUnit" : { "value" : "Herunterladen statt Streamen" } }
+      }
+    },
+
+    "Downloaded Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Downloaded Files" } },
+        "de" : { "stringUnit" : { "value" : "Heruntergeladene Dateien" } }
+      }
+    },
+
+    "Downloading %ld files…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Downloading %ld files…" } },
+        "de" : { "stringUnit" : { "value" : "Lade %ld Dateien herunter…" } }
+      }
+    },
+
+    "Duplicate" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Duplicate" } },
+        "de" : { "stringUnit" : { "value" : "Duplikat" } }
+      }
+    },
+
+    "E" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "E" } },
+        "de" : { "stringUnit" : { "value" : "E" } }
+      }
+    },
+
+    "Edit" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Edit" } },
+        "de" : { "stringUnit" : { "value" : "Bearbeiten" } }
+      }
+    },
+
+    "Edit account" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Edit account" } },
+        "de" : { "stringUnit" : { "value" : "Konto bearbeiten" } }
+      }
+    },
+
+    "Enable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable" } },
+        "de" : { "stringUnit" : { "value" : "Aktivieren" } }
+      }
+    },
+
+    "Enable diagnostics" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose aktivieren" } }
+      }
+    },
+
+    "Enable logging" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Enable logging" } },
+        "de" : { "stringUnit" : { "value" : "Protokollierung aktivieren" } }
+      }
+    },
+
 
 
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
 
 
 
