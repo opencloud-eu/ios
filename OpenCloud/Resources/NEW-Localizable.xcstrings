@@ -1128,7 +1128,7 @@
       }
     },
 
-    Debug" : {
+    "Debug" : {
       "localizations" : {
         "en" : { "stringUnit" : { "value" : "Debug" } },
         "de" : { "stringUnit" : { "value" : "Debug" } }
@@ -2092,7 +2092,7 @@
         "en" : { "stringUnit" : { "value" : "Item grid" } },
         "de" : { "stringUnit" : { "value" : "Elementraster" } }
       }
-},
+    },
 
     "Item with same name already exists" : {
       "localizations" : {
@@ -4683,11 +4683,6 @@
         "de" : { "stringUnit" : { "value" : "OpenCloud-Aktionen in Kurzbefehlen verwenden." } }
       }
     },
-
-
-▲
-└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
 
     "User Interface" : {
       "localizations" : {
