@@ -3690,10 +3690,664 @@
       }
     },
 
+    "Search space" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search space" } },
+        "de" : { "stringUnit" : { "value" : "Bereich durchsuchen" } }
+      }
+    },
+
+    "Search template" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search template" } },
+        "de" : { "stringUnit" : { "value" : "Suchvorlage" } }
+      }
+    },
+
+    "Search templates" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search templates" } },
+        "de" : { "stringUnit" : { "value" : "Suchvorlagen" } }
+      }
+    },
+
+    "Search tree" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search tree" } },
+        "de" : { "stringUnit" : { "value" : "Suchbaum" } }
+      }
+    },
+
+    "Searches in the current space ONLY." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches in the current space ONLY." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht NUR den aktuellen Bereich." } }
+      }
+    },
+
+    "Searches the current folder and its subfolders." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the current folder and its subfolders." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den aktuellen Ordner und alle Unterordner." } }
+      }
+    },
+
+    "Searches the current folder ONLY." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the current folder ONLY." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht NUR den aktuellen Ordner." } }
+      }
+    },
+
+    "Searches the personal folder and all spaces." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches the personal folder and all spaces." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den persönlichen Ordner und alle Bereiche." } }
+      }
+    },
+
+    "Searches using the server." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Searches using the server." } },
+        "de" : { "stringUnit" : { "value" : "Durchsucht den Server." } }
+      }
+    },
+
+    "Security" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Security" } },
+        "de" : { "stringUnit" : { "value" : "Sicherheit" } }
+      }
+    },
+
+    "Select" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select" } },
+        "de" : { "stringUnit" : { "value" : "Auswählen" } }
+      }
+    },
+
+    "Select All" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select All" } },
+        "de" : { "stringUnit" : { "value" : "Alle auswählen" } }
+      }
+    },
+
+    "Select Destination" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select Destination" } },
+        "de" : { "stringUnit" : { "value" : "Ziel auswählen" } }
+      }
+    },
+
+    "Select folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner auswählen" } }
+      }
+    },
+
+    "Select one or more items." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select one or more items." } },
+        "de" : { "stringUnit" : { "value" : "Wählen Sie ein oder mehrere Elemente aus." } }
+      }
+    },
+
+    "Select target." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Select target." } },
+        "de" : { "stringUnit" : { "value" : "Ziel auswählen." } }
+      }
+    },
+
+    "Send feedback" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Send feedback" } },
+        "de" : { "stringUnit" : { "value" : "Feedback senden" } }
+      }
+    },
+
+    "Serial number" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Serial number" } },
+        "de" : { "stringUnit" : { "value" : "Seriennummer" } }
+      }
+    },
+
+    "Server" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server" } },
+        "de" : { "stringUnit" : { "value" : "Server" } }
+      }
+    },
+
+    "Server name" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server name" } },
+        "de" : { "stringUnit" : { "value" : "Servername" } }
+      }
+    },
+
+    "Server Password" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server Password" } },
+        "de" : { "stringUnit" : { "value" : "Server-Passwort" } }
+      }
+    },
+
+    "Server search requires a connection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server search requires a connection" } },
+        "de" : { "stringUnit" : { "value" : "Die Serversuche erfordert eine Verbindung" } }
+      }
+    },
+
+    "Server URL" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server URL" } },
+        "de" : { "stringUnit" : { "value" : "Server-URL" } }
+      }
+    },
+
+    "Server Username" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Server Username" } },
+        "de" : { "stringUnit" : { "value" : "Server-Benutzername" } }
+      }
+    },
+
+    "Set" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Set" } },
+        "de" : { "stringUnit" : { "value" : "Festlegen" } }
+      }
+    },
+
+    "Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Settings" } },
+        "de" : { "stringUnit" : { "value" : "Einstellungen" } }
+      }
+    },
+
+    "Setup a new account in the app to save to." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Setup a new account in the app to save to." } },
+        "de" : { "stringUnit" : { "value" : "Richten Sie ein neues Konto in der App ein, um dort zu speichern." } }
+      }
+    },
+
+    "Share" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share" } },
+        "de" : { "stringUnit" : { "value" : "Teilen" } }
+      }
+    },
+
+    "Share Diagnostics" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Diagnostics" } },
+        "de" : { "stringUnit" : { "value" : "Diagnose teilen" } }
+      }
+    },
+
+    "Share Extension disabled" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Extension disabled" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe-Erweiterung deaktiviert" } }
+      }
+    },
+
+    "Share Extension unavailable" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share Extension unavailable" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe-Erweiterung nicht verfügbar" } }
+      }
+    },
+
+    "Share with" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Share with" } },
+        "de" : { "stringUnit" : { "value" : "Teilen mit" } }
+      }
+    },
+
+    "shared" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "shared" } },
+        "de" : { "stringUnit" : { "value" : "geteilt" } }
+      }
+    },
+
+    "Shared" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt" } }
+      }
+    },
+
+    "Shared by {{owner}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by {{owner}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt von {{owner}}" } }
+      }
+    },
+
+    "Shared by link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by link" } },
+        "de" : { "stringUnit" : { "value" : "Per Link geteilt" } }
+      }
+    },
+
+    "Shared by me" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared by me" } },
+        "de" : { "stringUnit" : { "value" : "Von mir geteilt" } }
+      }
+    },
+
+    "Shared with" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit" } }
+      }
+    },
+
+    "Shared with {{recipient}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with {{recipient}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit {{recipient}}" } }
+      }
+    },
+
+    "Shared with {{recipients}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with {{recipients}}" } },
+        "de" : { "stringUnit" : { "value" : "Geteilt mit {{recipients}}" } }
+      }
+    },
+
+    "Shared with me" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shared with me" } },
+        "de" : { "stringUnit" : { "value" : "Mit mir geteilt" } }
+      }
+    },
+
+    "Shares" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shares" } },
+        "de" : { "stringUnit" : { "value" : "Freigaben" } }
+      }
+    },
+
+    "Sharing" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sharing" } },
+        "de" : { "stringUnit" : { "value" : "Teilen" } }
+      }
+    },
+
+    "Sharing requires an active connection." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sharing requires an active connection." } },
+        "de" : { "stringUnit" : { "value" : "Freigaben erfordern eine aktive Verbindung." } }
+      }
+    },
+
+    "Shortcut" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcut" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung" } }
+      }
+    },
+
+    "Shortcut to '{{hostname}}'" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcut to '{{hostname}}'" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfung zu '{{hostname}}'" } }
+      }
+    },
+
+    "Shortcuts Actions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shortcuts Actions" } },
+        "de" : { "stringUnit" : { "value" : "Verknüpfungsaktionen" } }
+      }
+    },
+
+    "Shorten by one week" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shorten by one week" } },
+        "de" : { "stringUnit" : { "value" : "Um eine Woche verkürzen" } }
+      }
+    },
+
+    "Show" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show" } },
+        "de" : { "stringUnit" : { "value" : "Anzeigen" } }
+      }
+    },
+
+    "Show all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show all" } },
+        "de" : { "stringUnit" : { "value" : "Alle anzeigen" } }
+      }
+    },
+
+    "Show folders on top" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show folders on top" } },
+        "de" : { "stringUnit" : { "value" : "Ordner oben anzeigen" } }
+      }
+    },
+
+    "Show hidden files and folders" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show hidden files and folders" } },
+        "de" : { "stringUnit" : { "value" : "Versteckte Dateien und Ordner anzeigen" } }
+      }
+    },
+
+    "Show message" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show message" } },
+        "de" : { "stringUnit" : { "value" : "Nachricht anzeigen" } }
+      }
+    },
+
+    "Show more results" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show more results" } },
+        "de" : { "stringUnit" : { "value" : "Weitere Ergebnisse anzeigen" } }
+      }
+    },
+
+    "Show new version" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show new version" } },
+        "de" : { "stringUnit" : { "value" : "Neue Version anzeigen" } }
+      }
+    },
+
+    "Show/Hide sidebar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Show/Hide sidebar" } },
+        "de" : { "stringUnit" : { "value" : "Seitenleiste ein-/ausblenden" } }
+      }
+    },
+
+    "Shutter priority" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shutter priority" } },
+        "de" : { "stringUnit" : { "value" : "Blendenpriorität" } }
+      }
+    },
+
+    "Shutter speed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Shutter speed" } },
+        "de" : { "stringUnit" : { "value" : "Verschlusszeit" } }
+      }
+    },
+
+    "Sign in" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sign in" } },
+        "de" : { "stringUnit" : { "value" : "Anmelden" } }
+      }
+    },
+
+    "size" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "size" } },
+        "de" : { "stringUnit" : { "value" : "Größe" } }
+      }
+    },
+
+    "Size" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Size" } },
+        "de" : { "stringUnit" : { "value" : "Größe" } }
+      }
+    },
+
+    "Skip" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Skip" } },
+        "de" : { "stringUnit" : { "value" : "Überspringen" } }
+      }
+    },
+
+    "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app." } },
+        "de" : { "stringUnit" : { "value" : "Es können weiterhin mobile Daten verwendet werden. Um die Nutzung mobiler Daten vollständig zu vermeiden, deaktivieren Sie bitte den mobilen Zugriff für die gesamte App in den Systemeinstellungen." } }
+      }
+    },
+
+    "Sort by {{attribute}} in {{direction}} order" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Sort by {{attribute}} in {{direction}} order" } },
+        "de" : { "stringUnit" : { "value" : "Sortieren nach {{attribute}} in {{direction}}" } }
+      }
+    },
+
+    "Space" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Space" } },
+        "de" : { "stringUnit" : { "value" : "Space" } }
+      }
+    },
+
+    "Spaces" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Spaces" } },
+        "de" : { "stringUnit" : { "value" : "Spaces" } }
+      }
+    },
+
+    "Spot" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Spot" } },
+        "de" : { "stringUnit" : { "value" : "Spot" } }
+      }
+    },
+
+    "Start setup" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Start setup" } },
+        "de" : { "stringUnit" : { "value" : "Setup starten" } }
+      }
+    },
+
+    "Status" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Status" } },
+        "de" : { "stringUnit" : { "value" : "Status" } }
+      }
+    },
+
+    "Storage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Storage" } },
+        "de" : { "stringUnit" : { "value" : "Speicher" } }
+      }
+    },
+
+    "Strobe return light detected" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Strobe return light detected" } },
+        "de" : { "stringUnit" : { "value" : "Stroboskop-Rücklicht erkannt" } }
+      }
+    },
+
+    "Strobe return light not detected" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Strobe return light not detected" } },
+        "de" : { "stringUnit" : { "value" : "Stroboskop-Rücklicht nicht erkannt" } }
+      }
+    },
+
+    "Subscribe" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Subscribe" } },
+        "de" : { "stringUnit" : { "value" : "Abonnieren" } }
+      }
+    },
+
+    "Subscribe Now" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Subscribe Now" } },
+        "de" : { "stringUnit" : { "value" : "Jetzt abonnieren" } }
+      }
+    },
+
+    "System" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "System" } },
+        "de" : { "stringUnit" : { "value" : "System" } }
+      }
+    },
+
+    "System Appeareance" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "System Appeareance" } },
+        "de" : { "stringUnit" : { "value" : "Systemdarstellung" } }
+      }
+    },
+
+    "Take photo or video" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Take photo or video" } },
+        "de" : { "stringUnit" : { "value" : "Foto oder Video aufnehmen" } }
+      }
+    },
+
+    "Take survey" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Take survey" } },
+        "de" : { "stringUnit" : { "value" : "Umfrage ausfüllen" } }
+      }
+    },
+
+    "Tap to launch the app." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Tap to launch the app." } },
+        "de" : { "stringUnit" : { "value" : "Tippen, um die App zu starten." } }
+      }
+    },
+
+    "Tap to quit the app." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Tap to quit the app." } },
+        "de" : { "stringUnit" : { "value" : "Tippen, um die App zu beenden." } }
+      }
+    },
+
+    "Terms Of Use" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Terms Of Use" } },
+        "de" : { "stringUnit" : { "value" : "Nutzungsbedingungen" } }
+      }
+    },
+
+    "Text" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Text" } },
+        "de" : { "stringUnit" : { "value" : "Text" } }
+      }
+    },
+
+    "Thank you for using %@.\n" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Thank you for using %@.\n" } },
+        "de" : { "stringUnit" : { "value" : "Vielen Dank, dass Sie %@ nutzen.\n" } }
+      }
+    },
+
+    "Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Thank you for using %@.\nIf you like our App, please leave an AppStore review.\n❤️" } },
+        "de" : { "stringUnit" : { "value" : "Vielen Dank, dass Sie %@ nutzen.\nWenn Ihnen unsere App gefällt, hinterlassen Sie bitte eine Bewertung im App Store.\n❤️" } }
+      }
+    },
+
+    "The {{app.name}} share extension is not available on this system." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The {{app.name}} share extension is not available on this system." } },
+        "de" : { "stringUnit" : { "value" : "Die Share-Erweiterung von {{app.name}} ist auf diesem System nicht verfügbar." } }
+      }
+    },
+
+    "The account has been disabled." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The account has been disabled." } },
+        "de" : { "stringUnit" : { "value" : "Das Konto wurde deaktiviert." } }
+      }
+    },
+
+    "The connection's access token has expired or become invalid. Sign in again to re-gain access." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The connection's access token has expired or become invalid. Sign in again to re-gain access." } },
+        "de" : { "stringUnit" : { "value" : "Das Zugriffstoken der Verbindung ist abgelaufen oder ungültig geworden. Melden Sie sich erneut an, um Zugriff zu erhalten." } }
+      }
+    },
+
+    "The destination this shortcut points to could not be found. It may have been deleted or you may not have access to it." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The destination this shortcut points to could not be found. It may have been deleted or you may not have access to it." } },
+        "de" : { "stringUnit" : { "value" : "Das Ziel, auf das diese Verknüpfung verweist, konnte nicht gefunden werden. Es wurde möglicherweise gelöscht oder Sie haben keinen Zugriff darauf." } }
+      }
+    },
+
+    "The entered codes are different" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered codes are different" } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebenen Codes sind unterschiedlich" } }
+      }
+    },
+
+    "The entered page number doesn't exist" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered page number doesn't exist" } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebene Seitenzahl existiert nicht" } }
+      }
+    },
+
+    "The entered URL does not include a hostname." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The entered URL does not include a hostname." } },
+        "de" : { "stringUnit" : { "value" : "Die eingegebene URL enthält keinen Hostnamen." } }
+      }
+    },
+
+    "The following steps will guide you through the setup process." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The following steps will guide you through the setup process." } },
+        "de" : { "stringUnit" : { "value" : "Die folgenden Schritte führen Sie durch den Einrichtungsprozess." } }
+      }
+    },
+
+    "The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." } },
+        "de" : { "stringUnit" : { "value" : "Die letzten 10 archivierten Protokolle werden auf dem Gerät aufbewahrt – jedes Protokoll deckt bis zu 24 Stunden Nutzung ab. Bitte beachten Sie beim Teilen, dass Protokolle sensible Informationen wie Server-URLs und benutzerspezifische Daten enthalten können." } }
+      }
+    },
+
+
 
 
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
+
 
 
 
