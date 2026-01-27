@@ -1165,16 +1165,6 @@
 
     },
 
-
-
-▲
-└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
-┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
-▼
-
-
-
     "New Folder" : {
 
     },
@@ -1241,6 +1231,7 @@
     "No user or group matches your search." : {
 
     },
+
     "none" : {
 
     },
@@ -1313,6 +1304,7 @@
     "Opening…" : {
 
     },
+
     "Optic ID" : {
 
     },
@@ -1379,6 +1371,7 @@
     "Photo upload path" : {
 
     },
+
     "Photometric interpretation" : {
 
     },
@@ -1442,6 +1435,7 @@
     "Preparing…" : {
 
     },
+
     "Presentation Mode" : {
 
     },
@@ -1517,6 +1511,7 @@
     "Rejected" : {
 
     },
+
     "release" : {
 
     },
@@ -1583,6 +1578,7 @@
     "Save changes" : {
 
     },
+
     "Save File" : {
 
     },
@@ -1658,6 +1654,16 @@
     "Search Settings" : {
 
     },
+
+
+
+▲
+└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
+┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
+▼
+
+
     "Search space" : {
 
     },
