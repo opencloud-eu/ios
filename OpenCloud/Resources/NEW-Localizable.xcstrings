@@ -2073,6 +2073,499 @@
       }
     },
 
+    "ISO" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "ISO" } },
+        "de" : { "stringUnit" : { "value" : "ISO" } }
+      }
+    },
+
+    "Issues" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Issues" } },
+        "de" : { "stringUnit" : { "value" : "Probleme" } }
+      }
+    },
+
+    "Item grid" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Item grid" } },
+        "de" : { "stringUnit" : { "value" : "Elementraster" } }
+      }
+},
+
+    "Item with same name already exists" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Item with same name already exists" } },
+        "de" : { "stringUnit" : { "value" : "Ein Element mit demselben Namen existiert bereits" } }
+      }
+    },
+
+    "Keywords" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Keywords" } },
+        "de" : { "stringUnit" : { "value" : "Schlüsselwörter" } }
+      }
+    },
+
+    "kind" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "kind" } },
+        "de" : { "stringUnit" : { "value" : "Typ" } }
+      }
+    },
+
+    "Landscape" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Landscape" } },
+        "de" : { "stringUnit" : { "value" : "Querformat" } }
+      }
+    },
+
+    "last used" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "last used" } },
+        "de" : { "stringUnit" : { "value" : "zuletzt verwendet" } }
+      }
+    },
+
+    "Lens ID" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens ID" } },
+        "de" : { "stringUnit" : { "value" : "Objektiv-ID" } }
+      }
+    },
+
+    "Lens info" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens info" } },
+        "de" : { "stringUnit" : { "value" : "Objektivinformationen" } }
+      }
+    },
+
+    "Lens make" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens make" } },
+        "de" : { "stringUnit" : { "value" : "Objektivhersteller" } }
+      }
+    },
+
+    "Lens model" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens model" } },
+        "de" : { "stringUnit" : { "value" : "Objektivmodell" } }
+      }
+    },
+
+    "Lens serial" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lens serial" } },
+        "de" : { "stringUnit" : { "value" : "Objektiv-Seriennummer" } }
+      }
+    },
+
+    "license" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "license" } },
+        "de" : { "stringUnit" : { "value" : "Lizenz" } }
+      }
+    },
+
+    "Light" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Light" } },
+        "de" : { "stringUnit" : { "value" : "Hell" } }
+      }
+    },
+
+    "Limited Photo Access" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Limited Photo Access" } },
+        "de" : { "stringUnit" : { "value" : "Eingeschränkter Fotozugriff" } }
+      }
+    },
+
+    "Link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link" } },
+        "de" : { "stringUnit" : { "value" : "Link" } }
+      }
+    },
+
+    "Link points to an account bookmark which is not configured in the app." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link points to an account bookmark which is not configured in the app." } },
+        "de" : { "stringUnit" : { "value" : "Der Link verweist auf ein Konto-Lesezeichen, das in der App nicht konfiguriert ist." } }
+      }
+    },
+
+    "Link resolution failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Link resolution failed" } },
+        "de" : { "stringUnit" : { "value" : "Link-Auflösung fehlgeschlagen" } }
+      }
+    },
+
+    "Links" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Links" } },
+        "de" : { "stringUnit" : { "value" : "Links" } }
+      }
+    },
+
+    "List" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "List" } },
+        "de" : { "stringUnit" : { "value" : "Liste" } }
+      }
+    },
+
+    "Loading…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Loading…" } },
+        "de" : { "stringUnit" : { "value" : "Lädt…" } }
+      }
+    },
+
+    "Local copy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Local copy" } },
+        "de" : { "stringUnit" : { "value" : "Lokale Kopie" } }
+      }
+    },
+
+    "Local version" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Local version" } },
+        "de" : { "stringUnit" : { "value" : "Lokale Version" } }
+      }
+    },
+
+    "Location permission denied" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Location permission denied" } },
+        "de" : { "stringUnit" : { "value" : "Standortberechtigung verweigert" } }
+      }
+    },
+
+    "Locations" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Locations" } },
+        "de" : { "stringUnit" : { "value" : "Standorte" } }
+      }
+    },
+
+    "Lock application" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Lock application" } },
+        "de" : { "stringUnit" : { "value" : "App sperren" } }
+      }
+    },
+
+    "Log Destinations" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Destinations" } },
+        "de" : { "stringUnit" : { "value" : "Protokollziele" } }
+      }
+    },
+
+    "Log Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Files" } },
+        "de" : { "stringUnit" : { "value" : "Protokolldateien" } }
+      }
+    },
+
+    "Log Level" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log Level" } },
+        "de" : { "stringUnit" : { "value" : "Protokollstufe" } }
+      }
+    },
+
+    "Log out" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log out" } },
+        "de" : { "stringUnit" : { "value" : "Abmelden" } }
+      }
+    },
+
+    "Log out of '%@' failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Log out of '%@' failed" } },
+        "de" : { "stringUnit" : { "value" : "Abmeldung von '%@' fehlgeschlagen" } }
+      }
+    },
+
+    "Logging" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Logging" } },
+        "de" : { "stringUnit" : { "value" : "Protokollierung" } }
+      }
+    },
+
+    "Login" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Login" } },
+        "de" : { "stringUnit" : { "value" : "Anmelden" } }
+      }
+    },
+
+    "Make available offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Make available offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline verfügbar machen" } }
+      }
+    },
+
+    "Make unavailable offline" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Make unavailable offline" } },
+        "de" : { "stringUnit" : { "value" : "Offline-Verfügbarkeit aufheben" } }
+      }
+    },
+
+    "Manage" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Manage" } },
+        "de" : { "stringUnit" : { "value" : "Verwalten" } }
+      }
+    },
+
+    "Manual" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Manual" } },
+        "de" : { "stringUnit" : { "value" : "Manuell" } }
+      }
+    },
+
+    "Markup" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup" } },
+        "de" : { "stringUnit" : { "value" : "Markieren" } }
+      }
+    },
+
+    "Markup Documents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup Documents" } },
+        "de" : { "stringUnit" : { "value" : "Dokumente markieren" } }
+      }
+    },
+
+    "Markup photos and PDF files." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Markup photos and PDF files." } },
+        "de" : { "stringUnit" : { "value" : "Fotos und PDF-Dateien markieren." } }
+      }
+    },
+
+    "Mask private data" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Mask private data" } },
+        "de" : { "stringUnit" : { "value" : "Private Daten maskieren" } }
+      }
+    },
+
+    "Media Export" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Export" } },
+        "de" : { "stringUnit" : { "value" : "Medienexport" } }
+      }
+    },
+
+    "Media Files" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Files" } },
+        "de" : { "stringUnit" : { "value" : "Mediendateien" } }
+      }
+    },
+
+    "Media import" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media import" } },
+        "de" : { "stringUnit" : { "value" : "Medienimport" } }
+      }
+    },
+
+    "Media Upload" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Media Upload" } },
+        "de" : { "stringUnit" : { "value" : "Medien-Upload" } }
+      }
+    },
+
+    "Messages" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Messages" } },
+        "de" : { "stringUnit" : { "value" : "Nachrichten" } }
+      }
+    },
+
+
 
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
+
+
+
+"Metering" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Metering" } },
+    "de" : { "stringUnit" : { "value" : "Belichtungsmessung" } }
+  }
+},
+
+"Missing hostname" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Missing hostname" } },
+    "de" : { "stringUnit" : { "value" : "Hostname fehlt" } }
+  }
+},
+
+"Missing permissions" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Missing permissions" } },
+    "de" : { "stringUnit" : { "value" : "Fehlende Berechtigungen" } }
+  }
+},
+
+"More" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "More" } },
+    "de" : { "stringUnit" : { "value" : "Mehr" } }
+  }
+},
+
+"More for {{title}}" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "More for {{title}}" } },
+    "de" : { "stringUnit" : { "value" : "Mehr zu {{title}}" } }
+  }
+},
+
+"More information" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "More information" } },
+    "de" : { "stringUnit" : { "value" : "Weitere Informationen" } }
+  }
+},
+
+"Move" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Move" } },
+    "de" : { "stringUnit" : { "value" : "Verschieben" } }
+  }
+},
+
+"Move \"{{itemName}}\"" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Move \"{{itemName}}\"" } },
+    "de" : { "stringUnit" : { "value" : "„{{itemName}}“ verschieben" } }
+  }
+},
+
+"Move {{itemCount}} items" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Move {{itemCount}} items" } },
+    "de" : { "stringUnit" : { "value" : "{{itemCount}} Elemente verschieben" } }
+  }
+},
+
+"Move here" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Move here" } },
+    "de" : { "stringUnit" : { "value" : "Hierher verschieben" } }
+  }
+},
+
+"Moving %ld items…" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Moving %ld items…" } },
+    "de" : { "stringUnit" : { "value" : "Verschiebe %ld Elemente…" } }
+  }
+},
+
+"Multiple items" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Multiple items" } },
+    "de" : { "stringUnit" : { "value" : "Mehrere Elemente" } }
+  }
+},
+
+"MultiSpot" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "MultiSpot" } },
+    "de" : { "stringUnit" : { "value" : "Multispot" } }
+  }
+},
+
+"N" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "N" } },
+    "de" : { "stringUnit" : { "value" : "N" } }
+  }
+},
+
+"name" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "name" } },
+    "de" : { "stringUnit" : { "value" : "Name" } }
+  }
+},
+
+"Name" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Name" } },
+    "de" : { "stringUnit" : { "value" : "Name" } }
+  }
+},
+
+"name + contents" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "name + contents" } },
+    "de" : { "stringUnit" : { "value" : "Name + Inhalt" } }
+  }
+},
+
+"Name of saved search" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Name of saved search" } },
+    "de" : { "stringUnit" : { "value" : "Name der gespeicherten Suche" } }
+  }
+},
+
+"Name of template" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Name of template" } },
+    "de" : { "stringUnit" : { "value" : "Name der Vorlage" } }
+  }
+},
+
+"names" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "names" } },
+    "de" : { "stringUnit" : { "value" : "Namen" } }
+  }
+},
+
+"Network unavailable" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "Network unavailable" } },
+    "de" : { "stringUnit" : { "value" : "Netzwerk nicht verfügbar" } }
+  }
+},
+
+"never" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "never" } },
+    "de" : { "stringUnit" : { "value" : "nie" } }
+  }
+},
+
+"New document" : {
+  "localizations" : {
+    "en" : { "stringUnit" : { "value" : "New document" } },
+    "de" : { "stringUnit" : { "value" : "Neues Dokument" } }
+  }
+}
