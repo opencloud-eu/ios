@@ -1655,15 +1655,6 @@
 
     },
 
-
-
-▲
-└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
-┌--------------------------------------- Bereich wird noch übersetzt ---------------------------------------------
-▼
-
-
     "Search space" : {
 
     },
@@ -1742,6 +1733,7 @@
     "Settings" : {
 
     },
+
     "Setup a new account in the app to save to." : {
 
     },
@@ -1817,6 +1809,7 @@
     "Show folders on top" : {
 
     },
+
     "Show hidden files and folders" : {
 
     },
@@ -1886,6 +1879,7 @@
     "Subscribe Now" : {
 
     },
+
     "System" : {
 
     },
@@ -1943,6 +1937,7 @@
     "The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information." : {
 
     },
+
     "The password was copied to the clipboard" : {
 
     },
@@ -2003,6 +1998,7 @@
     "Total update scans" : {
 
     },
+
     "Touch ID" : {
 
     },
@@ -2090,6 +2086,7 @@
     "Use OpenCloud actions in Shortcuts." : {
 
     },
+
     "User Interface" : {
 
     },
@@ -2159,3 +2156,9 @@
   },
   "version" : "1.0"
 }
+
+
+
+
+▲
+└--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
