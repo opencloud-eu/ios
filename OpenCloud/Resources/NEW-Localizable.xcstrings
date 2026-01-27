@@ -3186,12 +3186,514 @@
       }
     },
 
+    "Presentation Mode" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Presentation Mode" } },
+        "de" : { "stringUnit" : { "value" : "Präsentationsmodus" } }
+      }
+    },
+
+    "Preserve original media file names" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Preserve original media file names" } },
+        "de" : { "stringUnit" : { "value" : "Originaldateinamen der Medien beibehalten" } }
+      }
+    },
+
+    "Prevent dragging of files and folders and multiselection using system defined gestures" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Prevent dragging of files and folders and multiselection using system defined gestures" } },
+        "de" : { "stringUnit" : { "value" : "Dateien und Ordner sowie Mehrfachauswahl mit systemdefinierten Gesten verhindern" } }
+      }
+    },
+
+    "Previous item" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Previous item" } },
+        "de" : { "stringUnit" : { "value" : "Vorheriges Element" } }
+      }
+    },
+
+    "Privacy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Privacy" } },
+        "de" : { "stringUnit" : { "value" : "Datenschutz" } }
+      }
+    },
+
+    "Privacy Policy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Privacy Policy" } },
+        "de" : { "stringUnit" : { "value" : "Datenschutzrichtlinie" } }
+      }
+    },
+
+    "Private Link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Private Link" } },
+        "de" : { "stringUnit" : { "value" : "Privater Link" } }
+      }
+    },
+
+    "Pro Features" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Pro Features" } },
+        "de" : { "stringUnit" : { "value" : "Pro-Funktionen" } }
+      }
+    },
+
+    "Proceed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Proceed" } },
+        "de" : { "stringUnit" : { "value" : "Fortfahren" } }
+      }
+    },
+
+    "Processing on server" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Processing on server" } },
+        "de" : { "stringUnit" : { "value" : "Wird auf dem Server verarbeitet" } }
+      }
+    },
+
+    "Profile" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Profile" } },
+        "de" : { "stringUnit" : { "value" : "Profil" } }
+      }
+    },
+
+    "Program" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Program" } },
+        "de" : { "stringUnit" : { "value" : "Programm" } }
+      }
+    },
+
+    "Public Link" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Public Link" } },
+        "de" : { "stringUnit" : { "value" : "Öffentlicher Link" } }
+      }
+    },
+
+    "Purchase" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchase" } },
+        "de" : { "stringUnit" : { "value" : "Kauf" } }
+      }
+    },
+
+    "Purchase failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchase failed" } },
+        "de" : { "stringUnit" : { "value" : "Kauf fehlgeschlagen" } }
+      }
+    },
+
+    "Purchases & Subscriptions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Purchases & Subscriptions" } },
+        "de" : { "stringUnit" : { "value" : "Käufe & Abonnements" } }
+      }
+    },
+
+    "Quick Access" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Quick Access" } },
+        "de" : { "stringUnit" : { "value" : "Schnellzugriff" } }
+      }
+    },
+
+    "Read" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Read" } },
+        "de" : { "stringUnit" : { "value" : "Lesen" } }
+      }
+    },
+
+    "Really delete '%@'?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Really delete '%@'?" } },
+        "de" : { "stringUnit" : { "value" : "'%@' wirklich löschen?" } }
+      }
+    },
+
+    "Really include available offline files?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Really include available offline files?" } },
+        "de" : { "stringUnit" : { "value" : "Verfügbare Offline-Dateien wirklich einbeziehen?" } }
+      }
+    },
+
+    "Recents" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Recents" } },
+        "de" : { "stringUnit" : { "value" : "Zuletzt verwendet" } }
+      }
+    },
+
+    "Recommend to a friend" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Recommend to a friend" } },
+        "de" : { "stringUnit" : { "value" : "Einem Freund empfehlen" } }
+      }
+    },
+
+    "Red eye detection supported" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Red eye detection supported" } },
+        "de" : { "stringUnit" : { "value" : "Rote-Augen-Erkennung unterstützt" } }
+      }
+    },
+
+    "Refresh without asking" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Refresh without asking" } },
+        "de" : { "stringUnit" : { "value" : "Aktualisieren ohne Nachfrage" } }
+      }
+    },
+
+    "Rejected" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Rejected" } },
+        "de" : { "stringUnit" : { "value" : "Abgelehnt" } }
+      }
+    },
+
+    "release" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "release" } },
+        "de" : { "stringUnit" : { "value" : "Freigabe" } }
+      }
+    },
+
+    "Remove" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove" } },
+        "de" : { "stringUnit" : { "value" : "Entfernen" } }
+      }
+    },
+
+    "Remove expiration date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove expiration date" } },
+        "de" : { "stringUnit" : { "value" : "Ablaufdatum entfernen" } }
+      }
+    },
+
+    "Remove from sidebar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove from sidebar" } },
+        "de" : { "stringUnit" : { "value" : "Aus der Seitenleiste entfernen" } }
+      }
+    },
+
+    "Remove password" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Remove password" } },
+        "de" : { "stringUnit" : { "value" : "Passwort entfernen" } }
+      }
+    },
+
+    "Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required)." } },
+        "de" : { "stringUnit" : { "value" : "Entfernt heruntergeladene Dateien und lokale Kopien von als 'Offline verfügbar' markierten Elementen. Letztere werden beim nächsten Anmelden erneut heruntergeladen (Internetverbindung erforderlich)." } }
+      }
+    },
+
+    "Rename" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Rename" } },
+        "de" : { "stringUnit" : { "value" : "Umbenennen" } }
+      }
+    },
+
+    "Repeat code" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Repeat code" } },
+        "de" : { "stringUnit" : { "value" : "Code wiederholen" } }
+      }
+    },
+
+    "Resolving link…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Resolving link…" } },
+        "de" : { "stringUnit" : { "value" : "Link wird aufgelöst…" } }
+      }
+    },
+
+    "Restore purchases" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Restore purchases" } },
+        "de" : { "stringUnit" : { "value" : "Käufe wiederherstellen" } }
+      }
+    },
+
+    "Restoring purchases…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Restoring purchases…" } },
+        "de" : { "stringUnit" : { "value" : "Käufe werden wiederhergestellt…" } }
+      }
+    },
+
+    "Resume" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Resume" } },
+        "de" : { "stringUnit" : { "value" : "Fortsetzen" } }
+      }
+    },
+
+    "Reveal" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Reveal" } },
+        "de" : { "stringUnit" : { "value" : "Anzeigen" } }
+      }
+    },
+
+    "Review Connection" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Review Connection" } },
+        "de" : { "stringUnit" : { "value" : "Verbindung prüfen" } }
+      }
+    },
+
+    "Revoke approval" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Revoke approval" } },
+        "de" : { "stringUnit" : { "value" : "Genehmigung widerrufen" } }
+      }
+    },
+
+    "RGB" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "RGB" } },
+        "de" : { "stringUnit" : { "value" : "RGB" } }
+      }
+    },
+
+    "S" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "S" } },
+        "de" : { "stringUnit" : { "value" : "S" } }
+      }
+    },
+
+    "Save" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save" } },
+        "de" : { "stringUnit" : { "value" : "Speichern" } }
+      }
+    },
+
+    "Save as" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as" } },
+        "de" : { "stringUnit" : { "value" : "Speichern unter" } }
+      }
+    },
+
+    "Save as copy" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as copy" } },
+        "de" : { "stringUnit" : { "value" : "Als Kopie speichern" } }
+      }
+    },
+
+    "Save as search template" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save as search template" } },
+        "de" : { "stringUnit" : { "value" : "Als Suchvorlage speichern" } }
+      }
+    },
+
+    "Save changes" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save changes" } },
+        "de" : { "stringUnit" : { "value" : "Änderungen speichern" } }
+      }
+    },
+
+    "Save File" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save File" } },
+        "de" : { "stringUnit" : { "value" : "Datei speichern" } }
+      }
+    },
+
+    "Save here" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save here" } },
+        "de" : { "stringUnit" : { "value" : "Hier speichern" } }
+      }
+    },
+
+    "Save search" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Save search" } },
+        "de" : { "stringUnit" : { "value" : "Suche speichern" } }
+      }
+    },
+
+    "Saved search" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saved search" } },
+        "de" : { "stringUnit" : { "value" : "Gespeicherte Suche" } }
+      }
+    },
+
+    "Saved searches" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saved searches" } },
+        "de" : { "stringUnit" : { "value" : "Gespeicherte Suchen" } }
+      }
+    },
+
+    "Saving" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saving" } },
+        "de" : { "stringUnit" : { "value" : "Speichert" } }
+      }
+    },
+
+    "Saving edited file failed" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Saving edited file failed" } },
+        "de" : { "stringUnit" : { "value" : "Speichern der bearbeiteten Datei fehlgeschlagen" } }
+      }
+    },
+
+    "Scan" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan" } },
+        "de" : { "stringUnit" : { "value" : "Scannen" } }
+      }
+    },
+
+    "Scan additional" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan additional" } },
+        "de" : { "stringUnit" : { "value" : "Zusätzlich scannen" } }
+      }
+    },
+
+    "Scan document" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan document" } },
+        "de" : { "stringUnit" : { "value" : "Dokument scannen" } }
+      }
+    },
+
+    "Scan documents and photos with your camera." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scan documents and photos with your camera." } },
+        "de" : { "stringUnit" : { "value" : "Dokumente und Fotos mit der Kamera scannen." } }
+      }
+    },
+
+    "Scans" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scans" } },
+        "de" : { "stringUnit" : { "value" : "Scans" } }
+      }
+    },
+
+    "Scene" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scene" } },
+        "de" : { "stringUnit" : { "value" : "Szene" } }
+      }
+    },
+
+    "Scheduled upload of %ld media assets" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Scheduled upload of %ld media assets" } },
+        "de" : { "stringUnit" : { "value" : "Geplanter Upload von %ld Medien" } }
+      }
+    },
+
+    "Search" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search" } },
+        "de" : { "stringUnit" : { "value" : "Suche" } }
+      }
+    },
+
+    "Search {{space.name}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search {{space.name}}" } },
+        "de" : { "stringUnit" : { "value" : "{{space.name}} durchsuchen" } }
+      }
+    },
+
+    "Search account" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search account" } },
+        "de" : { "stringUnit" : { "value" : "Konto durchsuchen" } }
+      }
+    },
+
+    "Search folder" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search folder" } },
+        "de" : { "stringUnit" : { "value" : "Ordner durchsuchen" } }
+      }
+    },
+
+    "Search for users or groups" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search for users or groups" } },
+        "de" : { "stringUnit" : { "value" : "Nach Benutzern oder Gruppen suchen" } }
+      }
+    },
+
+    "Search from {{folder.name}}" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search from {{folder.name}}" } },
+        "de" : { "stringUnit" : { "value" : "Suche im Ordner {{folder.name}}" } }
+      }
+    },
+
+    "Search in" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search in" } },
+        "de" : { "stringUnit" : { "value" : "Suche in" } }
+      }
+    },
+
+    "Search on the server is unavailable while not connected. To search offline, switch to the Account scope." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search on the server is unavailable while not connected. To search offline, switch to the Account scope." } },
+        "de" : { "stringUnit" : { "value" : "Die Serversuche ist ohne Verbindung nicht verfügbar. Um offline zu suchen, wechseln Sie zum Kontobereich." } }
+      }
+    },
+
+    "Search PDF" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search PDF" } },
+        "de" : { "stringUnit" : { "value" : "PDF durchsuchen" } }
+      }
+    },
+
+    "Search server" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search server" } },
+        "de" : { "stringUnit" : { "value" : "Server durchsuchen" } }
+      }
+    },
+
+    "Search Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "value" : "Search Settings" } },
+        "de" : { "stringUnit" : { "value" : "Sucheinstellungen" } }
+      }
+    },
 
 
 
 ▲
 └--------------------------------------- Bereich bereits übersetzt -----------------------------------------------
-
 
 
 
