@@ -47,6 +47,19 @@ class SettingsViewController: StaticTableViewController {
 			self.addSection(UserInterfaceSettingsSection(userDefaults: userDefaults))
 			self.addSection(DataSettingsSection(userDefaults: userDefaults))
 			self.addSection(DisplaySettingsSection(userDefaults: userDefaults))
+			let headerNameRow = StaticTableViewRow(textFieldWithAction: { (_, sender, action) in
+				if let textField = sender as? UITextField, action == .changed {
+					UserDefaults.standard.set(textField.text, forKey: "custom-http-header-name")
+				}
+			}, placeholder: OCLocalizedString("Header name", nil), value: UserDefaults.standard.string(forKey: "custom-http-header-name") ?? "", autocorrectionType: .no, identifier: "custom-http-header-name")
+
+			let headerValueRow = StaticTableViewRow(textFieldWithAction: { (_, sender, action) in
+				if let textField = sender as? UITextField, action == .changed {
+					UserDefaults.standard.set(textField.text, forKey: "custom-http-header-value")
+				}
+			}, placeholder: OCLocalizedString("Header value", nil), value: UserDefaults.standard.string(forKey: "custom-http-header-value") ?? "", autocorrectionType: .no, identifier: "custom-http-header-value")
+
+			self.addSection(StaticTableViewSection(headerTitle: OCLocalizedString("Custom HTTP Header", nil), footerTitle: OCLocalizedString("Add a custom HTTP header to all requests.", nil), identifier: "section-custom-http-header", rows: [headerNameRow, headerValueRow]))
 			self.addSection(MediaFilesSettingsSection(userDefaults: userDefaults))
 
 			#if !DISABLE_APPSTORE_LICENSING
