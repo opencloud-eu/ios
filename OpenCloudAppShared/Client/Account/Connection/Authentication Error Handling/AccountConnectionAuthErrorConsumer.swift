@@ -175,6 +175,11 @@ class AccountConnectionAuthErrorConsumer: AccountConnectionConsumer, AccountConn
 		// Carry over permission for plain HTTP connections
 		clonedBookmark.userInfo[OCBookmarkUserInfoKey.allowHTTPConnection] =  bookmark.userInfo[OCBookmarkUserInfoKey.allowHTTPConnection]
 
+		// Carry over preferredUsername for login_hint on re-auth
+		if let preferredUsername = bookmark.userInfo[OCBookmarkUserInfoKey.preferredUsername] {
+			clonedBookmark.userInfo[OCBookmarkUserInfoKey.preferredUsername] = preferredUsername
+		}
+
 		// Create connection
 		let connection = OCConnection(bookmark: clonedBookmark)
 

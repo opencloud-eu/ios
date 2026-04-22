@@ -60,6 +60,11 @@ public class AccountAuthenticationUpdater: NSObject {
 
 			tempBookmark.setLastUserName(bookmark.userName)
 
+			// Carry over preferredUsername for login_hint on re-auth
+			if let preferredUsername = bookmark.userInfo[OCBookmarkUserInfoKey.preferredUsername] {
+				tempBookmark.userInfo[OCBookmarkUserInfoKey.preferredUsername] = preferredUsername
+			}
+
 			if let cookieSupportEnabled = OCCore.classSetting(forOCClassSettingsKey: .coreCookieSupportEnabled) as? Bool, cookieSupportEnabled == true {
 				tempConnection.cookieStorage = OCHTTPCookieStorage()
 				Log.debug("Created cookie storage \(String(describing: tempConnection.cookieStorage)) for client auth updater")
