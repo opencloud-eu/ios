@@ -17,9 +17,9 @@ jobs:
         with:
           submodules: true
       - name: mxcl/Xcodebuild
-        uses: mxcl/xcodebuild@v3.4.0
+        uses: mxcl/xcodebuild@v3
         with:
           scheme: OpenCloud
           action: build
           platform: iOS
-          platform-version: 18.2
+          ###platform-version: 18.2 -> 26.2
