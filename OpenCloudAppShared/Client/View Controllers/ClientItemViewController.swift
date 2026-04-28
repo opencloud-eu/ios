@@ -1245,14 +1245,17 @@ open class ClientItemViewController: CollectionViewController, SortBarDelegate, 
 		}
 
 		if let driveQuota = driveQuota, let remainingBytes = driveQuota.remaining {
-			quotaInfoText = OCLocalizedFormat("{{remaining}} available", [
-				"remaining" : ByteCountFormatter.string(fromByteCount: remainingBytes.int64Value, countStyle: .file)
-			])
+			// Only show available space if quota is not unlimited (total != 0)
+			if let totalBytes = driveQuota.total, totalBytes.int64Value != 0 {
+				quotaInfoText = OCLocalizedFormat("{{remaining}} available", [
+					"remaining" : ByteCountFormatter.string(fromByteCount: remainingBytes.int64Value, countStyle: .file)
+				])
 
-			if folderStatisticsText.count > 0 {
-				folderStatisticsText += "\n" + quotaInfoText
-			} else {
-				folderStatisticsText = quotaInfoText
+				if folderStatisticsText.count > 0 {
+					folderStatisticsText += "\n" + quotaInfoText
+				} else {
+					folderStatisticsText = quotaInfoText
+				}
 			}
 		}
 
