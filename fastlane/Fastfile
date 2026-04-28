@@ -109,11 +109,58 @@ platform :ios do
         end
       end
 
-    desc "Create Release Notes, Screenshots, Build, Upload of regular iOS App and EMM App"
+    desc "Pull latest translations from Transifex for app and ios-sdk (transient — does not commit)"
+      private_lane :pull_translations do |options|
+        next if options[:skip] == true
+        sh("cd .. && tx pull --force --skip --all -w 1 -m onlytranslated")
+        sh("cd ../ios-sdk && tx pull --force --skip --all -w 1 -m onlytranslated")
+      end
+
+    desc "Archive regular iOS App with Xcode-managed signing and upload to App Store Connect (binary only, fork-friendly)"
       lane :release_on_appstore do |options|
+        pull_translations(skip: options[:skip_translations])
+        build_app(
+          project: "OpenCloud.xcodeproj",
+          scheme: "OpenCloud",
+          configuration: "Release",
+          export_method: "app-store",
+          xcargs: "-allowProvisioningUpdates",
+          output_name: "OpenCloud.ipa"
+        )
+        upload_to_app_store(
+          ipa: lane_context[SharedValues::IPA_OUTPUT_PATH],
+          skip_metadata: true,
+          skip_screenshots: true,
+          skip_binary_upload: false,
+          submit_for_review: false,
+          force: true,
+          precheck_include_in_app_purchases: false
+        )
+      end
+
+    desc "Archive regular iOS App with Xcode-managed signing and upload to TestFlight (fork-friendly)"
+      lane :release_on_testflight do |options|
+        pull_translations(skip: options[:skip_translations])
+        build_app(
+          project: "OpenCloud.xcodeproj",
+          scheme: "OpenCloud",
+          configuration: "Release",
+          export_method: "app-store",
+          xcargs: "-allowProvisioningUpdates",
+          output_name: "OpenCloud.ipa"
+        )
+        upload_to_testflight(
+          ipa: lane_context[SharedValues::IPA_OUTPUT_PATH],
+          skip_waiting_for_build_processing: true,
+          skip_submission: true
+        )
+      end
+
+    desc "Legacy: Create Release Notes, Screenshots, Build, Upload of regular iOS App, EMM App and OpenCloud Online App"
+      lane :release_on_appstore_legacy do |options|
 
         # Set options, which action should not performed, by default all actions will be performed
-        # Disable all options: fastlane release_on_appstore create_release_notes:false create_screenshots:false deliver:false build_regular_app:false build_emm_app:false
+        # Disable all options: fastlane release_on_appstore_legacy create_release_notes:false create_screenshots:false deliver:false build_regular_app:false build_emm_app:false build_opencloud_online_app:false
 
         create_screenshots = true
         skip_screenshots = false

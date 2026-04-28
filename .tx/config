@@ -9,13 +9,14 @@ source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
 
-[o:opencloud-eu:p:opencloud-eu:r:ios-infoplist]
-resource_name = ios-infoplist
-file_filter = OpenCloud/Resources/InfoPlist.xcstrings
-source_file = OpenCloud/Resources/InfoPlist.xcstrings
-source_lang = en
-type = XCSTRINGS
-minimum_perc = 75
+#[o:opencloud-eu:p:opencloud-eu:r:ios-infoplist]
+#resource_name = ios-infoplist
+#file_filter = OpenCloud/Resources/InfoPlist.xcstrings
+#source_file = OpenCloud/Resources/InfoPlist.xcstrings
+#source_lang = en
+#type = XCSTRINGS
+#minimum_perc = 75
+# AVOID for now, failed to upload of resource 'o:opencloud-eu:p:opencloud-eu:r:ios-infoplist' - parse_error: 'strings' entry invalid or missing.q
 
 [o:opencloud-eu:p:opencloud-eu:r:ios-framework]
 resource_name = ios-framework
