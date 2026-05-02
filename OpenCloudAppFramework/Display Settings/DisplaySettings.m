@@ -89,6 +89,7 @@
 		_showHiddenFiles = [self _showHiddenFilesValue];
 		_sortFoldersFirst = [self _sortFoldersFirst];
 		_preventDraggingFiles = [self _preventDraggingFilesValue];
+		_oidcCustomScopes = [self _oidcCustomScopesValue];
 	}
 
 	return (self);
@@ -114,6 +115,10 @@
 	_preventDraggingFiles = [self _preventDraggingFilesValue];
 	[self didChangeValueForKey:@"preventDraggingFiles"];
 
+	[self willChangeValueForKey:@"oidcCustomScopes"];
+	_oidcCustomScopes = [self _oidcCustomScopesValue];
+	[self didChangeValueForKey:@"oidcCustomScopes"];
+	
 	[[NSNotificationCenter defaultCenter] postNotificationName:DisplaySettingsChanged object:self];
 }
 
@@ -189,6 +194,29 @@
 	[self postChangeNotifications];
 }
 
+
+#pragma mark - OIDC Custom Scopes
+- (NSString*)_oidcCustomScopesValue
+{
+	NSString *oidcScopes;
+
+	if ((oidcScopes = [OCAppIdentity.sharedAppIdentity.userDefaults objectForKey:DisplaySettingsOIDCCustomScopesPrefsKey]) != nil)
+	{
+		return oidcScopes;
+	}
+
+	return ([self classSettingForOCClassSettingsKey:OCClassSettingsKeyCustomOidcScopes]);
+}
+
+- (void)setOidcCustomScopes:(NSString*)oidcCustomScopes
+{
+	_oidcCustomScopes = oidcCustomScopes;
+
+	[OCAppIdentity.sharedAppIdentity.userDefaults setValue:oidcCustomScopes forKey:DisplaySettingsOIDCCustomScopesPrefsKey];
+
+	[self postChangeNotifications];
+}
+
 #pragma mark - Query updating
 - (void)updateQueryWithDisplaySettings:(OCQuery *)query
 {
@@ -243,6 +271,7 @@
 NSString *DisplaySettingsShowHiddenFilesPrefsKey = @"display-show-hidden-files";
 NSString *DisplaySettingsSortFoldersFirstPrefsKey = @"display-sort-folders-first";
 NSString *DisplaySettingsPreventDraggingFilesPrefsKey = @"display-prevent-dragging-files";
+NSString *DisplaySettingsOIDCCustomScopesPrefsKey = @"oidc-custom-scopes";
 
 OCIPCNotificationName OCIPCNotificationNameDisplaySettingsChanged = @"org.opencloud.display-settings-changed";
 
@@ -252,3 +281,4 @@ OCClassSettingsIdentifier OCClassSettingsIdentifierDisplay = @"display";
 OCClassSettingsKey OCClassSettingsKeyDisplayShowHiddenFiles = @"show-hidden-files";
 OCClassSettingsKey OCClassSettingsKeyDisplaySortFoldersFirst = @"sort-folders-first";
 OCClassSettingsKey OCClassSettingsKeyDisplayPreventDraggingFiles = @"prevent-dragging-files";
+OCClassSettingsKey OCClassSettingsKeyCustomOidcScopes = @"custom-scopes";

@@ -3139,6 +3139,9 @@
         }
       }
     },
+    "Custom OIDC scopes to be appended to fixed ones." : {
+
+    },
     "Cut" : {
       "localizations" : {
         "de" : {
@@ -7000,6 +7003,12 @@
           }
         }
       }
+    },
+    "OIDC Scopes" : {
+
+    },
+    "OIDC settings" : {
+
     },
     "OK" : {
       "localizations" : {
