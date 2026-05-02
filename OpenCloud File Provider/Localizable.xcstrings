@@ -2,25 +2,158 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Authorization failed" : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisierung fehlgeschlagen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisatie mislukt"
+          }
+        }
+      }
     },
     "File Provider access has been disabled by the administrator. Please use the app to create new folders." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zugriff auf den Dateianbieter wurde vom Administrator deaktiviert. Bitte verwenden Sie die App, um neue Ordner zu erstellen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File Provider access has been disabled by the administrator. Please use the app to create new folders."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De toegang tot de Bestandsprovider is uitgeschakeld door de beheerder. Gebruik de app om nieuwe mappen aan te maken."
+          }
+        }
+      }
     },
     "File Provider access has been disabled by the administrator. Please use the share extension to import files." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zugriff auf den Dateianbieter wurde vom Administrator deaktiviert. Bitte verwenden Sie die Freigabeerweiterung, um Dateien zu importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File Provider access has been disabled by the administrator. Please use the share extension to import files."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De toegang tot de Bestandsprovider is uitgeschakeld door de beheerder. Gebruik de share-extensie om bestanden te importeren."
+          }
+        }
+      }
     },
     "Importing files through the File Provider is not allowed on this device." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Das Importieren von Dateien über den Dateianbieter ist auf diesem Gerät nicht zulässig."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importing files through the File Provider is not allowed on this device."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het importeren van bestanden via de Bestandsprovider is niet toegestaan op dit apparaat."
+          }
+        }
+      }
     },
     "Log into your account %@ in the app for more details." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melden Sie sich in der App in Ihrem Konto %@ an, um weitere Details zu erfahren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log into your account %@ in the app for more details."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in op uw account %@ in de app voor meer details."
+          }
+        }
+      }
     },
     "Log into your account in the app for more details." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melden Sie sich in der App in Ihrem Konto an, um weitere Details zu erfahren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log into your account in the app for more details."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log in op uw account in de app voor meer details."
+          }
+        }
+      }
     },
     "The destination folder couldn't be found on this server. Moving items across servers is currently not supported." : {
-
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zielordner konnte auf diesem Server nicht gefunden werden. Das Verschieben von Elementen zwischen Servern wird derzeit nicht unterstützt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The destination folder couldn't be found on this server. Moving items across servers is currently not supported."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De doelmap kon niet worden gevonden op deze server. Het verplaatsen van items over servers wordt momenteel niet ondersteund."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
