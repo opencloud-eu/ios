@@ -115,7 +115,7 @@
 	{
 		if (_price == nil)
 		{
-			return (OCLocalizedString(@"Free", nil));
+			return (OCLocalizedString(@"Free", "as in free beer, not as in freedom"));
 		}
 		else
 		{

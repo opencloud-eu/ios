@@ -484,6 +484,7 @@
       }
     },
     "Free" : {
+      "comment" : "as in free beer, not as in freedom",
       "localizations" : {
         "de" : {
           "stringUnit" : {
