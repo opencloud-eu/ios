@@ -39,8 +39,7 @@ Support and help can be found here: [Docs & Guides](https://opencloud.eu/docs-gu
 
 ## 🇪🇺 Translate
 
-The App is translated in many languages. If your language is missing or if you want to improve a string, you are welcome!
-
+If your language is missing or if you want to improve a string, you are welcome to join us on [Transifex](https://app.transifex.com/opencloud-eu/opencloud-eu)
 
 ## 💡 Found a bug or have some ideas for improvement?
 
