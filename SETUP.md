@@ -10,7 +10,7 @@ NOTE: To compile the code you need Xcode 10.2, iOS11, cocoa pods and swiftlint.
 * Move to the project folder with ```cd ios```
 * Checkout remote develop branch: ```git checkout -b main remotes/origin/main```
 * Pull changes from your develop branch: ```git pull origin main```
-* Make official OpenCloud repo known as upstream: ```git remote add upstream git@github.com:opencloud/ios.git```
+* Make official OpenCloud repo known as upstream: ```git remote add upstream git@github.com:opencloud-eu/ios.git```
 * Make sure to get the latest changes from official ios/main branch: ```git pull upstream main```
 
 
