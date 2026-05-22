@@ -82,6 +82,8 @@
 
 - (OCVFSCore *)vfsForBookmark:(OCBookmark *)bookmark
 {
+	if (bookmark.uuid == nil) { return nil; } // bookmark for removed/missing account can be nil or partial; passing nil UUID downstream would crash OCVault rootURLForUUID:
+
 	return ([self _vfsForBookmarkUUID:bookmark.uuid setup:^(OCVFSCore *vfsCore) {
 		// Initially populate drive list
 		[self populateVFS:vfsCore forBookmark:bookmark];
@@ -90,6 +92,8 @@
 
 - (OCVFSCore *)vfsForVault:(OCVault *)vault
 {
+	if (vault.bookmark.uuid == nil) { return nil; } // same defensive guard as -vfsForBookmark:; OCVault should never have nil uuid post-fix, but cheap to verify here too
+
 	return ([self _vfsForBookmarkUUID:vault.bookmark.uuid setup:^(OCVFSCore *vfsCore) {
 		// Initially populate drive list
 		[self updateVFS:vfsCore fromVault:vault];

@@ -93,6 +93,8 @@
 
 - (OCVFSCore *)vfsCore
 {
+	if (self.bookmark == nil) { return nil; } // domain's bookmark may be gone (account removed in main app); avoid creating a VFS over nil and crashing in OCVault rootURLForUUID:
+
 	if (_vfsCore == nil)
 	{
 		_vfsCore = [VFSManager.sharedManager vfsForBookmark:self.bookmark];
@@ -277,6 +279,8 @@
 	// resolve the given URL to a persistent identifier using a database
 
 	// OCLogDebug(@"-persistentIdentifierForItemAtURL: %@", (pathComponents[pathComponents.count - 2]));
+
+	if (self.bookmark == nil) { return nil; } // can be invoked by FileProvider after the domain's account was removed; returning nil tells the system "unknown" instead of crashing the extension
 
 	if ([url.lastPathComponent isEqual:self.bookmark.fpServicesURLComponentName])
 	{
