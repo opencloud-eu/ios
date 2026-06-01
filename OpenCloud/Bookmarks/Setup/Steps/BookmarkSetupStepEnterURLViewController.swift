@@ -36,9 +36,40 @@ class BookmarkSetupStepEnterURLViewController: BookmarkSetupStepViewController {
 
 		focusTextFields = [ urlTextField! ]
 
-		contentView = urlTextField
+		let connectionButton = ThemeCSSButton(withSelectors: [])
+		connectionButton.setTitle(OCLocalizedString("Connection…", nil), for: .normal)
+		connectionButton.titleLabel?.font = .preferredFont(forTextStyle: .footnote)
+		connectionButton.contentHorizontalAlignment = .trailing
+		connectionButton.addAction(UIAction(handler: { [weak self] _ in
+			self?.openConnectionSettings()
+		}), for: .primaryActionTriggered)
+
+		let stack = UIStackView(arrangedSubviews: [ urlTextField!, connectionButton ])
+		stack.axis = .vertical
+		stack.alignment = .fill
+		stack.spacing = 6
+		stack.translatesAutoresizingMaskIntoConstraints = false
+
+		contentView = stack
 
 		updateState()
+	}
+
+	private func openConnectionSettings() {
+		guard let bookmark = setupViewController?.composer?.bookmark else { return }
+		let connectionSettings = BookmarkConnectionSettingsViewController(bookmark: bookmark)
+
+		if let navigationController {
+			navigationController.pushViewController(connectionSettings, animated: true)
+		} else {
+			// First-run wizard: BookmarkSetupViewController is the root content view (no nav controller).
+			// Wrap and present modally with a Done button so the screen is reachable in this mode too.
+			connectionSettings.navigationItem.rightBarButtonItem = UIBarButtonItem(systemItem: .done, primaryAction: UIAction(handler: { [weak connectionSettings] _ in
+				connectionSettings?.dismiss(animated: true)
+			}))
+			let wrapper = ThemeNavigationController(rootViewController: connectionSettings)
+			present(wrapper, animated: true)
+		}
 	}
 
 	override func viewDidAppear(_ animated: Bool) {

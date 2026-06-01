@@ -46,6 +46,8 @@ class BookmarkViewController: StaticTableViewController {
 	var deleteAuthDataButtonRow : StaticTableViewRow?
 	var activeTextField: UITextField?
 
+	var connectionSettingsSection : StaticTableViewSection?
+
 	var showOAuthInfoHeader = false
 	var showedOAuthInfoHeader : Bool = false
 	var tokenHelpSection : StaticTableViewSection?
@@ -256,6 +258,14 @@ class BookmarkViewController: StaticTableViewController {
 		}, title: OCLocalizedString("Delete Authentication Data", nil), style: .destructive, identifier: "row-credentials-auth-data-delete")
 
 		credentialsSection = StaticTableViewSection(headerTitle: OCLocalizedString("Credentials", nil), footerTitle: nil, identifier: "section-credentials", rows: [ usernameRow!, passwordRow! ])
+
+		// Connection Settings section: custom HTTP header + (future) client certificate
+		let connectionSettingsRow = StaticTableViewRow(rowWithAction: { [weak self] (_, _) in
+			guard let self, let bookmark = self.bookmark else { return }
+			let connectionSettings = BookmarkConnectionSettingsViewController(bookmark: bookmark)
+			self.navigationController?.pushViewController(connectionSettings, animated: true)
+		}, title: OCLocalizedString("Connection…", nil), accessoryType: .disclosureIndicator, identifier: "row-connection-settings")
+		connectionSettingsSection = StaticTableViewSection(headerTitle: OCLocalizedString("Connection", nil), footerTitle: nil, identifier: "section-connection-settings", rows: [ connectionSettingsRow ])
 
 		// Input focus tracking
 		urlRow?.textField?.delegate = self
@@ -943,6 +953,19 @@ class BookmarkViewController: StaticTableViewController {
 		} else {
 			if credentialsSection?.attached == true {
 				self.removeSection(credentialsSection!, animated: animated)
+			}
+		}
+
+		// Connection Settings: always shown, placed immediately after Credentials (or after URL when Credentials is hidden)
+		if let connectionSettingsSection {
+			let anchorIndex = credentialsSection?.attached == true ? credentialsSection?.index : urlSection?.index
+			if connectionSettingsSection.attached == false {
+				if let anchorIndex {
+					self.insertSection(connectionSettingsSection, at: anchorIndex + 1, animated: animated)
+				}
+			} else if let currentIndex = connectionSettingsSection.index, let anchorIndex, currentIndex != anchorIndex + 1 {
+				self.removeSection(connectionSettingsSection, animated: animated)
+				self.insertSection(connectionSettingsSection, at: anchorIndex + 1, animated: animated)
 			}
 		}
 
