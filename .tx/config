@@ -49,3 +49,11 @@ source_file = OpenCloud Action Extension/InfoPlist.xcstrings
 source_lang = en
 type = XCSTRINGS
 minimum_perc = 75
+
+[o:opencloud-eu:p:opencloud-eu:r:ios-intents]
+resource_name = ios-intents
+file_filter = OpenCloud Intents/<lang>.lproj/Intents.strings
+source_file = OpenCloud Intents/en.lproj/Intents.strings
+source_lang = en
+type = STRINGS_UTF8
+minimum_perc = 75
