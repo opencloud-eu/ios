@@ -26345,6 +26345,16 @@
         }
       }
     },
+    "Navigate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigieren"
+          }
+        }
+      }
+    },
     "Network unavailable" : {
       "localizations" : {
         "de" : {
@@ -28715,6 +28725,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Online"
+          }
+        }
+      }
+    },
+    "Open" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öffnen"
           }
         }
       }
@@ -44515,6 +44535,16 @@
         }
       }
     },
+    "The web app attempted to open the URL below. Opening was denied by configuration." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Webanwendung hat versucht die nachstehende URL zu öffnen. Das Öffnen wurde per Konfiguration abgelehnt."
+          }
+        }
+      }
+    },
     "Theme" : {
       "localizations" : {
         "de" : {
@@ -48515,6 +48545,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warning"
+          }
+        }
+      }
+    },
+    "Web app requests to open link" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Webanwendung möchte Link öffnen"
           }
         }
       }
