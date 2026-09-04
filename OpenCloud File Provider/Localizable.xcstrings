@@ -38,6 +38,24 @@
             "state" : "translated",
             "value" : "Échec de l'autorisation"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autoryzacja nie powiodła się"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autentiseringen misslyckades"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授权失败"
+          }
         }
       }
     },
@@ -65,6 +83,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L'administrador ha desactivat l'accés del proveïdor de fitxers. Si us plau, feu servir l'aplicació per crear carpetes noves."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp przez dostawcę plików został wyłączony przez administratora. Użyj aplikacji, aby tworzyć nowe foldery."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till filprovidern har inaktiverats av administratören. Använd appen för att skapa nya mappar."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理员已禁用文件提供程序访问权限。请直接在应用内创建新文件夹。"
           }
         }
       }
@@ -94,6 +130,24 @@
             "state" : "translated",
             "value" : "L'administrador ha desactivat l'accés del proveïdor de fitxers. Si us plau, utilitzeu l'extensió de compartició per importar fitxers."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp przez dostawcę plików został wyłączony przez administratora. Użyj rozszerzenia udostępniania, aby zaimportować pliki."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till filprovidern har inaktiverats av administratören. Använd delningstillägget för att importera filer."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理员已禁用文件提供程序访问权限。请使用系统共享导入文件。"
+          }
         }
       }
     },
@@ -121,6 +175,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No es permet importar fitxers a través del proveïdor de fitxers en aquest dispositiu."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importowanie plików przez dostawcę plików nie jest dozwolone na tym urządzeniu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det är inte tillåtet att importera filer via filprovidern på den här enheten."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此设备不允许通过文件提供程序导入文件。"
           }
         }
       }
@@ -150,6 +222,24 @@
             "state" : "translated",
             "value" : "Inicia la sessió al teu compte %@ a l'aplicació per obtenir més informació."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaloguj się na swoje konto %@ w aplikacji, aby uzyskać więcej szczegółów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logga in på ditt konto %@ i appen för mer information."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在应用内登录您的账户 %@ 以查看更多详情。"
+          }
         }
       }
     },
@@ -178,6 +268,24 @@
             "state" : "translated",
             "value" : "Inicia la sessió al teu compte a l'aplicació per obtenir més informació."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaloguj się na swoje konto w aplikacji, aby uzyskać więcej szczegółów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logga in på ditt konto i appen för mer information."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在应用内登录您的账户以查看更多详情。"
+          }
         }
       }
     },
@@ -205,6 +313,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No s'ha trobat la carpeta de destinació en aquest servidor. Actualment no es permet moure elements entre servidors."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie można znaleźć folderu docelowego na tym serwerze. Przenoszenie elementów między serwerami nie jest obecnie obsługiwane."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att hitta målmappen på den här servern. Det går för närvarande inte att flytta objekt mellan servrar."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法在服务器上找到目标文件夹。暂不支持跨服务器移动文件。"
           }
         }
       }
