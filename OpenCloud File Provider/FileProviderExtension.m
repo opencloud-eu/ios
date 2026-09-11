@@ -17,6 +17,8 @@
  */
 
 #import <OpenCloudSDK/OpenCloudSDK.h>
+#import <os/proc.h>
+#import <mach/mach.h>
 
 // BEGIN: Shared with OpenCloudApp.framework
 #import "Branding.h"
@@ -53,6 +55,19 @@
 
 @end
 
+static uint64_t FileProviderExtensionMemoryFootprint(void)
+{
+	task_vm_info_data_t vmInfo;
+	mach_msg_type_number_t count = TASK_VM_INFO_COUNT;
+
+	if (task_info(mach_task_self(), TASK_VM_INFO, (task_info_t)&vmInfo, &count) != KERN_SUCCESS)
+	{
+		return (0);
+	}
+
+	return (vmInfo.phys_footprint); // The figure jetsam compares against the process' memory limit
+}
+
 @implementation FileProviderExtension
 
 @synthesize core;
@@ -74,6 +89,10 @@
 	}
 
 	[OCHTTPPipelineManager setupPersistentPipelines]; // Set up HTTP pipelines
+
+	OCLogDebug(@"Memory at launch: footprint=%llu bytes, available=%llu bytes (device only)", (unsigned long long)FileProviderExtensionMemoryFootprint(), (unsigned long long)os_proc_available_memory());
+	// On my iPhone 14, we had around 13 MB left while uploading with TUS. (OCConnection+Upload.m)
+
 
 	[self addObserver:self forKeyPath:@"domain" options:0 context:(__bridge void *)self];
 
