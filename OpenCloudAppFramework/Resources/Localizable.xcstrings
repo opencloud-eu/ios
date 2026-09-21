@@ -26,6 +26,18 @@
             "state" : "translated",
             "value" : "%1$@ ja està desbloquejat per a %2$@."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ jest już odblokowane dla %2$@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ är redan upplåst för %2$@."
+          }
         }
       }
     },
@@ -53,6 +65,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ desbloquejat per a control de qualitat."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ odblokowane dla QA."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ upplåst för kvalitetssäkring."
           }
         }
       }
@@ -82,6 +106,24 @@
             "state" : "translated",
             "value" : "%lu dia"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu päivä"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dzień"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dag"
+          }
         }
       }
     },
@@ -109,6 +151,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu dies"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu päivää"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dni"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dagar"
           }
         }
       }
@@ -138,6 +198,24 @@
             "state" : "translated",
             "value" : "%lu mes"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu kuukausi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu miesiąc"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu månad"
+          }
         }
       }
     },
@@ -165,6 +243,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu mesos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu kuukautta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu miesięcy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu månader"
           }
         }
       }
@@ -194,6 +290,24 @@
             "state" : "translated",
             "value" : "%lu setmana"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu viikko"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu tydzień"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu vecka"
+          }
         }
       }
     },
@@ -221,6 +335,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu setmanes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu viikkoa"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu tygodni"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu veckor"
           }
         }
       }
@@ -250,6 +382,24 @@
             "state" : "translated",
             "value" : "%lu any"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu vuosi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu rok"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
+          }
         }
       }
     },
@@ -277,6 +427,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu anys"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu vuotta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu lat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
           }
         }
       }
@@ -436,6 +604,36 @@
             "state" : "translated",
             "value" : "Annulé"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušeno"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruttu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annullato"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anulowane"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbruten"
+          }
         }
       }
     },
@@ -488,6 +686,48 @@
             "state" : "translated",
             "value" : "Дата"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päiväys"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datum"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarih"
+          }
+        },
+        "vi_VN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngày"
+          }
         }
       }
     },
@@ -516,6 +756,30 @@
             "state" : "translated",
             "value" : "dia"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "den"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "päivä"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dzień"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
         }
       }
     },
@@ -540,6 +804,18 @@
           }
         },
         "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "EMM"
@@ -572,6 +848,24 @@
             "state" : "translated",
             "value" : "Finalitza"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päättyy"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygasa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upphör"
+          }
         }
       }
     },
@@ -599,6 +893,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Empresa"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enterprise"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Företag"
           }
         }
       }
@@ -629,6 +935,24 @@
             "state" : "translated",
             "value" : "Gratuït"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdarma"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezpłatne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis"
+          }
         }
       }
     },
@@ -656,6 +980,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les compres integrades a l'aplicació no són compatibles amb les còpies comprades a través del Programa de compres per volum. Per accedir a funcions addicionals, compreu la versió EMM."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy w aplikacji nie są obsługiwane dla kopii zakupionych w ramach programu VPP (Volume Purchase Program). Aby uzyskać dostęp do dodatkowych funkcji, prosimy o zakup wersji EMM."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köp i appen stöds inte för kopior som köpts genom programmet för volymköp. Köp EMM-versionen för att få tillgång till ytterligare funktioner."
           }
         }
       }
@@ -685,6 +1021,30 @@
             "state" : "translated",
             "value" : "Gestiona la subscripció"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spravovat předplatné"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallitse tilausta"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zarządzaj subskrypcją"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hantera prenumeration"
+          }
         }
       }
     },
@@ -712,6 +1072,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "mes"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "měsíc"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kuukausi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "miesiąc"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "månad"
           }
         }
       }
@@ -741,6 +1125,30 @@
             "state" : "translated",
             "value" : "Producte"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuote"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
         }
       }
     },
@@ -768,6 +1176,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Versió de l'aplicació comprada"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakoupená verze aplikace"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupiona wersja aplikacji"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köpt appversion"
           }
         }
       }
@@ -797,6 +1223,24 @@
             "state" : "translated",
             "value" : "No es permeten compres en aquest dispositiu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nákupy nejsou na tomto zařízení povoleny."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy na tym urządzeniu nie są dozwolone."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köp tillåts inte på den här enheten."
+          }
         }
       }
     },
@@ -825,6 +1269,30 @@
             "state" : "translated",
             "value" : "Quantitat"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počet"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Määrä"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilość"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antal"
+          }
         }
       }
     },
@@ -852,6 +1320,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Data de recepció"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuitin päiväys"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data zakupu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kvittodatum"
           }
         }
       }
@@ -959,6 +1445,12 @@
             "state" : "translated",
             "value" : "类型"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ"
+          }
         }
       }
     },
@@ -987,6 +1479,30 @@
             "state" : "translated",
             "value" : "setmana"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "týden"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "viikko"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tydzień"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vecka"
+          }
         }
       }
     },
@@ -1014,6 +1530,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "any"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rok"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vuosi"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rok"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "år"
           }
         }
       }

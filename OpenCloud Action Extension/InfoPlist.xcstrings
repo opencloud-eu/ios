@@ -3,8 +3,13 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "comment" : "Bundle display name",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desa a OpenCloud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17,24 +22,47 @@
             "value" : "Save to OpenCloud"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna OpenCloudiin"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opslaan naar OpenCloud"
           }
         },
-        "ca" : {
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desa a OpenCloud"
+            "value" : "Zapisz w OpenCloud"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara till OpenCloud"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存至 OpenCloud"
           }
         }
       }
     },
     "CFBundleName" : {
       "comment" : "Bundle name",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extensió d'acció d'OpenCloud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47,24 +75,47 @@
             "value" : "OpenCloud Action Extension"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-toimintolaajennus"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud Action Extension"
           }
         },
-        "ca" : {
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Extensió d'acció d'OpenCloud"
+            "value" : "Rozszerzenie akcji OpenCloud"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-åtgärdstillägg"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud 操作扩展"
           }
         }
       }
     },
     "NSHumanReadableCopyright" : {
       "comment" : "Copyright (human-readable)",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Tots els drets reservats."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -83,10 +134,22 @@
             "value" : "Auteursrecht © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alle rechten voorbehouden."
           }
         },
-        "ca" : {
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Tots els drets reservats."
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Wszelkie prawa zastrzeżone."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upphovsrätt © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alla rättigheter förbehållna."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版权所有 © 2025 OpenCloud GmbH，2024 ownCloud GmbH。保留所有权利。"
           }
         }
       }

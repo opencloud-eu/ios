@@ -3,8 +3,19 @@
   "strings" : {
     "CFBundleDisplayName" : {
       "comment" : "Bundle display name",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comparteix a OpenCloud"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet do OpenCloud"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17,24 +28,59 @@
             "value" : "Share to OpenCloud"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaa OpenCloudiin"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi su OpenCloud"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delen naar OpenCloud"
           }
         },
-        "ca" : {
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comparteix a OpenCloud"
+            "value" : "Udostępnij w OpenCloud"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela till OpenCloud"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共享给 OpenCloud"
           }
         }
       }
     },
     "CFBundleName" : {
       "comment" : "Bundle name",
-      "extractionState" : "extracted_with_value",
       "localizations" : {
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extensió de compartició d'OpenCloud"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozšíření OpenCloud sdílení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -47,16 +93,34 @@
             "value" : "OpenCloud Share Extension"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-jakolaajennus"
+          }
+        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud Share Extension"
           }
         },
-        "ca" : {
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Extensió de compartició d'OpenCloud"
+            "value" : "Rozszerzenie udostępniania OpenCloud"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-delningstillägg"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud 共享扩展"
           }
         }
       }
