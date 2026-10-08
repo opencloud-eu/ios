@@ -315,7 +315,7 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 
 	if ((item = [self.core cachedItemInParent:parentItem withName:name isDirectory:isDirectory error:outError]) != nil)
 	{
-		item.bookmarkUUID = self.core.bookmark.uuid.UUIDString;
+		item.bookmarkUUID = self.core.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
 	}
 
 	return (item);
@@ -360,15 +360,29 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 	{
 		 if ((item = [self itemForIdentifier:itemIdentifier error:&error]) != nil)
 		 {
-			FPLogCmdBegin(@"StartProviding", @"Downloading %@", item);
+			OCItem *ocItem = OCTypedCast(item, OCItem);
 
-			if (((OCItem *)item).type == OCItemTypeCollection) {
-				// Can't download folders
-				completionHandler([NSError errorWithDomain:NSCocoaErrorDomain code:NSFeatureUnsupportedError userInfo:@{}]);
+			if (ocItem == nil)
+			{
+				// itemForIdentifier can also return OCVFSNode items, typically for virtual folders. Nothing to download in this case.
+				// Return success regardless for consistency with the behaviour for "real" folders (=> see below)
+				FPLogCmdBegin(@"StartProviding", @"Completed with success for VFS item %@", item);
+				completionHandler(nil);
 				return;
 			}
 
-			[self.core downloadItem:(OCItem *)item options:@{
+			if (ocItem.type == OCItemTypeCollection)
+			{
+				// Folder item - nothing to download
+				// Return success regardless to avoid breaking recursive ops in Files.app.
+				FPLogCmdBegin(@"StartProviding", @"Completed with success for folder %@", item);
+				completionHandler(nil);
+				return;
+			}
+
+			FPLogCmdBegin(@"StartProviding", @"Downloading %@", item);
+
+			[self.core downloadItem:ocItem options:@{
 
 				OCCoreOptionAddFileClaim : [OCClaim claimForLifetimeOfCore:core explicitIdentifier:OCClaimExplicitIdentifierFileProvider withLockType:OCClaimLockTypeRead]
 
@@ -575,14 +589,18 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 		__block BOOL calledCompletionHandler = NO;
 
 		[self.core createFolder:directoryName inside:parentItem options:nil placeholderCompletionHandler:^(NSError * _Nullable error, OCItem * _Nullable item) {
-			FPLogCmd(@"Completed placeholder creation with item=%@, error=%@", item, error);
+			FPLogCmd(@"Completed placeholder creation with item=%@, error=%@, offline=%d", item, error, (self.core.connectionStatus != OCCoreConnectionStatusOnline));
 
-			if (!calledCompletionHandler)
+			if (!calledCompletionHandler &&
+			    (self.core.connectionStatus != OCCoreConnectionStatusOnline)) // Only return placeholder item right away if we're offline - otherwise wait for actual outcome (avoids DB race condition)
 			{
 				calledCompletionHandler = YES;
+				item.bookmarkUUID = self.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
 				completionHandler(item, [error translatedError]);
 			}
 		} resultHandler:^(NSError *error, OCCore *core, OCItem *item, id parameter) {
+			item.bookmarkUUID = self.core.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
+
 			if (error != nil)
 			{
 				if (error.HTTPStatus.code == OCHTTPStatusCodeMETHOD_NOT_ALLOWED)
@@ -646,6 +664,7 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 		[self.core moveItem:item to:parentItem withName:((newName != nil) ? newName : item.name) options:nil resultHandler:^(NSError *error, OCCore *core, OCItem *item, id parameter) {
 			FPLogCmd(@"Completed with item=%@, error=%@", item, error);
 
+			item.bookmarkUUID = self.core.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
 			completionHandler(item, [error translatedError]);
 		}];
 	}
@@ -680,6 +699,8 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 
 		[self.core renameItem:item to:itemName options:nil resultHandler:^(NSError *error, OCCore *core, OCItem *item, id parameter) {
 			FPLogCmd(@"Completed with item=%@, error=%@", item, error);
+
+			item.bookmarkUUID = self.core.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
 			completionHandler(item, [error translatedError]);
 		}];
 	}
@@ -792,7 +813,7 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 				OCCoreOptionImportByCopying : @(importByCopying)
 			} placeholderCompletionHandler:^(NSError *error, OCItem *item) {
 				FPLogCmd(@"Completed with placeholderItem=%@, error=%@", item, error);
-				item.bookmarkUUID = self.core.bookmark.uuid.UUIDString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
+				item.bookmarkUUID = self.core.bookmark.uuidString; // ensure bookmarkUUID is present so that vfsItemID / itemIdentifier succeed
 				completionHandler(item, [error translatedError]);
 			} resultHandler:^(NSError *error, OCCore *core, OCItem *item, id parameter) {
 				if ([error.domain isEqual:OCHTTPStatusErrorDomain] && (error.code == OCHTTPStatusCodePRECONDITION_FAILED))
@@ -1330,7 +1351,7 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 
 				UNNotificationRequest *request;
 
-				request = [UNNotificationRequest requestWithIdentifier:ComposeNotificationIdentifier(NotificationAuthErrorForwarder, bookmark.uuid.UUIDString) content:content trigger:nil];
+				request = [UNNotificationRequest requestWithIdentifier:ComposeNotificationIdentifier(NotificationAuthErrorForwarder, bookmark.uuidString) content:content trigger:nil];
 
 				[NotificationManager.sharedNotificationManager addNotificationRequest:request withCompletionHandler:^(NSError * _Nonnull error) {
 					OCLogDebug(@"Add Notification error: %@", error);
