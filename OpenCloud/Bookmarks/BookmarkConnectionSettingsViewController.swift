@@ -42,26 +42,39 @@ class BookmarkConnectionSettingsViewController: StaticTableViewController {
 	}
 
 	private func makeCustomHTTPHeaderSection() -> StaticTableViewSection {
-		let nameRow = StaticTableViewRow(textFieldWithAction: { [weak self] (_, sender, action) in
-			guard let self, let textField = sender as? UITextField, action == .changed else { return }
-			self.setUserInfo(textField.text, for: OCBookmarkUserInfoKey.customHTTPHeaderName)
-		}, placeholder: OCLocalizedString("Header name", nil),
-		   value: (bookmark.userInfo[OCBookmarkUserInfoKey.customHTTPHeaderName] as? String) ?? "",
-		   autocorrectionType: .no,
-		   identifier: "custom-http-header-name")
+		let keyPairs: [(OCBookmarkUserInfoKey, OCBookmarkUserInfoKey)] = [
+			(.customHTTPHeaderName, .customHTTPHeaderValue),
+			(.customHTTPHeaderName2, .customHTTPHeaderValue2),
+			(.customHTTPHeaderName3, .customHTTPHeaderValue3)
+		]
 
-		let valueRow = StaticTableViewRow(textFieldWithAction: { [weak self] (_, sender, action) in
-			guard let self, let textField = sender as? UITextField, action == .changed else { return }
-			self.setUserInfo(textField.text, for: OCBookmarkUserInfoKey.customHTTPHeaderValue)
-		}, placeholder: OCLocalizedString("Header value", nil),
-		   value: (bookmark.userInfo[OCBookmarkUserInfoKey.customHTTPHeaderValue] as? String) ?? "",
-		   autocorrectionType: .no,
-		   identifier: "custom-http-header-value")
+		var rows: [StaticTableViewRow] = []
+
+		for (index, keyPair) in keyPairs.enumerated() {
+			let number = index + 1
+			let (nameKey, valueKey) = keyPair
+
+			rows.append(StaticTableViewRow(textFieldWithAction: { [weak self] (_, sender, action) in
+				guard let self, let textField = sender as? UITextField, action == .changed else { return }
+				self.setUserInfo(textField.text, for: nameKey)
+			}, placeholder: String(format: OCLocalizedString("Header %d name", nil), number),
+			   value: (bookmark.userInfo[nameKey] as? String) ?? "",
+			   autocorrectionType: .no,
+			   identifier: "custom-http-header-name-\(number)"))
+
+			rows.append(StaticTableViewRow(textFieldWithAction: { [weak self] (_, sender, action) in
+				guard let self, let textField = sender as? UITextField, action == .changed else { return }
+				self.setUserInfo(textField.text, for: valueKey)
+			}, placeholder: String(format: OCLocalizedString("Header %d value", nil), number),
+			   value: (bookmark.userInfo[valueKey] as? String) ?? "",
+			   autocorrectionType: .no,
+			   identifier: "custom-http-header-value-\(number)"))
+		}
 
 		return StaticTableViewSection(headerTitle: OCLocalizedString("Custom HTTP Header", nil),
 		                              footerTitle: OCLocalizedString("Attached to every request for this account. Useful for reverse-proxy authentication.", nil),
 		                              identifier: "section-custom-http-header",
-		                              rows: [nameRow, valueRow])
+		                              rows: rows)
 	}
 
 	private func makeClientCertificatePlaceholderSection() -> StaticTableViewSection {
