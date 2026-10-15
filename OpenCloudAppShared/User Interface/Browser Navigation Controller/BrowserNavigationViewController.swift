@@ -522,6 +522,10 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 	private var forwardSwipeGestureRecognizer: UIScreenEdgePanGestureRecognizer?
 	private var appliedSwipeNavigationLayoutDirection: UIUserInterfaceLayoutDirection?
 
+	private var canRevealSideBarBySwipe: Bool {
+		return (sidebarViewController != nil) && !isSideBarVisible
+	}
+
 	private func setupSwipeNavigationGestureRecognizers() {
 		func makeGestureRecognizer() -> UIScreenEdgePanGestureRecognizer {
 			let gestureRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(handleSwipeNavigation(_:)))
@@ -571,10 +575,12 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 			return
 		}
 
-		if isBackSwipe {
-			moveBack()
-		} else {
+		if !isBackSwipe {
 			moveForward()
+		} else if history.canMoveBack {
+			moveBack()
+		} else if canRevealSideBarBySwipe {
+			setSideBarVisible(true)
 		}
 	}
 
@@ -816,7 +822,7 @@ extension BrowserNavigationViewController: UIGestureRecognizerDelegate {
 			return false
 		}
 
-		return isBackSwipe ? history.canMoveBack : history.canMoveForward
+		return isBackSwipe ? (history.canMoveBack || canRevealSideBarBySwipe) : history.canMoveForward
 	}
 
 	public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
