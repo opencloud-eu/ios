@@ -239,6 +239,15 @@ class BookmarkComposer: NSObject {
 				self.bookmark.authenticationData = authMethodData
 				self.bookmark.scanForAuthenticationMethodsRequired = false
 
+				// Checked here, before the credentials are committed to the keychain below, so a refused
+				// account never has anything to clean up and the user is back at sign-in right away.
+				if self.isDuplicateAccount {
+					self.hudMessage = nil
+					self.refuseDuplicateAccount()
+					completion(nil, nil, nil)
+					return
+				}
+
 				self.hudMessage = OCLocalizedString("Fetching user information…", nil)
 
 				// Retrieve available instances for this account to chose from
@@ -500,8 +509,85 @@ class BookmarkComposer: NSObject {
 		}
 	}
 
+	// MARK: - Duplicate accounts
+	/// Identity an account is recognised by: user, host and port - matching how Android compares accounts.
+	///
+	/// Prefers `user.userName`, which is persisted in the bookmark. `.userName` is derived from
+	/// authenticationData and returns nil for a bookmark loaded from disk whose data hasn't been read back
+	/// from the keychain yet (it tests the ivar, not the lazily loading property, and `lastUsername` is not
+	/// persisted) - which silently disabled this check for every stored account. `.userName` remains as the
+	/// fallback for the new bookmark, whose `user` is only filled once the connection has been established.
+	private func accountIdentity(of bookmark: OCBookmark) -> String? {
+		guard let userName = bookmark.user?.userName ?? bookmark.userName, let host = bookmark.url?.host else {
+			return nil
+		}
+
+		let port = bookmark.url?.port.map { ":\($0)" } ?? ""
+
+		return "\(userName.lowercased())@\(host.lowercased())\(port)"
+	}
+
+	/// Whether the account the user just authenticated as is already configured.
+	/// Only meaningful when creating a new account: when editing, the bookmark being edited is itself in the list.
+	var isDuplicateAccount: Bool {
+		guard configuration.bookmark == nil, let identity = accountIdentity(of: bookmark) else {
+			return false
+		}
+
+		let existingIdentities = OCBookmarkManager.shared.bookmarks.compactMap { accountIdentity(of: $0) }
+		let isDuplicate = existingIdentities.contains(identity)
+
+		Log.debug("Duplicate check: \(Log.mask(identity)) against \(existingIdentities.count) of \(OCBookmarkManager.shared.bookmarks.count) existing account(s) -> \(isDuplicate)")
+
+		return isDuplicate
+	}
+
+	/// Refuses the account just authenticated as, drops its credentials and returns the setup to the sign-in step.
+	///
+	/// Two bookmarks for one account would mean two File Provider domains for it - the same files downloaded
+	/// twice, two sync engines writing the same remote state. Matches Android, which throws AccountNotNewException.
+	///
+	/// Clearing authenticationData while storage is still .keychain removes any keychain item, so a refused
+	/// attempt never leaves a refresh token behind; storage then goes back to .memory so a second attempt is
+	/// again checked *before* anything is written. updateState() lands on .authenticate because
+	/// authenticationData is nil - and since a duplicate implies an account already exists, that sign-in uses
+	/// a private browser session, so the user can actually sign in as someone else
+	/// (see +[OCAuthenticationMethodOAuth2 browserSessionPrivacyWithOptions:]).
+	func refuseDuplicateAccount() {
+		Log.warning("Refusing already configured account \(Log.mask(accountIdentity(of: bookmark)))")
+
+		bookmark.authenticationData = nil		// removes the keychain item while storage is still .keychain
+		bookmark.authenticationDataStorage = .memory	// so a retry is checked before it is committed again
+		updateState()
+
+		let error = NSError(domain: OCErrorDomain, code: Int(OCError.internal.rawValue), userInfo: [
+			NSLocalizedDescriptionKey : OCLocalizedString("This account is already configured in the app. Please remove the existing account first or log in as a different user.", nil)
+		])
+
+		// Passed as a ready-made .error issue: there is nothing to approve here, and the delegate would
+		// otherwise wrap a plain error as .warning, which presents Cancel/Approve buttons
+		delegate?.present(composer: self, error: nil, issue: OCIssue(forError: error, level: .error), issueCompletionHandler: nil)
+	}
+
+	/// Drops credentials of an account that was authenticated but never added, so abandoning the setup after
+	/// signing in doesn't leave a refresh token in the keychain. No-op when editing an existing account: its
+	/// credentials belong to a bookmark that is already in use.
+	func discardUnsavedCredentials() {
+		if configuration.bookmark == nil, bookmark.authenticationDataStorage == .keychain {
+			Log.debug("Discarding credentials of account that was never added")
+			bookmark.authenticationData = nil		// removes the keychain item while storage is still .keychain
+			bookmark.authenticationDataStorage = .memory
+		}
+	}
+
 	// MARK: - Add or update bookmark
-	func addBookmark() -> OCBookmark {
+	func addBookmark() -> OCBookmark? {
+		// Backstop for the check right after authentication: the URL can still change after it (instance choice)
+		if isDuplicateAccount {
+			refuseDuplicateAccount()
+			return nil
+		}
+
 		OCBookmarkManager.shared.addBookmark(bookmark)
 
 		return bookmark
