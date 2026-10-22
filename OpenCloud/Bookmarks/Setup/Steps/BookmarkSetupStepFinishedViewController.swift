@@ -53,7 +53,10 @@ class BookmarkSetupStepFinishedViewController: BookmarkSetupStepViewController {
 	}
 
 	override func handleContinue() {
-		let bookmark = setupViewController?.composer?.addBookmark()
+		// nil = the composer refused the account (already configured), presented the reason and
+		// returned the setup to the sign-in step itself - so don't finish the flow
+		guard let bookmark = setupViewController?.composer?.addBookmark() else { return }
+
 		setupViewController?.done(bookmark: bookmark)
 	}
 }

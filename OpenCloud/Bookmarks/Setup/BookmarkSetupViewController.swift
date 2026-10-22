@@ -194,9 +194,12 @@ class BookmarkSetupViewController: EmbeddingViewController, BookmarkComposerDele
 			case .completed:
 				if composer?.configuration.nameEditable == true {
 					stepViewController = BookmarkSetupStepFinishedViewController(with: self, step: step)
-				} else {
-					let bookmark = composer?.addBookmark()
+				} else if let bookmark = composer?.addBookmark() {
 					done(bookmark: bookmark)
+				} else if let composer, let currentStep = composer.currentStep, currentStep != step {
+					// The composer refused the account and moved back to the sign-in step: show that
+					// instead of leaving the content empty
+					return viewController(for: currentStep)
 				}
 		}
 
@@ -271,6 +274,8 @@ class BookmarkSetupViewController: EmbeddingViewController, BookmarkComposerDele
 	var cancelHandler: CancelHandler?
 
 	func cancel() {
+		composer?.discardUnsavedCredentials()
+
 		cancelHandler?()
 		cancelHandler = nil
 	}
