@@ -32,6 +32,8 @@ class DriveGridCell: DriveHeaderCell {
 		}
 	}
 
+	override class var coverImageMaxPointSize : CGSize { CGSize(width: 300, height: 169) }
+
 	override var suggestedCellHeight: CGFloat? {
 		return nil
 	}
