@@ -36,6 +36,8 @@ class DriveListCell: ThemeableCollectionViewListCell {
 		fatalError()
 	}
 
+	class var coverImageMaxPointSize : CGSize { CGSize(width: 64, height: 64) }
+
 	var textOuterSpacing : CGFloat = 10
 	var textInterSpacing : CGFloat = 5
 
@@ -104,6 +106,17 @@ class DriveListCell: ThemeableCollectionViewListCell {
 		])
 	}
 
+	func setCoverImageRequest(_ request: OCResourceRequest?, with resourceManager: OCResourceManager?) {
+		request?.maxPointSize = Self.coverImageMaxPointSize
+		request?.scale = traitCollection.displayScale
+
+		coverImageResourceView.request = request
+
+		if let request {
+			resourceManager?.start(request)
+		}
+	}
+
 	override func prepareForReuse() {
 		super.prepareForReuse()
 		coverImageResourceView.activeViewProvider = nil
@@ -134,12 +147,8 @@ extension DriveListCell {
 			cell.title = title
 			cell.subtitle = subtitle
 
-			cell.coverImageResourceView.request = coverImageRequest
+			cell.setCoverImageRequest(coverImageRequest, with: resourceManager)
 
-			if let coverImageRequest = coverImageRequest {
-				resourceManager?.start(coverImageRequest)
-			}
-			
 			cell.secureView(core: collectionItemRef.ocCellConfiguration?.clientContext?.core)
 
 			cell.accessories = [ .disclosureIndicator() ]
@@ -165,17 +174,13 @@ extension DriveListCell {
 			cell.title = title
 			cell.subtitle = subtitle
 
-			cell.coverImageResourceView.request = coverImageRequest
+			cell.setCoverImageRequest(coverImageRequest, with: resourceManager)
 			cell.isRequestingCoverImage = (coverImageRequest != nil)
 
 			cell.collectionItemRef = collectionItemRef
 			cell.collectionViewController = collectionItemRef.ocCellConfiguration?.hostViewController
 			
 			cell.secureView(core: collectionItemRef.ocCellConfiguration?.clientContext?.core)
-
-			if let coverImageRequest = coverImageRequest {
-				resourceManager?.start(coverImageRequest)
-			}
 		}
 
 		let driveGridCellRegistration = UICollectionView.CellRegistration<DriveGridCell, CollectionViewController.ItemRef> { (cell, indexPath, collectionItemRef) in
@@ -212,17 +217,13 @@ extension DriveListCell {
 			cell.title = title
 			cell.subtitle = subtitle
 
-			cell.coverImageResourceView.request = coverImageRequest
+			cell.setCoverImageRequest(coverImageRequest, with: resourceManager)
 			cell.isRequestingCoverImage = (coverImageRequest != nil)
 
 			cell.collectionItemRef = collectionItemRef
 			cell.collectionViewController = collectionItemRef.ocCellConfiguration?.hostViewController
 			
 			cell.secureView(core: collectionItemRef.ocCellConfiguration?.clientContext?.core)
-
-			if let coverImageRequest = coverImageRequest {
-				resourceManager?.start(coverImageRequest)
-			}
 		}
 
 		let driveSideBarCellRegistration = UICollectionView.CellRegistration<ThemeableCollectionViewListCell, CollectionViewController.ItemRef> { (cell, indexPath, collectionItemRef) in

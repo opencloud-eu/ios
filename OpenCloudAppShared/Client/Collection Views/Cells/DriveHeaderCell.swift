@@ -21,6 +21,8 @@ import UIKit
 class DriveHeaderCell: DriveListCell {
 	let darkBackgroundView = ThemeCSSView()
 
+	override class var coverImageMaxPointSize : CGSize { CGSize(width: 768, height: 160) }
+
 	var coverObservation : NSKeyValueObservation?
 	var isRequestingCoverImage : Bool = true {
 		didSet {
