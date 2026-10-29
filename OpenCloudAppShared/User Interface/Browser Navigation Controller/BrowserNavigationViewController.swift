@@ -23,9 +23,33 @@ public protocol BrowserNavigationViewControllerDelegate: AnyObject {
 	func browserNavigation(viewController: BrowserNavigationViewController, contentViewControllerDidChange: UIViewController?)
 }
 
+private class BrowserContentContainerView: UIView {
+	weak var browserNavigationViewController: BrowserNavigationViewController?
+
+	override func accessibilityPerformEscape() -> Bool {
+		guard let browserNavigationViewController, browserNavigationViewController.history.canMoveBack else {
+			return false
+		}
+
+		browserNavigationViewController.moveBack()
+
+		return true
+	}
+}
+
+private struct BrowserContentTransition {
+	let token: UUID
+	let outgoingViewController: UIViewController
+	let outgoingView: UIView
+	let outgoingViewWasUserInteractionEnabled: Bool
+	let outgoingViewWasAccessibilityElementsHidden: Bool
+	let incomingView: UIView
+	let animator: UIViewPropertyAnimator
+}
+
 open class BrowserNavigationViewController: EmbeddingViewController, Themeable, BrowserNavigationHistoryDelegate, ThemeCSSAutoSelector {
 	var navigationView: UINavigationBar = UINavigationBar()
-	var contentContainerView: UIView = UIView()
+	var contentContainerView: UIView = BrowserContentContainerView()
 	var contentContainerLidView: UIView = UIView()
 
 	var sideBarSeperatorView: ThemeCSSView = ThemeCSSView(withSelectors: [.separator])
@@ -40,6 +64,8 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 
 	open override func viewWillLayoutSubviews() {
 		super.viewWillLayoutSubviews()
+
+		updateSwipeNavigationEdges()
 
 		if let windowWidth = view.window?.bounds.width {
 			if preferredSideBarWidth > windowWidth {
@@ -70,6 +96,8 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 		contentContainerView.cssSelector = .content
 		contentContainerView.translatesAutoresizingMaskIntoConstraints = false
 		contentContainerView.focusGroupIdentifier = "com.opencloud.content"
+		contentContainerView.clipsToBounds = true
+		(contentContainerView as? BrowserContentContainerView)?.browserNavigationViewController = self
 
 		let wrappedContentContainerView = contentContainerView.withScreenshotProtection
 		view.addSubview(wrappedContentContainerView)
@@ -113,6 +141,8 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 
 		navigationView.items = [
 		]
+
+		setupSwipeNavigationGestureRecognizers()
 	}
 
 	private var _themeRegistered = false
@@ -129,6 +159,12 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 		navigationController?.isNavigationBarHidden = true
 	}
 
+	open override func viewDidDisappear(_ animated: Bool) {
+		super.viewDidDisappear(animated)
+
+		endActiveContentTransition()
+	}
+
 	// MARK: - Navigation Bar
 	private var navigationBarTopConstraint: NSLayoutConstraint?
 	private func navigationBarTopConstraint(for hidden: Bool) -> NSLayoutConstraint {
@@ -141,6 +177,8 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 
 	open var navigationBarHidden: Bool = false
 	open func setNavigationBarHidden(_ hidden: Bool, animated: Bool, completion: (() -> Void)? = nil) {
+		navigationBarHidden = hidden
+
 		let updateLayout = {
 			self.navigationBarTopConstraint?.isActive = false
 			self.navigationBarTopConstraint = self.navigationBarTopConstraint(for: hidden)
@@ -256,6 +294,7 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 			let item = reuseOrBuild(.backButton, {
 				let backButtonItem = UIBarButtonItem(image: OCSymbol.icon(forSymbolName: "chevron.backward"), style: .plain, target: self, action: #selector(navBack))
 				backButtonItem.tag = BarButtonTags.backButton.rawValue
+				backButtonItem.accessibilityLabel = OCLocalizedString("Back", nil)
 
 				return backButtonItem
 			})
@@ -269,6 +308,7 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 			let item = reuseOrBuild(.forwardButton, {
 				let forwardButtonItem = UIBarButtonItem(image: OCSymbol.icon(forSymbolName: "chevron.forward"), style: .plain, target: self, action: #selector(navForward))
 				forwardButtonItem.tag = BarButtonTags.forwardButton.rawValue
+				forwardButtonItem.accessibilityLabel = OCLocalizedString("Forward", nil)
 
 				return forwardButtonItem
 			})
@@ -299,6 +339,13 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 	public func present(item: BrowserNavigationItem?, with direction: BrowserNavigationHistory.Direction, completion: BrowserNavigationHistory.CompletionHandler?) {
 		let needsSideBarLayout = (((item != nil) && (contentViewController == nil)) || ((item == nil) && (contentViewController != nil))) && (emptyHistoryBehaviour == .expandSideBarToFullWidth)
 
+		endActiveContentTransition()
+
+		let outgoingViewController = contentViewController
+		let outgoingView = (outgoingViewController?.isViewLoaded == true) ? outgoingViewController?.view : nil
+		let outgoingFrame = outgoingView?.frame ?? .zero
+		let animateTransition = shouldAnimateContentTransition(direction: direction, item: item, outgoingViewController: outgoingViewController, needsSideBarLayout: needsSideBarLayout)
+
 		if let item {
 			// Has content
 			let itemViewController = item.viewController
@@ -315,7 +362,19 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 			contentViewController = nil
 		}
 
+		if navigationBarHidden {
+			setNavigationBarHidden(false, animated: false)
+		}
+
 		self.view.layoutIfNeeded()
+
+		if animateTransition, let outgoingViewController, let outgoingView {
+			startContentTransition(direction: direction, outgoingViewController: outgoingViewController, outgoingView: outgoingView, outgoingFrame: outgoingFrame)
+		}
+
+		if item != nil, view.window != nil {
+			UIAccessibility.post(notification: .screenChanged, argument: nil)
+		}
 
 		let done = {
 			self.delegate?.browserNavigation(viewController: self, contentViewControllerDidChange: self.contentViewController)
@@ -333,6 +392,195 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 			}
 		} else {
 			done()
+		}
+	}
+
+	// MARK: - Content transition
+	private static let contentTransitionDuration: TimeInterval = 0.3
+	private static let contentTransitionParallaxFraction: CGFloat = 0.3
+
+	private var activeContentTransition: BrowserContentTransition?
+
+	private func shouldAnimateContentTransition(direction: BrowserNavigationHistory.Direction, item: BrowserNavigationItem?, outgoingViewController: UIViewController?, needsSideBarLayout: Bool) -> Bool {
+		guard direction != .none, item != nil, !needsSideBarLayout else {
+			return false
+		}
+
+		guard let outgoingViewController, outgoingViewController.isViewLoaded, isViewLoaded, view.window != nil else {
+			return false
+		}
+
+		guard history.item(for: outgoingViewController) != nil else {
+			return false
+		}
+
+		if UIAccessibility.isReduceMotionEnabled, !UIAccessibility.prefersCrossFadeTransitions {
+			return false
+		}
+
+		return true
+	}
+
+	private func startContentTransition(direction: BrowserNavigationHistory.Direction, outgoingViewController: UIViewController, outgoingView: UIView, outgoingFrame: CGRect) {
+		let width = contentContainerView.bounds.width
+
+		guard let incomingView = contentViewController?.view, incomingView !== outgoingView, width > 0 else {
+			return
+		}
+
+		let isForward = (direction == .toNext)
+
+		var sign: CGFloat = isForward ? 1.0 : -1.0
+
+		if view.effectiveUserInterfaceLayoutDirection == .rightToLeft {
+			sign = -sign
+		}
+
+		let parallax = width * BrowserNavigationViewController.contentTransitionParallaxFraction
+		let incomingStartX = isForward ? (sign * width) : (sign * parallax)
+		let outgoingEndX = isForward ? (-sign * parallax) : (-sign * width)
+
+		let outgoingViewWasUserInteractionEnabled = outgoingView.isUserInteractionEnabled
+		let outgoingViewWasAccessibilityElementsHidden = outgoingView.accessibilityElementsHidden
+
+		outgoingView.translatesAutoresizingMaskIntoConstraints = true
+		outgoingView.frame = outgoingFrame
+		outgoingView.isUserInteractionEnabled = false
+		outgoingView.accessibilityElementsHidden = true
+
+		if isForward {
+			contentContainerView.insertSubview(outgoingView, belowSubview: incomingView)
+		} else {
+			contentContainerView.insertSubview(outgoingView, aboveSubview: incomingView)
+		}
+
+		let animator = UIViewPropertyAnimator(duration: BrowserNavigationViewController.contentTransitionDuration, curve: .easeInOut)
+
+		if UIAccessibility.prefersCrossFadeTransitions {
+			incomingView.transform = .identity
+			outgoingView.transform = .identity
+			incomingView.alpha = 0.0
+
+			animator.addAnimations {
+				incomingView.alpha = 1.0
+				outgoingView.alpha = 0.0
+			}
+		} else {
+			incomingView.alpha = 1.0
+			outgoingView.alpha = 1.0
+			incomingView.transform = CGAffineTransform(translationX: incomingStartX, y: 0.0)
+			outgoingView.transform = .identity
+
+			animator.addAnimations {
+				incomingView.transform = .identity
+				outgoingView.transform = CGAffineTransform(translationX: outgoingEndX, y: 0.0)
+			}
+		}
+
+		let token = UUID()
+
+		activeContentTransition = BrowserContentTransition(token: token, outgoingViewController: outgoingViewController, outgoingView: outgoingView, outgoingViewWasUserInteractionEnabled: outgoingViewWasUserInteractionEnabled, outgoingViewWasAccessibilityElementsHidden: outgoingViewWasAccessibilityElementsHidden, incomingView: incomingView, animator: animator)
+
+		animator.addCompletion { [weak self] _ in
+			guard let self, self.activeContentTransition?.token == token else {
+				return
+			}
+
+			self.endActiveContentTransition()
+		}
+
+		animator.startAnimation()
+	}
+
+	private func endActiveContentTransition() {
+		guard let transition = activeContentTransition else {
+			return
+		}
+
+		activeContentTransition = nil
+
+		if transition.animator.state == .active {
+			transition.animator.stopAnimation(true)
+		}
+
+		for animatedView in [transition.outgoingView, transition.incomingView] {
+			animatedView.layer.removeAllAnimations()
+			animatedView.transform = .identity
+			animatedView.alpha = 1.0
+		}
+
+		transition.outgoingView.isUserInteractionEnabled = transition.outgoingViewWasUserInteractionEnabled
+		transition.outgoingView.accessibilityElementsHidden = transition.outgoingViewWasAccessibilityElementsHidden
+		transition.outgoingView.removeFromSuperview()
+	}
+
+	// MARK: - Swipe navigation
+	private static let swipeNavigationMinimumTravelFraction: CGFloat = 0.3
+	private static let swipeNavigationMinimumVelocity: CGFloat = 400.0
+
+	private var backSwipeGestureRecognizer: UIScreenEdgePanGestureRecognizer?
+	private var forwardSwipeGestureRecognizer: UIScreenEdgePanGestureRecognizer?
+	private var appliedSwipeNavigationLayoutDirection: UIUserInterfaceLayoutDirection?
+
+	private var canRevealSideBarBySwipe: Bool {
+		return (sidebarViewController != nil) && !isSideBarVisible
+	}
+
+	private func setupSwipeNavigationGestureRecognizers() {
+		func makeGestureRecognizer() -> UIScreenEdgePanGestureRecognizer {
+			let gestureRecognizer = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(handleSwipeNavigation(_:)))
+			gestureRecognizer.delegate = self
+
+			contentContainerView.addGestureRecognizer(gestureRecognizer)
+
+			return gestureRecognizer
+		}
+
+		backSwipeGestureRecognizer = makeGestureRecognizer()
+		forwardSwipeGestureRecognizer = makeGestureRecognizer()
+
+		updateSwipeNavigationEdges()
+	}
+
+	private func updateSwipeNavigationEdges() {
+		let layoutDirection = view.effectiveUserInterfaceLayoutDirection
+
+		guard appliedSwipeNavigationLayoutDirection != layoutDirection else {
+			return
+		}
+
+		appliedSwipeNavigationLayoutDirection = layoutDirection
+
+		let isRightToLeft = (layoutDirection == .rightToLeft)
+
+		backSwipeGestureRecognizer?.edges = isRightToLeft ? .right : .left
+		forwardSwipeGestureRecognizer?.edges = isRightToLeft ? .left : .right
+	}
+
+	@objc private func handleSwipeNavigation(_ gestureRecognizer: UIScreenEdgePanGestureRecognizer) {
+		let isBackSwipe = (gestureRecognizer === backSwipeGestureRecognizer)
+
+		guard gestureRecognizer.state == .ended, isBackSwipe || (gestureRecognizer === forwardSwipeGestureRecognizer) else {
+			return
+		}
+
+		let isRightToLeft = (view.effectiveUserInterfaceLayoutDirection == .rightToLeft)
+		let sign: CGFloat = (isBackSwipe != isRightToLeft) ? 1.0 : -1.0
+
+		let travel = gestureRecognizer.translation(in: contentContainerView).x * sign
+		let velocity = gestureRecognizer.velocity(in: contentContainerView).x * sign
+		let requiredTravel = contentContainerView.bounds.width * BrowserNavigationViewController.swipeNavigationMinimumTravelFraction
+
+		guard travel > requiredTravel || velocity > BrowserNavigationViewController.swipeNavigationMinimumVelocity else {
+			return
+		}
+
+		if !isBackSwipe {
+			moveForward()
+		} else if history.canMoveBack {
+			moveBack()
+		} else if canRevealSideBarBySwipe {
+			setSideBarVisible(true)
 		}
 	}
 
@@ -558,6 +806,31 @@ open class BrowserNavigationViewController: EmbeddingViewController, Themeable, 
 extension BrowserNavigationViewController: UINavigationBarDelegate {
 	public func position(for bar: UIBarPositioning) -> UIBarPosition {
 		return .topAttached
+	}
+}
+
+extension BrowserNavigationViewController: UIGestureRecognizerDelegate {
+	public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+		let isBackSwipe = (gestureRecognizer === backSwipeGestureRecognizer)
+		let isForwardSwipe = (gestureRecognizer === forwardSwipeGestureRecognizer)
+
+		guard isBackSwipe || isForwardSwipe else {
+			return true
+		}
+
+		guard contentContainerLidView.isHidden, activeContentTransition == nil else {
+			return false
+		}
+
+		return isBackSwipe ? (history.canMoveBack || canRevealSideBarBySwipe) : history.canMoveForward
+	}
+
+	public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+		guard (gestureRecognizer === backSwipeGestureRecognizer) || (gestureRecognizer === forwardSwipeGestureRecognizer) else {
+			return false
+		}
+
+		return otherGestureRecognizer is UIPanGestureRecognizer
 	}
 }
 
