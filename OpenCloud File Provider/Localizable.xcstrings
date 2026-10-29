@@ -56,6 +56,264 @@
             "state" : "translated",
             "value" : "授权失败"
           }
+        },
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "bs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "de_DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η εξουσιοδότηση απέτυχε"
+          }
+        },
+        "eo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ig" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autoriseringa feila"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisasjonen mislyktes"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ru_RU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "sq" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "ug" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "uk_UA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
+        },
+        "vi_VN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
         }
       }
     },
@@ -101,6 +359,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "管理员已禁用文件提供程序访问权限。请直接在应用内创建新文件夹。"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η πρόσβαση στον Πάροχο αρχείων έχει απενεργοποιηθεί από τον διαχειριστή. Παρακαλούμε χρησιμοποιήστε την εφαρμογή για τη δημιουργία νέων φακέλων."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès à File Provider a été désactivé par l'administrateur. Veuillez utiliser l'application pour créer de nouveaux dossiers."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administratoren har slått av tilgang via filtilbydaren. Bruk appen for å opprette nye mapper."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administratoren har slått av tilgang via filtilbyderen. Bruk appen for å opprette nye mapper."
           }
         }
       }
@@ -148,6 +430,30 @@
             "state" : "translated",
             "value" : "管理员已禁用文件提供程序访问权限。请使用系统共享导入文件。"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η πρόσβαση στον Πάροχο αρχείων έχει απενεργοποιηθεί από τον διαχειριστή. Παρακαλούμε χρησιμοποιήστε την επέκταση κοινοποίησης για την εισαγωγή αρχείων."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'accès à « File Provider » a été désactivé par l'administrateur. Veuillez utiliser l'extension de partage pour importer des fichiers."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administratoren har slått av tilgang via filtilbydaren. Bruk delingsutvidinga for å importere filer."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administratoren har slått av tilgang via filtilbyderen. Bruk delingsutvidelsen for å importere filer."
+          }
         }
       }
     },
@@ -193,6 +499,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此设备不允许通过文件提供程序导入文件。"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η εισαγωγή αρχείων μέσω του Παρόχου αρχείων δεν επιτρέπεται σε αυτή τη συσκευή."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'importation de fichiers via le « File Provider » n'est pas autorisée sur cet appareil."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import av filer via filtilbydaren er ikkje tillate på denne eininga."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import av filer via filtilbyderen er ikke tillatt på denne enheten."
           }
         }
       }
@@ -240,6 +570,30 @@
             "state" : "translated",
             "value" : "在应用内登录您的账户 %@ 以查看更多详情。"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεθείτε στον λογαριασμό σας %@ στην εφαρμογή για περισσότερες λεπτομέρειες."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connectez-vous à votre compte %@ dans l'application pour en savoir plus."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn på kontoen %@ i appen for å sjå fleire detaljar."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn på kontoen %@ i appen for å se flere detaljer."
+          }
         }
       }
     },
@@ -286,6 +640,30 @@
             "state" : "translated",
             "value" : "在应用内登录您的账户以查看更多详情。"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνδεθείτε στον λογαριασμό σας στην εφαρμογή για περισσότερες λεπτομέρειες."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connectez-vous à votre compte dans l'application pour en savoir plus."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn på kontoen din i appen for å sjå fleire detaljar."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logg inn på kontoen din i appen for å se flere detaljer."
+          }
         }
       }
     },
@@ -331,6 +709,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无法在服务器上找到目标文件夹。暂不支持跨服务器移动文件。"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ο φάκελος προορισμού δεν ήταν δυνατό να βρεθεί σε αυτόν τον διακομιστή. Η μετακίνηση στοιχείων μεταξύ διακομιστών δεν υποστηρίζεται αυτή τη στιγμή."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le dossier de destination est introuvable sur ce serveur. Le transfert d'éléments d'un serveur à un autre n'est actuellement pas pris en charge."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fann ikkje målmappa på denne tenaren. Det er førebels ikkje støtte for å flytte element mellom tenarar."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fant ikke målmappen på denne tjeneren. Det er foreløpig ikke støtte for å flytte elementer mellom tjenere."
           }
         }
       }
