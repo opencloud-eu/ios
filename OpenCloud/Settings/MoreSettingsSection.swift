@@ -103,18 +103,7 @@ class MoreSettingsSection: SettingsSection {
 			row.viewController?.navigationController?.pushViewController(AcknowledgementsTableViewController(style: .insetGrouped), animated: true)
 		}, title: OCLocalizedString("Acknowledgements", nil), accessoryType: .disclosureIndicator, identifier: "acknowledgements")
 
-		var buildType = OCLocalizedString("release", nil)
-		if VendorServices.shared.isBetaBuild {
-			buildType = OCLocalizedString("beta", nil)
-		}
-
-		var appSuffix = ""
-		if OCLicenseEMMProvider.isEMMVersion {
-			appSuffix = "-EMM"
-		}
-
-		let localizedFooter = OCLocalizedString("%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)", nil)
-		let footerTitle = String(format: localizedFooter, VendorServices.shared.appName, appSuffix, buildType, VendorServices.shared.appVersion, "\(VendorServices.shared.appBuildNumber) (\(GitInfo.app.buildDate ?? ""))", GitInfo.app.versionInfo, GitInfo.sdk.versionInfo)
+		let footerTitle = GitInfo.versionSummary
 
 		appVersionRow = StaticTableViewRow(rowWithAction: { (_, _) in
 			UIPasteboard.general.string = footerTitle
