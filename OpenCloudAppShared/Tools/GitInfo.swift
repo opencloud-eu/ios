@@ -18,6 +18,7 @@
 
 import UIKit
 import OpenCloudSDK
+import OpenCloudApp
 
 public class GitInfo: NSObject {
 	public var bundle: Bundle
@@ -26,12 +27,23 @@ public class GitInfo: NSObject {
 	public lazy var tags: String? = bundle.object(forInfoDictionaryKey: "GitTags") as? String
 	public lazy var branch: String? = bundle.object(forInfoDictionaryKey: "GitBranch") as? String
 	public lazy var buildDate: String? = bundle.object(forInfoDictionaryKey: "BuildDate") as? String
+	public lazy var isDirty: Bool = (bundle.object(forInfoDictionaryKey: "GitDirty") as? String) == "1"
+	public lazy var sdkCommit: String? = { // Only set if the SDK isn't the commit pinned by the app commit
+		let commit = bundle.object(forInfoDictionaryKey: "GitSDKCommit") as? String
+		return (commit?.isEmpty == false) ? commit : nil
+	}()
 	public lazy var versionInfo: String = {
-		if showVerboseVersionInfo {
-			return "\(tags ?? "untagged") - \(branch ?? "?")@\(lastCommit ?? "?")"
+		var info = showVerboseVersionInfo ? "\(branch ?? "?")@\(lastCommit ?? "?")" : "\(lastCommit ?? "?")"
+
+		if isDirty {
+			info += "-dirty"
 		}
 
-		return "\(lastCommit ?? "?")"
+		if let sdkCommit {
+			info += " · sdk \(sdkCommit) (≠ submodule)"
+		}
+
+		return info
 	}()
 
 	public lazy var isMainBranch: Bool = (branch == "master") || (branch == "main")
@@ -42,5 +54,19 @@ public class GitInfo: NSObject {
 	}
 
 	public static var app = GitInfo(bundle: .main)
-	public static var sdk = GitInfo(bundle: Bundle(for: OCCore.self))
+
+	// f.ex. "OpenCloud 1.2.6 (2) beta · 2026-10-15 · testflight_2026oct15@72f76b09"
+	public static var versionSummary: String {
+		var summary = "\(VendorServices.shared.appName)\(OCLicenseEMMProvider.isEMMVersion ? "-EMM" : "") \(VendorServices.shared.appVersion) (\(VendorServices.shared.appBuildNumber))"
+
+		if VendorServices.shared.isBetaBuild {
+			summary += " beta"
+		}
+
+		if let buildDate = app.buildDate {
+			summary += " · \(buildDate)"
+		}
+
+		return summary + " · \(app.versionInfo)"
+	}
 }
