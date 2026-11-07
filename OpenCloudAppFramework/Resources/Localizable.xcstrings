@@ -38,6 +38,24 @@
             "state" : "translated",
             "value" : "%1$@ är redan upplåst för %2$@."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το %1$@ έχει ήδη ξεκλειδωθεί για το %2$@."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ er alt låst opp for %2$@."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ er allerede låst opp for %2$@."
+          }
         }
       }
     },
@@ -77,6 +95,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ upplåst för kvalitetssäkring."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το %@ ξεκλειδώθηκε για QA."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ er låst opp for QA."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ er låst opp for QA."
           }
         }
       }
@@ -120,6 +156,24 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu ημέρα"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dag"
+          }
+        },
+        "no" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu dag"
@@ -170,6 +224,24 @@
             "state" : "translated",
             "value" : "%lu dagar"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu ημέρες"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dagar"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu dager"
+          }
         }
       }
     },
@@ -215,6 +287,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu månad"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu μήνας"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu månad"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu måned"
           }
         }
       }
@@ -262,6 +352,24 @@
             "state" : "translated",
             "value" : "%lu månader"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu μήνες"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu månader"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu måneder"
+          }
         }
       }
     },
@@ -307,6 +415,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu vecka"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu εβδομάδα"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu veke"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu uke"
           }
         }
       }
@@ -354,6 +480,24 @@
             "state" : "translated",
             "value" : "%lu veckor"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu εβδομάδες"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu veker"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu uker"
+          }
         }
       }
     },
@@ -400,6 +544,24 @@
             "state" : "translated",
             "value" : "%lu år"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu έτος"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
+          }
         }
       }
     },
@@ -442,6 +604,24 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu έτη"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu år"
+          }
+        },
+        "no" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu år"
@@ -570,6 +750,24 @@
             "state" : "translated",
             "value" : "应用商店"
           }
+        },
+        "de_DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
         }
       }
     },
@@ -633,6 +831,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbruten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακυρώθηκε"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelado"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbrote"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbrutt"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已取消"
           }
         }
       }
@@ -728,6 +956,228 @@
             "state" : "translated",
             "value" : "Ngày"
           }
+        },
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "bs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "de_DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ημερομηνία"
+          }
+        },
+        "eo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fecha"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תאריך"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ig" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "날짜"
+          }
+        },
+        "lo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dato"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ru_RU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "sq" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "ug" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "uk_UA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日期"
+          }
         }
       }
     },
@@ -780,6 +1230,30 @@
             "state" : "translated",
             "value" : "dag"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ημέρα"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "jour"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dag"
+          }
         }
       }
     },
@@ -816,6 +1290,24 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
+        },
+        "no" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "EMM"
@@ -866,6 +1358,24 @@
             "state" : "translated",
             "value" : "Upphör"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λήγει"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluttar"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slutter"
+          }
         }
       }
     },
@@ -905,6 +1415,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Företag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enterprise"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enterprise"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enterprise"
           }
         }
       }
@@ -953,6 +1481,30 @@
             "state" : "translated",
             "value" : "Gratis"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δωρεάν"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratuit"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratis"
+          }
         }
       }
     },
@@ -992,6 +1544,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Köp i appen stöds inte för kopior som köpts genom programmet för volymköp. Köp EMM-versionen för att få tillgång till ytterligare funktioner."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αγορές εντός εφαρμογής δεν υποστηρίζονται για αντίγραφα που αγοράστηκαν μέσω του Προγράμματος μαζικών αγορών. Για πρόσβαση σε πρόσθετες λειτουργίες, παρακαλούμε αγοράστε την έκδοση EMM."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp i appen er ikkje støtta for eksemplar kjøpte gjennom Volume Purchase Program. Kjøp EMM-versjonen for å få tilgang til fleire funksjonar."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp i appen støttes ikke for eksemplarer kjøpt gjennom Volume Purchase Program. Kjøp EMM-versjonen for å få tilgang til flere funksjoner."
           }
         }
       }
@@ -1045,6 +1615,30 @@
             "state" : "translated",
             "value" : "Hantera prenumeration"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαχείριση συνδρομής"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gérer l'abonnement"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handsam abonnementet"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrer abonnement"
+          }
         }
       }
     },
@@ -1096,6 +1690,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "månad"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "μήνας"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mois"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "månad"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "måned"
           }
         }
       }
@@ -1149,6 +1767,24 @@
             "state" : "translated",
             "value" : "Produkt"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προϊόν"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Produkt"
+          }
         }
       }
     },
@@ -1195,6 +1831,24 @@
             "state" : "translated",
             "value" : "Köpt appversion"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έκδοση αγορασμένης εφαρμογής"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøpt appversjon"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøpt appversjon"
+          }
         }
       }
     },
@@ -1240,6 +1894,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Köp tillåts inte på den här enheten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αγορές δεν επιτρέπονται σε αυτή τη συσκευή."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp er ikkje tillate på denne eininga."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøp er ikke tillatt på denne enheten."
           }
         }
       }
@@ -1293,6 +1965,24 @@
             "state" : "translated",
             "value" : "Antal"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ποσότητα"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tal"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antall"
+          }
         }
       }
     },
@@ -1338,6 +2028,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kvittodatum"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ημερομηνία απόδειξης"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kvitteringsdato"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kvitteringsdato"
           }
         }
       }
@@ -1451,6 +2159,210 @@
             "state" : "translated",
             "value" : "Typ"
           }
+        },
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "bg" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "bs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "de_DE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ"
+          }
+        },
+        "eo" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "fa" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "gl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ig" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ka" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "lv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ru_RU" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "si" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "sl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "sq" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "sr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ta" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "ug" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "uk_UA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
+        },
+        "vi_VN" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
         }
       }
     },
@@ -1503,6 +2415,24 @@
             "state" : "translated",
             "value" : "vecka"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "εβδομάδα"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "veke"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "uke"
+          }
         }
       }
     },
@@ -1551,6 +2481,24 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "år"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "έτος"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "år"
+          }
+        },
+        "no" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "år"

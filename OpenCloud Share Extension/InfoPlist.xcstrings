@@ -63,6 +63,30 @@
             "state" : "translated",
             "value" : "共享给 OpenCloud"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση στο OpenCloud"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Partager sur OpenCloud"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del til OpenCloud"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del til OpenCloud"
+          }
         }
       }
     },
@@ -121,6 +145,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud 共享扩展"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επέκταση κοινοποίησης OpenCloud"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extension OpenCloud Share"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-delingsutviding"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-delingsutvidelse"
           }
         }
       }

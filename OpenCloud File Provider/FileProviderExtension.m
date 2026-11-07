@@ -88,7 +88,8 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 		_fileManager = [NSFileManager new];
 	}
 
-	[OCHTTPPipelineManager setupPersistentPipelines]; // Set up HTTP pipelines
+	// HTTP pipelines are set up once -domain is known, so that the background URL session can be
+	// named per domain - see -observeValueForKeyPath:…
 
 	OCLogDebug(@"Memory at launch: footprint=%llu bytes, available=%llu bytes (device only)", (unsigned long long)FileProviderExtensionMemoryFootprint(), (unsigned long long)os_proc_available_memory());
 	// On my iPhone 14, we had around 13 MB left while uploading with TUS. (OCConnection+Upload.m)
@@ -144,11 +145,51 @@ static uint64_t FileProviderExtensionMemoryFootprint(void)
 	}
 }
 
+- (nullable NSString *)backgroundURLSessionIdentifierSuffix
+{
+	NSFileProviderDomainIdentifier domainIdentifier;
+
+	if ((domainIdentifier = self.domain.identifier) == nil)
+	{
+		return (nil);
+	}
+
+	// The domain identifier is the bookmark's UUID. Its first segment is unique enough to tell two
+	// accounts apart, and keeps the identifier readable - the host alone wouldn't, for two accounts
+	// on the same server.
+	NSString *uuidFragment = [domainIdentifier substringToIndex:MIN((NSUInteger)8, domainIdentifier.length)];
+	NSString *host = self.bookmark.url.host;
+
+	if (host.length == 0)
+	{
+		return (uuidFragment);
+	}
+
+	static NSCharacterSet *disallowedCharacters;
+	static dispatch_once_t onceToken;
+
+	dispatch_once(&onceToken, ^{
+		// ";" separates the components of the session identifier, so it must not survive here
+		disallowedCharacters = [[NSCharacterSet characterSetWithCharactersInString:@"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.-"] invertedSet];
+	});
+
+	host = [[host componentsSeparatedByCharactersInSet:disallowedCharacters] componentsJoinedByString:@"-"];
+
+	return ([NSString stringWithFormat:@"%@-%@", host, uuidFragment]);
+}
+
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context
 {
 	if ((context == (__bridge void *)self) && [keyPath isEqual:@"domain"])
 	{
 		OCLogDebug(@"Domain set: %@", self.domain);
+
+		// Every domain runs in its own process, so name this process' background URL session after the
+		// domain - sharing one name across processes makes the second process' tasks fail with -996.
+		// Has to happen before the background pipeline is built, hence before setupPersistentPipelines.
+		OCHTTPPipelineManager.sharedPipelineManager.backgroundURLSessionIdentifierSuffix = self.backgroundURLSessionIdentifierSuffix;
+
+		[OCHTTPPipelineManager setupPersistentPipelines];
 
 		if (self.bookmark != nil)
 		{

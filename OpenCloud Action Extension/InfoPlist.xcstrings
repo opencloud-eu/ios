@@ -51,6 +51,30 @@
             "state" : "translated",
             "value" : "保存至 OpenCloud"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση στο OpenCloud"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer dans OpenCloud"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre i OpenCloud"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre i OpenCloud"
+          }
         }
       }
     },
@@ -104,6 +128,30 @@
             "state" : "translated",
             "value" : "OpenCloud 操作扩展"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επέκταση OpenCloud Action"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extension d'action OpenCloud"
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-handlingsutviding"
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud-handlingsutvidelse"
+          }
         }
       }
     },
@@ -150,6 +198,30 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "版权所有 © 2025 OpenCloud GmbH，2024 ownCloud GmbH。保留所有权利。"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πνευματικά δικαιώματα © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Όλα τα δικαιώματα διατηρούνται."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Tous droits réservés."
+          }
+        },
+        "nn" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alle rettar forbehalde."
+          }
+        },
+        "no" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alle rettigheter forbeholdt."
           }
         }
       }
