@@ -316,6 +316,11 @@ open class Action : NSObject {
 				}
 			}
 
+			if actionContext.items.contains(where: { $0.isVault }) {
+				// Vault folders are encrypted, so no action can be performed on them (opening them in the browser is handled in OCItem+Interactions)
+				return .noMatch
+			}
+
 			if self.applicablePosition(forContext: actionContext) == .none {
 				// Exclude actions whose applicablePosition returns .none
 				return .noMatch

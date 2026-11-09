@@ -243,6 +243,12 @@ static NSMutableDictionary<OCLocalID, NSError *> *sOCItemUploadingErrors;
 		break;
 
 		case OCItemTypeCollection:
+			if (self.isVault)
+			{
+				// Encrypted vault folders can only be opened in the browser
+				return (0);
+			}
+
 			return (NSFileProviderItemCapabilitiesAllowsContentEnumerating |
 				((permissions & OCItemPermissionMove)     					? NSFileProviderItemCapabilitiesAllowsReparenting 	: 0) |
 				((permissions & OCItemPermissionRename)   					? NSFileProviderItemCapabilitiesAllowsRenaming    	: 0) |

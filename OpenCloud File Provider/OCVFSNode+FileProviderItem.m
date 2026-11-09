@@ -65,6 +65,12 @@
 		// Return capabilities of item at .location
 		OCItem *locationItem;
 
+		if ([self.vfsCore isVaultDriveRootItemID:self.itemID])
+		{
+			// Encrypted vault spaces can only be opened in the browser (checked first, as the root item may not be cached yet)
+			return (0);
+		}
+
 		if ((locationItem = self.locationItem) != nil)
 		{
 			NSFileProviderItemCapabilities capabilities = locationItem.capabilities;

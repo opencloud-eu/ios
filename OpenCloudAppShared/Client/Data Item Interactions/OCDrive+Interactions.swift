@@ -35,6 +35,16 @@ extension OCDrive {
 // MARK: - Selection > Open
 extension OCDrive: DataItemSelectionInteraction {
 	public func openItem(from viewController: UIViewController?, with context: ClientContext?, animated: Bool, pushViewController: Bool, completion: ((Bool) -> Void)?) -> UIViewController? {
+		if isVault {
+			// Vault spaces are encrypted by the web vault app, so they are opened in the browser instead of being listed
+			if let webURL {
+				completion?(OCAuthenticationBrowserSessionCustomScheme.open(webURL)) // calls UIApplication.shared.open where available
+			} else {
+				completion?(false)
+			}
+			return nil
+		}
+
 		let rootLocation = self.rootLocation(with: context)
 		return rootLocation.openItem(from: viewController, with: context, animated: animated, pushViewController: pushViewController, completion: completion)
 	}
