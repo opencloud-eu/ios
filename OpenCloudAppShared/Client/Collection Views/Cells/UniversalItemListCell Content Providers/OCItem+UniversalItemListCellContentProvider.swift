@@ -288,7 +288,7 @@ extension OCItem: UniversalItemListCellContentProvider {
 		]
 		var includeMoreButton: Bool = false
 
-		if !((context?.moreItemHandler as? MoreItemAction == nil) || context?.hasPermission(for: .moreOptions) == false) {
+		if !isVault, !((context?.moreItemHandler as? MoreItemAction == nil) || context?.hasPermission(for: .moreOptions) == false) { // Vaults only offer "Open in browser"
 			includeMoreButton = configuration?.style.showMoreButton == true
 		}
 

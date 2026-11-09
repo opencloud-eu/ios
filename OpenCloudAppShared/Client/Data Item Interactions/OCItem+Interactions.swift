@@ -29,6 +29,11 @@ extension OCItem : DataItemSelectionInteraction {
 
 			switch item.type {
 				case .collection:
+					if item.isVault {
+						item.openVaultInBrowser(with: context, completion: completion)
+						return nil
+					}
+
 					if let location = item.location {
 						let query = OCQuery(for: location)
 						DisplaySettings.shared.updateQuery(withDisplaySettings: query)
@@ -109,10 +114,33 @@ extension OCItem : DataItemSelectionInteraction {
 	}
 }
 
+// MARK: - Vaults
+extension OCItem {
+	// Vault folders are encrypted by the web vault app, so they are opened in the browser instead of being listed
+	func openVaultInBrowser(with context: ClientContext?, completion: ((Bool) -> Void)?) {
+		guard let core = context?.core else {
+			completion?(false)
+			return
+		}
+
+		core.retrievePrivateLink(for: self, completionHandler: { (error, privateLink) in
+			OnMainThread {
+				guard error == nil, let privateLink else {
+					Log.error("Retrieving private link for vault \(self.location?.string ?? "-") failed: \(String(describing: error))")
+					completion?(false)
+					return
+				}
+
+				completion?(OCAuthenticationBrowserSessionCustomScheme.open(privateLink)) // calls UIApplication.shared.open where available
+			}
+		})
+	}
+}
+
 // MARK: - Swipe
 extension OCItem : DataItemSwipeInteraction {
 	public func provideTrailingSwipeActions(with context: ClientContext?) -> UISwipeActionsConfiguration? {
-		guard let context = context, let core = context.core, let originatingViewController = context.originatingViewController else {
+		guard !isVault, let context = context, let core = context.core, let originatingViewController = context.originatingViewController else {
 			return nil
 		}
 
@@ -135,6 +163,14 @@ extension OCItem : DataItemContextMenuInteraction {
 			return nil
 		}
 		let item = self
+
+		if item.isVault {
+			// Vault folders are encrypted, so opening them in the browser is the only action
+			return [UIAction(title: OCLocalizedString("Open in browser", nil), image: OCSymbol.icon(forSymbolName: "safari")) { _ in
+				item.openVaultInBrowser(with: context, completion: nil)
+			}]
+		}
+
 		let actionsLocation = OCExtensionLocation(ofType: .action, identifier: location) // .contextMenuItem)
 		let actionContext = ActionContext(viewController: viewController, clientContext: context, core: core, items: [item], location: actionsLocation, sender: nil)
 		let actions = Action.sortedApplicableActions(for: actionContext)
@@ -172,7 +208,7 @@ extension OCItem : DataItemContextMenuInteraction {
 // MARK: - Drag
 extension OCItem : DataItemDragInteraction {
 	public func provideDragItems(with context: ClientContext?) -> [UIDragItem]? {
-		guard !DisplaySettings.shared.preventDraggingFiles, let context = context, let core = context.core, let itemLocation = location else {
+		guard !DisplaySettings.shared.preventDraggingFiles, !isVault, let context = context, let core = context.core, let itemLocation = location else {
 			return nil
 		}
 		let bookmark: OCBookmark = core.bookmark
@@ -245,6 +281,10 @@ extension OCItem : DataItemDragInteraction {
 // MARK: - Drop
 extension OCItem : DataItemDropInteraction {
 	public func allowDropOperation(for session: UIDropSession, with context: ClientContext?) -> UICollectionViewDropProposal? {
+		if isVault {
+			return UICollectionViewDropProposal(operation: .forbidden, intent: .unspecified)
+		}
+
 		if session.localDragSession != nil {
 			// Prevent drop of items onto themselves - or in their existing location
 			if let dragItems = session.localDragSession?.items, let bookmarkUUID = context?.core?.bookmark.uuid {

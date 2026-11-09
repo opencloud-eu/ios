@@ -189,6 +189,8 @@ extension DriveListCell {
 			var title : String?
 			var subtitle : String?
 
+			cell.moreAction = nil // Cells are reused, and vault spaces don't get a more button
+
 			collectionItemRef.ocCellConfiguration?.configureCell(for: collectionItemRef, with: { itemRecord, driveItem, cellConfiguration in
 				if let presentable = OCDataRenderer.default.renderItem(driveItem, asType: .presentable, error: nil, withOptions: nil) as? OCDataItemPresentable {
 					title = presentable.title
@@ -199,7 +201,7 @@ extension DriveListCell {
 					coverImageRequest = try? presentable.provideResourceRequest(.coverImage, withOptions: nil)
 
 					// More item button action
-					if let clientContext = cellConfiguration.clientContext, let moreItemHandling = clientContext.moreItemHandler, let drive = driveItem as? OCDrive {
+					if let clientContext = cellConfiguration.clientContext, let moreItemHandling = clientContext.moreItemHandler, let drive = driveItem as? OCDrive, !drive.isVault { // Vaults only offer "Open in browser"
 						cell.moreAction = OCAction(title: OCLocalizedString("Actions", nil), icon: nil, action: { [weak moreItemHandling] (action, options, completion) in
 							clientContext.core?.cachedItem(at: drive.rootLocation, resultHandler: { error, item in
 								if let item {
