@@ -66,8 +66,9 @@ jobs:
             mv "$f.merged" "$f"
           done
 
+      # Not the action again: its installer fails when tx is already there.
       - name: l10n-push-source
-        uses: transifex/cli-action@v2
-        with:
-          token: ${{ secrets.TX_TOKEN }}
-          args: push -s
+        shell: bash
+        env:
+          TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        run: /tmp/tx/tx push -s
