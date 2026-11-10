@@ -4,6 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "**/*.xcstrings"
+      - ".tx/config"
+      - ".github/workflows/push-transifex.yml"
+
+# Uploading an .xcstrings file makes Transifex take ALL languages from it, not just the
+# source (ios#102). So the upload is: keys and English from the repo, every other
+# language from what Transifex has right now.
 
 jobs:
   push-translations:
@@ -11,6 +19,52 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
+      # Removed so that a download that did not happen is a missing file, not the repo version.
+      - name: l10n-remove-local
+        shell: bash
+        run: |
+          set -euo pipefail
+          sed -n 's/^source_file *= *//p' .tx/config | while IFS= read -r f; do rm "$f"; done
+
+      # Any one language: the downloaded file contains all of them.
+      # onlytranslated: other modes fill untranslated strings with English.
+      - name: l10n-pull-current
+        uses: transifex/cli-action@v2
+        with:
+          token: ${{ secrets.TX_TOKEN }}
+          args: pull -f -l de -m onlytranslated --minimum-perc 0
+
+      - name: l10n-merge
+        shell: bash
+        run: |
+          set -euo pipefail
+          sed -n 's/^source_file *= *//p' .tx/config | while IFS= read -r f; do
+            [ -s "$f" ] || { echo "::error::$f: nothing downloaded from Transifex"; exit 1; }
+            jq -e '.strings | type == "object"' "$f" >/dev/null || { echo "::error::$f: download is not a string catalog"; exit 1; }
+
+            git show "HEAD:$f" | jq --slurpfile tx "$f" '
+              $tx[0].strings as $remote
+              | .strings |= with_entries(
+                  $remote[.key] as $r
+                  | (.value.localizations // {}) as $mine
+                  | if $r == null then
+                      .                                 # new key, not on Transifex yet
+                    else
+                      .value.localizations = (
+                        ( if $mine.en == $r.localizations.en
+                          then ($r.localizations // {}) | del(.en)
+                          else {}                       # English text changed: translations are stale
+                          end )
+                        + ($mine | with_entries(select(.key == "en")))
+                      )
+                      | if .value.localizations == {} then del(.value.localizations) else . end
+                    end
+                )' > "$f.merged"
+
+            echo "$f: Transifex has $(jq '[.strings[].localizations // {} | keys[]] | length' "$f") localized entries, uploading $(jq '[.strings[].localizations // {} | keys[]] | length' "$f.merged")"
+            mv "$f.merged" "$f"
+          done
 
       - name: l10n-push-source
         uses: transifex/cli-action@v2
