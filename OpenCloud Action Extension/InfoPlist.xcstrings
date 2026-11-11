@@ -16,12 +16,6 @@
             "value" : "In OpenCloud speichern"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save to OpenCloud"
-          }
-        },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -75,6 +69,12 @@
             "state" : "translated",
             "value" : "Lagre i OpenCloud"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save to OpenCloud"
+          }
         }
       }
     },
@@ -91,12 +91,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud-Aktionserweiterung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenCloud Action Extension"
           }
         },
         "fi" : {
@@ -152,6 +146,12 @@
             "state" : "translated",
             "value" : "OpenCloud-handlingsutvidelse"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud Action Extension"
+          }
         }
       }
     },
@@ -168,12 +168,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alle Rechte vorbehalten."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. All rights reserved."
           }
         },
         "nl" : {
@@ -222,6 +216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. Alle rettigheter forbeholdt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copyright © 2025 OpenCloud GmbH, 2024 ownCloud GmbH. All rights reserved."
           }
         }
       }

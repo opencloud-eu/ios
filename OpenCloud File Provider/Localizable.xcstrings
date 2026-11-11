@@ -9,12 +9,6 @@
             "value" : "Autorisierung fehlgeschlagen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Authorization failed"
-          }
-        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -314,6 +308,12 @@
             "state" : "translated",
             "value" : "Authorization failed"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorization failed"
+          }
         }
       }
     },
@@ -323,12 +323,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zugriff auf den Dateianbieter wurde vom Administrator deaktiviert. Bitte verwenden Sie die App, um neue Ordner zu erstellen."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "File Provider access has been disabled by the administrator. Please use the app to create new folders."
           }
         },
         "nl" : {
@@ -384,6 +378,12 @@
             "state" : "translated",
             "value" : "Administratoren har slått av tilgang via filtilbyderen. Bruk appen for å opprette nye mapper."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File Provider access has been disabled by the administrator. Please use the app to create new folders."
+          }
         }
       }
     },
@@ -393,12 +393,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zugriff auf den Dateianbieter wurde vom Administrator deaktiviert. Bitte verwenden Sie die Freigabeerweiterung, um Dateien zu importieren."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "File Provider access has been disabled by the administrator. Please use the share extension to import files."
           }
         },
         "nl" : {
@@ -454,6 +448,12 @@
             "state" : "translated",
             "value" : "Administratoren har slått av tilgang via filtilbyderen. Bruk delingsutvidelsen for å importere filer."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File Provider access has been disabled by the administrator. Please use the share extension to import files."
+          }
         }
       }
     },
@@ -463,12 +463,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Das Importieren von Dateien über den Dateianbieter ist auf diesem Gerät nicht zulässig."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Importing files through the File Provider is not allowed on this device."
           }
         },
         "nl" : {
@@ -524,6 +518,12 @@
             "state" : "translated",
             "value" : "Import av filer via filtilbyderen er ikke tillatt på denne enheten."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importing files through the File Provider is not allowed on this device."
+          }
         }
       }
     },
@@ -533,12 +533,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Melden Sie sich in der App in Ihrem Konto %@ an, um weitere Details zu erfahren."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Log into your account %@ in the app for more details."
           }
         },
         "nl" : {
@@ -594,6 +588,12 @@
             "state" : "translated",
             "value" : "Logg inn på kontoen %@ i appen for å se flere detaljer."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log into your account %@ in the app for more details."
+          }
         }
       }
     },
@@ -603,12 +603,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Melden Sie sich in der App in Ihrem Konto an, um weitere Details zu erfahren."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Log into your account in the app for more details."
           }
         },
         "nl" : {
@@ -664,6 +658,12 @@
             "state" : "translated",
             "value" : "Logg inn på kontoen din i appen for å se flere detaljer."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log into your account in the app for more details."
+          }
         }
       }
     },
@@ -673,12 +673,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zielordner konnte auf diesem Server nicht gefunden werden. Das Verschieben von Elementen zwischen Servern wird derzeit nicht unterstützt."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The destination folder couldn't be found on this server. Moving items across servers is currently not supported."
           }
         },
         "nl" : {
@@ -733,6 +727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fant ikke målmappen på denne tjeneren. Det er foreløpig ikke støtte for å flytte elementer mellom tjenere."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The destination folder couldn't be found on this server. Moving items across servers is currently not supported."
           }
         }
       }
