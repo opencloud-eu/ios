@@ -9,12 +9,6 @@
             "value" : "%1$@ ist bereits für %2$@ freigeschaltet."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ already unlocked for %2$@."
-          }
-        },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -56,6 +50,12 @@
             "state" : "translated",
             "value" : "%1$@ er allerede låst opp for %2$@."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ already unlocked for %2$@."
+          }
         }
       }
     },
@@ -65,12 +65,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ für Qualitätssicherung freigeschaltet."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@ unlocked for QA."
           }
         },
         "nl" : {
@@ -114,6 +108,12 @@
             "state" : "translated",
             "value" : "%@ er låst opp for QA."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ unlocked for QA."
+          }
         }
       }
     },
@@ -123,12 +123,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Tag"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu day"
           }
         },
         "nl" : {
@@ -178,6 +172,12 @@
             "state" : "translated",
             "value" : "%lu dag"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu day"
+          }
         }
       }
     },
@@ -187,12 +187,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Tage"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu days"
           }
         },
         "nl" : {
@@ -242,6 +236,12 @@
             "state" : "translated",
             "value" : "%lu dager"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu days"
+          }
         }
       }
     },
@@ -251,12 +251,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Monat"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu month"
           }
         },
         "nl" : {
@@ -306,6 +300,12 @@
             "state" : "translated",
             "value" : "%lu måned"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu month"
+          }
         }
       }
     },
@@ -315,12 +315,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Monate"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu months"
           }
         },
         "nl" : {
@@ -370,6 +364,12 @@
             "state" : "translated",
             "value" : "%lu måneder"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu months"
+          }
         }
       }
     },
@@ -379,12 +379,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Woche"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu week"
           }
         },
         "nl" : {
@@ -434,6 +428,12 @@
             "state" : "translated",
             "value" : "%lu uke"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu week"
+          }
         }
       }
     },
@@ -443,12 +443,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Wochen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu weeks"
           }
         },
         "nl" : {
@@ -498,6 +492,12 @@
             "state" : "translated",
             "value" : "%lu uker"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu weeks"
+          }
         }
       }
     },
@@ -507,12 +507,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Jahr"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu year"
           }
         },
         "nl" : {
@@ -562,6 +556,12 @@
             "state" : "translated",
             "value" : "%lu år"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu year"
+          }
         }
       }
     },
@@ -571,12 +571,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lu Jahre"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lu years"
           }
         },
         "nl" : {
@@ -626,6 +620,12 @@
             "state" : "translated",
             "value" : "%lu år"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lu years"
+          }
         }
       }
     },
@@ -656,12 +656,6 @@
           }
         },
         "el" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "App Store"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "App Store"
@@ -768,6 +762,12 @@
             "state" : "translated",
             "value" : "App Store"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store"
+          }
         }
       }
     },
@@ -777,12 +777,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abgebrochen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancelled"
           }
         },
         "nl" : {
@@ -862,6 +856,12 @@
             "state" : "translated",
             "value" : "已取消"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelled"
+          }
         }
       }
     },
@@ -871,12 +871,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datum"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Date"
           }
         },
         "fr" : {
@@ -1178,6 +1172,12 @@
             "state" : "translated",
             "value" : "日期"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
+          }
         }
       }
     },
@@ -1187,12 +1187,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "day"
           }
         },
         "nl" : {
@@ -1254,18 +1248,18 @@
             "state" : "translated",
             "value" : "dag"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "day"
+          }
         }
       }
     },
     "EMM" : {
       "localizations" : {
         "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "EMM"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "EMM"
@@ -1312,6 +1306,12 @@
             "state" : "translated",
             "value" : "EMM"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMM"
+          }
         }
       }
     },
@@ -1321,12 +1321,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Endet"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ends"
           }
         },
         "nl" : {
@@ -1376,6 +1370,12 @@
             "state" : "translated",
             "value" : "Slutter"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ends"
+          }
         }
       }
     },
@@ -1385,12 +1385,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unternehmen"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enterprise"
           }
         },
         "nl" : {
@@ -1434,6 +1428,12 @@
             "state" : "translated",
             "value" : "Enterprise"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enterprise"
+          }
         }
       }
     },
@@ -1444,12 +1444,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frei"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Free"
           }
         },
         "nl" : {
@@ -1505,6 +1499,12 @@
             "state" : "translated",
             "value" : "Gratis"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free"
+          }
         }
       }
     },
@@ -1514,12 +1514,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In-App-Käufe werden für über das Volumenlizenzprogramm erworbene Kopien nicht unterstützt. Um auf zusätzliche Funktionen zuzugreifen, erwerben Sie bitte die EMM-Version."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In-app purchases are not supported for copies purchased through the Volume Purchase Program. For access to additional features, please purchase the EMM version."
           }
         },
         "nl" : {
@@ -1563,6 +1557,12 @@
             "state" : "translated",
             "value" : "Kjøp i appen støttes ikke for eksemplarer kjøpt gjennom Volume Purchase Program. Kjøp EMM-versjonen for å få tilgang til flere funksjoner."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-app purchases are not supported for copies purchased through the Volume Purchase Program. For access to additional features, please purchase the EMM version."
+          }
         }
       }
     },
@@ -1572,12 +1572,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abonnement verwalten"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manage subscription"
           }
         },
         "nl" : {
@@ -1639,6 +1633,12 @@
             "state" : "translated",
             "value" : "Administrer abonnement"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage subscription"
+          }
         }
       }
     },
@@ -1648,12 +1648,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monat"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "month"
           }
         },
         "nl" : {
@@ -1715,6 +1709,12 @@
             "state" : "translated",
             "value" : "måned"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "month"
+          }
         }
       }
     },
@@ -1724,12 +1724,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Produkt"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Product"
           }
         },
         "nl" : {
@@ -1785,6 +1779,12 @@
             "state" : "translated",
             "value" : "Produkt"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Product"
+          }
         }
       }
     },
@@ -1794,12 +1794,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Erworbene App-Version"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchased App Version"
           }
         },
         "nl" : {
@@ -1849,6 +1843,12 @@
             "state" : "translated",
             "value" : "Kjøpt appversjon"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchased App Version"
+          }
         }
       }
     },
@@ -1858,12 +1858,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käufe sind auf diesem Gerät nicht möglich."
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchases are not allowed on this device."
           }
         },
         "nl" : {
@@ -1913,6 +1907,12 @@
             "state" : "translated",
             "value" : "Kjøp er ikke tillatt på denne enheten."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchases are not allowed on this device."
+          }
         }
       }
     },
@@ -1922,12 +1922,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menge"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Quantity"
           }
         },
         "nl" : {
@@ -1983,6 +1977,12 @@
             "state" : "translated",
             "value" : "Antall"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quantity"
+          }
         }
       }
     },
@@ -1992,12 +1992,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eingangsdatum"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Receipt Date"
           }
         },
         "nl" : {
@@ -2047,6 +2041,12 @@
             "state" : "translated",
             "value" : "Kvitteringsdato"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receipt Date"
+          }
         }
       }
     },
@@ -2080,12 +2080,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Τύπος"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Type"
           }
         },
         "fi" : {
@@ -2363,6 +2357,12 @@
             "state" : "translated",
             "value" : "Type"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Type"
+          }
         }
       }
     },
@@ -2372,12 +2372,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Woche"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "week"
           }
         },
         "nl" : {
@@ -2433,6 +2427,12 @@
             "state" : "translated",
             "value" : "uke"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "week"
+          }
         }
       }
     },
@@ -2442,12 +2442,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jahr"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "year"
           }
         },
         "nl" : {
@@ -2502,6 +2496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "år"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "year"
           }
         }
       }

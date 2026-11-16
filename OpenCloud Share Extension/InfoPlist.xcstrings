@@ -22,12 +22,6 @@
             "value" : "Auf OpenCloud teilen"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Share to OpenCloud"
-          }
-        },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -87,6 +81,18 @@
             "state" : "translated",
             "value" : "Del til OpenCloud"
           }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaga OpenCloudi"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share to OpenCloud"
+          }
         }
       }
     },
@@ -109,12 +115,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud-Teilen-Erweiterung"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OpenCloud Share Extension"
           }
         },
         "fi" : {
@@ -169,6 +169,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OpenCloud-delingsutvidelse"
+          }
+        },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloudi jagamise lisamoodul"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenCloud Share Extension"
           }
         }
       }
