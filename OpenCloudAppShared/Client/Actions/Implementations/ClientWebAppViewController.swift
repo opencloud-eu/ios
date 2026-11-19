@@ -20,7 +20,7 @@ import UIKit
 import OpenCloudSDK
 import WebKit
 
-open class ClientWebAppViewController: UIViewController, WKUIDelegate {
+open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable {
 	public typealias DoneHandler = (ClientWebAppViewController) -> Void
 
 	public var urlRequest: URLRequest
@@ -50,6 +50,16 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate {
 		configuration.websiteDataStore = webSiteDataStore
 		configuration.applicationNameForUserAgent = "MobileSafari" // Needed for some web apps that will present the desktop UI otherwise (f.ex. OnlyOffice as of 2022-09-19)
 
+		// A top-level page without a viewport tag is laid out 980pt wide and scaled down to fit. Web apps that
+		// are wrapped in an iframe (f.ex. hosted Collabora: a relay page embeds the editor) then render at ~40% size,
+		// as viewport tags inside iframes are ignored. Add a device-width viewport only where the page has none.
+		let viewportScript = WKUserScript(source: """
+			if (!document.querySelector('meta[name="viewport"]')) {
+				document.head.insertAdjacentHTML('afterbegin', '<meta name="viewport" content="width=device-width, initial-scale=1">');
+			}
+			""", injectionTime: .atDocumentEnd, forMainFrameOnly: true)
+		configuration.userContentController.addUserScript(viewportScript)
+
 		return configuration
 	}
 
@@ -59,6 +69,13 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate {
 		webView = WKWebView(frame: .zero, configuration: webViewConfiguration)
 		webView?.translatesAutoresizingMaskIntoConstraints = false
 		webView?.uiDelegate = self
+
+		#if DEBUG
+		// Debug builds only: allow Safari's Web Inspector (Develop menu) to attach to web apps like Collabora
+		if #available(iOS 16.4, *) {
+			webView?.isInspectable = true
+		}
+		#endif
 
 		rootView.addSubview(webView!)
 
@@ -74,6 +91,8 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate {
 
 	override public func viewDidLoad() {
 		super.viewDidLoad()
+
+		Theme.shared.register(client: self, applyImmediately: true)
 
 		navigationItem.rightBarButtonItem = UIBarButtonItem(title: nil, image: OCSymbol.icon(forSymbolName: "xmark.circle.fill"), primaryAction: UIAction(handler: { [weak self] _ in
 			if self?.shouldSendCloseEvent == true {
@@ -137,6 +156,12 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate {
 	// window.close() handling
 	public func closeWebWindow() {
 		webView?.evaluateJavaScript("window.close();")
+	}
+
+	// Theme: web apps follow the app's light/dark style (via prefers-color-scheme), not the system's.
+	// Set explicitly, as the theme's own override doesn't reach modals presented after it was applied.
+	public func applyThemeCollection(theme: Theme, collection: ThemeCollection, event: ThemeEvent) {
+		overrideUserInterfaceStyle = collection.css.getUserInterfaceStyle()
 	}
 
 	// UI delegate
