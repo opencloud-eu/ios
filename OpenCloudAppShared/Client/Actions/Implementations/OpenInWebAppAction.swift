@@ -262,12 +262,23 @@ public class OpenInWebAppAction: Action {
 					let webAppViewController = ClientWebAppViewController(with: urlRequest, doneHandler: doneHandler)
 					webAppViewController.navigationItem.title = item.name
 
+					// Collabora: embed it in a host page that handles its postMessages (falls back to loading urlRequest directly)
+					if let appName = self.app?.name, appName.lowercased().hasPrefix("collabora"), method?.rawValue.uppercased() == "POST", let url, let parameters {
+						webAppViewController.collaboraHostPage = CollaboraHostPage(appURL: url, formParameters: parameters as? [String:String] ?? [:], accountURL: core.bookmark.url)
+					}
+
 					if defaultBrowserOption {
 						webAppViewController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: nil, image: OCSymbol.icon(forSymbolName: "safari"), primaryAction: UIAction(handler: { [weak webAppViewController] _ in
 							webAppViewController?.parent?.dismiss(animated: true, completion: {
 								self.openInExternalBrowser()
 							})
 						}), menu: nil)
+
+						webAppViewController.openInBrowserHandler = { [weak webAppViewController] in
+							webAppViewController?.parent?.dismiss(animated: true, completion: {
+								self.openInExternalBrowser()
+							})
+						}
 					}
 
 					let navigationController = ThemeNavigationController(rootViewController: webAppViewController)

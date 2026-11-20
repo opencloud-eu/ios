@@ -28125,6 +28125,16 @@
         }
       }
     },
+    "Not available in the app" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In der App nicht verfügbar"
+          }
+        }
+      }
+    },
     "Not defined" : {
       "localizations" : {
         "de" : {
@@ -45003,6 +45013,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This folder no longer exists on the server."
+          }
+        }
+      }
+    },
+    "This function is not available in the app yet. It can be used in the web browser." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Funktion ist in der App noch nicht verfügbar. Sie kann im Webbrowser verwendet werden."
           }
         }
       }

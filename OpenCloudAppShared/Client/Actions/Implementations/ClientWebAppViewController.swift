@@ -32,6 +32,12 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable
 
 	public var doneHandler: DoneHandler?
 
+	/// If set, the web app is loaded inside this host page instead of loading urlRequest directly. Set before the view loads.
+	public var collaboraHostPage: CollaboraHostPage?
+
+	/// Offered for web app features that aren't available in-app
+	public var openInBrowserHandler: (() -> Void)?
+
 	public init(with urlRequest: URLRequest, doneHandler: DoneHandler? = nil) {
 		self.urlRequest = urlRequest
 		self.doneHandler = doneHandler
@@ -61,6 +67,10 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable
 			}
 			""", injectionTime: .atDocumentEnd, forMainFrameOnly: true)
 		configuration.userContentController.addUserScript(viewportScript)
+
+		if collaboraHostPage != nil {
+			configuration.userContentController.add(WeakScriptMessageHandler(self), name: CollaboraHostPage.messageHandlerName)
+		}
 
 		return configuration
 	}
@@ -176,7 +186,11 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable
 
 	override public func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
-		webView?.load(urlRequest)
+		if let collaboraHostPage {
+			webView?.loadHTMLString(collaboraHostPage.html, baseURL: collaboraHostPage.origin)
+		} else {
+			webView?.load(urlRequest)
+		}
 	}
 
 	override public func viewDidDisappear(_ animated: Bool) {
@@ -189,6 +203,7 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable
 
 		// Drop downloads and web view
 		downloadHandler.cancelAndCleanUp()
+		webView?.configuration.userContentController.removeScriptMessageHandler(forName: CollaboraHostPage.messageHandlerName)
 		webView?.navigationDelegate = nil
 		webView?.uiDelegate = nil
 		webView?.removeFromSuperview()
@@ -242,6 +257,187 @@ open class ClientWebAppViewController: UIViewController, WKUIDelegate, Themeable
 
 	// Downloads
 	private lazy var downloadHandler = DownloadHandler(viewController: self)
+
+	// Collabora host page messages
+	private var loggedHostPageMessageIDs = Set<String>()
+
+	fileprivate func handleHostPageMessage(_ message: WKScriptMessage) {
+		// Only accept messages from our own host page
+		guard let collaboraHostPage, message.frameInfo.isMainFrame, collaboraHostPage.isOrigin(of: message.frameInfo.securityOrigin),
+		      let body = message.body as? [String: Any], let messageID = body["id"] as? String else {
+			return
+		}
+
+		if messageID.hasPrefix("UI_"), loggedHostPageMessageIDs.insert(messageID).inserted {
+			Log.debug("Collabora host page: received \(messageID)") // once per ID, f.ex. UI_Mention fires per keystroke
+		}
+
+		switch messageID {
+			case "Frame_Ready":
+				Log.debug("Collabora host page: editor connected")
+
+			case "UI_Close":
+				dismissOnce({ [weak self] in
+					self?.disposeWebViewOnce()
+				})
+
+			case "UI_SaveAs", "UI_InsertGraphic", "UI_InsertFile", "UI_PickLink":
+				// Save as / export as, insert image/file from the cloud, link to a cloud file: need UI the app doesn't have yet
+				showFeatureNotAvailable()
+
+			default: break
+		}
+	}
+
+	private func showFeatureNotAvailable() {
+		// Only when the web app is in front (not when something is already presented on top)
+		guard viewIfLoaded?.window != nil, presentedViewController == nil, !isDismissed else { return }
+
+		let alert = ThemedAlertController(title: OCLocalizedString("Not available in the app", nil), message: OCLocalizedString("This function is not available in the app yet. It can be used in the web browser.", nil), preferredStyle: .alert)
+
+		if let openInBrowserHandler {
+			alert.addAction(UIAlertAction(title: OCLocalizedString("Open in browser", nil), style: .default) { _ in
+				openInBrowserHandler()
+			})
+		}
+		alert.addAction(UIAlertAction(title: OCLocalizedString("OK", nil), style: .cancel))
+
+		present(alert, animated: true)
+	}
+}
+
+// MARK: - Collabora host page
+// Collabora sends postMessages to its host page (the page embedding it, PostMessageOrigin = the OpenCloud URL) for
+// features that need the host's UI (f.ex. "Save as"). Loaded directly there is no host and they silently do nothing.
+// This page takes OpenCloud web's role: it embeds Collabora in an iframe, answers the handshake and forwards
+// requests to the app. Only used where Collabora is known to accept the embedding, otherwise urlRequest loads directly.
+public struct CollaboraHostPage {
+	static let messageHandlerName = "collaboraHost"
+
+	let origin: URL
+	let html: String
+
+	/// Returns nil if the host page can't be used safely - the caller then loads the web app directly as before.
+	public init?(appURL: URL, formParameters: [String: String], accountURL: URL?) {
+		// Collabora only allows being embedded by (and posts messages to) the OpenCloud server's origin (CSP frame-ancestors
+		// derived from the WOPI host, PostMessageOrigin = OpenCloud URL). Require that the WOPI host is the account's server,
+		// so the page can take that origin.
+		guard !formParameters.isEmpty,
+		      let accountURL, let accountOrigin = Self.origin(of: accountURL),
+		      let wopiSrc = URLComponents(url: appURL, resolvingAgainstBaseURL: false)?.queryItems?.first(where: { $0.name == "WOPISrc" })?.value,
+		      let wopiURL = URL(string: wopiSrc), let wopiOrigin = Self.origin(of: wopiURL),
+		      wopiOrigin == accountOrigin,
+		      let originURL = URL(string: accountOrigin + "/"),
+		      let appOrigin = Self.origin(of: appURL) else {
+			return nil
+		}
+
+		origin = originURL
+		html = Self.html(appURL: appURL, appOrigin: appOrigin, formParameters: formParameters)
+	}
+
+	func isOrigin(of securityOrigin: WKSecurityOrigin) -> Bool {
+		var components = URLComponents()
+		components.scheme = securityOrigin.protocol
+		components.host = securityOrigin.host
+		components.port = (securityOrigin.port != 0) ? securityOrigin.port : nil
+		guard let url = components.url else { return false }
+		return Self.origin(of: url) == Self.origin(of: origin)
+	}
+
+	/// "scheme://host[:port]", lowercased, default ports omitted
+	static func origin(of url: URL) -> String? {
+		guard let scheme = url.scheme?.lowercased(), scheme == "https" || scheme == "http", let host = url.host?.lowercased(), !host.isEmpty else {
+			return nil
+		}
+		if let port = url.port, !((scheme == "https" && port == 443) || (scheme == "http" && port == 80)) {
+			return "\(scheme)://\(host):\(port)"
+		}
+		return "\(scheme)://\(host)"
+	}
+
+	private static func escapeHTML(_ string: String) -> String {
+		return string
+			.replacingOccurrences(of: "&", with: "&amp;")
+			.replacingOccurrences(of: "\"", with: "&quot;")
+			.replacingOccurrences(of: "'", with: "&#39;")
+			.replacingOccurrences(of: "<", with: "&lt;")
+			.replacingOccurrences(of: ">", with: "&gt;")
+	}
+
+	private static func html(appURL: URL, appOrigin: String, formParameters: [String: String]) -> String {
+		let inputs = formParameters.sorted(by: { $0.key < $1.key }).map { (name, value) in
+			"<input type=\"hidden\" name=\"\(escapeHTML(name))\" value=\"\(escapeHTML(value))\">"
+		}.joined(separator: "\n")
+
+		// Same handshake as OpenCloud web: answer Frame_Ready with Host_PostmessageReady (some Collabora features require it).
+		// Messages are only exchanged with the frame's expected origin: Collabora's (or its relay's), i.e. that of appURL.
+		// Only the message ID (and export format) of UI_* requests is passed to the app.
+		return """
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="color-scheme" content="light dark">
+		<style>
+		html, body { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; background: Canvas; }
+		iframe { display: block; border: none; height: 100%; width: 100%; }
+		</style>
+		</head>
+		<body>
+		<form id="app-form" action="\(escapeHTML(appURL.absoluteString))" method="post" target="app-frame">
+		\(inputs)
+		</form>
+		<iframe id="app-frame" name="app-frame" allowfullscreen allow="clipboard-read *; clipboard-write *"></iframe>
+		<script>
+		(function () {
+			var frame = document.getElementById('app-frame');
+			var appOrigin = '\(appOrigin)';
+
+			function toApp(id, values) {
+				try { window.webkit.messageHandlers.\(messageHandlerName).postMessage(values ? { id: id, format: values.format } : { id: id }); } catch (e) {}
+			}
+
+			function toCollabora(id) {
+				frame.contentWindow.postMessage(JSON.stringify({ MessageId: id, SendTime: Date.now() }), appOrigin);
+			}
+
+			window.addEventListener('message', function (event) {
+				if (event.source !== frame.contentWindow || event.origin !== appOrigin || typeof event.data !== 'string') { return; }
+				var message;
+				try { message = JSON.parse(event.data); } catch (e) { return; }
+				if (!message || typeof message.MessageId !== 'string') { return; }
+
+				if (message.MessageId === 'App_LoadingStatus' && message.Values && message.Values.Status === 'Frame_Ready') {
+					toCollabora('Host_PostmessageReady');
+					toApp('Frame_Ready');
+				} else if (message.MessageId.indexOf('UI_') === 0) {
+					var values = message.Values || {};
+					toApp(message.MessageId, (typeof values.format === 'string') ? { format: values.format } : null);
+				}
+			});
+
+			HTMLFormElement.prototype.submit.call(document.getElementById('app-form'));
+		})();
+		</script>
+		</body>
+		</html>
+		"""
+	}
+}
+
+// WKUserContentController retains its message handlers: forward weakly to avoid a retain cycle
+private class WeakScriptMessageHandler: NSObject, WKScriptMessageHandler {
+	weak var viewController: ClientWebAppViewController?
+
+	init(_ viewController: ClientWebAppViewController) {
+		self.viewController = viewController
+	}
+
+	func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+		viewController?.handleHostPageMessage(message)
+	}
 }
 
 // MARK: - Downloads
