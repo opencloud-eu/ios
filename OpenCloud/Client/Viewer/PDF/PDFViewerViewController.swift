@@ -229,6 +229,14 @@ class PDFViewerViewController: DisplayViewController, DisplayExtension, UIPopove
 		supportsFullScreenMode = true
 	}
 
+	override func viewWillDisappear(_ animated: Bool) {
+		super.viewWillDisappear(animated)
+
+		if fullScreen {
+			fullScreen = false
+		}
+	}
+
 	@objc func toggleFullscreen(_ sender: UITapGestureRecognizer) {
 		self.fullScreen.toggle()
 	}
