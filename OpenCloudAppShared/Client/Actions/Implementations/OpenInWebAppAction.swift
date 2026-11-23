@@ -18,6 +18,7 @@
 
 import UIKit
 import OpenCloudSDK
+import OpenCloudApp
 
 public extension OCClassSettingsKey {
 	static let openInWebAppMode = OCClassSettingsKey("open-in-web-app-mode")
@@ -105,7 +106,7 @@ public class OpenInWebAppAction: Action {
 
 	override public class var identifier : OCExtensionIdentifier? { return OCExtensionIdentifier("com.opencloud.action.openinwebapp") }
 	override public class var category : ActionCategory? { return .normal }
-	override public class var locations : [OCExtensionLocationIdentifier]? { return [.moreItem, .moreDetailItem, .contextMenuItem] }
+	override public class var locations : [OCExtensionLocationIdentifier]? { return [.moreItem, .moreDetailItem, .contextMenuItem, .directOpen, .unviewableFileType] }
 	override open class var keyCommand : String? { return "E" }
 	override open class var keyModifierFlags: UIKeyModifierFlags? { return [.command, .shift] }
 
@@ -168,7 +169,74 @@ public class OpenInWebAppAction: Action {
 			return .none
 		}
 
+		// Tapping a file: only open the server's default app for it, and only if the app has no viewer for it
+		if forContext.location?.identifier == .directOpen {
+			guard let core = forContext.core, opensOnTap(item: item, app: app, core: core) else {
+				return .none
+			}
+
+			return .first
+		}
+
 		return .nearFirst
+	}
+
+	class func opensOnTap(item: OCItem, app: OCAppProviderApp, core: OCCore) -> Bool {
+		guard core.connectionStatus == .online, // Offline: keep showing the file, so it can still be opened in other apps
+		      !item.locallyModified, !item.syncActivity.contains(.uploading), // The web app would open the server version, not the local changes
+		      let mimeType = item.mimeType,
+		      let defaultApp = defaultApp(for: item, core: core), defaultApp.name == app.name else {
+			Log.debug("Open on tap skipped for \(app.name ?? "-"): online=\(core.connectionStatus == .online) locallyModified=\(item.locallyModified) syncActivity=\(item.syncActivity.rawValue) mimeType=\(item.mimeType ?? "-") defaultApp=\(defaultApp(for: item, core: core)?.name ?? "-")")
+			return false
+		}
+
+		// Confidential mode: the web view has no watermark/screenshot protection, so don't make it the default way to open files
+		if ConfidentialManager.shared.confidentialSettingsEnabled {
+			Log.debug("Open on tap skipped for \(app.name ?? "-"): confidential mode")
+			return false
+		}
+
+		// Viewers are only registered in the app itself
+		let viewerType = OCExtensionType("app.viewer") // OCExtensionType.viewer, which is defined in the app target
+		guard OCExtensionManager.shared.extensions.contains(where: { $0.type == viewerType }) else {
+			return false
+		}
+
+		// Empty file (f.ex. just created): nothing to preview, so open it for editing
+		if item.size == 0 {
+			return true
+		}
+
+		let viewerLocation = OCExtensionLocation(ofType: viewerType, identifier: OCExtensionLocationIdentifier(rawValue: mimeType))
+		let viewerContext = OCExtensionContext(location: viewerLocation, requirements: nil, preferences: nil)
+
+		// No match returns nil, which Swift turns into a thrown error (DisplayHostViewController treats it as "no viewer" too)
+		let viewers = (try? OCExtensionManager.shared.provideExtensions(for: viewerContext)) ?? []
+
+		if !viewers.isEmpty {
+			Log.debug("Open on tap skipped for \(app.name ?? "-"): viewer available for \(mimeType)")
+		}
+
+		return viewers.isEmpty
+	}
+
+	/// The app the server names as default for the item's type (by MIME type, then by file extension)
+	public class func defaultApp(for item: OCItem, core: OCCore) -> OCAppProviderApp? {
+		guard let types = core.appProvider?.types else {
+			return nil
+		}
+
+		if let mimeType = item.mimeType?.lowercased(),
+		   let type = types.first(where: { $0.mimeType?.lowercased() == mimeType && $0.defaultApp != nil }) {
+			return type.defaultApp
+		}
+
+		if let fileExtension = item.name.map({ ($0 as NSString).pathExtension.lowercased() }), !fileExtension.isEmpty,
+		   let type = types.first(where: { $0.extension?.lowercased() == fileExtension && $0.defaultApp != nil }) {
+			return type.defaultApp
+		}
+
+		return nil
 	}
 
 	public var app : OCAppProviderApp?

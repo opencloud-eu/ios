@@ -44843,6 +44843,16 @@
         }
       }
     },
+    "This file is empty." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Datei ist leer."
+          }
+        }
+      }
+    },
     "This folder is empty." : {
       "localizations" : {
         "de" : {
