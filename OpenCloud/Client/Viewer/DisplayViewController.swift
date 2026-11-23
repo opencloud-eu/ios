@@ -424,14 +424,9 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 
 	// Web app that can open the file (the server's default one first), shown in addition to the primary action
 	var webAppUnviewableAction : Action? {
-		let webAppActions = unviewableActions.compactMap({ $0 as? OpenInWebAppAction })
+		guard let item, let core else { return nil }
 
-		if let item, let core, let defaultApp = OpenInWebAppAction.defaultApp(for: item, core: core),
-		   let defaultAppAction = webAppActions.first(where: { $0.app?.name == defaultApp.name }) {
-			return defaultAppAction
-		}
-
-		return webAppActions.first
+		return OpenInWebAppAction.preferredAction(in: unviewableActions, for: item, core: core)
 	}
 
 	@objc func webAppUnviewableActionPressed(sender: Any? = nil) {

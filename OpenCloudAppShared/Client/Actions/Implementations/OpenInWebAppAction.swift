@@ -239,6 +239,18 @@ public class OpenInWebAppAction: Action {
 		return nil
 	}
 
+	/// The web app action to use for an item: the server's default app for its type, else the first one
+	public class func preferredAction(in actions: [Action], for item: OCItem, core: OCCore) -> OpenInWebAppAction? {
+		let webAppActions = actions.compactMap { $0 as? OpenInWebAppAction }
+
+		if let defaultAppName = defaultApp(for: item, core: core)?.name,
+		   let defaultAppAction = webAppActions.first(where: { $0.app?.name == defaultAppName }) {
+			return defaultAppAction
+		}
+
+		return webAppActions.first
+	}
+
 	public var app : OCAppProviderApp?
 
 	// MARK: - Action implementation
