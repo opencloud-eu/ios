@@ -236,8 +236,13 @@ public class OpenInWebAppAction: Action {
 			}
 		}
 
+		// Request the mobile view on phones and narrow iPad windows (only apps with one use it, f.ex. EuroOffice; like web, which asks below 640pt).
+		// Decided once on opening: resizing the window later keeps the view.
+		let traits = viewController.traitCollection
+		let mobile = (traits.userInterfaceIdiom == .phone) || (traits.horizontalSizeClass == .compact)
+
 		// Open in in-app browser
-		core.connection.open(inApp: item, with: app, viewMode: nil, completionHandler: { (error, url, method, headers, parameters, urlRequest) in
+		core.connection.open(inApp: item, with: app, viewMode: nil, mobile: mobile, completionHandler: { (error, url, method, headers, parameters, urlRequest) in
 			if let error {
 				OnMainThread {
 					let appName = self.app?.name ?? "app"
