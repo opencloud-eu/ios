@@ -62,6 +62,12 @@
             "state" : "translated",
             "value" : "\nЭто БЕТА релиз, а значит он может - и скорее всего будет - содержать ошибки. \n\nЭтот релиз не следует использовать в рабочих системах, с рабочими данными или с ценными данными. Вы используете эту бета-версию на свой страх и риск."
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这是测试版本，很有可能仍然包含bug。\n\n请避免在生产系统里或处理生产数据、重要数据时使用测试版本。如果继续使用，你需要自行承担所有风险。"
+          }
         }
       }
     },
@@ -190,6 +196,12 @@
             "state" : "translated",
             "value" : "'%@' is currently locked"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”目前已锁定"
+          }
         }
       }
     },
@@ -250,6 +262,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{attribute}} {{direction}}"
+          }
+        },
+        "zh" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "{{attribute}} {{direction}}"
@@ -318,6 +336,12 @@
             "state" : "translated",
             "value" : "{{fileName}} (file)"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{fileName}}（文件）"
+          }
         }
       }
     },
@@ -382,6 +406,12 @@
             "state" : "translated",
             "value" : "{{folderName}} (folder)"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{folderName}}（文件夹）"
+          }
         }
       }
     },
@@ -420,7 +450,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "共 {{itemCount}} 个项目，总计 {{totalSize}}（{{fileCount}} 个文件，{{folderCount}} 个文件夹）"
+            "value" : "{{itemCount}}项，共{{totalSize}}（{{fileCount}} 个文件，{{folderCount}} 个文件夹）"
           }
         },
         "el" : {
@@ -516,6 +546,12 @@
             "state" : "translated",
             "value" : "{{itemName}} ({{link}}) | пароль: {{password}}"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{itemName}} ({{link}}) | 密码：{{password}}"
+          }
         }
       }
     },
@@ -574,6 +610,12 @@
             "state" : "translated",
             "value" : "{{link}} | password: {{password}}"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{link}} | 密码：{{password}}"
+          }
         }
       }
     },
@@ -624,7 +666,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "{{remaining}} 可用"
+            "value" : "{{remaining}}可用"
           }
         },
         "nn" : {
@@ -696,6 +738,12 @@
             "state" : "translated",
             "value" : "{{spaceName}} (space)"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "{{spaceName}}（空间）"
+          }
         }
       }
     },
@@ -754,6 +802,12 @@
             "state" : "translated",
             "value" : "%1$@ (%2$d bits/channel)"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@（每通道%2$d位）"
+          }
         }
       }
     },
@@ -808,6 +862,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ / %2$@"
+          }
+        },
+        "zh" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ / %2$@"
@@ -869,6 +929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ / %2$@ – starting immediately"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ / %2$@ — 立即开始"
           }
         }
       }
@@ -940,6 +1006,12 @@
             "state" : "translated",
             "value" : "%1$@ of %2$@"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第%1$@项，共%2$@项"
+          }
         }
       }
     },
@@ -1004,6 +1076,12 @@
             "state" : "translated",
             "value" : "%@ был обновлен"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@已更新"
+          }
         }
       }
     },
@@ -1058,6 +1136,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@%2$@ %3$@ version %4$@ build %5$@\n(app: %6$@, sdk: %7$@)"
+          }
+        },
+        "zh" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@%2$@ %3$@ version %4$@ build %5$@\n(app: %6$@, sdk: %7$@)"
@@ -1336,6 +1420,12 @@
             "state" : "translated",
             "value" : "+ %ld больше"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还有%ld个"
+          }
         }
       }
     },
@@ -1506,6 +1596,12 @@
             "state" : "translated",
             "value" : "Подтвердить или отказаться"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接受或拒绝"
+          }
         }
       }
     },
@@ -1569,6 +1665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подтвердить общий доступ"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接受共享"
           }
         }
       }
@@ -1634,6 +1736,12 @@
             "state" : "translated",
             "value" : "Подтверждение общего доступа не удалось "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法接受共享"
+          }
         }
       }
     },
@@ -1697,6 +1805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подтверждено"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已接受"
           }
         }
       }
@@ -1898,6 +2012,12 @@
             "state" : "translated",
             "value" : "Доступ к медиафайлу, выбранному для загрузки, ограничен"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不能完全访问所选的待上传媒体"
+          }
         }
       }
     },
@@ -2091,6 +2211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройка учетной записи завершена"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已完成账号设置"
           }
         }
       }
@@ -2286,6 +2412,12 @@
             "state" : "translated",
             "value" : "Acknowledgements"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "致谢"
+          }
         }
       }
     },
@@ -2356,6 +2488,12 @@
             "state" : "translated",
             "value" : "Действие"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "操作"
+          }
         }
       }
     },
@@ -2419,6 +2557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Действие запущено"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已执行操作"
           }
         }
       }
@@ -2798,6 +2942,12 @@
             "state" : "translated",
             "value" : "Добавить учетную запись"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加账号"
+          }
         }
       }
     },
@@ -2861,6 +3011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить объект"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加项目"
           }
         }
       }
@@ -2926,6 +3082,12 @@
             "state" : "translated",
             "value" : "Добавить на боковую панель"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加到侧栏"
+          }
         }
       }
     },
@@ -2989,6 +3151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Расширенные настройки"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高级设置"
           }
         }
       }
@@ -3494,6 +3662,12 @@
             "state" : "translated",
             "value" : "после бесплатного  %@ периода"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@免费试用期结束后"
+          }
         }
       }
     },
@@ -3557,6 +3731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подтверждаю"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同意"
           }
         }
       }
@@ -3622,6 +3802,12 @@
             "state" : "translated",
             "value" : "Альбомы"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "专辑"
+          }
         }
       }
     },
@@ -3685,6 +3871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всё готово"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "都已完成"
           }
         }
       }
@@ -3750,6 +3942,12 @@
             "state" : "translated",
             "value" : "Все фото"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有照片"
+          }
         }
       }
     },
@@ -3814,6 +4012,12 @@
             "state" : "translated",
             "value" : "Позволить этому приложению обновлять контент в фоновом режиме по мобильной или Wi-Fi сети. "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接到无线局域网或蜂窝网络时，允许应用在后台刷新"
+          }
         }
       }
     },
@@ -3877,6 +4081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Высота"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海拔"
           }
         }
       }
@@ -4102,6 +4312,12 @@
             "state" : "translated",
             "value" : "Объект с таким именем уже существует в этом расположении"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此位置有重名项目。"
+          }
         }
       }
     },
@@ -4165,6 +4381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В настоящий момент выполняется операция, препятствующая подключению к  '%@'. Пожалуйста, попробуйте позже. "
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前正在执行操作，无法连接到“%@”。\n请在稍后尝试。"
           }
         }
       }
@@ -4230,6 +4452,12 @@
             "state" : "translated",
             "value" : "Диафрагма"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光圈"
+          }
         }
       }
     },
@@ -4293,6 +4521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приоритет диафрагмы"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "光圈优先"
           }
         }
       }
@@ -4564,6 +4798,12 @@
             "state" : "translated",
             "value" : "Применить ко всему"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用到所有"
+          }
         }
       }
     },
@@ -4768,6 +5008,12 @@
             "state" : "translated",
             "value" : "Вы действительно хотите удалить эти объекты с сервера?"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你确定要从服务器删除这些项目吗？"
+          }
         }
       }
     },
@@ -4831,6 +5077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы действительно хотите удалить этот объект с сервера?"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你确定要从服务器删除该项目吗？"
           }
         }
       }
@@ -4896,6 +5148,12 @@
             "state" : "translated",
             "value" : "Вы действительно хотите отменить общий доступ для этих объектов?"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你确定要取消共享这些项目吗？"
+          }
         }
       }
     },
@@ -4960,6 +5218,12 @@
             "state" : "translated",
             "value" : "Вы действительно хотите отменить общий доступ для этого объекта?"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你确定要取消共享该项目吗？"
+          }
         }
       }
     },
@@ -5023,6 +5287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "по возрастанию"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "升序"
           }
         }
       }
@@ -5130,6 +5400,12 @@
             "state" : "translated",
             "value" : "Аудио"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音频"
+          }
         }
       }
     },
@@ -5193,6 +5469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Аутентифицирован как %1$@ через %2$@"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过%2$@验证为“%1$@”"
           }
         }
       }
@@ -5598,6 +5880,12 @@
             "state" : "translated",
             "value" : "Аутентификация с %@ больше не разрешена. Необходимо аутентифицироваться заново. "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不再支持以%@验证身份。请重新验证身份。"
+          }
         }
       }
     },
@@ -5656,6 +5944,12 @@
             "state" : "translated",
             "value" : "Authoring"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "授权中"
+          }
         }
       }
     },
@@ -5706,7 +6000,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "鉴权失败"
+            "value" : "授权失败"
           }
         },
         "el" : {
@@ -5802,6 +6096,12 @@
             "state" : "translated",
             "value" : "Авто"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动"
+          }
         }
       }
     },
@@ -5865,6 +6165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Автоматический режим"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动模式"
           }
         }
       }
@@ -5930,6 +6236,12 @@
             "state" : "translated",
             "value" : "Автоматическая загрузка"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动上传"
+          }
         }
       }
     },
@@ -5993,6 +6305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Автоматическая загрузка отключена"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已禁用自动上传"
           }
         }
       }
@@ -6058,6 +6376,12 @@
             "state" : "translated",
             "value" : "Автоматическая загрузка медиафайлов была отключена т.к. соответствующая учетная запись / папка не найдены"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由于找不到配置的账号或文件夹，已禁用媒体自动上传"
+          }
         }
       }
     },
@@ -6122,6 +6446,12 @@
             "state" : "translated",
             "value" : "Автоматическая загрузка фото"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动上传照片"
+          }
         }
       }
     },
@@ -6185,6 +6515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Автоматическая загрузка видео"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动上传视频"
           }
         }
       }
@@ -6496,6 +6832,12 @@
             "state" : "translated",
             "value" : "Среднее"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平均"
+          }
         }
       }
     },
@@ -6672,6 +7014,12 @@
             "state" : "translated",
             "value" : "Фоновые уведомления о загрузке"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "后台上传通知"
+          }
         }
       }
     },
@@ -6805,6 +7153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "бета"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "测试版本"
           }
         }
       }
@@ -7004,6 +7358,12 @@
             "state" : "translated",
             "value" : "Bookmark Metadata"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "书签元数据"
+          }
         }
       }
     },
@@ -7125,6 +7485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Busy"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忙碌"
           }
         }
       }
@@ -7259,6 +7625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "О камере"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相机详情"
           }
         }
       }
@@ -7490,6 +7862,12 @@
             "state" : "translated",
             "value" : "Не получилось подключиться к"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法连接到"
+          }
         }
       }
     },
@@ -7553,6 +7931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Параметры съемки"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "采集设置"
           }
         }
       }
@@ -7757,6 +8141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Центровзвешенный"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央重点平均测光"
           }
         }
       }
@@ -8184,6 +8574,12 @@
             "state" : "translated",
             "value" : "Change"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "修改"
+          }
         }
       }
     },
@@ -8390,6 +8786,12 @@
             "state" : "translated",
             "value" : "Changed {{settingID}} to {{newValue}}."
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " {{settingID}} 已修改为 {{newValue}}。"
+          }
         }
       }
     },
@@ -8453,6 +8855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выберите папку назначения..."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择目标文件夹……"
           }
         }
       }
@@ -8530,6 +8938,12 @@
             "state" : "translated",
             "value" : "Очистка"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除"
+          }
         }
       }
     },
@@ -8594,6 +9008,12 @@
             "state" : "translated",
             "value" : "Очищено {{settingID}}."
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已清除{{settingID}}。"
+          }
         }
       }
     },
@@ -8657,6 +9077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Очистить всё. "
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已清除所有。"
           }
         }
       }
@@ -8764,6 +9190,12 @@
             "state" : "translated",
             "value" : "Закрыть меню действий"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭操作菜单"
+          }
         }
       }
     },
@@ -8827,6 +9259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть окно"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭窗口"
           }
         }
       }
@@ -8892,6 +9330,12 @@
             "state" : "translated",
             "value" : "Цветовая модель"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色彩模型"
+          }
         }
       }
     },
@@ -8956,6 +9400,12 @@
             "state" : "translated",
             "value" : "Цветовое пространство"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色彩空间"
+          }
         }
       }
     },
@@ -9013,6 +9463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compacting"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "精简"
           }
         }
       }
@@ -9072,6 +9528,12 @@
             "state" : "translated",
             "value" : "Compacting of '%@' failed"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法精简“%@”"
+          }
         }
       }
     },
@@ -9129,6 +9591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Completed update scans"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已完成更新扫描"
           }
         }
       }
@@ -9188,6 +9656,12 @@
             "state" : "translated",
             "value" : "Compulsory flash firing"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制打开闪光"
+          }
         }
       }
     },
@@ -9245,6 +9719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compulsory flash supression"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制关闭闪光"
           }
         }
       }
@@ -9385,6 +9865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подключение..."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接中……"
           }
         }
       }
@@ -9644,6 +10130,12 @@
             "state" : "translated",
             "value" : "Контактная информация"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联系信息"
+          }
         }
       }
     },
@@ -9772,6 +10264,12 @@
             "state" : "translated",
             "value" : "contents"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内容"
+          }
         }
       }
     },
@@ -9829,6 +10327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contents from cache."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自缓存的内容。"
           }
         }
       }
@@ -10036,6 +10540,12 @@
             "state" : "translated",
             "value" : "Продолжить офлайн"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续离线"
+          }
         }
       }
     },
@@ -10099,6 +10609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Преобразовать HEIC в JPEG"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将HEIC图片转成JPEG格式"
           }
         }
       }
@@ -10164,6 +10680,12 @@
             "state" : "translated",
             "value" : "Преобразовать видео в MP4"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将视频转成MP4格式"
+          }
         }
       }
     },
@@ -10227,6 +10749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Координаты"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "坐标"
           }
         }
       }
@@ -10446,6 +10974,12 @@
             "state" : "translated",
             "value" : "Копировать \"{{itemName}}\""
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制“{{itemName}}”"
+          }
         }
       }
     },
@@ -10509,6 +11043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Копировать объекты: {{itemCount}} шт."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制{{itemCount}}个项目"
           }
         }
       }
@@ -10704,6 +11244,12 @@
             "state" : "translated",
             "value" : "Copy Private Link"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制私密链接"
+          }
         }
       }
     },
@@ -10767,6 +11313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировать в буфер обмена"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制到剪贴板"
           }
         }
       }
@@ -10832,6 +11384,12 @@
             "state" : "translated",
             "value" : "Копирование объектов: %ld шт…"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在复制%ld个项目……"
+          }
         }
       }
     },
@@ -10890,6 +11448,12 @@
             "state" : "translated",
             "value" : "Copyright"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版权"
+          }
         }
       }
     },
@@ -10947,6 +11511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Could not get the picture"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法获取图片"
           }
         }
       }
@@ -11012,6 +11582,12 @@
             "state" : "translated",
             "value" : "Не получилось распознать частную ссылку, т.к. объект неизвестен серверу"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由于服务器无法识别该项目，无法解析此私密链接。"
+          }
         }
       }
     },
@@ -11076,6 +11652,12 @@
             "state" : "translated",
             "value" : "Не получилось распознать частную ссылку поскольку вы офлайн и соответствующий объект отсутствует в локальном кеше. "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由于你处于离线状态，且对应项目未在本地缓存，无法解析此私密链接。"
+          }
         }
       }
     },
@@ -11120,7 +11702,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "新建"
+            "value" : "创建"
           }
         },
         "ca" : {
@@ -11388,6 +11970,12 @@
             "state" : "translated",
             "value" : "Создать ссылку"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建链接"
+          }
         }
       }
     },
@@ -11445,6 +12033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create one file per page"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每页创建一个文件"
           }
         }
       }
@@ -11510,6 +12104,12 @@
             "state" : "translated",
             "value" : "Создать шорткат"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建快捷方式"
+          }
         }
       }
     },
@@ -11567,6 +12167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Creating %ld folders…"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在创建%ld个文件夹……"
           }
         }
       }
@@ -11626,6 +12232,12 @@
             "state" : "translated",
             "value" : "Creative"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创意"
+          }
         }
       }
     },
@@ -11683,6 +12295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Credentials"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "凭据"
           }
         }
       }
@@ -11849,6 +12467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cut"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剪贴"
           }
         }
       }
@@ -12024,7 +12648,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "数据用量"
+            "value" : "数据使用"
           }
         },
         "nn" : {
@@ -12484,6 +13108,12 @@
             "state" : "translated",
             "value" : "Decline share"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拒绝共享"
+          }
         }
       }
     },
@@ -12542,6 +13172,12 @@
             "state" : "translated",
             "value" : "Decline Share failed"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法拒绝共享"
+          }
         }
       }
     },
@@ -12599,6 +13235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Declined"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拒绝"
           }
         }
       }
@@ -13046,6 +13688,12 @@
             "state" : "translated",
             "value" : "Удалить все офлайн файлы"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除所有离线文件"
+          }
         }
       }
     },
@@ -13109,6 +13757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить данные аутентификации"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除身份验证数据"
           }
         }
       }
@@ -13314,6 +13968,12 @@
             "state" : "translated",
             "value" : "Удаление объектов: %ld шт."
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在删除%ld个项目……"
+          }
         }
       }
     },
@@ -13371,6 +14031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deletion of '%@' failed"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法删除“%@”"
           }
         }
       }
@@ -13436,6 +14102,12 @@
             "state" : "translated",
             "value" : "Плотность"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密度"
+          }
         }
       }
     },
@@ -13499,6 +14171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "по убыванию"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "降序"
           }
         }
       }
@@ -13712,6 +14390,12 @@
             "state" : "translated",
             "value" : "Отменить выбор"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消全选"
+          }
         }
       }
     },
@@ -13775,6 +14459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обзор диагностики"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "诊断概览"
           }
         }
       }
@@ -13840,6 +14530,12 @@
             "state" : "translated",
             "value" : "Диагностика"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "诊断"
+          }
         }
       }
     },
@@ -13897,6 +14593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Didn't fire"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有闪光"
           }
         }
       }
@@ -13961,6 +14663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дата съемки"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数字化日期"
           }
         }
       }
@@ -14156,6 +14864,12 @@
             "state" : "translated",
             "value" : "Отключить жесты"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禁用手势"
+          }
         }
       }
     },
@@ -14219,6 +14933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отменить изменения"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放弃修改"
           }
         }
       }
@@ -14284,6 +15004,12 @@
             "state" : "translated",
             "value" : "Отключиться"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "断开连接"
+          }
         }
       }
     },
@@ -14347,6 +15073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Вы хотите выйти из  '%@'?"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你想要从“%@”退出登录吗？"
           }
         }
       }
@@ -14412,6 +15144,12 @@
             "state" : "translated",
             "value" : "Вы хотите открыть эту ссылку?"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你希望打开以下网址吗？"
+          }
         }
       }
     },
@@ -14475,6 +15213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сканер документов"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文档扫描器"
           }
         }
       }
@@ -14540,6 +15284,12 @@
             "state" : "translated",
             "value" : "Документация"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "说明文档"
+          }
         }
       }
     },
@@ -14604,6 +15354,12 @@
             "state" : "translated",
             "value" : "Документы"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文档"
+          }
         }
       }
     },
@@ -14667,6 +15423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Готово"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已完成"
           }
         }
       }
@@ -14922,6 +15684,12 @@
             "state" : "translated",
             "value" : "Скачать / Смотреть"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载 / 查看"
+          }
         }
       }
     },
@@ -14985,6 +15753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скачивание вместо потоковой передачи"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以下载代替流式播放"
           }
         }
       }
@@ -15050,6 +15824,12 @@
             "state" : "translated",
             "value" : "Скачанные файлы"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已下载的文件"
+          }
         }
       }
     },
@@ -15114,6 +15894,12 @@
             "state" : "translated",
             "value" : "Скачивание файлов: %ld шт."
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在下载%ld个文件……"
+          }
         }
       }
     },
@@ -15152,7 +15938,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "复制"
+            "value" : "创建副本"
           }
         },
         "ca" : {
@@ -15298,6 +16084,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E"
+          }
+        },
+        "zh" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "E"
@@ -15526,6 +16318,12 @@
             "state" : "translated",
             "value" : "Редактировать учетную запись"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑账号"
+          }
         }
       }
     },
@@ -15720,6 +16518,12 @@
             "state" : "translated",
             "value" : "Включить диагностику"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用诊断"
+          }
         }
       }
     },
@@ -15872,6 +16676,12 @@
             "state" : "translated",
             "value" : "Включить ПРО-функции (QA)"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用专业版功能(QA)"
+          }
         }
       }
     },
@@ -16005,6 +16815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enabling presentation mode will prevent the display from sleep mode until the view is closed."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用演示模式将会阻止屏幕休眠，直到你关闭查看界面。"
           }
         }
       }
@@ -16198,6 +17014,12 @@
             "state" : "translated",
             "value" : "Enter a search term"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入搜索词"
+          }
         }
       }
     },
@@ -16326,6 +17148,12 @@
             "state" : "translated",
             "value" : "Enter multiple selection"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进入多选模式"
+          }
         }
       }
     },
@@ -16389,6 +17217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Укажите пользователя или группу, которых хотите пригласить."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "输入你想要邀请的用户或群组。"
           }
         }
       }
@@ -16614,6 +17448,12 @@
             "state" : "translated",
             "value" : "Ошибка создания {{itemName}}"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "创建{{itemName}}时出错"
+          }
         }
       }
     },
@@ -16672,6 +17512,12 @@
             "state" : "translated",
             "value" : "Error fetching transactions"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取交易记录时出错"
+          }
         }
       }
     },
@@ -16729,6 +17575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Error importing %@"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入“%@”时出错"
           }
         }
       }
@@ -16794,6 +17646,12 @@
             "state" : "translated",
             "value" : "Ошибка загрузки объекта"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加载项目时出错"
+          }
         }
       }
     },
@@ -16857,6 +17715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ошибка загрузки информации о продукте из App Store"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从App Store加载产品信息时出错"
           }
         }
       }
@@ -16922,6 +17786,12 @@
             "state" : "translated",
             "value" : "Ошибка открытия  {{itemName}} в {{appName}}"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用{{appName}}打开{{itemName}}时出错"
+          }
         }
       }
     },
@@ -16985,6 +17855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ошибка открытия %@"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开%@时出错"
           }
         }
       }
@@ -17050,6 +17926,12 @@
             "state" : "translated",
             "value" : "Восстановление покупок не удалось"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复购买时出错"
+          }
         }
       }
     },
@@ -17108,6 +17990,12 @@
             "state" : "translated",
             "value" : "EXIF aux info"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EXIF辅助信息"
+          }
         }
       }
     },
@@ -17165,6 +18053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exit multiple selection"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出多选模式"
           }
         }
       }
@@ -17276,7 +18170,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "有效期至"
+            "value" : "到期日期"
           }
         },
         "de_DE" : {
@@ -17354,6 +18248,12 @@
             "state" : "translated",
             "value" : "Expires {{expirationDate}}"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将于{{expirationDate}}到期"
+          }
         }
       }
     },
@@ -17412,6 +18312,12 @@
             "state" : "translated",
             "value" : "Exposure bias"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "曝光补偿"
+          }
         }
       }
     },
@@ -17469,6 +18375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Extend by one week"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "延长一周"
           }
         }
       }
@@ -17667,6 +18579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить в избранное"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏项目"
           }
         }
       }
@@ -17892,6 +18810,12 @@
             "state" : "translated",
             "value" : "Отзыв"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "意见反馈"
+          }
         }
       }
     },
@@ -17955,6 +18879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сбор информации о сервере..."
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在获取服务器信息……"
           }
         }
       }
@@ -18024,7 +18954,7 @@
         "zh" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "正在获取用户信息…"
+            "value" : "正在获取用户信息………"
           }
         }
       }
@@ -18226,6 +19156,12 @@
             "state" : "translated",
             "value" : "File an issue"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交问题报告"
+          }
         }
       }
     },
@@ -18289,6 +19225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Файл не может быть открыт"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法打开文件"
           }
         }
       }
@@ -18354,6 +19296,12 @@
             "state" : "translated",
             "value" : "Формат файла"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件格式"
+          }
         }
       }
     },
@@ -18418,6 +19366,12 @@
             "state" : "translated",
             "value" : "Имя файла не может содержать / или \\"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件名不能包括/或\\"
+          }
         }
       }
     },
@@ -18481,6 +19435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Такого файла больше нет"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文件不再可用"
           }
         }
       }
@@ -18706,6 +19666,12 @@
             "state" : "translated",
             "value" : "Файлы и папки отмечены как доступные офлайн станут недоступными. Они будут вновь скачены, когда вы в следующий раз войдете в свою учетную запись (требуется подключение). "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标记为“离线可用”的文件和文件夹将无法使用。下次登录帐号时，它们会被重新下载（需要网络连接）。"
+          }
         }
       }
     },
@@ -18769,6 +19735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Файлы выбранные и скачанные для офлайн доступа будут отображаться здесь. "
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标记为离线可用的文件下载后会在此处显示。"
           }
         }
       }
@@ -18834,6 +19806,12 @@
             "state" : "translated",
             "value" : "Ищите информацию, ответы и решения в подробной документации. "
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在详尽的说明文档中寻找信息、答案和解决方案"
+          }
         }
       }
     },
@@ -18892,6 +19870,12 @@
             "state" : "translated",
             "value" : "Fired"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已闪光"
+          }
         }
       }
     },
@@ -18949,6 +19933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Firmware"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "固件"
           }
         }
       }
@@ -19014,6 +20004,12 @@
             "state" : "translated",
             "value" : "Вспышка"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "闪光灯"
+          }
         }
       }
     },
@@ -19077,6 +20073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Компенсация вспышки"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "闪光补偿"
           }
         }
       }
@@ -19271,6 +20273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Фокальное расстояние @ 35 мм"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "35mm焦距"
           }
         }
       }
@@ -19614,6 +20622,12 @@
             "state" : "translated",
             "value" : "Папка удалена"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已移除文件夹"
+          }
         }
       }
     },
@@ -19672,6 +20686,12 @@
             "state" : "translated",
             "value" : "Forbidden Characters"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禁止使用的字符"
+          }
         }
       }
     },
@@ -19729,6 +20749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Free on %@"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@可用储存空间"
           }
         }
       }
