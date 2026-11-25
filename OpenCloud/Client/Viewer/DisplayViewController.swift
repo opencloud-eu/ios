@@ -185,6 +185,7 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 	private var metadataInfoLabel = ThemeCSSLabel(withSelectors: [.primary, .metadata])
 	private var showPreviewButton = ThemeButton(withSelectors: [.proceed])
 	private var primaryUnviewableActionButton = ThemeButton(withSelectors: [.proceed])
+	private var webAppUnviewableActionButton = ThemeButton(withSelectors: [.proceed])
 	private var infoLabel = ThemeCSSLabel(withSelectors: [.secondary])
 	private var connectionActivityView = UIActivityIndicatorView(style: .medium)
 
@@ -226,6 +227,7 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 		PointerEffect.install(on: cancelButton, effectStyle: .highlight)
 		PointerEffect.install(on: showPreviewButton, effectStyle: .highlight)
 		PointerEffect.install(on: primaryUnviewableActionButton, effectStyle: .highlight)
+		PointerEffect.install(on: webAppUnviewableActionButton, effectStyle: .highlight)
 
 		iconImageView.translatesAutoresizingMaskIntoConstraints = false
 
@@ -249,17 +251,24 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 
 		view.addSubview(cancelButton)
 
-		showPreviewButton.translatesAutoresizingMaskIntoConstraints = false
 		showPreviewButton.setTitle(OCLocalizedString("Open file", nil), for: .normal)
 		showPreviewButton.addTarget(self, action: #selector(downloadItem), for: .primaryActionTriggered)
-		view.addSubview(showPreviewButton)
 
 		let title = primaryUnviewableAction?.actionExtension.name ?? ""
 
-		primaryUnviewableActionButton.translatesAutoresizingMaskIntoConstraints = false
 		primaryUnviewableActionButton.setTitle(title, for: .normal)
 		primaryUnviewableActionButton.addTarget(self, action: #selector(primaryUnviewableActionPressed), for: .primaryActionTriggered)
-		view.addSubview(primaryUnviewableActionButton)
+
+		webAppUnviewableActionButton.isHidden = true
+		webAppUnviewableActionButton.addTarget(self, action: #selector(webAppUnviewableActionPressed), for: .primaryActionTriggered)
+
+		// Stacked, so a hidden button takes no space
+		let buttonStackView = UIStackView(arrangedSubviews: [showPreviewButton, primaryUnviewableActionButton, webAppUnviewableActionButton])
+		buttonStackView.translatesAutoresizingMaskIntoConstraints = false
+		buttonStackView.axis = .vertical
+		buttonStackView.alignment = .center
+		buttonStackView.spacing = verticalSpacing
+		view.addSubview(buttonStackView)
 
 		infoLabel.translatesAutoresizingMaskIntoConstraints = false
 		infoLabel.adjustsFontForContentSizeCategory = true
@@ -289,11 +298,10 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 			cancelButton.centerXAnchor.constraint(equalTo: iconImageView.centerXAnchor),
 			cancelButton.topAnchor.constraint(equalTo: progressView.bottomAnchor, constant: verticalSpacing),
 
-			showPreviewButton.centerXAnchor.constraint(equalTo: iconImageView.centerXAnchor),
-			showPreviewButton.topAnchor.constraint(equalTo: progressView.bottomAnchor, constant: verticalSpacing),
-
-			primaryUnviewableActionButton.centerXAnchor.constraint(equalTo: iconImageView.centerXAnchor),
-			primaryUnviewableActionButton.topAnchor.constraint(equalTo: progressView.bottomAnchor, constant: verticalSpacing),
+			buttonStackView.centerXAnchor.constraint(equalTo: iconImageView.centerXAnchor),
+			buttonStackView.topAnchor.constraint(equalTo: progressView.bottomAnchor, constant: verticalSpacing),
+			buttonStackView.leftAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.leftAnchor, constant: horizontalSpacing),
+			buttonStackView.rightAnchor.constraint(lessThanOrEqualTo: view.safeAreaLayoutGuide.rightAnchor, constant: -horizontalSpacing),
 
 			infoLabel.centerXAnchor.constraint(equalTo: metadataInfoLabel.centerXAnchor),
 			infoLabel.topAnchor.constraint(equalTo: metadataInfoLabel.bottomAnchor, constant: verticalSpacing),
@@ -399,17 +407,45 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 		return primaryUnviewableAction != nil
 	}
 
-	var primaryUnviewableAction : Action? {
+	private var unviewableActions : [Action] {
 		if let item = item, let core = core {
 			let actionsLocation = OCExtensionLocation(ofType: .action, identifier: .unviewableFileType)
 			let actionContext = ActionContext(viewController: self, core: core, items: [item], location: actionsLocation, sender: nil)
 
-			let actions = Action.sortedApplicableActions(for: actionContext)
-
-			return actions.first
+			return Action.sortedApplicableActions(for: actionContext)
 		}
 
-		return nil
+		return []
+	}
+
+	var primaryUnviewableAction : Action? {
+		return unviewableActions.first(where: { !($0 is OpenInWebAppAction) })
+	}
+
+	// Web app that can open the file (the server's default one first), shown in addition to the primary action
+	var webAppUnviewableAction : Action? {
+		guard let item, let core else { return nil }
+
+		return OpenInWebAppAction.preferredAction(in: unviewableActions, for: item, core: core)
+	}
+
+	@objc func webAppUnviewableActionPressed(sender: Any? = nil) {
+		webAppUnviewableAction?.run()
+	}
+
+	// Only the plain view (no preview) treats empty files specially
+	private var isEmptyFile: Bool {
+		return !canPreviewCurrentItem && item?.type == .file && item?.size == 0
+	}
+	private var showsEmptyFile = false
+
+	private func updateWebAppUnviewableActionButton() {
+		if let action = webAppUnviewableAction {
+			webAppUnviewableActionButton.setTitle(action.actionExtension.name, for: .normal)
+			webAppUnviewableActionButton.isHidden = false
+		} else {
+			webAppUnviewableActionButton.isHidden = true
+		}
 	}
 
 	// MARK: - Update control
@@ -526,6 +562,7 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 	}
 
 	private func updateUI() {
+		showsEmptyFile = isEmptyFile
 
 		func hideProgressIndicators() {
 			self.downloadProgress = nil
@@ -540,26 +577,33 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 			hideProgressIndicators()
 			showPreviewButton.isHidden = true
 			primaryUnviewableActionButton.isHidden = true
+			webAppUnviewableActionButton.isHidden = true
 
 		case .online:
 			connectionActivityView.stopAnimating()
 			hideProgressIndicators()
 			showPreviewButton.isHidden = true
 			primaryUnviewableActionButton.isHidden = true
+			webAppUnviewableActionButton.isHidden = true
 
 			if let item = self.item, !canPreviewCurrentItem {
-				if self.core?.localCopy(of:item) == nil {
+				if isEmptyFile {
+					// Nothing to download or hand to other apps
+				} else if self.core?.localCopy(of:item) == nil {
 					showPreviewButton.isHidden = false
 					showPreviewButton.setTitle(OCLocalizedString("Download", nil), for: .normal)
 				} else {
 					primaryUnviewableActionButton.isHidden = !hasPrimaryUnviewableAction
 				}
+
+				updateWebAppUnviewableActionButton() // Needs no local copy
 			}
 
 		case .connecting:
 			infoLabel.isHidden = false
 			infoLabel.text = OCLocalizedString("Connecting...", nil)
 			connectionActivityView.startAnimating()
+			webAppUnviewableActionButton.isHidden = true
 
 		case .offline:
 			connectionActivityView.stopAnimating()
@@ -567,6 +611,7 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 			cancelButton.isHidden = true
 			showPreviewButton.isHidden = true
 			primaryUnviewableActionButton.isHidden = true
+			webAppUnviewableActionButton.isHidden = true
 			infoLabel.isHidden = false
 			infoLabel.text = OCLocalizedString("Network unavailable", nil)
 
@@ -581,12 +626,14 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 			infoLabel.isHidden = true
 			showPreviewButton.isHidden = true
 			primaryUnviewableActionButton.isHidden = true
+			webAppUnviewableActionButton.isHidden = true
 
 		case .downloadFinished:
 			cancelButton.isHidden = true
 			progressView.isHidden = true
 			showPreviewButton.isHidden = true
 			primaryUnviewableActionButton.isHidden = true
+			webAppUnviewableActionButton.isHidden = true
 
 			if canPreviewCurrentItem {
 				iconImageView.isHidden = true
@@ -595,7 +642,11 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 				infoLabel.isHidden = true
 				cancelButton.isHidden = true
 			} else {
-				primaryUnviewableActionButton.isHidden = !hasPrimaryUnviewableAction
+				primaryUnviewableActionButton.isHidden = isEmptyFile || !hasPrimaryUnviewableAction
+
+				if connectionStatus == .online {
+					updateWebAppUnviewableActionButton()
+				}
 			}
 
 		case .previewFailed:
@@ -676,7 +727,14 @@ class DisplayViewController: UIViewController, Themeable, OCQueryDelegate {
 					return
 				}
 
-				metadataInfoLabel.text = newItem.sizeLocalized + " - " + newItem.lastModifiedLocalized
+				if isEmptyFile {
+					metadataInfoLabel.text = OCLocalizedString("This file is empty.", nil)
+				} else {
+					metadataInfoLabel.text = newItem.sizeLocalized + " - " + newItem.lastModifiedLocalized
+				}
+				if isEmptyFile != showsEmptyFile { // f.ex. the web app saved content into it
+					updateUI()
+				}
 				updateDisplayTitleAndButtons()
 
 				if let core = self.core {

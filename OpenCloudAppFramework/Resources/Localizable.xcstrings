@@ -763,6 +763,12 @@
             "value" : "App Store"
           }
         },
+        "et" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rakendustepood"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1434,6 +1440,12 @@
             "state" : "translated",
             "value" : "Enterprise"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "企业"
+          }
         }
       }
     },
@@ -1504,6 +1516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Free"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "免费"
           }
         }
       }
@@ -1714,6 +1732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "month"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月"
           }
         }
       }
@@ -2046,6 +2070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Receipt Date"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "账单日期"
           }
         }
       }
@@ -2433,6 +2463,12 @@
             "state" : "translated",
             "value" : "week"
           }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "周"
+          }
         }
       }
     },
@@ -2502,6 +2538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "year"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "年"
           }
         }
       }

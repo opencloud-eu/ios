@@ -313,7 +313,8 @@ class DisplayHostViewController: UIPageViewController {
 
 		guard let mimeType = item.mimeType else { return nil }
 
-		let newViewController = createDisplayViewController(for: mimeType)
+		// Empty files have nothing to preview: use the plain view, which says so
+		let newViewController = (item.size == 0) ? DisplayViewController() : createDisplayViewController(for: mimeType)
 
 		newViewController.progressSummarizer = progressSummarizer
 		newViewController.core = clientContext?.core

@@ -221,13 +221,12 @@ class CreateDocumentAction: Action {
 														// Open in web app
 														OnMainThread {
 															progressHUDViewController.dismiss(completion: {
-																if let context = self?.context, let core = context.core, let viewController = context.viewController, let openInWebAppActionIdentifier = OpenInWebAppAction.identifier {
+																if let context = self?.context, let core = context.core, let viewController = context.viewController {
 																	let actionContext = ActionContext(viewController: viewController, clientContext: context.clientContext, core: core, items: [item], location: OCExtensionLocation(ofType: .action, identifier: .moreItem), sender: nil)
 																	let actions = Action.sortedApplicableActions(for: actionContext)
 
-																	if let openAction = actions.first(where: { action in
-																		type(of: action).identifier == openInWebAppActionIdentifier
-																	}) {
+																	// Same app as tapping the file later: the server's default for its type
+																	if let openAction = OpenInWebAppAction.preferredAction(in: actions, for: item, core: core) {
 																		openAction.run()
 																	}
 																}
